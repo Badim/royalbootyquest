@@ -1,0 +1,441 @@
+﻿<data>
+	<troops>
+		<troop type='1'  tag='swordsman' scin='warrior'/>
+		<troop type='2'  tag='spearmans' scin='paladin'/>
+		<troop type='3'  tag='cavalery' scin='barbarian'/>
+		<troop type='4'  tag='archers' scin='ranger'/>
+		
+		<troop type='11' tag='infantry' scin='goblin_warrior'/>
+		<troop type='12' tag='archers' scin='goblin_archer'/>
+		
+		<troop type='21' tag='archers' scin='elf'/>
+	</troops>
+	<heroes>
+		From MajestyArt - just to set each Hero a troop type
+	</heroes>
+	<arts>
+		<item type='1'  tag='axe 1'		utype='1' lvl='1' prms='dmg:25,dmg_crit_v:10'/>
+		<item type='2'  tag='axe 2'		utype='1' lvl='2' prms='dmg:35,dmg_crit_v:10' />
+		<item type='3'  tag='axe 3'		utype='1' lvl='3' prms='dmg:45,dmg_crit_v:15' />
+		<item type='4'  tag='axe 4'		utype='1' lvl='4' prms='dmg:55,dmg_crit_v:20' />
+		<item type='5'  tag='axe 5'		utype='1' lvl='5' prms='dmg:60,dmg_crit_v:25' />
+		<item type='6'  tag='helm 1'	utype='2' lvl='1' prms='armor:10'/>
+		<item type='7'  tag='helm 2'	utype='2' lvl='2' prms='armor:20' />
+		<item type='8'  tag='helm 3'	utype='2' lvl='3' prms='armor:30' />
+		<item type='9'  tag='helm 4'	utype='2' lvl='4' prms='armor:40' />
+		<item type='10' tag='helm 5'	utype='2' lvl='5' prms='armor:50' />
+		<item type='11' tag='armor 1'	utype='3' lvl='1' prms='armor:10,hp:10' />
+		<item type='12' tag='armor 2'	utype='3' lvl='2' prms='armor:20,hp:20' />
+		<item type='13' tag='armor 3'	utype='3' lvl='3' prms='armor:30,hp:30' />
+		<item type='14' tag='armor 4'	utype='3' lvl='4' prms='armor:40,hp:40' />
+		<item type='15' tag='armor 5'	utype='3' lvl='5' prms='armor:50,hp:50' />
+		
+		<item type='16' tag='bow 1'		utype='1' lvl='1' prms='dmg:10,range:6'	qtype="secondhand"/>
+		<item type='17' tag='bow 2'		utype='1' lvl='2' prms='dmg:20,range:7'	qtype="secondhand"/>
+		<item type='18' tag='bow 3'		utype='1' lvl='3' prms='dmg:30,range:8'	qtype="secondhand"/>
+		<item type='19' tag='bow 4'		utype='1' lvl='4' prms='dmg:40,range:9'	qtype="secondhand"/>
+		<item type='20' tag='bow 5'		utype='1' lvl='5' prms='dmg:50,range:10'	qtype="secondhand"/>
+		<item type='21' tag='staff 1'	utype='1' lvl='1' prms='magic_dmg:10'	qtype="secondhand"/>
+		<item type='22' tag='staff 2'	utype='1' lvl='2' prms='magic_dmg:25'	qtype="secondhand"/>
+		<item type='23' tag='staff 3'	utype='1' lvl='3' prms='magic_dmg:45'	qtype="secondhand"/>
+		<item type='24' tag='staff 4'	utype='1' lvl='4' prms='magic_dmg:65'	qtype="secondhand"/>
+		<item type='25' tag='staff 5'	utype='1' lvl='5' prms='magic_dmg:90'	qtype="secondhand"/>
+		
+		<item type='26'  tag='boots 1'	utype='4' lvl='1' prms='armor:10'/>
+		<item type='27'  tag='boots 2'	utype='4' lvl='2' prms='armor:20'/>
+		<item type='28'  tag='boots 3'	utype='4' lvl='3' prms='armor:30'/>
+		<item type='29'  tag='boots 4'	utype='4' lvl='4' prms='armor:40'/>
+		<item type='30'  tag='boots 5'	utype='4' lvl='5' prms='armor:50'/>
+		<item type='31'  tag='amulet 1'	utype='5' lvl='1' prms='armor:5,dodge:4'/>
+		<item type='32'  tag='amulet 2'	utype='5' lvl='2' prms='armor:10,dodge:5'/>
+		<item type='33'  tag='amulet 3'	utype='5' lvl='3' prms='armor:15,dodge:6'/>
+		<item type='34'  tag='amulet 4'	utype='5' lvl='4' prms='armor:20,dodge:7'/>
+		<item type='35'  tag='amulet 5'	utype='5' lvl='5' prms='armor:25,dodge:8'/>
+		<item type='36'  tag='book 1'	utype='5' lvl='1' prms='magic_dmg:5,exp:2'/>
+		<item type='37'  tag='book 2'	utype='5' lvl='2' prms='magic_dmg:10,exp:4'/>
+		<item type='38'  tag='book 3'	utype='5' lvl='3' prms='magic_dmg:15,exp:6'/>
+		<item type='39'  tag='book 4'	utype='5' lvl='4' prms='magic_dmg:20,exp:8'/>
+		<item type='40'  tag='book 5'	utype='5' lvl='5' prms='magic_dmg:25,exp:10'/>
+		
+		<item type='41'  tag='sword 1'	utype='1' lvl='1' prms='dmg:15,armor:10'/>
+		<item type='42'  tag='sword 2'	utype='1' lvl='2' prms='dmg:20,armor:12'/>
+		<item type='43'  tag='sword 3'	utype='1' lvl='3' prms='dmg:25,armor:16'/>
+		<item type='44'  tag='sword 4'	utype='1' lvl='4' prms='dmg:35,armor:18'/>
+		<item type='45'  tag='sword 5'	utype='1' lvl='5' prms='dmg:45,armor:20'/>
+		
+		<item type='46'  tag='ring 1'	utype='5' lvl='1' prms='dmg:5,resist:10'/>
+		<item type='47'  tag='ring 2'	utype='5' lvl='2' prms='dmg:10,resist:20'/>
+		<item type='48'  tag='ring 3'	utype='5' lvl='3' prms='dmg:15,resist:30'/>
+		<item type='49'  tag='ring 4'	utype='5' lvl='4' prms='dmg:20,resist:40'/>
+		<item type='50'  tag='ring 5'	utype='5' lvl='5' prms='dmg:25,resist:50'/>
+		
+		<item type='51'  tag='diadem 1' utype='2' lvl='1' prms='resist:5,magic_dmg:5' />
+		<item type='52'  tag='diadem 2' utype='2' lvl='2' prms='resist:10,magic_dmg:10' />
+		<item type='53'  tag='diadem 3' utype='2' lvl='3' prms='resist:15,magic_dmg:15' />
+		<item type='54'  tag='diadem 4' utype='2' lvl='4' prms='resist:20,magic_dmg:20' />
+		<item type='55'  tag='diadem 5' utype='2' lvl='5' prms='resist:25,magic_dmg:25' />
+		
+		<item type='56' tag='scythe 1'	utype='1' lvl='1' prms='dmg:30,dmg_crit_v:10'	qtype="secondhand"/>
+		<item type='57' tag='scythe 2'	utype='1' lvl='2' prms='dmg:40,dmg_crit_v:10'	qtype="secondhand"/>
+		<item type='58' tag='scythe 3'	utype='1' lvl='3' prms='dmg:50,dmg_crit_v:15'	qtype="secondhand"/>
+		<item type='59' tag='scythe 4'	utype='1' lvl='4' prms='dmg:60,dmg_crit_v:20'	qtype="secondhand"/>
+		<item type='60' tag='scythe 5'	utype='1' lvl='5' prms='dmg:70,dmg_crit_v:25'	qtype="secondhand"/>
+		
+		<item type='61'  tag='ring 6'	utype='5' lvl='1' prms='dmg:5,dmg_crit_c:1'/>
+		<item type='62'  tag='ring 7'	utype='5' lvl='2' prms='dmg:10,dmg_crit_c:2'/>
+		<item type='63'  tag='ring 8'	utype='5' lvl='3' prms='dmg:15,dmg_crit_c:3'/>
+		<item type='64'  tag='ring 9'	utype='5' lvl='4' prms='dmg:20,dmg_crit_c:4'/>
+		<item type='65'  tag='ring10'	utype='5' lvl='5' prms='dmg:25,dmg_crit_c:5'/>
+		
+		<item type='66' tag='spear 1'	utype='1' lvl='1' prms='dmg:15,dodge:5,reload:1'	qtype="secondhand"/>
+		<item type='67' tag='spear 2'	utype='1' lvl='2' prms='dmg:25,dodge:5,reload:2'	qtype="secondhand"/>
+		<item type='68' tag='spear 3'	utype='1' lvl='3' prms='dmg:35,dodge:5,reload:3'	qtype="secondhand"/>
+		<item type='69' tag='spear 4'	utype='1' lvl='4' prms='dmg:45,dodge:5,reload:4'	qtype="secondhand"/>
+		<item type='70' tag='spear 5'	utype='1' lvl='5' prms='dmg:55,dodge:5,reload:5'	qtype="secondhand"/>
+		
+		<item type='71'  tag='book 6'	utype='5' lvl='1' prms='healing:30,resist:10'/>
+		<item type='72'  tag='book 7'	utype='5' lvl='2' prms='healing:35,resist:20'/>
+		<item type='73'  tag='book 8'	utype='5' lvl='3' prms='healing:40,resist:30'/>
+		<item type='74'  tag='book 9'	utype='5' lvl='4' prms='healing:45,resist:40'/>
+		<item type='75'  tag='book10'	utype='5' lvl='5' prms='healing:50,resist:50'/>
+		
+		<item type='76'  tag='boots 6'	utype='4' lvl='1' prms='dodge:5'/>
+		<item type='77'  tag='boots 7'	utype='4' lvl='2' prms='dodge:6'/>
+		<item type='78'  tag='boots 8'	utype='4' lvl='3' prms='dodge:7'/>
+		<item type='79'  tag='boots 9'	utype='4' lvl='4' prms='dodge:8'/>
+		<item type='80'  tag='boots10'	utype='4' lvl='5' prms='dodge:9'/>
+		
+		<item type='81'  tag='cape 1'	utype='3' lvl='1' prms='range:5,dodge:3,troops:dmg;3'/>
+		<item type='82'  tag='cape 2'	utype='3' lvl='2' prms='range:6,dodge:4,troops:dmg;6'/>
+		<item type='83'  tag='cape 3'	utype='3' lvl='3' prms='range:7,dodge:5,troops:dmg;9'/>
+		<item type='84'  tag='cape 4'	utype='3' lvl='4' prms='range:8,dodge:6,troops:dmg;12'/>
+		<item type='85'  tag='cape 5'	utype='3' lvl='5' prms='range:9,dodge:7,troops:dmg;15'/>
+		
+		<item type='86'  tag='ring11'	utype='5' lvl='1' prms='dmg_per:1,poison_power:1'/>
+		<item type='87'  tag='ring12'	utype='5' lvl='2' prms='dmg_per:2,poison_power:2'/>
+		<item type='88'  tag='ring13'	utype='5' lvl='3' prms='dmg_per:3,poison_power:3'/>
+		<item type='89'  tag='ring14'	utype='5' lvl='4' prms='dmg_per:4,poison_power:4'/>
+		<item type='90'  tag='ring15'	utype='5' lvl='5' prms='dmg_per:5,poison_power:5'/>
+		
+		<item type='91'  tag='amulet 6'	utype='5' lvl='1' prms='hp:10,resist:5'/>
+		<item type='92'  tag='amulet 7'	utype='5' lvl='2' prms='hp:15,resist:10'/>
+		<item type='93'  tag='amulet 8'	utype='5' lvl='3' prms='hp:20,resist:15'/>
+		<item type='94'  tag='amulet 9'	utype='5' lvl='4' prms='hp:25,resist:20'/>
+		<item type='95'  tag='amulet10'	utype='5' lvl='5' prms='hp:40,resist:25'/>
+		
+		<item type='106' tag='amulet11'	utype='5' lvl='1' prms='hp:30'/>
+		<item type='107' tag='amulet12'	utype='5' lvl='2' prms='hp:40'/>
+		<item type='108' tag='amulet13'	utype='5' lvl='3' prms='hp:50'/>
+		<item type='109' tag='amulet14'	utype='5' lvl='4' prms='hp:60'/>
+		<item type='110' tag='amulet15'	utype='5' lvl='5' prms='hp:80'/>
+		
+		<item type='116'  tag='helm 6'	utype='2' lvl='1' prms='hp:10,dmg_crit_c:1'/>
+		<item type='117'  tag='helm 7'	utype='2' lvl='2' prms='hp:15,dmg_crit_c:2' />
+		<item type='118'  tag='helm 8'	utype='2' lvl='3' prms='hp:20,dmg_crit_c:3' />
+		<item type='119'  tag='helm 9'	utype='2' lvl='4' prms='hp:25,dmg_crit_c:4' />
+		<item type='120'  tag='helm10'	utype='2' lvl='5' prms='hp:30,dmg_crit_c:5' />
+		
+		<item type='121' tag='hammer 1'	utype='1' lvl='1' prms='dmg:15,stun_c:5'	qtype="secondhand"/>
+		<item type='122' tag='hammer 2'	utype='1' lvl='2' prms='dmg:25,stun_c:6'	qtype="secondhand"/>
+		<item type='123' tag='hammer 3'	utype='1' lvl='3' prms='dmg:35,stun_c:7'	qtype="secondhand"/>
+		<item type='124' tag='hammer 4'	utype='1' lvl='4' prms='dmg:45,stun_c:8'	qtype="secondhand"/>
+		<item type='125' tag='hammer 5'	utype='1' lvl='5' prms='dmg:55,stun_c:9'	qtype="secondhand"/>
+		
+		<item type='126' tag='quiver 1'	utype='5' lvl='1' prms='dmg:10,penetration:1' qtype="quiver"/>
+		<item type='127' tag='quiver 2'	utype='5' lvl='2' prms='magic_dmg:15,penetration:1' qtype="quiver"/>
+		<item type='128' tag='quiver 3'	utype='5' lvl='3' prms='magic_dmg:10,poison_power:3,penetration:1' qtype="quiver"/>
+		<item type='129' tag='quiver 4'	utype='5' lvl='4' prms='dmg_crit_c:10,dmg_crit_v:15,penetration:1' qtype="quiver"/>
+		<item type='130' tag='quiver 5'	utype='5' lvl='5' prms='true_dmg:15,penetration:1' qtype="quiver"/>
+		
+		<item type='131' tag='scroll fire'	utype='5' lvl='6' dust='fire' prms='dmg_crit_c:1,resist:20'		raw="400400400400401400400400400" price="30000"/>
+		<item type='132' tag='scroll water'	utype='5' lvl='6' dust='water' prms='dmg_crit_c:2,resist:24'	raw="400400400400402400400400400" price="30000"/>
+		<item type='133' tag='scroll earth'	utype='5' lvl='6' dust='earth' prms='dmg_crit_c:3,resist:26'	raw="400400400400403400400400400" price="30000"/>
+		<item type='134' tag='scroll air'	utype='5' lvl='6' dust='air' prms='dmg_crit_c:4,resist:28'		raw="400400400400404400400400400" price="30000"/>
+		<item type='135' tag='scroll void'	utype='5' lvl='6' dust='void' prms='dmg_crit_c:5,resist:30'		raw="400400400400405400400400400" price="30000"/>
+		
+		<item type='136' tag='robe 1'	utype='3' lvl='1' prms='resist:30,mp:60' />
+		<item type='137' tag='robe 2'	utype='3' lvl='2' prms='resist:40,mp:70' />
+		<item type='138' tag='robe 3'	utype='3' lvl='3' prms='resist:50,mp:80' />
+		<item type='139' tag='robe 4'	utype='3' lvl='4' prms='resist:60,mp:90' />
+		<item type='140' tag='robe 5'	utype='3' lvl='5' prms='resist:70,mp:100' />
+		
+		<item type='141'  tag='sandals 1'	utype='4' lvl='1' prms='exp:5,s:5'/>
+		<item type='142'  tag='sandals 2'	utype='4' lvl='2' prms='exp:7,s:7'/>
+		<item type='143'  tag='sandals 3'	utype='4' lvl='3' prms='exp:8,s:8'/>
+		<item type='144'  tag='sandals 4'	utype='4' lvl='4' prms='exp:9,s:9'/>
+		<item type='145'  tag='sandals 5'	utype='4' lvl='5' prms='exp:10,s:10'/>
+		
+		<item type='146'  tag='shield 1'	utype='5' lvl='1' prms='armor:30,block:1'	qtype="secondhand"/>
+		<item type='147'  tag='shield 2'	utype='5' lvl='2' prms='armor:35,block:2'	qtype="secondhand"/>
+		<item type='148'  tag='shield 8'	utype='5' lvl='3' prms='armor:40,block:3'	qtype="secondhand"/>
+		<item type='149'  tag='shield 9'	utype='5' lvl='4' prms='armor:45,block:4'	qtype="secondhand"/>
+		<item type='150'  tag='shield10'	utype='5' lvl='5' prms='armor:50,block:5'	qtype="secondhand"/>
+		
+		<item type='151'  tag='doubleaxe 1'	utype='1' lvl='1' prms='dmg:30,finisher:30'	qtype="secondhand"/>
+		<item type='152'  tag='doubleaxe 2'	utype='1' lvl='2' prms='dmg:40,finisher:35'	qtype="secondhand"/>
+		<item type='153'  tag='doubleaxe 3'	utype='1' lvl='3' prms='dmg:50,finisher:40'	qtype="secondhand"/>
+		<item type='154'  tag='doubleaxe 4'	utype='1' lvl='4' prms='dmg:60,finisher:45'	qtype="secondhand"/>
+		<item type='155'  tag='doubleaxe 5'	utype='1' lvl='5' prms='dmg:70,finisher:50'	qtype="secondhand"/> dmg:70,dmg_crit_v:25 dmg:60,dmg_crit_v:25
+		
+		<item type='156'  tag='bomb 1'		utype='5' lvl='1' prms='suicide:100' />
+		<item type='157'  tag='bomb 2'		utype='5' lvl='2' prms='suicide:120' />
+		<item type='158'  tag='bomb 3'		utype='5' lvl='3' prms='suicide:140' />
+		<item type='159'  tag='bomb 4'		utype='5' lvl='4' prms='suicide:170' />
+		<item type='160'  tag='bomb 5'		utype='5' lvl='5' prms='suicide:200' />
+		
+		<item type='161'  tag='blunder 1'	utype='1' lvl='1' prms='dmg:25,dr:32,armorreducion:5,range:-30' />
+		<item type='162'  tag='blunder 2'	utype='1' lvl='2' prms='dmg:35,dr:32,armorreducion:5,range:-30' />
+		<item type='163'  tag='blunder 3'	utype='1' lvl='3' prms='dmg:45,dr:32,armorreducion:5,range:-30' />
+		<item type='164'  tag='blunder 4'	utype='1' lvl='4' prms='dmg:55,dr:32,armorreducion:5,range:-30' />
+		<item type='165'  tag='blunder 5'	utype='1' lvl='5' prms='dmg:65,dr:32,armorreducion:5,range:-30' />
+		
+		<item type='166'  tag='musket 1'	utype='1' lvl='1' prms='dmg:20,range:20,insta_kill:1' />
+		<item type='167'  tag='musket 2'	utype='1' lvl='2' prms='dmg:30,range:20,insta_kill:1' />
+		<item type='168'  tag='musket 3'	utype='1' lvl='3' prms='dmg:40,range:20,insta_kill:2' />
+		<item type='169'  tag='musket 4'	utype='1' lvl='4' prms='dmg:50,range:20,insta_kill:2' />
+		<item type='170'  tag='musket 5'	utype='1' lvl='5' prms='dmg:60,range:20,insta_kill:3' />
+		
+		<item type='171'  tag='crossbow 1'	utype='1' lvl='1' prms='dmg:15,dmg_crit_c:1,dmg_crit_v:15' />
+		<item type='172'  tag='crossbow 2'	utype='1' lvl='2' prms='dmg:25,dmg_crit_c:2,dmg_crit_v:20' />
+		<item type='173'  tag='crossbow 3'	utype='1' lvl='3' prms='dmg:35,dmg_crit_c:3,dmg_crit_v:25' />
+		<item type='174'  tag='crossbow 4'	utype='1' lvl='4' prms='dmg:45,dmg_crit_c:4,dmg_crit_v:30' />
+		<item type='175'  tag='crossbow 5'	utype='1' lvl='5' prms='dmg:55,dmg_crit_c:5,dmg_crit_v:35' />
+
+		
+		<item type='201' tag='set01 helm'	utype='2' lvl='6' prms='hp:70,armor:50'/>
+		<item type='202' tag='set01 armor'	utype='3' lvl='6' prms='hp_per:20,armor:60'/>
+		<item type='203' tag='set01 boots'	utype='4' lvl='6' prms='hp:50,resist:60'/>
+		<item type='204' tag='set01 axe'	utype='1' lvl='6' rtype='axe' prms='dmg:65,dmg_crit_c:25,reload:6'  particles="0.8,0,0,-23,-12,110,70"/>
+		<item type='205' tag='set01 amulet'	utype='5' lvl='6' prms='hp:60,dmg_crit_v:25'/>
+		<item type='206' tag='set01 ring'	utype='5' lvl='6' prms='dmg_crit_c:10,aura:dmg_crit_v;50'/>
+		
+		<item type='211' tag='set02 helm'	utype='2' lvl='6' prms='magic_dmg:10,resist:45,exp:15'/>
+		<item type='212' tag='set02 armor'	utype='3' lvl='6' prms='dodge:20,armor:50,healing:50'/>
+		<item type='213' tag='set02 boots'	utype='4' lvl='6' prms='resist:30,s:1'/>
+		<item type='214' tag='set02 staff'	utype='1' lvl='6' prms='magic_dmg:25,dmg_per:10' rtype='staff' particles="1,0.2,0.2,-8,-12,30"	qtype="secondhand"/>
+		<item type='215' tag='set02 ring'	utype='5' lvl='6' prms='magic_dmg:15,poison_power:10,insta_kill:1'/>
+		<item type='216' tag='set02 ring'	utype='5' lvl='6' prms='magic_dmg:15,poison_power:10,insta_kill:1'/>
+		
+		<item type='221' tag='set03 helm'	utype='2' lvl='6' prms='range:10,dmg_crit_c:25'/>
+		<item type='222' tag='set03 armor'	utype='3' lvl='6' prms='hp:60,armor:50,regen:0.5'/>
+		<item type='223' tag='set03 boots'	utype='4' lvl='6' prms='dodge:10,s:2'/>
+		<item type='224' tag='set03 mace'	utype='1' lvl='6' prms='dmg:60,stun_c:10' rtype='hammer' particles="0.2,0.2,0.2,0,-12"/>
+		<item type='225' tag='set03 pwr'	utype='5' lvl='6' prms='troops:dodge;10,hp:50'/>
+		<item type='226' tag='set03 ring'	utype='5' lvl='6' prms='dmg_crit_c:5,stun_c:5,dodge:5'/>
+		
+		<item type='231' tag='set04 helm'	utype='2' lvl='6' prms='dmg:20,dmg_crit_v:25'/>
+		<item type='232' tag='set04 armor'	utype='3' lvl='6' prms='hp:70,armor:50,resist:50'/>
+		<item type='233' tag='set04 boots'	utype='4' lvl='6' prms='s:2,dodge:10'/>
+		<item type='234' tag='set04 whip'	utype='1' lvl='6' prms='range:15,dmg:70,troops:dmg;20' particles="0,0,0.2,-15,10,20,-40"/>
+		<item type='235' tag='set04 lamp'	utype='5' lvl='6' prms='healing:50,dmg_crit_v:25'/>
+		<item type='236' tag='set04 amulet'	utype='5' lvl='6' prms='magic_dmg:15,resist:40'/>
+		
+		<item type='241' tag='set05 helm'	utype='2' lvl='6' prms='hp:60,dmg_crit_v:25'/>
+		<item type='242' tag='set05 armor'	utype='3' lvl='6' prms='hp:80,armor:50,block:5'/>
+		<item type='243' tag='set05 boots'	utype='4' lvl='6' prms='dodge:10,resist:50'/>
+		<item type='244' tag='set05 sword'	utype='1' lvl='6' prms='dmg:70,block:5,reload:6' rtype='sword' particles="0.9,0.7,0.1,-4,-14,40"/>
+		<item type='245' tag='set05 bug'	utype='5' lvl='6' prms='regen:1,troops:regen;1,resist:50'/>
+		<item type='246' tag='set05 ring'	utype='5' lvl='6' prms='troops:dmg;15,troops:dodge;5'/>
+		
+		<item type='251' tag='set06 helm'	utype='2' lvl='6' prms='hp:55,regen:1' particles="0.9,0.7,0.1"/>
+		<item type='252' tag='set06 armor'	utype='3' lvl='6' prms='hp:80,resist:70'  particles="0.2,0.1,0.1"/>
+		<item type='253' tag='set06 boots'	utype='4' lvl='6' prms='s:1,dodge:15'  particles="0.2,0.1,0.1"/>
+		<item type='254' tag='set06 scythe'	utype='1' lvl='6' prms='dmg:70,insta_kill:1,magic_dmg:50' rtype='scythe'  particles="0.2,0,0,20,-20,100,-180"/>
+		<item type='255' tag='set06 book'	utype='5' lvl='6' prms='hp:50,true_dmg:50' qtype="secondhand"  particles="0.3,0.2,0.1"/>
+		<item type='256' tag='set06 rlc'	utype='5' lvl='6' prms='armorreducion:10,suicide:200,potions:2' qtype="quiver"  particles="0.2,0.1,0.1"/>
+		<item type='257' tag='set06 cap'	utype='2' lvl='6' prms='dodge:15,magic_dmg:20'  particles="0.2,0.1,0.1"/>
+		<item type='258' tag='set06 staff'	utype='1' lvl='6' prms='dmg:70,insta_kill:1,magic_dmg:50' rtype='staff'  particles="1.1,0.1,0.1,-1,-12,30"/>
+				
+		<item type='100' tag='cup_bronze' 	lvl='6'/>
+		<item type='101' tag='cup_silver' 	lvl='6'/>
+		<item type='102' tag='cup_gold'		lvl='6'/>
+		<item type='103' tag='dwarf_keg'	lvl='6'/>
+		
+		<item type='105' tag='perk_free' 	lvl='6'/>
+		<item type='111' tag='potion_exp' 	lvl='6'/>
+		<item type='112' tag='ticket'		lvl='6'/>
+
+		<item type='400' tag='blueprint' 	lvl='6'/>
+		<item type='410' tag='potion' utype='5' lvl='3' prms='potions:1' raw="xxx111111111xxx" price="5000"/>
+		<item type='411' tag='broken sword' 	lvl='6'/>
+		<item type='412' tag='big sword' 	rtype='sword' utype='1' lvl='6' prms="dmg:80,dmg_crit_v:25,insta_kill:2" qtype="secondhand" raw="400400400400411400400400400" price="15000" particles="1,1,1,-6,6,100,-30"/>
+		<item type='413' tag='Beast Spear'	rtype='spear' utype='1' lvl='6' prms="dmg:75,dodge:10,range:10,reload:6" qtype="secondhand" raw="firefirefirefire70firefirefirefire" price="15000" particles="1,0,0"/>
+		<item type='414' tag='Neoserdy Staff' rtype='staff' utype='1' lvl='6' prms="true_dmg:100,healing:50,insta_kill:3" qtype="secondhand" raw="x405x41025410xxx" price="25000" particles="1,0,1,-10,-10,40"/>
+		<item type='415' tag='Ukonvasara'	rtype='hammer' utype='1' lvl='6' prms="dmg:80,stun_c:12,block:11"  raw="400x401400125401400x401" price="15000" particles="0.3,0.5,0.7,-5,-8,140,55"/>
+		<item type='416' tag='Mjölnir'		rtype='hammer' utype='1' lvl='7' prms="dmg:90,magic_dmg:10,stun_c:15,block:13" raw="134415134x401xx401x" price="35000" particles="0.3,0.5,0.7,-5,-8,140,55" />
+		<item type='417' tag='robe unique'	utype='3' lvl='6' prms='resist:80,mp:110,spells_lvl:1' />
+		<item type='418' tag='holy water' utype='5' lvl='4' prms='holy:1' raw="111111111x111xx111x" price="15000"/>
+		
+		<item type='419'  tag='bomb 6'		utype='5' lvl='6' prms='suicide:250' />
+		<item type='420'  tag='bomb 7'		utype='5' lvl='7' prms='suicide:350' raw="xxx419419419xxx" price='5000'/>
+		
+		<item type='421'  tag='demon sword'		utype='1' lvl='6' prms='dmg:55,armor:25,block:1' />
+		<item type='422'  tag='demon diadem'	utype='2' lvl='6' prms='resist:35,magic_dmg:35' />
+		<item type='423'  tag='demon axe'		utype='1' lvl='6' prms='dmg:70,dmg_crit_c:5,dmg_crit_v:30' />
+		<item type='424'  tag='demon doubleaxe'	utype='1' lvl='6' prms='dmg:80,finisher:75,dmg_crit_v:30'	qtype="secondhand"/>
+		
+		<item type='401' tag='rune_fire' 	lvl='1' book='fire' utype='5' prms="magic_dmg:10"/>
+		<item type='402' tag='rune_water' 	lvl='2' book='water' utype='5' prms="magic_dmg:12"/>
+		<item type='403' tag='rune_earth' 	lvl='3' book='earth' utype='5' prms="magic_dmg:13"/>
+		<item type='404' tag='rune_air' 	lvl='4' book='air' utype='5' prms="magic_dmg:14"/>
+		<item type='405' tag='rune_void' 	lvl='5' book='void' utype='5' prms="magic_dmg:15"/>
+		<item type='406' tag='rune_poison' 	lvl='5' book='poison' utype='5' prms="magic_dmg:15"/>
+		
+		<item type='501'  tag='Skull Blue'	utype='5' lvl='6' prms='dmg:50,armorreducion:5' />
+		<item type='502'  tag='Skull Red'	utype='5' lvl='6' prms='dmg:50,armorreducion:5' />
+		<item type='503'  tag='Skull Green'	utype='5' lvl='6' prms='dmg:50,armorreducion:5' />
+	</arts>
+		
+	<sets>
+		<set type='1'  tag='Tiodor the Artist'		items='201,202,203,204,205,206'		warp='1' min='1' prms='hp_per:10,armor:25,aura:dmg;25,dmg:50,dmg:100' />
+		<set type='2'  tag='DN the Engineer'		items='211,212,213,214,215,216' 	warp='1' min='1' prms='hp:80,magic_dmg:25,resist:25,true_dmg:25,insta_kill:3' />
+		<set type='3'  tag='Adam the Supporter'		items='221,222,223,224,225,226'		warp='1' min='1' prms='dodge:10,finisher:50,range:10,dmg:50,troops:dodge;10' />
+		<set type='4'  tag='Chris the Messanger'	items='231,232,233,234,235,236'		warp='1' min='1' prms='s:1,resist:20,dodge:15,dmg:50,aura:dodge;5' />
+		<set type='5'  tag='R`ha the God'			items='241,242,243,244,245,246'		warp='0' min='1' prms='resist:20,armor:50,troops:dmg;30,troops:hp;200,holy:1' />
+		<set type='6'  tag='Grim Reaper'			items='251,252,253,254,255,256,257,258' warp='0' min='1' prms='s:1,resist:90,finisher:75,insta_kill:2,insta_kill:3' />
+		
+		<set type='11' tag='bronze set'		items='1,6,11,26,41,56,66,91,106,121,146,151'		min='1'	prms='hp:10,hp:20,armor:12,block:1,troops:block;1' shortcut='_metal_1.png'/>
+		<set type='12' tag='iron set'		items='2,7,12,27,42,57,67,92,107,122,147,152'		min='1'	prms='hp:20,hp:30,armor:14,block:2,troops:block;2' shortcut='_metal_2.png'/>
+		<set type='13' tag='steel set'		items='3,8,13,28,43,58,68,93,108,123,148,153'		min='1'	prms='hp:35,hp:50,armor:16,block:3,troops:block;3' shortcut='_metal_3.png'/>
+		<set type='14' tag='adamantin set'	items='4,9,14,29,44,59,69,94,109,124,149,154' 		min='1'	prms='hp:60,hp:100,armor:18,block:4,troops:block;4' shortcut='_metal_4.png'/>
+		<set type='15' tag='mithril set'	items='5,10,15,30,45,60,70,95,110,125,150,155,412,415,416,421,423,424'	min='1'	prms='hp:90,hp:200,armor:20,block:5,troops:block;5' shortcut='_metal_5.png'/>
+		
+		<set type='16' tag='cotton set'		items='16,31,46,76,81,86,116,126,61,161,166,171'		min='1' prms='dmg:10,range:10,dmg_crit_v:17,dmg_crit_c:3,reload:1' shortcut='_thread_1.png'/>
+		<set type='17' tag='rope set'		items='17,32,47,77,82,87,117,127,62,162,167,172'		min='1' prms='dmg:15,range:10,dmg_crit_v:19,dmg_crit_c:4,reload:2' shortcut='_thread_2.png'/>
+		<set type='18' tag='linen set'		items='18,33,48,78,83,88,118,128,63,163,168,173'		min='1' prms='dmg:20,range:10,dmg_crit_v:21,dmg_crit_c:5,reload:3' shortcut='_thread_3.png'/>
+		<set type='19' tag='flax set'		items='19,34,49,79,84,89,119,129,64,164,169,174'		min='1' prms='dmg:25,range:10,dmg_crit_v:23,dmg_crit_c:6,reload:4' shortcut='_thread_4.png'/>
+		<set type='20' tag='silk set'		items='20,35,50,80,85,90,120,130,65,,165,170,175,413'	min='1' prms='dmg:30,range:10,dmg_crit_v:25,dmg_crit_c:7,reload:5' shortcut='_thread_5.png'/>
+		
+		<set type='21' tag='fire set'		items='21,36,51,71,401,131,136,141'		min='1'	prms='dmg:10,mp:50,dmg:10,magic_dmg:10,magic_dmg:30' shortcut='_magic_1.png'/>
+		<set type='22' tag='water set'		items='22,37,52,72,402,132,137,142'		min='1'	prms='dmg:14,mp:60,dmg:14,magic_dmg:15,magic_dmg:30' shortcut='_magic_2.png'/>
+		<set type='23' tag='earth set'		items='23,38,53,73,403,133,138,143'		min='1'	prms='dmg:16,mp:70,dmg:16,magic_dmg:20,magic_dmg:30' shortcut='_magic_3.png'/>
+		<set type='24' tag='air set'		items='24,39,54,74,404,134,139,144'		min='1'	prms='dmg:18,mp:80,dmg:18,magic_dmg:25,magic_dmg:30' shortcut='_magic_4.png'/>
+		<set type='25' tag='void set'		items='25,40,55,75,405,135,140,145,414,417,422'	min='1'	prms='dmg:20,mp:90,dmg:20,magic_dmg:30,magic_dmg:30' shortcut='_magic_5.png'/>
+		
+		<set type='30' tag='scrolls'	items='131,132,133,134,135' min='5' prms='dmg:666' />
+	</sets>
+	<bosses>
+		<boss tag='Dark Archer'		base='elf_evil'			items='16,10,46' />
+		<boss tag='Green Hood'		base='goblin_archer'	items='16,46'/>
+		<boss tag='Great Shaman'	base='goblin_elder'		items='21,36'/>
+		<boss tag='Rebel Shaman'	base='goblin_elder'		items='22,37'/>
+		<boss tag='Green General'	base='goblin_warrior'	items='2,7'/>
+		<boss tag='Grendel the Troll'	base='trol'			items='1,26,31'/>
+		<boss tag='Edward'			base='vampire'			items='41,46,36' sprite_id='vampire_red'/>
+		<boss tag='Drakula'			base='vampire'			items='42,47,37' sprite_id='vampire_violet'/>
+		<boss tag='Gorgona'			base='medusa'			items='42,42,52'/>
+		<boss tag='Ursula Jr'		base='mermaid'			items='23,33,68'/>
+		<boss tag='Ariel'			base='mermaid'			items='23,33,68'/>
+		<boss tag='Thrall'			base='orc_heavy'		items='3,8,13'/>
+		<boss tag='Skyscraper'		base='airgolem'			items='15,25,35'/>
+		<boss tag='Maleficent'		base='witch'			items='93,83,57,23,110,110'/>
+		<boss tag='Kebechet'		base='nasus'			items='74,59,14'/>
+		<boss tag='Anput'			base='nasus'			items='75,60,55,15'/>
+		<boss tag='Unas'			base='renekton'			items='74,59,14'/>
+		<boss tag='Sobek'			base='renekton'			items='75,60,55,15'/>
+		<boss tag='Montu'			base='azir'				items='62,67,92'/>
+		<boss tag='Ra'				base='azir'				items='65,70,95'/>
+		<boss tag='Vineash'			base='ent'				items='49,54,49'/>
+		<boss tag='Rurbag'			base='orc_heavy'		items='4,4,9,14'/>
+		<boss tag='Vivi'			base='veigar'			items='60,23,38'/>
+		<boss tag='Not Triton'		base='veigar'			items='413,242,245'/>
+		<boss tag='Master of Sand'	base='sandpriest'		items='24,74,34'/>
+		<boss tag='Forest Guard'	base='elf_evil'			items='35,18,48,128'/>
+		<boss tag='Electra'			base='garpy'			items='231,232,90'/>
+		<boss tag='Master of Spear'	base='sandspear'		items='69,89,84'/>
+		<boss tag='Anubis'			base='nasus'			items='69,89,84'/>
+		<boss tag='Mal`Gan'			base='trol'				items='212,222,246'/>
+		<boss tag='Kai`Rimon'		base='orc_beast'		items='415,222,55'/>
+		
+		<boss tag='Sauron'			base='skeletmage'		items='25,55,110,110'/>
+		<boss tag='Baba Yaga'		base='witch'			items='72,62,22' sprite_id="witch_dark"/>
+		<boss tag='Melisandre'		base='witch'			items='25,55,80,110,110' sprite_id="witch_red"/>
+		
+		<boss tag='Lernaean Hydra'	base='dragonheads1'		items='55,75,90' />
+		<boss tag='Dovolis Nilil'	base='highelf_evil'		items='70,85,55,50' />
+		<boss tag='Banlin Elerimo'	base='elf_evil'			items='19,84,46,129' sprite_id="elf_grey"/>
+		<boss tag='Rirrane Elaani'	base='elf_evil'			items='20,85,46,130' sprite_id="elf_grey"/>
+		
+		<boss tag='Prince Leoric'	base='skeletwarrior'	items='5,10,15,95,225,245,256'/>
+		<boss tag='Frankenstein'	base='zombe'			items='49,49,89,89,202,222,245'/>
+		<boss tag='Paganiy'			base='witch'			items='25,60,80,110,110' sprite_id="witch_yellow"/> 
+		<boss tag='Vlad III'		base='vampire'			items='40,45,35' sprite_id='vampire_yellow'/>
+		
+		<boss tag='Grinch Favorite'	base='highelf'			items='413,221,222,223,224,225,226,419' sprite_id="highelf_snow"/>
+		<boss tag='Santas Helper'	base='highelf'			items='413,221,222,223,224,225,226,419'	sprite_id="highelf_snow"/>
+		
+		<boss tag='Grinch'			base='bigsmith'			items='415,222,55,251,252,253'	sprite_id="bigsmith_grinch"/>
+		<boss tag='Santa'			base='bigsmith'			items='415,416,222,55,251,252,253'	sprite_id="bigsmith_santa"/>
+	</bosses>
+	
+	<mats>
+		<mat type='pine'		utype='1' lvl='1'/>
+		<mat type='teak'		utype='1' lvl='2'/>
+		<mat type='hickory'		utype='1' lvl='3'/>
+		<mat type='oak'			utype='1' lvl='4'/>
+		<mat type='redwood'		utype='1' lvl='5'/>
+		
+		<mat type='copper'		utype='2' lvl='1'/>
+		<mat type='iron'		utype='2' lvl='2'/>
+		<mat type='steel'		utype='2' lvl='3'/>
+		<mat type='adamantin'	utype='2' lvl='4'/>
+		<mat type='mithril'		utype='2' lvl='5'/>
+		
+		<mat type='fire'		utype='4' lvl='1'/>
+		<mat type='water'		utype='4' lvl='2'/>
+		<mat type='earth'		utype='4' lvl='3'/>
+		<mat type='air'			utype='4' lvl='4'/>
+		<mat type='energy'		utype='4' lvl='5'/>
+		
+		<mat type='cotton'		utype='8' lvl='1'/>
+		<mat type='rope'		utype='8' lvl='2'/>
+		<mat type='linen'		utype='8' lvl='3'/>
+		<mat type='flax'		utype='8' lvl='4'/>
+		<mat type='silk'		utype='8' lvl='5'/>
+	</mats>
+	<recipes>
+		<recipt id='01' type='axe'		mats='022010010' utype='1' arts='1,2,3,4,5,423'/>
+		<recipt id='02' type='sword'	mats='020020010' utype='1' arts='41,42,43,44,45,421'/>
+		<recipt id='03' type='staff'	mats='040010010' utype='1' arts='21,22,23,24,25'/>
+		<recipt id='04' type='scythe'	mats='222001001' utype='1' arts='56,57,58,59,60'/>
+		<recipt id='05' type='spear'	mats='020212010' utype='1' arts='66,67,68,69,70'/>
+		<recipt id='06' type='bow'		mats='810801810' utype='1' arts='16,17,18,19,20'/>
+		
+		<recipt id='07' type='diadem'	mats='040222202' utype='2' arts='51,52,53,54,55,422'/>
+		<recipt id='08' type='helm'		mats='000222202' utype='2' arts='6,7,8,9,10'/>
+		
+		<recipt id='09' type='cape'		mats='080888888' utype='3' arts='81,82,83,84,85'/>
+		<recipt id='10' type='armor'	mats='202222222' utype='3' arts='11,12,13,14,15'/>
+		
+		<recipt id='11' type='boots'	mats='000202202' utype='4' arts='26,27,28,29,30'/>
+		<recipt id='12' type='shoes'	mats='000808808' utype='4' arts='76,77,78,79,80'/>
+		
+		<recipt id='13' type='book'		mats='000484000' utype='5' arts='36,37,38,39,40'/>
+		<recipt id='14' type='book'		mats='000484000' utype='5' arts='71,72,73,74,75'/>
+		
+		<recipt id='15' type='ring'		mats='040202020' utype='5' arts='46,47,48,49,50'/>
+		<recipt id='16' type='ring'		mats='040202020' utype='5' arts='61,62,63,64,65'/>
+		<recipt id='17' type='ring'		mats='040202020' utype='5' arts='86,87,88,89,90'/>
+		
+		<recipt id='18' type='amulet'	mats='808808040' utype='5' arts='31,32,33,34,35'/>
+		<recipt id='19' type='amulet'	mats='808808040' utype='5' arts='91,92,93,94,95'/>
+		<recipt id='20' type='amulet'	mats='202202040' utype='5' arts='106,107,108,109,110'/>
+		
+		<recipt id='21' type='rune'		mats='444414444' utype='5' arts='401,402,403,404,405'/>
+		
+		<recipt id='22' type='cap'		mats='000888808' utype='2' arts='116,117,118,119,120'/>
+		<recipt id='23' type='hammer'	mats='222010010' utype='1' arts='121,122,123,124,125'/>
+		<recipt id='24' type='quiver'	mats='080010040' utype='5' arts='126,127,128,129,130'/>
+		
+		<recipt id='25' type='robe'		mats='848080080' utype='3' arts='136,137,138,139,140,417'/>
+		<recipt id='26' type='sandals'	mats='000101101' utype='4' arts='141,142,143,144,145'/>
+		
+		<recipt id='27' type='shield'	mats='010121010' utype='5' arts='146,147,148,149,150'/>
+		<recipt id='28' type='daxe'		mats='212212010' utype='1' arts='151,152,153,154,155,424'/>
+		<recipt id='29' type='bomb'		mats='080040040' utype='5' arts='156,157,158,159,160,419'/>
+		
+		<recipt id='30' type='blunder'	mats='002224102' utype='1' arts='161,162,163,164,165'/>
+		<recipt id='31' type='musket'	mats='042021210' utype='1' arts='166,167,168,169,170'/>
+		<recipt id='32' type='crossbow'	mats='081282081' utype='1' arts='171,172,173,174,175'/>
+	</recipes>
+</data>

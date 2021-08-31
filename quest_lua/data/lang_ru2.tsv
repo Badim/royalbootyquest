@@ -1,0 +1,211 @@
+addDmgByCard	Больше урона за каждую карту в колоде, где в названии есть слово VAL
+change_deck_ctype_1_true_1	Выберите атаку: в начале каждой битвы она будет в стартовой руке
+change_deck_ctype_2_true_1	Выберите навык: в начале каждой битвы он будет в стартовой руке
+change_deck_ctype_3_true_1	Выберите талант: в начале каждой битвы он будет в стартовой руке
+charm_hint	Повышает получаемый урон. В начале хода уменьшается на 1
+charmdouble_hint	Удвоить Очарование
+chooseOneRandom3	Выберите 1 из 3 случайных карт для замешивания в стопку добора
+cleanse_hint	Снимает отрицательные эффекты
+cloud_auto_load	Авто загрузка
+cloud_auto_load_hint	Данные загружаются из облака каждый раз при запуске игры
+cloud_auto_save	Авто сохранение
+cloud_auto_save_hint	Сохранять игру каждый раз, когда открываете карту
+cloud_synced	Сохранено в облако
+coffee	Кофеин
+copy_hand_ctype_2_false	Добавляет копию любой карты (кроме навыка) в вашу руку
+copy_hand_ctype_2_false_2	Добавляет 2 копии любой карты (кроме навыка) в вашу руку
+copy_hand_ctype_all_false_nextTurn_x3	Выберите карту. На следующий ход вы получите 3 её копии в руку
+copy_this_to_draw	Добавляет копию карты в стопку сброса
+copy_this_to_hand	Добавляет копию карты в руку
+corruption_hint	Все навыки стоят 0. Они сжигаются при розыгрыше
+create_rarity_1_x1	Добавляет случайную обычную карту в руку
+ctype_hint	Может быть атакой(1), навыком(2), талантом(3), статусом(4), проклятием(5)
+deckToDmg1	Наносит 1 урона за каждую карту в стопке добора
+deckToEnergy	Получает 1 энергию за каждую VAL карту в стопке добора
+discard_all_ctype_all_false_all	Замешивает все карты в стопку добора
+discount_by_attacked	Дешевле на 1 каждый раз, когда получаете урон
+discount_by_discard	Дешевле на 1 за каждую сброшенную карту на этом ходу
+discount_by_played_ctype3	Дешевле на 1 за каждый талант разыгранный в битве
+dmgByAttrFromSourceTimes	Наносит урон равный вашей VAL xTIMES раз
+dmgByEnemiesCount	Наносит дополнительный урон за каждого противника
+dmg_times	Наносит VAL урона TIMES раз
+drawPlayExhaust1	Розыгрывает верхнюю карту из стопки добора и сжигает её
+drawToDmg1	Наносит 1 урона за каждую карту в стопке сброса
+drawUntilX	Вы берёте карты пока не наберёте VAL
+drawX	Вы берёте VAL карт
+emptychest	Следующий сундук с сокровищами который вы откроете будет пуст (исключая сундук боса)
+enlightenment_hint	Уменьшает стоимость карт в руке до 1 на VAL ход
+event_cardNone1_1_txt	Выберете обычную бесцветную карту
+event_cardNone1_rnd_txt	Получите случайную обычную бесцветную карту
+event_cardNone2_1_txt	Выберете необычную бесцветную карту
+event_cardNone2_rnd_txt	Получите случайную необычную бесцветную карту
+event_cardNone3_1_txt	Выберете редкую бесцветную карту
+event_cardNone3_rnd_txt	Получите случайную редкую бесцветную карту
+event_card_txt	Добавляет VAL
+event_hpmax_txt	VAL макс. здоровье
+event_played_cards_5	Каждый раз когда играете 5 карт за ход
+event_played_ctype1_x3	Каждый раз когда играете 3 атаки за ход
+event_played_ctype2_x3	Каждый раз когда играете 3 навыка за ход
+event_played_not_1	Каждый раз когда играете неатакующую карту
+event_potion_1_txt	Получите 1 случайное зелье
+event_potion_2_txt	Получите 2 случайное зелье
+event_potion_3_txt	Получите 3 случайное зелье
+event_potion_used	Когда используете зелье
+event_quest	Когда входите в ?-комнату
+event_randomrelic_boots_txt	Хорошие Ботинки/Плохие Ботинки
+event_relic1_1_txt	Получите случайную обычную реликвию
+event_relic2_1_txt	Получите случайную необычную реликвию
+event_relic3_1_txt	Получите случайную редкую реликвию
+event_relic4_1_txt	Получите случайную реликвию Босса
+event_relic_1_txt	Получите случайную реликвию
+event_removecard_1_txt	Убрать 1 карту из колоды
+event_removecard_2_txt	Убрать 2 карты из колоды
+event_samecardinhand	Если в руке есть одинаковые карты
+event_search_txt	VAL% на возвращение монстра. Получить случайную оставшуюся награду
+event_shuffle	Каждый раз при перетасовке колоды
+event_transform_1_txt	Преобразовать карту в колоде
+event_transform_2_txt	Преобразовать 2 карты в колоде
+event_upgraderandom_1_txt	Улучшить 1 случайную карту
+event_upgraderandom_2_txt	Улучшитть 2 случайных карты
+eventburned	Огненная карта
+evoke	Вызвать
+evoke1	Вызвать следующего питомца 1 раз
+evokePassive1	Разрядить пассивку питомца 1 раз
+evokePassiveX	Разрядить пассивку питомца VAL раз
+evokeReSummon	Призвать следующего вызванного питомца
+evokeX	Вызвать следующего питомца VAL раз
+evoke_hint	Питомец вызывается с помощью повторного призыва или специальными картами
+exhaust_hand_ctype_4_true_rnd	Сжигает случайную карту статуса в руке
+exhaust_hand_ctype_all_false	Сжигает карту в руке
+exhaust_hand_ctype_all_false_3	Сжигает 3 карты в руке
+exhaust_hand_ctype_all_false_5	Сжигает 5 карт в руке
+exhaust_hand_ctype_all_false_rnd	Сжигает случайную карту в руке
+extrax_hint	Когда вы разыгрываете карту с X-стоимостью, её эффективность повышается на VAL
+focus	Фокус
+focus_hint	Повышает эффективность Питомцев
+for_each	для всех
+for_each_card	для всех карт
+for_each_enemy	на всех врагов
+frozen	Немота
+frozen_hint	Вы больше не можете добирать карты на этом ходу
+getAddDmgByAttr_handctype1	Наносит дополнительный +VAL урон за каждую Атаку в руке
+grim_reaper	Зловещий серп
+hand_discard_1_false	Сбрасывает все карты кроме Атак
+hand_exhaust_1_false	Сжигает все карты кроме Атак
+hand_exhaust_4_true	Сжигает все карты статуса в руке
+harm_times	Накладывает VAL Уязвимости на TIMES ходов
+hero_shaman_hint	Раньше была одержима в служении святыни. Спустя некоторое время она ушла и стала работать одна
+hero_shiva_hint	Джинн, запечатанный в ледниках Ланзельта с прекрасным лицом и холодным, как зимняя ночь сердцем
+hero_sila_hint	Сверхъестественное создание. Особо талантливые оборотни часто являлись в обличии девушек дабы соблазнять мужчин
+hiddennoenemies_hint	Обычные враги больше не появляются в ?-комнатах
+hiddentreasure	Шанс найти сокровища в ?-комнатах повышается на VAL%
+ifTargetCONequalVAL	Если цель получает CON равный VAL
+ifTargetHas	Если у цели есть CON
+ifTargetHaveMoreCONThenVAL	Если у цели есть CON больше VAL
+ifTargetHpLess	Если здоровье VAL% или ниже
+ifTargetIntend_dmg	Если враг собирается атаковать
+if_draw_card	Если карта TYPE
+ignoreHarm_hint	Получаете уязвимость на 1 ход
+ignorebattlefervor	На этом ходу не получаете BF
+ignoredmg	На этом ходу цель не может наносить урон
+innate	врожденное чутье
+innate_hint	Вы начинаете все бои с этой картой в руке
+intangible	Неосязаемость
+intangible_hint	Снижает весь получаемый урон до 1
+item_rarity0	Начальный
+item_rarity0_hint	Герои начинают с этими предметами
+item_rarity1	Обычные
+item_rarity1_hint	Слабые реликвии, которые встречаются чаще
+item_rarity2	Необычные
+item_rarity2_hint	Более сильные реликвии, встречаются реже
+item_rarity3	Редкие
+item_rarity3_hint	Уникальные и сильные реликвии
+item_rarity4	Реликвия босса
+item_rarity4_hint	Реликвии, которые можно найти только в сундуках после победы над боссом
+item_rarity5	Событие
+item_rarity5_hint	Реликвии, получаемые от событий
+item_rarity6	Торговец
+item_rarity6_hint	Могут быть только приобретены у торговца
+lives_hint	Вместо смерти восстанавивает 50% от максимального уровня здоровья (однократно)
+load	Загрузка
+login_hpmax	Повышает Максимальный Уровень Здоровья на VAL
+login_money	Получить VAL Золота
+lose_stuff	Потерять ATTR
+missing_hp_to_attr	Даёт VAL% от потеянного здоровья в качестве ATTR
+missing_hp_to_dmg	Наносит урон равный количеству потерянного здоровья
+missing_string	Пропущена Строка
+money_bonus	С врагов падает на VAL% больше золота
+money_heals	Когда получаете золото, восстанавливает VAL здоровья
+no_card_to_upgrade	Нет карт для улучшения
+noresttrue	Вы больше не можете отдыхать в Лагере
+nosmithtrue	Вы больше не можете ковать в Лагере
+onConditions_play_voodoo_true	Активирует эффекты всех кукол
+onConditions_purge_voodoo_true	Уничтожает все куклы
+onPet	Для всех питомцев
+onPettrue	Для всех уникальных питомцев
+one_of_the_skulls_stuck	Один из черепов застрял в двери
+onlyKeepZero	Сбрасывает все взятые карты со стоимостью выше 0
+owned	Приобретено
+passive	Пассивный
+peekX	Посмотрите на VAL верхних карт стопки добора (Можете сбросить любое их количество)
+petsmax	Слоты питомцев
+petsmax_zero_msg	Вы не нравитесь питомцам
+poisonadd	Когда вы накладываете Яд, накладывает дополнительно VAL Яда
+potion1	Получить случайное зелье
+potionX	Получить VAL случайных зелья
+potion_slot_hint	Используйте зелья на протяжении битвы для получения преимущества или ослабления врагов
+potionless_hint	Выбольше не можете получать зелья
+powers	Таланты
+preventdmg1	Предотвращает 1 следующую потерю здоровья
+preventdmg2	Предотвращает 2 следующих потери здоровья
+rabbit	Кролик
+rebound_hint	Положите следующую разыгранную в этом ходу карту наверх стопки добора
+redeck_draw_ctype_all_false	Переместите карту из стопки сброса наверх стопки добора
+redeck_hand_ctype_all_false	Переместите карту из руки наверх стопки добора
+redeck_this_to_deck	Положите копию этой карты наверх стопки добора
+rehand_deck_ctype_1_true	Выберите Атаку из стопки добора и возьмите её в руку
+rehand_deck_ctype_2_true	Выберите Навык из стопки добора и возьмите его в руку
+rehand_deck_ctype_all_false	Выберите карту из стопки добора и возьмите её в руку
+rehand_deck_ctype_all_false_2	Выберите 2 карты из стопки добора и возьмите их в руку
+rehand_draw_ctype_all_false	Верните карту из стопки сброса в руку
+rehand_draw_energy_0_true_all	Переместите все карты стоимостью 0 из стопки сброса в руку
+rehand_trash_ctype_all_false	Выберите сожженую карту и положите её в руку
+relicstoheal	Даёт возможность отдохнуть вместо подбора реликвии
+rest_rest_voodoo	Вуду
+rest_rest_voodoo_hint	Получите дополнительную силу Вуду
+restheal	Восстанавливает дополнительные VAL здоровья когда отдыхаете
+resthealper5cards	Когда вы попадаете в лагерь - за каждые 5 карт восстанавливает здоровье
+retaincards_hint	В конце хода оставьте до VAL карт
+revive_hint	Вместо смерти восстанавивает VAL здоровья (однократно)
+royalcloud	Королевское Облако
+rule_attack_hand_hint	Может быть разыграна только когда в руке одни Атаки
+rule_lastcard_hint	Может быть сыграна только когда нет других карт в руке
+sadistic_hint	Когда вы накладываете на врагов отрицательный эффект, наносит им VAL урона
+saves	Сохранения
+set	Установить
+shield_hint	Получаете VAL броние (с каждым её разрушением уменьшается на 1)
+shift_hint	После получения VAL урона, переходит в особый режим
+shop_remove_card_hint	Услуга удаления карт у продавца теперь всегда стоит 50 золота
+silenceskills_hint	Вы не можете использовать не один в течении 1 хода
+stat_elites1	Слабая Элита убита
+stat_elites2	Сильная Элита убита
+stat_elites3	Адская Элита убита
+summoned_VAL	VAL Призвано
+summons	Призывы
+summons_VAL	Призывает VAL
+summons_hint	Призывает питомца и добавляет его в первый пустой слот
+sync	Сохранить
+to_minhp	врагу с наименьшим количеством HP
+transfer_kill_enemies	При смерти передает CONDITION остальным врагам
+transfer_kill_rnd	При смерти передает CONDITION случайному врагу
+treasureextrarelic	Следующие VAL сундук(а) содержат 2 предмета
+tutorial_rbq_undecidedloot_1	Ваше Величество! У вас есть несобранный лут. Нажмите сюда чтобы продолжить.
+tutorial_rbq_undecidedloot_2	Вы можете его взять сейчас или позже. Но он будет утерян после победы над Боссом.
+undecidedloot	Несобранный Лут
+unlimited	Беспредел
+unlimited_hint	Можно улучшать сколько угодно раз
+upgrade_all_ctype_1_true_all	Улучшает все Атаки в этом бою
+upgrade_all_ctype_all_false_all	Улучшает все карты в этом бою
+upgrade_hand_ctype_all_false	Улучшает карту в этом бою
+upgrade_hand_ctype_all_false_all	Улучшает все карты в руке в этом бою
+upgrade_hand_ctype_all_false_rnd	Улучшает случайную карту в руке

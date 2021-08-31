@@ -1,0 +1,1388 @@
+﻿<lang
+	_current_date="24/10/2018"
+	start="Start"
+	close="Close"
+	unlock="Unlock"
+	royal_booty_quest="Royal Booty Quest"
+	
+	scin="Skin"
+	
+	
+	gui_mana_top="Mana Top"
+	gui_mana_top_hint="Shows Mana Bar at top"
+	gui_dragdrop="Drag & Drop"
+	gui_dragdrop_hint="Cards Targeting via Drag&Drop"
+	
+	act1_tag="Act 1: Exordium"
+	act2_tag="Act 2: City"
+	act3_tag="Act 3: Beyond"
+	act4_tag="Act 4: Too Far"
+	act5_tag="Act 5: Unreachable"
+	actX="Act VAL"
+	credits="Credits"
+	coffee="Coffee"
+	restore="Restore"
+	owned="Owned"
+	changelog="Changelog"
+	submitted="Submitted"
+	hue="Hue"
+	saturation="Saturation"
+	brightness="Brightness"
+	customization="Customization"
+	base="Base"
+	
+	days_sc="d"
+	hours_sc="h"
+	minutes_sc="m"
+	seconds_sc="s"
+	
+	boss="Boss"
+	boss_hint="Very strong Enemy"
+	timewarp="Time Warp"
+	timeeater="Time Eater"
+	timewarp_hint="VAL"
+	event_expire="At 0 do: VAL"
+	
+	drainEnergy="Lose All Energy"
+	
+	diamonds="Diamonds"
+	diamonds_hint="Each time you ding level 3 - you get extra Diamond"
+	diamonds_buy="You can buy more Diamonds here"
+	
+	cards="Cards"
+	fit_all_cards="Fit All Cards"
+	fit_all_cards_hint="If you have more cards than the screen width - they will overlap"
+	
+	enemiesbonus="Enemies buff: VAL"
+	herobonus="Hero buff: VAL"
+	
+	skipTurn="Skip turn"
+	
+	dmgOnce="additional damage for next Attack once"
+	custom_class_type_card_colors="Tap to change this type of card color to a random. Tap to revert."
+	
+	saves="Saves"
+	royalcloud="Royal Cloud"
+	load="Load"
+	sync="Sync"
+	saves_uploaded="Saves Uploaded"
+	saves_downloaded="Saves Downloaded"
+	open_save_folder="Open Saves Folder"
+	own_recipts="Own Crafts"
+	cloud_input_hint="Login - 6 chars min, abc and numbers. PIN - 4 numbers. LOAD - get saves from cloud. SYNC - upload saves to cloud. Use this to transfer saves across your devices. Public logins may be removed."
+	cloud_replace_tip="Cloud will replace your save on device. Are you sure you want it?"
+	cloud_auto_save="Auto Save"
+	cloud_auto_save_hint="Saves the game each time you at Map screen"
+	cloud_auto_load="Auto Load"
+	cloud_auto_load_hint="Loads data from cloud each time you launching the Game"
+	cloud_synced="Saved to Cloud"
+	
+	forge_build_hint="Build a Card from Blueprints"
+	forge_destroy_hint="Destroy one card for Hammers"
+	forge_boiler_hint="Transform one card to Potion"
+	forge_merge_hint="Merge two cards into one"
+	
+	addDmgByCard="Deals +DMG additional damage for all your cards containing 'VAL' (TOTAL)"
+	dmgByEnemiesCount="Deals +DMG additional damage for each enemy"
+	
+	evokeAll="Evoke All"
+	onPet="For each Pet"
+	onPettrue="For each unique Pet"
+	electrodynamics_hint="Lightning now hits ALL enemies"
+	donations_extras="Donations & Extras"
+	donation_silver="Silver Donation"
+	donation_gold="Gold Donation"
+	donation_amber="Amber Donation"
+	donation_btn="Donate"
+	
+	tavern="Tavern"
+	pause="Pause"
+	show="Show"
+	
+	act4_is_locked="You have to beat the first 3 acts with 3 different Heroes"
+	act4_is_unlocked="Act 4 is unlocked for all Heroes"
+	
+	card_type_1="Attack"
+	card_type_2="Skill"
+	card_type_3="Power"
+	card_type_4="Status"
+	card_type_5="Curse"
+	
+	ctype="Card Type"
+	ctype_hint="Can be Attack(1), Skill(2), Power(3), Status(4), Curse(5)"
+	ctype_1="Attack"
+	ctype_2="Skill"
+	ctype_3="Power"
+	ctype_4="Status"
+	ctype_5="Curse"
+	
+	hiddentreasure="You are VAL% more likely to find treasure in ? rooms"
+	
+	ok="Ok"
+	reset="Reset"
+	later="Later"
+	enjoing_gname="Enjoying NAME?"
+	enjoing_review="Would you like to rate or leave a review, to let me know how it's going?"
+	
+	
+	resize="Resize"
+	fullscreen="Fullscreen"
+	restart="Restart"
+	question_restart="Are you sure you want to restart this save?"
+	cancel="Cancel"
+	more_games="More Games"
+	moregames_opens_browser_getit="Get It"
+	back="Back"
+	quit_game="Are you sure want to quit?"
+	
+	cost="Cost"
+	money="Gold"
+	
+	login_hpmax="Raise your Max HP by VAL"
+	login_money="Gain VAL Gold"
+	
+	one_of_the_skulls_stuck="One of the Skulls stuck in Door"
+	
+	rest_forge="Forge"
+	forge_hint="Destroy, Merge, Build new Cards"
+	rest_forge_hint="Visit Forge"
+	rest_skull="Skull"
+	rest_skull_hint="Look for Skull Key"
+	rest_sleep="Sleep"
+	rest_sleep_hint="Heal for 30% of your Max HP(VAL)"
+	rest_smith="Smith"
+	rest_smith_hint="Upgrade a card in your Deck"
+	no_card_to_upgrade="No card to Upgrade"
+	rest_brew="Brew"
+	rest_brew_hint="Brew two random potions"
+	rest_remove="Remove"
+	rest_remove_hint="Remove Card from your Deck"
+	boiler="Boiler"
+	
+	rest_extra="At rest sites you can now gain"
+	rest_rest_poisonadd="Gather"
+	rest_rest_poisonadd_hint="Get an Extra Poison"
+	rest_rest_lift="Lift"
+	rest_rest_lift_hint="Get extra Strength"
+	rest_rest_voodoo="Voodoo"
+	rest_rest_voodoo_hint="Get extra Voodoo Power"
+	
+	relic_names="Items Names"
+	relic_names_hint="Items Names - Defined by action OR look"
+	
+	energysave_hint="Energy is now conserved between turns"
+	
+	turn_player="Player Turn"
+	turn_enemy="Enemy Turn"
+	
+	hp="HP"
+	hpmax="HP Max"
+	
+	to_enemy="to enemy"
+	to_minhp="to the enemy with the least HP"
+	to_enemies="to all enemies"
+	for_each_enemy="for each enemy"
+	to_self=""
+	to_rnd="to random enemy"
+	to_rndmiss="to random enemies"
+	
+	onExhaust="on exhaust"
+	
+	class_none="Colorless"
+	played_1="Whenever you play an Attack"
+	played_2="Whenever you play a Skill"
+	played_3="Whenever you play a Power"
+	
+	energyAdd1="gain 1 Energy"
+	energyAddX="gain VAL Energy"
+	relicstoheal="Get the option to rest instead of picking a relic"
+	
+	poison="Poison"
+	poison_hint="At the start of turn, Target loses HP and loses a point of Poison"
+	charm="Charm"
+	charm_hint="Increases damage taken per point. Each turn reduced by 1"
+	harm="Harm"
+	harm_times="Inflict VAL Harm TIMES times"
+	heal="Heal"
+	
+	rebound_hint="Put the next card you play this turn on top of your draw pile"
+	
+	lifelink="Life Link"
+	lifelink_hint="On its second turn after its death, revives with 50% HP if fight is not finished"
+	
+	battlefervor="BF"
+	
+	lose_stuff="Lose ATTR"
+	summons_VAL="Summons VAL"
+	summoned_VAL="VAL Summoned"
+	
+	_times=" TIMES times"
+	drawUntilX="Draw cards until you have VAL in hand"
+	unlocked_cards="Cards Unlocked"
+	
+	potion1="Obtain a random potion"
+	potionX="Obtain VAL random potions"
+	
+	cheapretainer="Cheap Retainer"
+	cheapretainer_hint="Whenever a card is Retained, lower its cost by VAL"
+	
+	mantra="Mantra"
+	mantra_hint="When you obtain 10 Mantra - you will enter Divinity"
+	
+	
+	ifTargetHas="If target has CON"
+	if_draw_card="If the card is a TYPE"
+	ifTargetHpLessEx="If target HP is at or below VAL"
+	ifTargetHpLess="If HP is at or below VAL%"
+	ifTargetHpMore="If HP is at or above VAL%"
+	ifTargetCONequalVAL="If target got CON equals to VAL"
+	ifTargetHaveMoreCONThenVAL="If target have CON more than VAL"
+	ifTargetIntend_dmg="If an enemy intends to attack"
+	
+	ifSelfPlayedLast="If the previous card played was CTYPE"
+	ifSelfHaveMoreCONThen0="If you have CON"
+	
+	ifSelfCONequalVAL="If you got CON equals to VAL"
+	
+	elitelootitems="Elites drops +VAL Items"
+	
+	missing_hp_to_dmg="Deal damage equal to missing HP"
+	missing_hp_to_attr="Gives VAL% of missing HP as ATTR"
+	missing_string="Missing STRING"
+	
+	draw1="Draw 1 Card"
+	drawX="Draw VAL Cards"
+	peekX="Look at the top VAL cards of your draw pile (You may discard any of them)"
+	
+	charmdouble_hint="Double Charm"
+	
+	energyMlt2="Double your Energy"
+	armorMlt2="Double your current Armor"
+	battlefervorMlt2="Double your current BF"
+	discard="Discard"
+	poisonMlt2="Double an enemy's Poison"
+	poisonMlt3="Triple an enemy's Poison"
+	charmMlt2="Double the Charm"
+	chooseOneRandom3="Choose 1 of 3 random cards to shuffle into your draw pile"
+	
+	summons="Summons"
+	summons_hint="Summoning a Pet adds it into your first empty Slot"
+	evoke="Evoke"
+	evoke_hint="Your Pet get Evoked by oversummoning or by special Cards"
+	evoke1="Evoke your next Pet once"
+	evokeX="Evoke your next Pet VAL times"
+	evokeReSummon="Summon the Pet that was just Evoked"
+	evokePassive1="Trigger the passive ability of right-most Pet once"
+	evokePassiveX="Trigger the passive ability of right-most Pet VAL times"
+	
+	lockon="Lock-On"
+	lockon_hint="Pets deal 50% more damage to this target"
+	
+	welcome="Welcome"
+	destiny="Destiny"
+	for_each="for each"
+	easyenemies="Enemies in your first VAL combats will have 1 HP"
+	colorblind="You can find and use Cards from any deck"
+	achievements="Achievements"
+	
+	cup_silver="Silver Goblet"
+	cup_gold="Gold Goblet"
+	
+	appreciation="Appreciation"
+	rich="Rich"
+	rich_hint="I Am Rich"
+	richer="Richer"
+	richer_hint="I Am Richer"
+	
+	exhaust="Exhaust"
+	exhaust_hint="Removes the card from the active deck until the end of combat"
+	ethereal="Ethereal"
+	ethereal_hint="This card will Exhaust itself in your hand at the end of turn"
+	endTurn="End your turn"
+	innate="Innate"
+	innate_hint="Always begin combat with this card in your hand"
+	healing="Healing"
+	healing_hint="Healing is more effective during Combat"
+	
+	consume_pain_txt="Consume XXX points of pain to get 1 ATTR"
+	
+	money_bonus="Enemies drop VAL% more Gold"
+	
+	curse_add_txt="For each Curse in your deck get 1 additional ATTR"
+	
+	entangled="Entangled"
+	entangled_hint="Unable to use any Attack cards for 1 turn"
+	silenceskills_hint="Unable to use any Skills cards for 1 turn"
+	
+	extrax_hint="Whenever you play a cost X card, its effects are increased by VAL"
+	cardsreward="You get VAL card choice to pick from"
+	
+
+	deckToDmg1="Deal 1 DMG for each card in your draw pile"
+	drawToDmg1="Deal 1 DMG for each card in your discard pile"
+	armorFromDraw="Gain Armor equal to the number of cards in your discard pile"
+	deckToEnergy="Gain 1 Energy for every VAL cards in your draw pile"
+	
+	remove_card_hint="Remove NAME from the deck"
+	undecidedloot="Undecided Loot"
+	warning_loot="Undecided Loot will be lost"
+	
+	cleanse_hint="Removes debuffs"
+	soulcatcher_hint="Decreases each Turn"
+	
+	event_armor="Whenever you gain Armor"
+	event_heal_txt="Heal for VAL HP"
+	event_death="At Death"
+	event_killed="When Killed"
+	event_shuffle="Every time you shuffle your deck"
+	event_dmg_txt="Get VAL dmg"
+	event_debuff="Whenever you get a Debuff"
+	event_enemy_debuff="Whenever enemy get a Debuff"
+	event_dmg="If attacked"
+	event_udmg="If damaged"
+	event_unblocked_dmg="Whenever an attack deals damage"
+	event_hpmax_txt="VAL Max HP"
+	event_money_txt="Gain VAL Gold"
+	event_moneylose_txt="Lose VAL Gold"
+	event_card_txt="Add VAL"
+	event_relic_1_txt="Receive a random Relic"
+	event_relic_2_txt="Receive 2 random Relics"
+	event_relic_3_txt="Receive 3 random Relics"
+	event_relic1_1_txt="Receive a random common Relic"
+	event_relic2_1_txt="Receive a random uncommon Relic"
+	event_relic3_1_txt="Receive a random rare Relic"
+	event_relic4_1_txt="Receive a random Boss Relic"
+	event_loserelics0_1_txt="Lose starting Relic"
+	
+	event_card1_1_txt="Choose a common Card"
+	event_card2_1_txt="Choose a uncommon Card"
+	event_card3_1_txt="Choose a rare Card"
+	event_card1_rnd_txt="Obtain a random common Card"
+	event_card2_rnd_txt="Obtain a random uncommon Card"
+	event_card3_rnd_txt="Obtain a random rare Card"
+	event_curse_3_txt="Obtain 3 Curses"
+	event_cardRndColorless_5_txt="Obtain 5 colorless Cards"
+	event_cardRnd_30_txt="Obtain 30 random Cards"
+	event_cardRnd_50_txt="Obtain 50 random Cards"
+	
+	event_cardNone1_1_txt="Choose a common colorless Card"
+	event_cardNone2_1_txt="Choose a uncommon colorless Card"
+	event_cardNone3_1_txt="Choose a rare colorless Card"
+	event_cardPicks_15_txt="Choose 15 Cards"
+	event_cardNone1_rnd_txt="Obtain a random common colorless Card"
+	event_cardNone2_rnd_txt="Obtain a random uncommon colorless Card"
+	event_cardNone3_rnd_txt="Obtain a random rare colorless Card"
+	
+	loot="Loot"
+	emptychest="The next non-boss relic Chest you open is empty"
+	nothing_to_pick_from="Nothing to pick from"
+	nothing="Nothing"
+	
+	ruled_harmed_hint="Have to be 'Harmed' to play this card"
+	
+	event_relic_txt="Receive VAL"
+	event_search_txt="VAL% the monster returns. Gain a random remaining reward."
+	event_removecard_rnd_txt="Remove random card in your deck"
+	event_removecard_1_txt="Remove a card in your deck"
+	event_removecard_2_txt="Remove two cards in your deck"
+	event_removecard_specific_txt="Remove all copies of NAME"
+	event_removecurses_all_txt="Remove all Curses"
+	event_transform_1_txt="Transform a card in your deck"
+	event_transform_2_txt="Transform two cards in your deck"
+	event_upgrade_1_txt="Upgrade a card in your deck"
+	event_upgrade_2_txt="Upgrade two cards in your deck"
+	event_upgrade_specific_txt="Upgrade all copies of NAMES"
+	event_dublicate_1_txt="Duplicate a card in your deck"
+	event_upgraderandom_1_txt="Upgrade one random card"
+	event_upgraderandom_2_txt="Upgrade two random cards"
+	event_battle_start="At the start of Battle"
+	event_battle_won="At the end of Battle"
+	event_turn="Every Turn"
+	event_turnEnd="At the end of each Turn"
+	event_played_any="Whenever you play a card"
+	event_played_1="For every Attack Card played"
+	event_played_2="For every Skill Card played"
+	event_played_3="For every Power Card played"
+	event_played_ctype1_x3="Every time you play 3 Attacks in a single turn"
+	event_played_ctype2_x3="Every time you play 3 Skills in a single turn"
+	event_played_cards_5="Every time you play 5 cards in a single turn"
+	event_played_not_1="Every time you play not Attack card"
+	event_potion_1_txt="Pick 1 random potion"
+	event_potion_2_txt="Pick 2 random potion"
+	event_potion_3_txt="Pick 3 random potion"
+	event_harm="Each time you Harm yourself"
+	event_kill="At Kill"
+	event_battlefervor="When got a stack of BF"
+	event_Wound="Whenever you draw a Wound"
+	event_cursed="Whenever you got Cursed"
+	event_quest="Whenever you enter a ? room"
+	event_addedCtype4="Whenever you draw a Status"
+	event_add_pet="Whenever you Channel a Pet"
+	event_discard="Whenever you Discard a card"
+	event_exhausted="Whenever you Exhaust a card"
+	event_enemy_played_any="Whenever an enemy played a card"
+	event_enemy_played_1="Whenever an enemy played an Attack"
+	event_enemy_played_2="Whenever an enemy played a Skill"
+	event_enemy_played_3="Whenever an enemy played a Power"
+	event_empty_hand="Whenever you have no cards"
+	event_consume="Whenever you consume a Chest"
+	event_samecardinhand="If you have duplicates in your hand"
+	event_rest="At Rest"
+	
+	onlyKeepZero="Discard all cards drawn this way that do not cost 0"
+	onKillHint_true="If this kills an enemy, change permanently this card: PRMS"
+	onKillHint_false="If this kills an enemy, change for battle this card: PRMS"
+	onRetain="If Retained: PRMS"
+	
+	drawPlayExhaust1="Play the top card of your draw pile and Exhaust it"
+	
+	transfer_kill_rnd="Whenever an enemy dies, transfer any CONDITION it has to a random enemy"
+	transfer_kill_enemies="Whenever an enemy dies, transfer any CONDITION it has to all enemies"
+	
+	event_randomrelic_boots_txt="Good Boots or Bad Boots"
+	
+	deck_hint="Draw Pile"
+	draw_hint="Discard Pile"
+	trash_hint="Exhausted Pile"
+	hand_hint="Hand"
+	
+	exhaust_fail="VAL% chance of not exhausting a card, going to the discard pile instead"
+	exhaust_failed="Exhaust Failed"
+	scrap_hint="Useless scrap"
+	
+	nulify="Nullify"
+	vamp="Vampirism"
+	vamp_hint="Heal HP equal to unblocked damage"
+	vamparmor="Reconstruct"
+	vamparmor_hint="Gain Armor equal to unblocked damage"
+	
+	artifact="Artifact"
+	artifact_hint="Mitigates the next Debuff"
+	
+	loot="Loot"
+	pick_one_hint="You can pick one"
+	
+	getAddDmgByAttr_handctype1="Deals an additional +VAL damage for every Attack in hand"
+	
+	focus="Focus"
+	focus_hint="Increases effectiveness of Pets"
+	
+	leacharmor="Armor Leach"
+	leacharmor_hint="Whenever you attack this enemy, gain Armor"
+	
+	stance="Stance"
+	stance_hint="You can have one Stance at the time"
+	
+	armor="Armor"
+	armor_times="Gain VAL Armor TIMES times"
+	dmg="Damage"
+	dmg_times="Deal VAL damage TIMES times"
+	str_times="VAL*(TIMES) Strength"
+	armor_hint="Until next turn, prevents damage"
+	powers="Powers"
+	str="Strength"
+	str_hint="Increases damage dealt per point"
+	
+	
+	strX="Strength X"
+	strX_hint="Strength affects this Attack X times"
+	times_hint="How many times this effect/attack is done"
+	
+	strNext="Strength Next Turn"
+	preventdmg="Prevent Damage"
+	preventdmg1="Prevent the next 1 time you would lose HP"
+	preventdmg2="Prevent the next 2 times you would lose HP"
+	
+	con_times="Deal VAL CON TIMES times"
+	
+
+	strAddOnce="Add VAL Strength for one turn"
+	strRmvOnce="Lose VAL Strength for one turn"
+	dex="Dexterity"
+	dex_hint="Increases the Armor gained by 1 for each stack of Dexterity"
+	vulnerable="Vulnerable"
+	vulnerable_hint="Vulnerable target take 50% more damage from Attacks"
+	vulnerability="Vulnerability"
+	vulnerability_hint="Extra Damage Taken"
+	weak="Weak"
+	weak_hint="All attack damage dealt by a weakened entity is reduced by 25%"
+	frail="Frail"
+	frail_hint="Reduces the amount of Armor gained by 25%"
+	revive="Revive"
+	revive_hint="When you would die, heal to VAL (works once)"
+	shield="Plated Armor"
+	shield_hint="Gain VAL Armor (Whenever you take unblocked damage, lose one stack)"
+	lives="Revive"
+	lives_hint="When you would die, heal to 50% of your Max HP instead (works once)"
+	resthealper5cards="Whenever you enter a Rest Site - for every 5 cards in your deck heal"
+	noresttrue="You can no longer Rest at Rest Sites"
+	nosmithtrue="You can no longer Smith at Rest Sites"
+	treasureextrarelic="The next VAL relic chests you open contain 2 Relics"
+	
+	refund_card="Gain Energy equal to its cost"
+	
+	quest_relic3="Obtain 3 Relics"
+	quest_curse3="Obtain 3 Curses"
+	
+	sandbox="Sandbox"
+	sandbox_hint="Allows you to build your deck and gain the items you want"
+	ascend="Ascend"
+	ascend_hint="You will not survive"
+	helping_hand="Helping Hand"
+	ascend_helping_hand="You are missing a Skull Key. Would you like to proceed?"
+	
+	mode_standart_hint="Embark on a Quest"
+	mode_daily_hint="A new challenge every day"
+	mode_custom_hint="Customize your own run"
+	
+	xp="Experience"
+	xp_sc="XP"
+	
+	barricade_hint="Armor no longer expires"
+	blur="Blur"
+	blur_hint="Armor is not removed at the start of your next turn"
+	drawless="Silence"
+	drawless_hint="draw 1 less card next VAL turn(s)"
+	frozen="Mute"
+	frozen_hint="You cannot draw any cards this turn"
+	spike="Spike"
+	shift="Shift"
+	shift_hint="After taking VAL damage, shifts to a special mode"
+	
+	intangible="Intangible"
+	intangible_hint="Reduces all damage and HP loss you take to 1"
+	
+	wrath="Wrath"
+	wrath_hint="Within this stance, deal and receive double damage"
+	event_wrath="Whenever you enter Wrath"
+	event_generic="Whenever you got EVENT"
+	
+	calm="Calm"
+	calm_hint="Upon exiting this stance, gain two Energy"
+	scry="Scry"
+	scryAdd="Extra Scry"
+	energy="Energy"
+	retain="Retain"
+	retain_hint="Keep card in your hand after the end of turn"
+	onUseTempRetain="Retain it"
+	enlightenment_hint="Reduce the cost of cards in your hand to 1 for VAL turns"
+	sadistic_hint="Whenever you apply a Debuff to an enemy, they take DMG damage"
+	corruption_hint="Skill cards costs 0. Whenever you play a Skill, Exhausts it."
+	
+	candleblue_hint="Curse cards can now be played. Lose 1 hp and Exhausts the card"
+	candlered_hint="Status cards can now be played. Exhausts the card"
+	
+	hand_exhaust_all_false="Exhaust whole Hand"
+	hand_exhaust_1_false="Exhaust all non-Attack cards in your hand"
+	hand_exhaust_4_true="Exhaust all Status cards in your hand"
+	hand_discard_1_false="Discard all non-Attack cards in your hand"
+	
+	doubletap1="This turn, your next Attack is played twice"
+	doubletap2="This turn, your next 2 Attacks are played twice"
+	doubleskill1="This turn, your next Skill is played twice"
+	doubleskill2="This turn, your next 2 Skills are played twice"
+	doublepower1="This turn, your next Power is played twice"
+	doublepower2="This turn, your next 2 Powers are played twice"
+	doubleplay1="The first card you play is played twice"
+	dmgmultiply2="Attack damage is Doubled"
+	dmgmultiply3="Attack damage is Tripled"
+	doubleheavytap1="The first Attack that costs 2 or more is played twice"
+	not_enought_energy="Not enough Energy"
+	not_enought_val="Not enough: VAL"
+	
+	quest_upgradeattacks2="Upgrade 2 random Attacks"
+	quest_upgradeskills2="Upgrade 2 random Skills"
+	restheal="Heal an additional VAL HP when you rest"
+	hiddennoenemies_hint="Regular enemies are no longer encountered in ? rooms"
+	
+	intend_dmg="attacking"
+	next_turn="Next Turn"
+	turn="Turn"
+	
+	forge="Forge"
+	forge_already="Already Forged"
+	hammers="Hammers"
+	hammers_pack="Hammers Pack"
+	destroy="Destroy"
+	merge="Merge"
+	build="Build"
+	forge_hint_rename="Touch the Card to rename it"
+	forgerest="Now you can use Forge at Rest sites and rest at Forge"
+	
+	shop="Shop"
+	rest="Rest"
+	treasure="Treasure"
+	battle="Battle"
+	
+	play="Play"
+	continue="Continue"
+	sound="Sound"
+	music="Music"
+	more="More Games"
+	options="Options"
+	master_volume="Master Volume"
+	gui_size="GUI Size"
+	gui_time="GUI Time"
+	bottom_delta="Padding Bottom"
+	exit="Exit"
+	question_exit="Exit?"
+	scores="Scores"
+	total="Total"
+	stat_floors="Floors Climbed"
+	stat_kills="Enemies Slain"
+	stat_elites1="Weak Elites Killed"
+	stat_elites2="Strong Elites Killed"
+	stat_elites3="Hell Elites Killed"
+	stat_bosses="Bosses Slain"
+	stat_skulls="Skulls Found"
+	stat_collector="Collector"
+	stat_pauper="Pauper"
+	stat_highlander="Highlander"
+	stat_curses="Curses"
+	
+	library="Library"
+	items="Items"
+	item_rarity0="Starter"
+	item_rarity1="Common"
+	item_rarity2="Uncommon"
+	item_rarity3="Rare"
+	item_rarity4="Boss"
+	item_rarity5="Event"
+	item_rarity6="Shop"
+	
+	item_rarity0_hint="Heroes can start with these items."
+	item_rarity1_hint="Weak items that are found commonly."
+	item_rarity2_hint="Stronger items which appear less often."
+	item_rarity3_hint="Unique and powerful items."
+	item_rarity4_hint="Items found only within Boss chests."
+	item_rarity5_hint="Items which can only be obtained through events."
+	item_rarity6_hint="Can only be purchased from the Merchant."
+	
+	poisonadd="Whenever you apply Poison, apply an additional VAL Poison"
+	
+	skull_key="The purpose of this Skull is unknown"
+	unknown="Unknown"
+	
+	tutorial="Tutorial"
+	tutorial_rbq_1="Defeat enemies by playing cards from your hand!%e%eCards require %y%Energy%y% to play.%eOnce you are out, end your turn.%e%eAt the start of your turn, new cards are drawn and your %y%Energy%y% is replenished."
+	tutorial_rbq_2="Play defensive cards to gain %b%Armor%b% when enemies are about to attack you.%e%e%b%Armor%b% reduces incoming attack damage but %r%wears off%r% at the start of next turn."
+	tutorial_rbq_3="During your turn, you can observe an enemy's %y%Intent%y% above them.%e%eIf an enemy is intent on attacking you, be sure to gain some %b%Armor%b%!"
+	
+	tutorial_rbq_welcome_1="Welcome your Majesty! Touch this bubble box to continue."
+	tutorial_rbq_welcome_2="With whom you wanna play today? You can choose any hero to adventure forth."
+	tutorial_rbq_undecidedloot_1="Your Majesty! You have unclaimed loot. Touch this bubble box to continue."
+	tutorial_rbq_undecidedloot_2="You can postpone picking it up. But only within this Act."
+	
+	tutorial_rbq_fitallcards_1="Your Majesty! Looks like your hands are full."
+	tutorial_rbq_fitallcards_2="You can swipe right or left to scroll your cards."
+	tutorial_rbq_fitallcards_3="Or you can turn on 'Fit All Cards' option."
+	
+	ignorebattlefervor="For this turn you not getting more BF"
+	ignoreHarm_hint="You do not Harm yourself for one Turn"
+	ignoredmg="For this turn target can not do Damage"
+	dmgByAttrFromSource="Deal damage equal to your VAL"
+	dmgByAttrFromSourceTimes="Deal damage equal to your VAL xTIMES times"
+	
+	unlimited="Unlimited"
+	unlimited_hint="Can be upgraded any number of times"
+	card_upgraded="TAG upgraded!"
+	event_played_cards_3="After playing 3 cards"
+	event_played_cards_6="After playing 6 cards"
+	
+	autoupgradeattacks="Whenever you add an Attack - it is Upgraded"
+	autoupgradeskills="Whenever you add a Skill - it is Upgraded"
+	autoupgradepowers="Whenever you add a Power - it is Upgraded"
+	removeatrest="You can now remove cards at Rest Site"
+	
+	card_type_1_played="attack cards played this turn"
+	card_type_2_hand="skill cards in your hand"
+	card_type_all_hand="cards in your hand"
+	
+	dmg_true="True Damage"
+	dmg_true_hint="True damage ignores Armor and Weak status"
+	
+	too_much_potions="Too Much Potions"
+	for_each_card="for each card"
+	
+	copy_this_to_hand="Place a copy of this card into your hand"
+	copy_this_to_draw="Place a copy of this card into your discard pile"
+	
+	change_all_tag_claw_true_all="All Claw cards deal 2 additional damage this combat"
+	change_hand_ctype_all_false_rnd="Change a random card in your hand"
+	change_hand_ctype_all_false_all="Change all cards in your hand"
+	change_hand_ctype_1_true="Change one Attack"
+	change_hand_ctype_1_true_2="Change 2 Attacks"
+	change_hand_ctype_1_true_all="All Attack cards in hand"
+	change_hand_ctype_2_true_all="All Skill cards in hand"
+	change_energy="costs 0 for the rest of combat"
+	
+	change_deck_ctype_1_true_1="Choose an Attack card: at the start of each combat, this card will be in your hand"
+	change_deck_ctype_2_true_1="Choose a Skill card: at the start of each combat, this card will be in your hand"
+	change_deck_ctype_3_true_1="Choose a Power card: at the start of each combat, this card will be in your hand"
+	
+	redeck_draw_ctype_all_false="Place a card from your Discard pile on top of your Draw pile"
+	redeck_hand_ctype_all_false="Place a card from your Hand pile on top of your Draw pile"
+	rehand_trash_ctype_all_false="Place a card from your Exhausted pile to your hand"
+	rehand_trash_ctype_all_false_rnd="Place random card from your Exhausted pile to your hand"
+	rehand_deck_ctype_1_true="Choose an Attack from your draw pile and place it into your hand"
+	rehand_deck_ctype_2_true="Choose a Skill from your draw pile and place it into your hand"
+	rehand_draw_energy_0_true_all="Put all Cost 0 cards from your discard pile into your hand"
+	rehand_draw_ctype_all_false="Return a Card from your discard pile to your hand"
+	rehand_draw_ctype_all_false_2="Return 2 Cards from your discard pile to your hand"
+	rehand_draw_label_marked_true_all="returns all Marked cards from the Discard Pile into your Hand"
+	rehand_deck_ctype_all_false="Choose a Card from your draw pile and place it into your hand"
+	rehand_deck_ctype_all_false_2="Choose 2 Cards from your draw pile and place them into your hand"
+	redeck_this_to_deck="Shuffle this Card to Draw Pile"
+	redeck_trash_ctype_all_false_rnd="Place random card from your Exhausted pile to your Draw pile"
+	
+	create_class_none_x1="Add a random colorless card to your hand"
+	create_class_none_x2="Add 2 random colorless cards to your hand"
+	create_class_hero_x1="Add a random card to your hand"
+	create_ctype_1_x1="Add a random Attack card to your hand"
+	create_ctype_2_x1="Add a random Skill card to your hand"
+	create_ctype_2_x2="Add 2 random Skill cards to your hand"
+	create_ctype_3_x1="Add 1 random Power card to your hand"
+	create_rarity_1_x1="Add a random Common card into your hand"
+	
+	create_ctype_1_x3_classAll_pickX="Choose PICK of 3 Attacks of any color to add to your hand"
+	
+	create_card_by_name_classall="Shuffle 'TAG' into your TARGET"
+	
+	copy_hand_ctype_2_false="Create a copy of a non-Skill card in your hand"
+	copy_hand_ctype_2_false_x2="Create two copies of a non-Skill card in your hand"
+	
+	
+	copy_hand_ctype_all_false_nextTurn_x3="Choose a card. Next turn, add 3 copies of that card into your hand."
+	
+	hand_discard_all_false="Discard all Cards"
+	hand_discard_1_true="Discard all Attacks"
+	
+	change_energyTemp="costs VAL for this turn"
+	change_energy="costs VAL for this battle"
+	
+	confirm="Confirm"
+	confirming='Confirming'
+	question_upgrade="Upgrade?"
+	question_victory="Victory?"
+	removing_by_name='Are you sure to remove "NAME"?'
+	removing_not_possible="Its stuck"
+	money_heals="Whenever you gain Gold, heal VAL HP"
+	shop_remove_card_hint="The merchant's card removal service now always costs 50 Gold"
+	curses_negated="Negate the next VAL Curses you obtain"
+	
+	cardonbattle_hint="Normal enemies drop an additional card reward"
+	cardontreasure_hint="Treasure rooms now also contain cards"
+	wristblade_hint="Attacks that cost 0 deal VAL additional damage"
+	
+	feed_hint="If it kills, will grant max HP"
+	harm_hint="Deads true damage to self"
+	
+	corpseexplosion="Corpse Explosion"
+	corpseexplosion_hint="When the enemy dies, deal damage equal to its max HP to all enemies"
+	
+	spike_hint="Whenever you are attacked, deal VAL damage to the attacker"
+	accuracy_hint="Shivs deal VAL additional damage"
+	retaincards_hint="At the end of your turn, Retain up to VAL card"
+	retainhand_hint="Retain your hand this turn"
+	
+	pets="Pets"
+	petsmax="Pet Slots"
+	petsmax_zero_msg="Pets doesn't like you"
+	passive="Passive"
+	
+	pain="Pain"
+	
+	extra_demon_hint="She can take advantage of her Pain"
+	extra_blood_mage_hint="Battle Fever(BF) - it consumed every turn to heal."
+	discord="Discord"
+	
+	relicupgradetxt="Replaces NAME"
+	
+	discard_all_ctype_all_false_all="Shuffle all your cards into your draw pile"
+	discard_hand_ctype_all_false="Discard 1 card"
+	discard_hand_ctype_all_false_2="Discard 2 cards"
+	discard_hand_ctype_all_false_3="Discard 3 cards"
+	discard_hand_ctype_all_false_rnd="Discard a random card"
+	discard_hand_ctype_4_true="Discard 1 Status"
+	discard_hand_ctype_4_true_2="Discard 2 Statuses"
+	discount_by_discard="Cost 1 less for each discarded card this turn"
+	discount_by_attacked="Cost 1 less for each time you take damage"
+	discount_by_played_ctype3="Costs 1 less Energy for each Power card played this combat"
+	exhaust_hand_ctype_all_false_rnd="Exhaust a random card in your hand"
+	exhaust_hand_ctype_all_false="Exhaust a card in your hand"
+	exhaust_hand_ctype_all_false_3="Exhaust 3 cards in your hand"
+	exhaust_hand_ctype_all_false_5="Exhaust 5 cards in your hand"
+	exhaust_hand_ctype_4_true_rnd="Exhaust a random Status in your hand"
+	exhaust_deck_ctype_all_false_play2="Exhaust a card in draw pile, play it twice"
+	upgrade_hand_ctype_all_false="Upgrade a card in your hand for this combat"
+	upgrade_hand_ctype_all_false_all="Upgrade ALL cards in your hand for this combat"
+	upgrade_hand_ctype_all_false_rnd="Upgrade a random card in your hand"
+	upgrade_all_ctype_all_false_all="Upgrade ALL cards for this combat"
+	upgrade_all_ctype_1_true_all="Upgrade all Attack cards for this combat"
+	upgrade_permanent_ctype_all_false_rnd="Upgrade a random card in your deck"
+	
+	upgradenewtempcards="Master Reality"
+	upgradenewtempcards_hint="Whenever a card is created during combat, Upgrade it"
+	
+	rewriteOnUseActionrehand="Whenever you manipulate this card, add it into your hand instead"
+	
+	hero_frontier="Frontier"
+	hero_frontier_hint="Warrior Templar - Imbued with the fire of the sun. Her skin shimmers with starfire while her eyes burn with the power of the celestial Aspect within her."
+	hero_miss_fortune="Miss Fortune"
+	hero_miss_fortune_hint="A Bilgewater captain famed for her looks but feared for her ruthlessness."
+	hero_shiva="Shiva"
+	hero_shiva_hint="A Jinn that was sealed away in the snowy drifts of Lanzelt, with features fair and a heart as cold as a winter's night."
+	hero_sila="Sila"
+	hero_sila_hint="Supernatural creature. A talented shapeshifters often appearing in human form and female. Accordingly they are said to seduce men."
+	hero_demon="Demon"
+	hero_demon_hint="She left Adam and refused to return to the Garden of Eden. She may take a form of a beautiful girl but closer inspection may reveal bird-like claws and serpentine tails."
+	hero_blood_mage="Blood Mage"
+	hero_blood_mage_hint="Employ dark rites in order to access more powerful magic. She must be willing to sacrifice their own life force in order to wield this power."
+	hero_shaman="Shaman"
+	hero_shaman_hint="Once performed spirit possession in their service to shrines. As time passed, she left the shrines and began working independently."
+	hero_monkey_queen="Monkey Queen"
+	hero_monkey_queen_hint="Powerful being born from stone. Able to shapeshift, create clones from her hair, cloud walking and a magic staff."
+	
+	monkeyqueen_hint="hero_monkey_queen_hint"
+	
+	rule_unplayable_hint="Unplayable"
+	rule_attack_hand_hint="Can only be played if every card in your hand is an Attack"
+	rule_only_attack_hint="Can only be played if this is the only Attack in your hand"
+	rule_lastcard_hint="Can only be played if there are no other cards in your hand"
+	
+	turntrue="At the end of a turn"
+	turnfalse="At the start of each turn"
+	
+	potion_slot="Potion Slot"
+	potion_slot_hint="Use potions during combat to gain bonuses or hinder enemies"
+	
+	eventburned="Firecard"
+	onUse="on use"
+	
+	freecast_hint="The next Card you play costs 0"
+	freeattack_hint="The next Attack you play costs 0"
+	
+	
+	onDiscard="If this card is discarded"
+	onDraw="Whenever you draw this card"
+	onConditions_voodoo_true="For each type of Doll"
+	onConditions_purge_voodoo_true="Execute All Dolls"
+	onConditions_play_voodoo_true="Trigger effect of each Doll"
+	onConditions_add_voodoo_true="Add VAL power to each Doll"
+	do_this_VAL_times="do it VAL times"
+	
+	onConditions_purge_stance="Exit your Stance"
+	
+	voodoo="Voodoo"
+	voodoo_hint="Increases new doll duration"
+	event_voodoo="Whenever you create a Doll"
+	event_potion_used="Whenever you use a Potion"
+	event_stanceNew="On Stance change"
+	dollofpain="Doll of Pain"
+	dollofpain_hint="Inflict Damage to Random Enemy"
+	dollofhope="Doll of Hope"
+	dollofhope_hint="Heals every turn"
+	dollofdecay="Doll of Decay"
+	dollofdecay_hint="Random Enemy loses Strength for one turn"
+	dollofacid="Doll of Acid"
+	dollofacid_hint="Apply Poison to Random Enemy"
+
+	hammer_1="Bronze Hammer"
+	hammer_2="Iron Hammer"
+	hammer_3="Steel Hammer"
+	hammer_4="Adamantine Hammer"
+	hammer_5="Mithril Hammer"
+	
+	axe_1="Bronze Axe"
+	axe_2="Iron Axe"
+	axe_3="Steel Axe"
+	axe_4="Adamantine Axe"
+	axe_5="Mithril Axe"
+	sword_1="Bronze Sword"
+	sword_2="Iron Sword"
+	sword_3="Steel Sword"
+	sword_4="Adamantine Sword"
+	sword_5="Mithril Sword"
+	scythe_1="Bronze Scythe"
+	scythe_2="Iron Scythe"
+	scythe_3="Steel Scythe"
+	scythe_4="Adamantine Scythe"
+	scythe_5="Mithril Scythe"
+	spear_1="Bronze Spear"
+	spear_2="Iron Spear"
+	spear_3="Steel Spear"
+	spear_4="Adamantine Spear"
+	spear_5="Mithril Spear"
+	beast_spear="Beast Spear"
+	dwarf_keg="Alle Keg"
+	
+	staff_1="Fire Staff"
+	staff_2="Water Staff"
+	staff_3="Earth Staff"
+	staff_4="Air Staff"
+	staff_5="Void Staff"
+	
+	helm_1="Bronze Helm"
+	helm_2="Iron Helm"
+	helm_3="Steel Helm"
+	helm_4="Adamantine Helm"
+	helm_5="Mithril Helm"
+	set="Set"
+	
+	bronze_set="Bronze set"
+	grim_reaper="Grim Reaper"
+	iron_set="Iron set"
+	steel_set="Steel set"
+	adamantin_set="Adamantine set"
+	mithril_set="Mithril set"
+	cotton_set="Old set"
+	rope_set="Common set"
+	linen_set="Noble set"
+	flax_set="Hero set"
+	silk_set="Royal set"
+	fire_set="Fire set"
+	water_set="Water set"
+	earth_set="Earth set"
+	air_set="Air set"
+	void_set="Void set"
+	scrolls="Scrolls"
+	
+	helm_6="Old Helm"
+	helm_7="Just Helm"
+	helm_8="Noble Helm"
+	helm_9="Hero Helm"
+	helm10="Royal Helm"
+	
+	robe_1="Old Robe"
+	robe_2="Just Robe"
+	robe_3="Noble Robe"
+	robe_4="Hero Robe"
+	robe_5="Royal Robe"
+	robe_unique="Magic Robe"
+	
+	sandals_1="Old Sandals"
+	sandals_2="Just Sandals"
+	sandals_3="Noble Sandals"
+	sandals_4="Hero Sandals"
+	sandals_5="Royal Sandals"
+	
+	diadem_1="Old Diadem"
+	diadem_2="Just Diadem"
+	diadem_3="Noble Diadem"
+	diadem_4="Hero Diadem"
+	diadem_5="Royal Diadem"
+	
+	armor_1="Bronze Armor"
+	armor_2="Iron Armor"
+	armor_3="Steel Armor"
+	armor_4="Adamantine Armor"
+	armor_5="Mithril Armor"
+	
+	cape_1="Old Cape"
+	cape_2="Just Cape"
+	cape_3="Noble Cape"
+	cape_4="Hero Cape"
+	cape_5="Royal Cape"
+	
+	bow_1="Pine Bow"
+	bow_2="Teak Bow"
+	bow_3="Hickory Bow"
+	bow_4="Oak Bow"
+	bow_5="Redwood Bow"
+	
+	shield_1="Pine Shield"
+	shield_2="Teak Shield"
+	shield_3="Hickory Shield"
+	shield_4="Oak Shield"
+	shield_5="Redwood Shield"
+	shield_6="Bronze Shield"
+	shield_7="Iron Shield"
+	shield_8="Steel Shield"
+	shield_9="Adamantine Shield"
+	shield10="Mithril Shield"
+	
+	doubleaxe_1="Bronze Double Axe"
+	doubleaxe_2="Iron Double Axe"
+	doubleaxe_3="Steel Double Axe"
+	doubleaxe_4="Adamantine Double Axe"
+	doubleaxe_5="Mithril Double Axe"
+	
+	crossbow_1="Pine Crossbow"
+	crossbow_2="Teak Crossbow"
+	crossbow_3="Hickory Crossbow"
+	crossbow_4="Oak Crossbow"
+	crossbow_5="Redwood Crossbow"
+	
+	bomb_1="Old Bomb"
+	bomb_2="Just Bomb"
+	bomb_3="Noble Bomb"
+	bomb_4="Hero Bomb"
+	bomb_5="Royal Bomb"
+	
+	blunder_1="Bronze Blunderbuss"
+	blunder_2="Iron Blunderbuss"
+	blunder_3="Steel Blunderbuss"
+	blunder_4="Adamantine Blunderbuss"
+	blunder_5="Mithril Blunderbuss"
+
+	musket_1="Bronze Musket"
+	musket_2="Iron Musket"
+	musket_3="Steel Musket"
+	musket_4="Adamantine Musket"
+	musket_5="Mithril Musket"
+	
+	
+	
+	boots_1="Bronze Boots"
+	boots_2="Iron Boots"
+	boots_3="Steel Boots"
+	boots_4="Adamantine Boots"
+	boots_5="Mithril Boots"
+	boots_6="Old Boots"
+	boots_7="Just Boots"
+	boots_8="Noble Boots"
+	boots_9="Hero Boots"
+	boots10="Royal Boots"
+	
+	book_1="Old Book"
+	book_2="Just Book"
+	book_3="Noble Book"
+	book_4="Hero Book"
+	book_5="Royal Book"
+	book_6="Fire Book"
+	book_7="Water Book"
+	book_8="Earth Book"
+	book_9="Air Book"
+	book10="Void Book"
+	
+	rune_fire="Fire Rune"
+	rune_water="Water Rune"
+	rune_earth="Earth Rune"
+	rune_air="Air Rune"
+	rune_void="Void Rune"
+	rune_poison="Poison Rune"
+	
+	scroll_fire="Fire Scroll"
+	scroll_water="Water Scroll"
+	scroll_earth="Earth Scroll"
+	scroll_air="Air Scroll"
+	scroll_void="Void Scroll"
+	scroll_getting_hint="Every Mage will leave a scroll if fired"
+	
+	quiver_1="Fire Tips"
+	quiver_2="Magic Tips"
+	quiver_3="Poison Tips"
+	quiver_4="Air Tips"
+	quiver_5="Void Tips"
+	
+	amulet_1="Fire Amulet of Survival"
+	amulet_2="Water Amulet of Survival"
+	amulet_3="Earth Amulet of Survival"
+	amulet_4="Air Amulet of Survival"
+	amulet_5="Void Amulet of Survival"
+	
+	ring11="Fire Ring of Poison"
+	ring12="Water Ring of Poison"
+	ring13="Earth Ring of Poison"
+	ring14="Air Ring of Poison"
+	ring15="Void Ring of Poison"
+	
+	ring_1="Fire Ring of Magic Hunter"
+	ring_2="Water Ring of Magic Hunter"
+	ring_3="Earth Ring of Magic Hunter"
+	ring_4="Air Ring of Magic Hunter"
+	ring_5="Void Ring of Magic Hunter"
+	
+	ring_6="Deadly Fire Ring"
+	ring_7="Deadly Water Ring"
+	ring_8="Deadly Earth Ring"
+	ring_9="Deadly Air Ring"
+	ring10="Deadly Void Ring"
+	
+	amulet_6="Fire Amulet of the Magic Hunter"
+	amulet_7="Water Amulet of the Magic Hunter"
+	amulet_8="Earth Amulet of the Magic Hunter"
+	amulet_9="Air Amulet of the Magic Hunter"
+	amulet10="Void Amulet of the Magic Hunter"
+	
+	amulet11="Tough Fire Amulet"
+	amulet12="Tough Water Amulet"
+	amulet13="Tough Earth Amulet"
+	amulet14="Tough Air Amulet"
+	amulet15="Tough Void Amulet"
+
+	set01_helm='Super Helm'
+	set02_helm='Wizard Hat'
+	set03_helm='Super Helm'
+	set04_helm='Super Helm'
+	set01_armor='Super Armor'
+	set02_armor='Wizard Robe'
+	set03_armor='Super Armor'
+	set04_armor='Super Armor'
+	set01_boots='Super Boots'
+	set02_boots='Wizard Boots'
+	set03_boots='Super Boots'
+	set04_boots='Super Boots'
+	
+	set01_axe='Chop-Chop Axe'
+	set01_amulet='Red Amulet'
+	set01_ring='Red Ring'
+	set02_staff='Wizard Staff'
+	set02_ring='Wizard Ring'
+	set03_mace='Super Mace'
+	set03_pwr='Green Power'
+	set03_ring='Green Ring'
+	set04_whip='Super Whip'
+	set04_lamp='Magic Lamp'
+	set04_amulet='Air Amulet'
+	
+	set05_helm="R`ha Helm"
+	set05_armor="R`ha Armor"
+	set05_boots="R`ha Boots"
+	set05_sword="R`ha Sword"
+	set05_ring="R`ha Ring"
+	set05_bug="Golden Bug"
+	
+	set06_armor="Black Robe"
+	set06_boots="Black Boots"
+	set06_scythe="Red Scythe"
+	set06_book="Death Note"
+	set06_rlc="Death Relic"
+	set06_helm="Pumpkin"
+	set06_cap="Black Hood"
+	set06_staff="Staff of Skulls"
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		staff_blue="Blue Staff"
+	staff_red="Red Staff"
+	staff_black="Black Staff"
+	staff_air="Air Staff"
+
+	barbarian="Barbarian"
+	barbarian_hint="Uses brute strength and raw fury to excel in combat"
+	bastard="Barbarian"
+	bastard_hint="Uses brute strength and raw fury to excel in combat"
+	
+	angel="Angel"
+	angel_hint="A fearless winged warrior"
+	amazon="Amazon"
+	amazon_hint="Fierce merciless warriors of the rainforest."
+	
+	pirate="Pirate"
+	pirate_hint="Always looking for Treasure. One shot and charge!"
+	
+	warrior_mace="Phoenix Hammer"
+	warrior_mace_hint="Follower of a fire cult"
+	knightsword="Phoenix Sword"
+	knightsword_hint="Follower of a fire cult, master of swords"
+	succubus="Succubus"
+	succubus_hint="Energy vampire - will leave no drop"
+	
+	
+	
+	
+	warrior_hero="Warrior"
+	warrior_hero_hint="Fights well in melee."
+	warrior="Warrior"
+	warrior_defender="Knight"
+	warrior_defender_hint="He wears armor infused with gold."
+	paladin="Paladin"
+	paladin_hint="A holy knight, crusading in the name of good and order."
+	dwarrior="Zealot"
+	dwarrior_hint="Dark warrior that follows a path of pure Evil. AoE damage."
+	dwarriorshadow="Shadow Knight"
+	dwarriorshadow_hint="Dark knights who have faith in pure Evil. AoE damage."
+	elf="Elf"
+	highelf="High Elf"
+	highelf_hint="Guardians of the forest, masters of the spear."
+	archer="Archer"
+	ranger="Ranger"
+	mag_blue="Wizard"
+	mag_red="Warlock"
+	mag_black="Necros"
+	tax_collector="Taxman"
+	taxes="Taxes"
+	knightarcher="Bowman"
+	knightarcher_hint="Armored archer equipped with a composite bow, seeking the Phoenix."
+	
+	gnom="Hammerer"
+	gnom_hint="Dwarves wield devastating hammers and do not fear magic."
+	gnome_trooper="Hammerer"
+	gnome_trooper_hint="Dwarves wield devastating hammers and do not fear magic."
+	gnome_range="Quarreller"
+	gnome_range_hint="A stubborn bunch, preferring to trust their own eyes."
+	gnome_shooter="Quarreller"
+	gnome_shooter_hint="A stubborn bunch, preferring to trust their own eyes."
+	
+	gnome_axe="Longbeard"
+	gnome_axe_hint="Are the most experienced of the Dwarf warriors, a fact evidenced by their long beards."
+	gnome_mage="Thane"
+	gnome_mage_hint="The spiritual and political leader of dwarves, the Thane is its ultimate power."
+	gnome_rifle="Thunderer"
+	gnome_rifle_hint="Methodical, they will simply keep on loading and firing in a disciplined manner."
+	gnome_sekira="Greybeard"
+	gnome_sekira_hint="For every battle they fight on the surface they have faced dozens below the ground."
+	bigsmith="Redbeard"
+	bigsmith_hint="Outcast everywhere - Redbeard is tough, smashing problems with his enormous weapon."
+
+	goblin="Goblin Peasant"
+	goblin_hint="Simple, life-loving goblin."
+	goblin_sword="Green Goblin Peasant"
+	goblin_sword_hint="Simple, life-loving goblin with a sword."
+	goblin_swords="Master Peasant"
+	goblin_swords_hint="This one found a second sword. Why not swing both at once?"
+	goblin_sniper="Green Goblin Archer"
+	goblin_sniper_hint="Sneaky, but very deadly in groups."
+	witch="Witch"
+	witch_hint="Wicked old women who have wrinkled skin, pimples, and pointy hats."
+	witch_red="Red Witch"
+	dragon="Dragon"
+	ram="Ram"
+	ram_red="Fire Ram"
+	sheep="Sheep"
+	fox="Fox"
+	rabbit="Rabbit"
+	elf_grey="Ancient Elf"
+	
+	energymax="+VAL Energy at the start of each turn"
+	blinded="Blinded"
+	blinded_hint="You can no longer see enemy Intents"
+	potionless="Thirst"
+	potionless_hint="You can no longer obtain potions"
+	confuse="Confuse"
+	confuse_hint="Whenever you draw a card, randomize it's cost"
+	
+	
+	nasus="Jackali"
+	nasus_hint="Protector of graves and cemeteries."
+	renekton="Renecton"
+	renekton_hint="Green of plumage, with alert face and raised fore."
+	azir='Horus'
+	azir_hint="The sky god controls the sun and the moon."
+	
+	goblin_warrior="Highborn"
+	goblin_warrior_hint="Born and raised to fight till death."
+	goblin_shield="Highborn"
+	goblin_shield_hint="Born and raised to shrug off massive punishment."
+	goblin_archer="Green Arrow"
+	goblin_archer_hint="Sneaky and deadly."
+	goblin_shaman="Shaman"
+	goblin_shaman_hint='A leader of goblins. He can cast powerful spells.'
+	goblin_elder="Shaman"
+	goblin_elder_hint='An elder shaman. He can cast powerful spells.'
+	
+	mingmage="Ring Mage"
+	mingmage_hint="His look will enfeeble, while his touch can freeze your heart."
+	you_dealt_dmg="Damage dealt by your army"
+	enemies_dealt_dmg="Enemy-inflicted damage"
+	
+	tax_collector_hint="Pillar of an empire. Collects taxes from nearby houses."
+	warrior_hint="Fights well in melee."
+	mag_blue_hint="Holy mages, that can heal the living and strike down the undead."
+	mag_red_hint="Red mages who love to play with fire."
+	mag_black_hint="Rumors tell that they have looked upon the very face of death."
+	ranger_hint="Sleek looking individuals who primarily use bows."
+	archer_hint="Sleek looking individuals who primarily use bows."
+	elf_hint="The Elves have slim and nimble bodies, and study the way of the bow from a young age."
+	mag_white="Airbender"
+	mag_white_hint="Sneaky master of lighting."
+	
+	genie='Genie'
+	genie_hint='Made of a smokeless and scorching fire. This one is on your side.'
+	airbow_blue='Air Bow'
+	airbow_blue_hint='Elemental air sealed in armor.'
+
+	giant_rat="Giant Rat"
+	giant_rat_hint="They are too big to be let go. Rats go crazy when provoked."
+	skelet="Skeleton"
+	skelet_hint="Soulless warriors that resist arrow attacks."
+	skeletarcher="Bone Archer"
+	skeletarcher_hint="Soulless archers that use their own bones as ammo."
+	skeletwarrior="Bone Warrior"
+	skeletwarrior_hint="He used to be a great knight before he took an arrow to the knee."
+	
+	dragonheads3="Hydra"
+	dragonheads2="Hydra"
+	dragonheads1="Hydra"
+	dragonheads3_hint="Has poisonous breath and blood so virulent that even its scent was deadly"
+	
+	zombe="Zombie"
+	zombe_hint="An animated corpse raised by witchcraft."
+	medusa="Medusa"
+	medusa_hint="A hideous woman with venomous snakes in place of hair."
+	garpy="Harpy"
+	garpy_hint="Shrill flying creatures that hunt local villagers for sport."
+	spider="Spider"
+	spider_hint="Poisonous spiders that prey on weak humans."
+	
+	skeletmage="Bone Mage"
+	skeletmage_hint="A once-great mage, before being slain by a barbarian"
+	
+	mermaid="Mermaid"
+	mermaid_hint="Aquatic beauty that swings her trident like a pro."
+	
+	goblin_axe="Green Axe"
+	goblin_axe_hint="The only thing they enjoy more than swinging axes is the screaming that follows."
+	golem="Stone Giant"
+	golem_hint="Big stone giant. To slow to understand foe from ally."
+	sandspear="Sand Defender"
+	sandspear_hint="Spirit of a desert warrior, defending his master."
+	sandpriest="Sand Priest"
+	sandpriest_hint="Spirit of a desert priest, defending his master."
+	ent="Ent"
+	ent_hint="Big living tree. Harmless while sleeping, deadly if awakened."
+	veigar="Veigar"	
+	veigar_hint="Used to be small and cute, but an old curse turned him into Japan's worst nightmare."
+	
+	spiderling="Spiderling"
+	spiderling_hint="Small - but still deadly venomous."
+	
+	orc="Orc Grunt"
+	orc_hint="These soldiers are the fodder for the orc hordes."
+	orc_heavy="Orc Warchief"
+	orc_heavy_hint="Every 10th Orc is stronger then the others - beware!"
+	orc_beast="Orc Beast"
+	orc_beast_hint="Green Beast created by corrupted elven magic."
+	
+	airgolem="Air Golem"
+	airgolem_hint="Pure air sealed by magic to walk amongst the living"
+	airsword="Air Sword"
+	airsword_hint="Enchanted armor with a sword."
+	airbow="Air Bow"
+	airbow_hint="Enchanted armor with a bow."
+	
+	vampire="Vampire"
+	vampire_hint="Very old undead that seeks fresh blood to keep him alive"
+	vampire_violet="Noble Vampire"
+	vampire_violet_hint="Member of a royal society that seeks the freshest blood."
+	vampire_red="Royal Vampire"
+	vampire_red_hint="Leader of a royal society that seeks the freshest blood."
+	
+	mag_evil="Necros"
+	mag_evil_hint="Half-dead mage who almost discovered the spell of eternal life."
+	elf_evil="Dark Archer"
+	elf_evil_hint='This elf comes out only at night to stalk prey.'
+	highelf_evil="Dark Scout"
+	highelf_evil_hint='This elf comes out only at night to stalk prey.'
+	minotaur="Minotaur"
+	minotaur_hint="Giant with the head of a bull on the body of a man."
+	trol="Troll"
+	trol_hint="Giant green beast. A very lonely creature that lives under bridges."
+	
+	dark_archer="Dark Archer"
+	
+	
+	
+	
+	
+	
+/>

@@ -1,0 +1,279 @@
+﻿<data>
+	<games>	
+		<game name="Royal Merchant" tar="all"
+			img="http://theelitegames.net/icos/rm.png"
+			url="https://itunes.apple.com/us/app/royal-merchant/id1446283659?mt=8"
+			androidurl="https://play.google.com/store/apps/details?id=com.elitegamesltd.royalmerchant"
+		>
+		<otherUrls />
+		<descShort>Reimagine the traditional RPG</descShort>
+			<descAdd>
+				Blending together traditional RPG systems, tycoon mechanics, and a fantasy overworld, Merchant aims to reimagine the traditional RPG.
+			</descAdd>
+			<descAddX>
+				<itemX>30 quests, over 500 items,</itemX>
+				<itemX>100+ Pixel-art Heroes, Enemies and epic Bosses,</itemX>
+				<itemX>Global ranking,</itemX>
+				<itemX>and lot more!</itemX>
+			</descAddX>
+		</game>
+		
+		<game name="Royal Booty Quest" tar="all"
+			img="http://theelitegames.net/moreigames/rbq_100.png"
+			url="https://itunes.apple.com/us/app/royal-booty-quest/id1414474189?mt=8"
+			androidurl="https://play.google.com/store/apps/details?id=com.elitegamesltd.royalquest"
+			win32="https://store.steampowered.com/app/948350/"
+			mac="https://itunes.apple.com/us/app/royal-booty-quest/id1436377350?mt=12"
+			steam="https://store.steampowered.com/app/948350/"
+		>
+		<otherUrls />
+		<descShort>Fused card games and roguelikes together</descShort>
+			<descAdd>
+				- 4 Heroes, each with own 70+ cards deck;
+				- 100+ Pixel-art Heroes, Enemies and epic Bosses;
+				- Modding and custom decks;
+				- and lot more!
+			</descAdd>
+			<descAddX>
+				<itemX>4 Heroes, each with own 70+ cards deck,</itemX>
+				<itemX>100+ Pixel-art Heroes, Enemies and epic Bosses,</itemX>
+				<itemX>Modding and custom decks,</itemX>
+				<itemX>and lot more!</itemX>
+			</descAddX>
+		</game>
+		
+		<game name="ConflictCraft" tar="all"
+			img="http://theelitegames.net/moreigames/conflict_100x100.png"
+			url="http://store.steampowered.com/app/495570"
+			win32="http://store.steampowered.com/app/495570"
+		>
+			<otherUrls />
+			<descShort>Defend and attack at same time</descShort>
+			<descAdd>
+- 15 maps to beat using tanks and heli,
+- 5 different types of strategic points,
+- editor to make own levels,
+- co-op via controllers and keyboard,
+- global weapons - nuclear missiles, napalm and more.
+			</descAdd>
+			<descAddX>
+				<itemX>15 maps to beat using tanks and heli,</itemX>
+				<itemX>5 different types of strategic points,</itemX>
+				<itemX>co-op via controllers and keyboard,</itemX>
+				<itemX>global weapons - nuclear missiles, napalm and more.</itemX>
+			</descAddX>
+			
+
+			<descShort_ko>동시에 방어와 공격을 하세요.</descShort_ko>
+			<descBody_ko>동시에 방어와 공격을 하세요. 이 전략 게임에서 당신은 가능한 많은 기지를 점령해야 합니다. 방공포, 포탑, 지원을 요청하는 무선탑, 핵 사일로와 같은 다양한 종류의 기지가 준비되어 있습니다. 당신은 3종류의 유닛(탱크, 아파치, 수송선)을 마음껏 사용할 수 있습니다.</descBody_ko>
+
+		</game>
+		
+		<game name="Royal Heroes" tar="all" 
+		img="http://theelitegames.net/moreigames/royal_heroes_100x100.png"
+		androidurl="https://play.google.com/store/apps/details?id=com.elitegamesltd.royalheroes"
+		banner="http://theelitegames.net/moreigames/ro_728x90.png"
+		ouya="http://www.ouya.tv/game/Royal-Heroes/"
+		url="http://itunes.apple.com/app/id985595486?mt=8&amp;uo=4&amp;at=11l5Y"
+		mac="http://itunes.apple.com/app/id1029622460"
+		amazonurl="http://www.amazon.com/dp/B017ODZ9GU/"
+		win32="http://store.steampowered.com/app/439920/"
+		>
+			<otherUrls/>
+			<descShort>Welcome, my Lord, to the cursed kingdom.</descShort>
+			<descShort_ko>안녕하십니까, 주인님. 저주받은 왕국에 오신 것을 환영합니다.</descShort_ko>
+			<descBody_ko>안녕하십니까, 주인님. 저주받은 왕국에 오신 것을 환영합니다. 이 땅은 흑마술과 어둠에서 비롯된 생물들에 시달리고 있습니다. 한때 이곳은 위대한 왕국이었습니다. 분명, 다시 위대해질 수 있습니다. 모든 것은 주인님께 달려있습니다. 판타지와 모험의 세계를 배경으로 한 전략 게임, Royal Heroes(로얄 히어로즈)에서 왕국을 재건해 보시기 바랍니다.</descBody_ko>
+			<descAdd>
+Welcome, my Lord, to the cursed kingdom. A land plagued by black magic and creatures that crawl out of the darkness. 
+Once this was a great kingdom. It could be great again. 
+That's all up to you. Enter the world of Royal Heroes - a strategy game set in a world of fantasy and adventure.
+			</descAdd>
+			<descAddX>
+				<itemX>Welcome, my Lord, to the cursed kingdom.</itemX>
+				<itemX>A land plagued by black magic</itemX>
+				<itemX>and creatures that crawl out of the darkness.</itemX>
+				<itemX>Once this was a great kingdom. It could be great again.</itemX>
+			</descAddX>
+		</game>
+		
+	<game name="Sports Surgery" tar="all" 
+		img="http://theelitegames.net/moreigames/surgery_100x100.png"
+		banner="http://theelitegames.net/moreigames/ro_728x90.png"
+		url="http://store.steampowered.com/app/643700"
+		win32="http://store.steampowered.com/app/643700"
+		>
+			<otherUrls />
+			<descShort>Perform the most amazing operations.</descShort>
+			<descShort_ko>세상에서 가장 놀라운 수술을 집도해보세요!</descShort_ko>
+			<descShort_ru>Симулятор самой трудной профессии в мире!</descShort_ru>
+			<descBody_ko>왼손에 소시지, 오른손엔 케첩을 든 의사 – 세상에서 가장 고된 정밀 수술 의사 시뮬레이터! 어떤 의미로도 대단한 그래픽으로 그려진 수많은 레벨에서 마치 현장의 비릿한 피내음이 느껴질 정도로 정신 나간 수술을 집도해 보십시오. 가상의 럭비 선수들에게 레알 어메이징한 수술을 실행하십시오. 
+			본 게임은 잔인성과 유머가 가미된 패러디 게임입니다.</descBody_ko>
+			<descBody_ru>Сосиска в левой руке, кетчуп в правой – это симулятор самой трудной профессии в мире - хирургии! Безумные операции, невероятная графика и такие напряженные уровни, что вы даже почувствуете эти запахи.</descBody_ru>
+			<descAdd>
+A sausage on his left hand and ketchup on the right – a simulator of the most difficult profession in the world precision surgery!
+Crazy operations, unbelievable graphics and levels so intense that you can even feel the smell.
+Perform the most amazing operations on real and no real rugby game players.
+This is a parodic game with cruel humor.
+			</descAdd>
+			<descAddX>
+				<itemX>A sausage on his left hand and ketchup on the right</itemX>
+				<itemX>a simulator of the most difficult profession in the world precision surgery!</itemX>
+				<itemX>Perform the most amazing operations on real and no real rugby game players.</itemX>
+				<itemX>This is a parodic game with cruel humor.</itemX>
+			</descAddX>
+	</game>
+		
+	<game name="Royal Offense" tar="all" 
+		img="http://theelitegames.net/moreigames/ro_100x100.png"
+		banner="http://theelitegames.net/moreigames/ro_728x90.png"
+		url="http://itunes.apple.com/app/id659970011?mt=8&amp;uo=4&amp;at=11l5Y9"
+		androidurl="http://play.google.com/store/apps/details?id=com.elitegamesltd.royaloffense"
+		amazonurl="http://www.amazon.com/gp/product/B00EP3BGWY"
+		nookurl="http://www.barnesandnoble.com/w/royal-offense-elite-games-ltd/1116824411"
+		samsung="http://apps.samsung.com/mars/topApps/topAppsDetail.as?productId=000000674566"
+		ouya="http://www.ouya.tv/game/Royal-Offense/"
+		mac="http://itunes.apple.com/app/id1070297318"
+		win32="http://store.steampowered.com/app/615090/"
+		>
+			<otherUrls/>
+			<descShort>Legendary strategy breaking fourth wall.</descShort>
+			<descShort_ko>제 4의 벽을 깨부수는 전설적인 전략 게임.</descShort_ko>
+			<descBody_ko>당신의 명령을 수행하며, 영웅들은 자신의 스킬과 재능을 발전시키고, 새로운 장비와 무기, 마법 엘릭서의 구매에 사용될 골드를 벌게 됩니다. 성을 장악하면, 그것을 업그레이드하거나 새로운 부대와 건물을 이용할 수 있게 됩니다. 인근에 있는 몬스터 부족과 전쟁을 벌여 골드를 버세요.</descBody_ko>
+			<descAdd>
+- 10 types of heroes with dozens of statistics, weapons and armour; 
+- A dozen types of monsters;
+- Several dozen spells;
+- 13 scenario missions, 3 difficulty levels. 
+			</descAdd>
+			<descAddX>
+				<itemX>- 10 types of heroes;</itemX>
+				<itemX>- A dozen types of monsters;</itemX>
+				<itemX>- Several dozen spells;</itemX>
+				<itemX>- 13 scenario missions, 3 difficulty levels. </itemX>
+			</descAddX>
+		</game>
+		
+
+		
+	<game name="Merlin's Lab" tar="all"
+		img="http://theelitegames.net/moreigames/merlins_100x100.png"
+		url="http://itunes.apple.com/app/id740544214?mt=8&amp;uo=4&amp;at=11l5Y9"
+		androidurl="https://play.google.com/store/apps/details?id=com.elitegamesltd.merlins"
+		nookurl="http://www.barnesandnoble.com/w/merlins-lab-elitegames-ltd/1118327290?ean=2940147174920"
+	>
+		<otherUrls/>
+		<descShort>Try to find the philosopher's stone.</descShort>
+			<descAdd>
+Create new items by matching three or more game-pieces: combine Ginseng turns into Potions, Potions into Infusions, Infusions into Puner, and so on...
+until you've filled the board with crystals, pure elements and maybe even Philosophers Stone it self.
+			</descAdd>
+			<descAddX>
+				<itemX>Create new items by matching three elements,</itemX>
+				<itemX>Ginseng turns into Potions, Potions into Infusions and more,</itemX>
+				<itemX>until you've filled the board with crystals,</itemX>
+				<itemX>pure elements and maybe even Philosophers Stone it self.</itemX>
+			</descAddX>
+	</game>
+	
+	<game name="ControlCraft 3" tar="all"
+		img="http://theelitegames.net/moreigames/cc3_100.png"
+		url="http://itunes.apple.com/app/id670524067?mt=8&amp;uo=4&amp;at=11l5Y9"
+		androidurl="https://play.google.com/store/apps/details?id=com.elitegamesltd.cc3"
+		amazonurl="http://www.amazon.com/gp/product/B00EP4EKZ8"
+		nookurl="http://www.barnesandnoble.com/w/controlcraft-3-elite-games-ltd/1117255490?ean=2940147155769"
+		samsung="http://apps.samsung.com/mars/topApps/topAppsDetail.as?productId=000000780150"
+		mac="https://itunes.apple.com/app/id1068315654"
+		win32="http://store.steampowered.com/app/490910"
+		>
+			<otherUrls/>
+			<descShort>Command your troops to take over control points.</descShort>
+			<descShort_ko>통제점을 차지하기 위해 병력들을 통솔해 보세요.</descShort_ko>
+			<descAdd>
+- High tech Art;
+- 30 levels to conquer;
+- Skills and super Weapons;
+- Scores and Achievements.
+			</descAdd>
+			<descAddX>
+				<itemX>- High tech Art;</itemX>
+				<itemX>- 30 levels to conquer;</itemX>
+				<itemX>- Skills and super Weapons;</itemX>
+				<itemX>- Scores and Achievements.</itemX>
+			</descAddX>
+		</game>
+	
+
+		
+		
+		
+		<game name="Ocean Lords" tar="all"
+			img="http://theelitegames.net/moreigames/ol_ico_100x100.png"
+			banner="http://theelitegames.net/moreigames/ol_728x90.png"
+			nookurl="http://www.barnesandnoble.com/w/ocean-lords-elite-games-ltd/1116494087"
+		>
+			<otherUrls/>
+			<descShort>Shiver me timbers, the pirates are coming! Quick!</descShort>
+			<descAdd>
+				-24 island chains to be conquered;
+				-Fast-paced strategy game for naval supremacy;
+				-Resource gathering and upgradable islands;
+				-Simple and fun, great for anyone aged 6+.
+			</descAdd>
+			<descAddX>
+				<itemX>-24 island chains to be conquered;</itemX>
+				<itemX>-Fast-paced strategy game for naval supremacy;</itemX>
+				<itemX>-Resource gathering and upgradable islands;</itemX>
+				<itemX>-Simple and fun, great for anyone aged 6+.</itemX>
+			</descAddX>
+		</game>	
+		
+		<game name="ReJoin" tar="all" img="http://theelitegames.net/moreigames/rejoin_100x100.png"
+			nookurl="http://www.barnesandnoble.com/w/rejoin-difference-games-llc/1114308689"
+		>
+			<otherUrls/>
+			<descShort>Try to Rejoin your body with your soul on the awesome game.</descShort>
+			<descAdd>
+				Control both your body and your soul at the same time,
+				as you try to make them connect to each other to find balance again.
+				Avoid all the traps on your way to rejoining with your soul!
+			</descAdd>
+			<descAddX>
+				<itemX>Control both your body and your soul at the same time,</itemX>
+				<itemX>as you try to make them connect to find balance again.</itemX>
+				<itemX>Avoid all the traps on your way, like spikes, falling ground,</itemX>
+				<itemX>and gravity to stop your from rejoining with your soul!</itemX>
+			</descAddX>
+		</game>	
+		
+
+		
+		<game name="Fly to the Moon!" tar="all" img="http://theelitegames.net/moreigames/tomoon_100x100.png" 
+			url="http://itunes.apple.com/app/id534274992?mt=8&amp;uo=4&amp;at=11l5Y9"
+			androidurl="http://play.google.com/store/apps/details?id=com.elitegamesltd.tomoon"
+			nookurl="http://www.barnesandnoble.com/w/fly-to-the-moon-elite-games-net/1117255487"
+			samsung="http://apps.samsung.com/mars/topApps/topAppsDetail.as?productId=000000639798"
+			ouya="https://devs.ouya.tv/gamers/queued_downloads/new?uuid=com.elitegamesltd.tomoon"
+		>
+			<otherUrls/>
+			<descShort>One step at a time, your space program is taking off.</descShort>
+			<descAdd>
+				One step at a time, your space program is taking off.
+				Use the money earned from each launch to upgrade your rocket.
+				Grab all the powerups and fuel you can while heading for the stratosphere.
+				Avoid colliding with blimps, balloons and UFOs - they hurt!
+				How fast can you get to the moon?
+			</descAdd>
+			<descAddX>
+				<itemX>One step at a time, your space program is taking off.</itemX>
+				<itemX>Use the money earned from each launch to upgrade your rocket.</itemX>
+				<itemX>Grab all the powerups and fuel you can while heading for the stratosphere.</itemX>
+				<itemX>Avoid colliding with blimps, balloons and UFOs - they hurt!</itemX>
+				<itemX>How fast can you get to the moon?</itemX>
+			</descAddX>
+		</game>	
+		
+
+		
+
+	</games>
+</data>

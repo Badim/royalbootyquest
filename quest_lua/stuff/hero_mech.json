@@ -1,0 +1,6 @@
+{
+	"tag":"Shiva", "scin":"shiva", "class":"mech", "hp":80, "money":99, "hue":162, "color":[0, 0.5, 1],
+	"deck":["Strike", "Strike", "Strike", "Strike", "Strike", "Defend", "Defend", "Defend", "Defend", "Defend", "Zap", "Dualcast"],
+	"relics":["Fox Tail"], "tags":["pets","powers"], "conditions":{"petsmax":3},
+	"state":"done",
+}

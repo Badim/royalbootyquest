@@ -1,0 +1,6 @@
+{
+	"tag":"Sila", "scin":"sila", "class":"blue", "hp":80, "money":199,
+	"deck":["Strike", "Strike", "Strike", "Strike", "Strike", "Defend", "Defend", "Defend", "Defend", "Crazy Wape"],
+	"relics":[], "tags":["poison", "harm", "exhaust", "random"],
+	"state":"hidden",
+}

@@ -1,0 +1,357 @@
+addDmgByCard	Hace +DMG adicional a todas las cartas que contienen 'VAL' (TOTAL)
+change_hand_ctype_1_true_2	Cambia 2 ataques
+changelog	Actualizaciones
+charmdouble_hint	Doble encantamiento
+cleanse_hint	Elimina debilidades
+cloud_auto_load	Auto Cargado
+cloud_auto_load_hint	Carga los datos de la nube cada vez que inicias el juego
+cloud_auto_save	Auto Guardado
+cloud_auto_save_hint	Guarda el juego cada vez que estás en la pantalla de Mapa
+cloud_synced	Guardado en la nube
+con_times	Daña VAL CON TIMES veces
+corpseexplosion	Explosión de cadaveres
+corpseexplosion_hint	Cuando el enemigo muere, hace daño igual a su max HP a todos los enemigos
+discord	Discord
+dmgByAttrFromSource	Causa daño igual a tu VAL
+dmgByAttrFromSourceTimes	Causa daño igual a tu VAL xTIMES veces
+dmgByEnemiesCount	Causa +DMG daño adicional a cada enemigo
+elitelootitems	Elites dejan caer +VAL objetos
+energysave_hint	Ahora, la energía se conserva entre turnos
+event_enemy_debuff	Cuando el enemigo recibe una debilidad
+event_enemy_played_any	Cuando el enemigo usa una carta
+event_kill	Cuando matas
+event_loserelics0_1_txt	Perder la Reliquia inicial
+event_money_txt	Gana VAL de Oro
+event_moneylose_txt	Pierde VAL de Oro
+event_played_1	Por cada Carta de Ataque jugada
+event_played_2	Por cada Carta de Habilidad jugada
+event_played_3	Por cada Carta de Poder jugada
+event_played_any	Cuando usas una carta
+event_played_cards_5	Cada vez que usas 5 cartas en un mismo turno
+event_played_ctype1_x3	Cada vez que usas 3 Ataques en un mismo turno
+event_played_ctype2_x3	Cada vez que usas 3 Habilidades en un mismo turno
+event_played_not_1	Cuando no uses una carta de Ataque
+event_potion_1_txt	Recibes 1 poción aleatoria
+event_potion_2_txt	Recibes 2 pociones aleatorias
+event_potion_3_txt	Recibes 3 pociones aleatorias
+event_potion_used	Cuando usas una Poción
+event_quest	Cuando entras en una ? habitación
+event_randomrelic_boots_txt	Buenas Botas o Malas Botas
+event_relic1_1_txt	Recibes una Reliquia común aleatoria
+event_relic2_1_txt	Recibes una Reliquia poco común aleatoria
+event_relic3_1_txt	Recibes una Reliquia rara aleatoria
+event_relic4_1_txt	Recibes una Reliquia de Jefe aleatoria
+event_relic_1_txt	Recibes una Reliqua aleatoria
+event_relic_2_txt	Recibes 2 Reliquias aleatorias
+event_relic_3_txt	Recibes 3 Reliquias aleatorias
+event_relic_txt	Recibes VAL
+event_removecard_1_txt	Eliminas 1 carta de tu mazo
+event_removecard_2_txt	Eliminas 2 cartas de tu mazo
+event_removecard_specific_txt	Eliminas todas las copias de NAME
+event_removecurses_all_txt	Eliminas todos los maldiciones
+event_rest	Al Descansar
+event_samecardinhand	Si tienes duplicados en tu mano
+event_search_txt	VAL% de que el monstruo vuelva. Gana un premio aleatorio restante
+event_shuffle	Cada vez que mezclas tu mazo
+event_transform_1_txt	Transforma 1 carta de tu mazo
+event_transform_2_txt	Transforma 2 cartas de tu mazo
+event_turn	Cada turno
+event_turnEnd	Al final de cada turno
+event_udmg	Si te dañan
+event_unblocked_dmg	Cuando un ataque causa daño
+event_upgrade_1_txt	Mejora 1 carta de tu mazo
+event_upgrade_2_txt	Mejora 2 cartas de tu mazo
+event_upgrade_specific_txt	Mejora todas las copias de NAMES
+event_upgraderandom_1_txt	Mejora 1 carta aleatoria
+event_upgraderandom_2_txt	Mejora 2 cartas aleatorias
+event_voodoo	Cuando creas una Muñeca
+eventburned	Carta de Fuego
+evoke	Manda actuar
+evoke1	Manda actuar a tu próxima Mascota una vez
+evokeAll	Manda actuar a Todos
+evokePassive1	Activa la pasiva de la Mascota de la derecha una vez
+evokePassiveX	Activa la pasiva de la Mascota VAL veces
+evokeReSummon	Invoca a la Mascota que acaba de ser mandada actuar
+evokeX	Manda actuar a tu próxima Mascota VAL veces
+evoke_hint	Tu Mascota es mandada actuar cuando no queden mas espacios o por Cartas especiales
+exhaust	Agota
+exhaust_fail	50% de probabilidades de que no se Agote una carta, en este caso, irá a la pila de descarte
+exhaust_hand_ctype_4_true_rnd	Agota un Estado aleatorio en tu mano
+exhaust_hand_ctype_all_false	Agota 1 carta de tu mano
+exhaust_hand_ctype_all_false_3	Agota 3 cartas de tu mano
+exhaust_hand_ctype_all_false_5	Agota 5 cartas de tu mano
+exhaust_hand_ctype_all_false_rnd	Agota una carta aleatoria de tu mano
+exhaust_hint	Elimina la carta del mazo hasta el final del combate
+extrax_hint	Cuando juegues una carta de coste X, sus efectos se incrementan por VAL
+feed_hint	Si mata, proporciona HP maxima
+fit_all_cards	Solapar las cartas
+fit_all_cards_hint	Si tienes más cartas que el ancho de pantalla - se sobrepondran
+focus	Concentración
+focus_hint	Incrementa la efectividad de las Mascotas
+for_each	por cada
+for_each_card	por cada carta
+for_each_enemy	por cada enemigo
+fox	Zorro
+frail	Debilitar
+frail_hint	Reduce la ganancia de Armadura en un 25%
+frozen	Silenciar
+frozen_hint	No puedes robar cartas en este turno
+fullscreen	Pantalla Completa
+getAddDmgByAttr_handctype1	Haz +VAL de daño adicional por cada carta de Ataque en mano
+grim_reaper	Parca
+hand_discard_1_false	Descarta todas tus cartas que no sean Ataques en tu mano
+hand_discard_1_true	Descarta todos los Ataques
+hand_discard_all_false	Descarta todas las Cartas
+hand_exhaust_1_false	Deshabilita todas las cartas No-Ataque en tu mano
+hand_exhaust_4_true	Deshabilita todas las cartas de Estado en tu mano
+hand_exhaust_all_false	Deshabilita la mano entera
+hand_hint	Mano
+harm	Dañar
+harm_hint	Inflinge daño verdadero a uno mismo
+harm_times	Inflinge VAL daño TIMES veces
+hero_blood_mage	Maga de sangre
+hero_blood_mage_hint	Emplea rituales oscuros para obtener más poder mágico. Está dispuesta a sacrificar su propia vida para adquirir ese poder.
+hero_demon	Demon
+hero_demon_hint	Ella abandonó a Adam y rechazó volver al Jardin del Eden. Puede parecer una chica bonita pero si te fijas verás sus garras de ave y colas serpenteantes.
+hero_frontier	Frontier
+hero_frontier_hint	Guerrera Templaria - Bendecida con el fuego del Sol. Su piel resplandece con fuego estelar mientras sus ojos arden con el poder de su celestial Aspecto interior.
+hero_miss_fortune	Miss Fortune
+hero_miss_fortune_hint	Una Rufiana Capitán famosa por su apariencia y temida por su rudeza
+hero_shaman	Shaman
+hero_shaman_hint	Una vez realizó una posesión espiritual en su servicio al santuario. Con el paso del tiempo, abandonó el santuario y empezó a trabajar independientemente.
+hero_shiva	Shiva
+hero_shiva_hint	Una genio que fue abandonada en un alud de nieve en Lanzelt, con actos justos y corazón frío como una noche de invierno
+hero_sila	Sila
+hero_sila_hint	Criatura sobrenatural. Una talentosa camaleónica que, a menudo se aparece con forma humana femenina. Según comentan, seduce hombres.
+hiddennoenemies_hint	En ? habitaciones, no se encontrarán enemigos comunes.
+hiddentreasure	VAL% más probabilidad de encontrar tesoros en ? habitaciones.
+ifTargetCONequalVAL	Si el objetivo consiguió CON igual a VAL
+ifTargetHas	Si el objetivo tiene CON
+ifTargetHaveMoreCONThenVAL	Si el objetivo tiene CON mayor que VAL
+ifTargetHpLess	Si HP es igual o menor que VAL%
+ifTargetHpMore	Si HP es igual o mayor que VAL%
+ifTargetIntend_dmg	Si un enemigo intenta atacar
+if_draw_card	Si la carta es un TYPE
+ignoreHarm_hint	No te dañas a ti mism@ durante un turno
+ignorebattlefervor	En este turno no obtienes más BF
+ignoredmg	En este turno el objetivo no puede hacer Daño
+innate	Innato
+innate_hint	Siempre empiezas los combates con esta carta en tu mano
+intangible	Intangible
+intangible_hint	Reduce todo el daño y HP perdido en 1
+intend_dmg	Atacando
+item_rarity0	Inicial
+item_rarity0_hint	Los Heroes pueden empezar con estos objetos.
+item_rarity1	Común
+item_rarity1_hint	Objetos débiles que se encuentran comúnmente.
+item_rarity2	Poco común
+item_rarity2_hint	Objetos más fuertes que aparecen menos frecuentemente.
+item_rarity3	Raro
+item_rarity3_hint	Objetos únicos y poderosos.
+item_rarity4	Jefazo
+item_rarity4_hint	Objetos encontrados sólo en cofres de Jefazos
+item_rarity5	Evento
+item_rarity5_hint	Objetos que sólo pueden obtenerse durante eventos.
+item_rarity6	Tienda
+item_rarity6_hint	Sólo puede comprarse en el Vendedor
+later	Más tarde
+lifelink	Enlace vital
+lives	Revivir
+lives_hint	En vez de morir, te curas el 50% de tu Max HP (funciona una vez)
+load	Carga
+lockon	Bloqueado
+lockon_hint	Las Mascotas hacen 50% más de daño a este objetivo
+login_hpmax	Aumenta tu Max HP en VAL
+login_money	Ganas VAL Oro
+lose_stuff	Pierdes ATTR
+missing_hp_to_attr	Da VAL% de HP perdidos como ATTR
+missing_hp_to_dmg	Hace daño equivalente a los HP perdidos
+missing_string	Falta STRING 
+money_bonus	Los enemigos dan VAL% más Oro
+money_heals	Cuando ganas Oro, te curas VAL HP
+more	Más Juegos
+moregames_opens_browser_getit	Conseguir
+next_turn	Pasar Turno
+no_card_to_upgrade	Sin cartas que Mejorar
+noresttrue	No puedes Descansar en las Posadas
+nosmithtrue	No puedes Forjar en las Posadas
+not_enought_energy	Te falta Energía
+nulify	Anular
+onConditions_add_voodoo_true	Añade VAL de poder a cada Muñeca
+onConditions_play_voodoo_true	Activa efecto de cada Muñeca
+onConditions_purge_voodoo_true	Ejecuta a Todas las Muñecas
+onConditions_voodoo_true	Para cada tipo de Muñeca
+onDiscard	Si esta carta se descarta
+onDraw	Cuando robes esta carta 
+onExhaust	Durante Cansancio
+onKillHint_false	Si mata a un enemigo, cambia esta carta por batalla: PRMS
+onKillHint_true	Si mata a un enemigo, cambia permanentemente esta carta: PRMS
+onPet	Por cada Mascota
+onPettrue	Por cada Mascota única
+one_of_the_skulls_stuck	Una de las Calaveras empotradas en la Puerta
+onlyKeepZero	Descarta todas las cartas robadas que no cuesten 0
+owned	Adquirida
+pain	Dolor
+passive	Pasiva
+peekX	Comprueba el VAL máximo de las cartas del mazo de robar (Puedes descartar cualquiera de ellas)
+pets	Mascotas
+petsmax	Espacio para Mascota
+petsmax_zero_msg	No gustas a las Mascotas
+pick_one_hint	Puedes elegir una
+played_1	Cuando lanzas un Ataque
+played_2	Cuando lanzas una Habilidad
+played_3	Cuando lanzas un Poder
+poisonMlt2	Dobla un Veneno enemigo
+poisonMlt3	Triplica un Veneno enemigo
+poisonadd	Cuando lanzas Veneno, daña VAL de Veneno adicional
+potion1	Obtienes una poción aleatoria
+potionX	Obtienes VAL pociones aleatorias
+potion_slot	Espacio para Poción
+potion_slot_hint	Usa pociones durante el combate para ganar mejoras o dañar a los enemigos
+potionless	Sedient@
+potionless_hint	No puedes obtener más pociones
+powers	Poderes
+preventdmg1	Previene la próxima perdida de HP
+preventdmg2	Previene las 2 próximas pérdidas de HP
+quest_curse3	Obtén 3 Maldiciones
+quest_relic3	Obtén 3 Reliquias
+quest_upgradeattacks2	Mejora 2 Ataques aleatorios
+quest_upgradeskills2	Mejora 2 Habilidades aleatorias
+question_victory	Victoria?
+rabbit	Conejo
+ram	Cabra
+ram_red	Cabra de Fuego
+rebound_hint	Pone la próxima carta que juegues en este turno encima del montón de robar
+redeck_draw_ctype_all_false	Mueve una carta del mazo de Descartadas a encima del montón de robar
+redeck_hand_ctype_all_false	Mueve una carta de tu mano a encima del montón de robar
+redeck_this_to_deck	Pone una copia de esta carta al montón de robar
+refund_card	Gana energía igual a su coste
+rehand_deck_ctype_1_true	Elige un Ataque de tu pila de robar y ponla en tu mano
+rehand_deck_ctype_2_true	Elige una Habilidad de tu pila de robar y ponla en tu mano
+rehand_deck_ctype_all_false	Elige una Carta de tu pila de robar y ponla en tu mano
+rehand_deck_ctype_all_false_2	Elige 2 Cartas de tu pila de robar y ponlas en tu mano
+rehand_draw_ctype_all_false	Devuelve una Carta de la pila de descartes a tu mano
+rehand_draw_energy_0_true_all	Pone todas las cartas de Coste 0 de la pila de descarte a tu mano
+rehand_trash_ctype_all_false	Mueve una carta del montón usado a tu mano
+rehand_trash_ctype_all_false_rnd	Mueve una carta aleatoria del montón usado a tu mano
+relic_names	Nombres de los objetos
+relic_names_hint	Nombres de los objetos - Definidos por acción O aspecto
+relicstoheal	Obtienes la opción de descansar en vez de recoger una reliquia
+remove_card_hint	Elimina NAME del mazo
+removeatrest	Ahora puedes eliminar cartas en la Posada
+removing_by_name	¿Estás seguro de eliminar "NAME"?
+removing_not_possible	Está fijado
+resize	Cambiar tamaño
+rest	Descansar
+rest_brew	Elaborar
+rest_brew_hint	Elabora dos pociones aleatorias
+rest_extra	Ahora puedes ganar en las Posadas
+rest_remove	Eliminar
+rest_remove_hint	Elimina una Carta de tu Mazo
+rest_rest_lift	Pesas
+rest_rest_lift_hint	Obtén Fuerza extra
+rest_rest_poisonadd	Recolectar
+rest_rest_poisonadd_hint	Obtén una Poción Extra
+rest_rest_voodoo	Vudú
+rest_rest_voodoo_hint	Obtén Poder Vudú extra
+rest_skull	Calavera
+rest_skull_hint	Busca la Llave Calavera
+rest_sleep	Dormir
+rest_sleep_hint	Cura un 30% de tu Max HP(VAL)
+rest_smith	Herrero
+rest_smith_hint	Mejora una carta de tu mazo
+restheal	Cura un VAL HP extra cuando descansas
+resthealper5cards	Cuando entras en una Posada - por cada 5 cartas en tu mazo de curas
+retaincards_hint	Al final de tu turno, conservar hasta VAL carta(s)
+retainhand_hint	Conserva tu mano este turno
+revive_hint	En vez de morir, te curas VAL (funciona una vez)
+royal_booty_quest	Royal Booty Quest
+royalcloud	Royal Cloud
+rule_attack_hand_hint	Sólo puede jugarse si todas las cartas de tu mano son Ataque
+rule_lastcard_hint	Sólo puede jugarse si no tienes más cartas en tu mano
+rule_unplayable_hint	No jugable
+rune_poison	Runa de Veneno
+sadistic_hint	Cuando aplicas una Debilidad al enemigo, reciben DMG daño
+saves	Guarda
+scrap_hint	Basura inservible
+set	Establecer
+sheep	Oveja
+shield_hint	Ganas VAL armadura (Cuando recibes daño no bloqueado, pierdes un stack)
+shift	Cambio
+shift_hint	Después de recibir VAL daño, cambias a modo especial
+shop_remove_card_hint	El servicio del Mercante, Eliminar Carta, ahora cuesta 50 de Oro
+show	Mostrar
+silenceskills_hint	No puedes usar ninguna carta Habilidad durante 1 turno
+skull_key	Se desconoce para que sirve esta Calavera
+spike	Lanza
+spike_hint	Cuando eres atacado, causa VAL daño al atacante
+stat_bosses	Jefazos Muertos
+stat_collector	Recolector
+stat_curses	Maldiciones
+stat_elites1	Elites Débiles Muertos
+stat_elites2	Elites Fuertes Muertos
+stat_elites3	Elites Superfuertes Muertos
+stat_floors	Plantas Subidas
+stat_highlander	Escalador
+stat_kills	Enemigos Muertos
+stat_pauper	Indigente
+stat_skulls	Calaveras Encontradas
+str	Fuerza
+strAddOnce	Añade VAL Fuerza durante 1 turno
+strNext	Fuerza en el Siguiente Turno
+strRmvOnce	Pierde VAL Fuerza durante 1 turno
+strX_hint	Fuerza afecta a este Ataque X veces
+str_hint	Incrementa el daño inflingido por punto
+str_times	VAL*(TIMES) Fuerza
+submitted	Entregado
+summoned_VAL	VAL Invocado
+summons	Invoca
+summons_VAL	Invoca VAL
+summons_hint	Invocando una Mascota, lo añade a tu primer Hueco vacío
+sync	Sincronizar
+to_enemies	a todos los enemigos
+to_enemy	al enemigo
+to_minhp	al enemigo con menos HP
+to_rnd	a un enemigo aleatorio
+to_rndmiss	a enemigos aleatorios
+too_much_potions	Demasiadas Pociones
+total	Total
+transfer_kill_enemies	Cuando un enemigo muere, transfiere cualquier CONDITION que tiene a todos los enemigos
+transfer_kill_rnd	cuando un enemigo muere, transfiere cualquier CONDITION que tiene a un enemigo aleatorio
+trash_hint	Montón Quemadas
+treasure	Tesoro
+treasureextrarelic	Los próximos VAL cofres de reliquia que abras tendrán 2 Reliquias
+turn	Turno
+turn_enemy	Turno del Enemigo
+turn_player	Turno del Jugador
+turnfalse	Al inicio de cada turno
+turntrue	Al final de tu turno
+tutorial_rbq_1	Vence a enemigos jugando cartas de tu mano!%e%eLas cartas necesitan %y%Energía%y% para ser jugadas.%eCuando hayas terminado, acaba tu turno.%e%eAl empezar tu turno, robarás nuevas cartas y tu %y%Energía%y% se rellenará.
+tutorial_rbq_2	Juega cartas defensivas para ganar %b%Armadura%b% cuando los enemigos quieran atacarte.%e%e%b%Armadura%b% reduce el ataque recibido pero %r%desaparece%r% al empezar el próximo turno.
+tutorial_rbq_3	Durante tu turno, puedes observar las %y%Intenciones%y% enemigas encima suyo.%e%eSi un enemigo intenta atacarte, asegúrate de añadirte %b%Armadura%b%!
+tutorial_rbq_fitallcards_1	Excelencia! Parece que sus manos están llenas.
+tutorial_rbq_fitallcards_2	Puedes mover a derecha o izquierda para revisar tus cartas.
+tutorial_rbq_fitallcards_3	O puedes quitar la opción 'Solapar las cartas'.
+tutorial_rbq_undecidedloot_1	Excelencia! Tienes un premio sin reclamar. Toca este diálogo para continuar.
+tutorial_rbq_undecidedloot_2	Puedes postponer la recogida. Pero sólo en este Acto. 
+tutorial_rbq_welcome_1	Bienvenida Excelencia! Toca este diálogo para continuar.
+tutorial_rbq_welcome_2	¿Con quién quiere ud. jugar hoy? Puede elegir cualquier héroe para aventurarse.
+undecidedloot	Premio No Reclamado
+unknown	Desconocido
+unlimited	Ilimitado
+unlimited_hint	Puede ser mejorado infinítamente
+upgrade_all_ctype_1_true_all	Mejora todas las cartas Ataque en este combate
+upgrade_all_ctype_all_false_all	Mejora TODAS las cartas en este combate
+upgrade_hand_ctype_all_false	Mejora una carta de tu mano en este combate
+upgrade_hand_ctype_all_false_all	Mejora TODAS las cartas en tu mano en este combate
+upgrade_hand_ctype_all_false_rnd	Mejora una carta aleatoria en tu mano
+vamp_hint	Cura HP igual al daño no bloqueado
+voodoo	Vudú
+voodoo_hint	Incrementa la duración de una nueva muñeca
+vulnerable	Vulnerable
+vulnerable_hint	El objetivo Vulnerable recibe 50% más de daño de Ataques
+warning_loot	Los Premios No Reclamados se perderán
+weak	Débil
+weak_hint	Todo el daño hecho por un personaje debilitado se reducirá en un 25%
+witch_red	Bruja Roja
+wristblade_hint	Los Ataques que cuesten 0, harán VAL daño adicional

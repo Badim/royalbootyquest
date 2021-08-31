@@ -1,0 +1,138 @@
+Wheel of Fortune	You came across a gipsy wagon. On the inside of its wall there is a big wooden disk covered by strange runes. %eThe gipsy woman approaches you and with a faint smile asks you if you want to give it a spin for a small fee.			Write what ever at the blue rectangles(ones against the event name)
+[Play]	Lose 20 Gold			just make a price you see fit :)
+[Leave]				
+				
+Match and Keep	A woman dressed in a  revealing maid outfit challenges you to a popular in this country game "Match and Keep".%e Do you accept it?			
+[Play]				
+[Leave]				
+				
+Designer	"Hey, you! Need good cards?" - an artsy looking  troll crosses your path, as you pass through the small village on a hill. "I am the best card artist around here and I can improve yours for a modest fee!" %eShould you pay for his service or rather push him aside? 			
+[Adjustments]	Lose 40 Gold: Upgrade two random cards			
+[Clean Up]	Lose 60 Gold: Transform two cards in your deck			
+[Full Service]	Lose 90 Gold: Upgrade one random card, Remove a card in your deck			
+[Punch]	Get 3 dmg			
+				
+Duplicator	As you enter a goblin's cave, you stumble across an odd-shaped contraption. It blinks with a neon lights and produce a high-pitched humming.%e The placard near it says: "Double or nothing!". Out of a curiosity you feel like inserting one of your cards for a test.			
+[Use]	Duplicate a card in your deck			Replace [Pray] with [Use]
+[Leave]				
+				
+Face Trader	Entering through the crack between a human and a demonic dimensions you found yourself facing a statue of something, that should never exist. Suddenly it comes to life and exclamates: "Touch or trade?" 			
+[Touch]	Get 10 dmg, Gain 75 Gold			
+[Trade]	Good Boots or Bad Boots			
+[Leave]				
+				
+Ancient Writing	You are standing in front of a human sized obsidian stone. There is a plane surface carved in it. The ancient writing along it tells a story about a life of a long gone civilisation. You can't help but admire its .. 			
+[Elegance]	Remove a card in your deck			
+[Simplicity]	Upgrade all copies of Strike, Defend			
+				
+The Ssssserpent	You heard stories about nagas but never faced one before. With an unnerved grimace on her face she shoves a small pouch in your hands. %e "Here, take thissss!" - says naga. "There are gold coinssss in it! It'ssss sssomething you humanssss like, yesssss?"			
+[Agree]	Gain 175 Gold, Add Doubt			
+[Disagree]				
+				
+Blood Upgrade	You are standing in front of a cursed altar. It is said, that whoever offers his blood to it, will obtain a tremendous power. Would you sacrifice a few drops of yours to see if it is true?			
+[Spill]	Get 15 dmg, Upgrade a card in your deck			It's "Spill" not "Spil" 
+[Leave]				
+				
+World of Goop	Through the crack in the fabric of a space you fell into a pool of a toxic goo with golden pebbles at the bottom. %e Your cloth starts to dissolve. %e Would you hurry up and go back to your world while loosing some valubles from your wrecked pockets? %e Or would you rather risk your life and grab some gold first?			
+[Gather Gold]	Get 12 dmg, Gain 75 Gold			
+[Leave It]	Lose 40 Gold			
+				
+Big Fish	Welcome to the "Big Fish" - the best fast food restaurant on this side of a kingdom! What would you like to order today?			
+[Banana]	Heal for 27 HP			
+[Donut]	5 Max HP			
+[Box]	Add Regret, Receive a random Relic			
+				
+Dead Adventurer	You stumble across a grave. The writing on  gravestone reads: "Here lies Vlad. Please do not disturb." 			
+[Search]				
+[Leave]				
+				
+Purifier	It's one of those altars of a long forgotten gods. You feel like praying next to it will lift a burden off your shoulders.			
+[Pray]	Remove a card in your deck			
+[Leave]				
+				
+Upgrade Shrine	It's one of those altars of a long forgotten gods. You feel like praying next to it will make you a stronger person.			
+[Pray]	Upgrade a card in your deck			
+[Leave]				
+				
+Transmogrifier	You came across an altar of the trickster god. You don't have an idea what will happen to you if you pray.			
+[Pray]	Transform a card in your deck			
+[Leave]				
+				
+Golden Idol	This statue of a long dead king seems attractive to you. Upon a further inspection you notice a piece of jewelry sitting on it's finger. %e It might be useful to you but it will definitely ruin the statue's look.			
+[Take]	Receive Green Ring			
+[Leave]				
+				
+Golden Shrine	This is a shrine of a god who has so many worshippers that you see  the symbols of this "peaceful" religion everywhere.			
+[Pray]	Gain 100 Gold			
+[Desecrate]	Gain 250 Gold, Add Regret			
+[Leave]				
+				
+Lab	As you enter the town between two lakes you stumble upon a white building with broken windows and a crashed down door. %e Seems it's an alchemical laboratory that was hastily abandoned. You decided to sift through it's remains. 			
+[Search]	Pick 3 random potion			
+				
+Living Wall	In your scouting the ruins of a castle you have came across the mural in the wall picturing an overwordly figure. %e Suddenly the figure comes to life and exclaims: "What do you want to do with your life?!"  You answer: "To  ..."			
+[Forget]	Remove a card in your deck			
+[Change]	Transform a card in your deck			
+[Grow]	Upgrade a card in your deck			
+				
+Ominous Forge	Another crack in the fabric of reality! You found yourself in the forge of a fire demon. Good thing he is currently absent, so you are quickly decided to ...			
+[Forge]	Upgrade a card in your deck			
+[Rummage]	Receive a random Relic			
+[Leave]				
+				
+Shining Light	The insides of the ruined church of deer god  looks ominous. However there is a strange light coming from the crashed ceiling. 			
+[Enter]	Get 15 dmg, Upgrade two random cards			
+[Leave]				
+				
+Scrap Ooze	You see something glitters in a big pile of scrap. You stretch your hand to pick it up and a drop of acidic slime drips onto you from one of the metal beam above your head.			
+[Reach Inside]	Get 3 dmg			
+[Leave]				
+				
+The Cleric	With the aching stomach and the bleeding foot you have managed to limp to the nearest church. %e The local cleric has agreed to heal you for a modest offering in gold coins.			
+[Heal]	Heal for 20 HP, Lose 35 Gold			
+[Purify]	Lose 50 Gold: Remove a card in your deck			
+[Leave]				
+				
+The Divine Fountain	The wavering muddy water in the bowl of this half ruined fountain does look sketchy. %e The placard nearby, however, says: "This is totally a blessed water!"			
+[Drink]	Remove all Curses			
+[Leave]				
+				
+The Woman in Blue	You have decided to visit a local alchemy shop. An enigmatic woman inside for a fee lets you pick few random vials from the shelf in a dark corner. 			
+[Buy A]	Lose 20 Gold, Pick 1 random potion			
+[Buy B]	Lose 30 Gold, Pick 2 random potion			
+[Buy C]	Lose 40 Gold, Pick 3 random potion			
+[Leave]				
+				
+Vampires Court	During your sleep you was whisked away by the servants of the infamous count. %e As you came to your senses you were offered to become a count's "childe". %e  You may try to offer him a keg of wine you had found in your adventures to avert being "sired".			
+[Offer]	Lose "dwarf keg": Remove all copies of Strike, Add Bite x5			
+[Accept]	Lose 20% hpmax: Remove all copies of Strike, Add Bite x5			
+[Refuse]				
+				
+Council of Ghosts	A group of ghosts who were adventurers , just like you, propose to you to partake in a dark ritual which will give them a final rest.			
+[Accept]	Lose 50% hpmax: Add Apparition x5			
+[Refuse]				
+				
+Bonfire Spirits	As you traveled through the forest you have stumbled across the bonfire. The blue flame doesn't hurt you! %e  You feel like make an offering to forest spirits.			
+[Offer]	Remove a card in your deck			
+[Leave]				
+				
+Bullies	A group of ogres approached you and demanded a payment for a pass across the street.			
+[Pay Up]	Lose 100 Gold			
+[Fight]				
+				
+Cursed Tome	In ancient catacombs you have found a "Tome of Evil Intent".  			
+[Read]				
+[Leave]				
+				
+Addicted	A gray-faced woman, who looks like a total junkie, begs you for some gold in exchange of one of her item.			
+[Give]	Lose 85 Gold: Receive a random Relic			
+[Card]	Lose JAX card: Receive a random Relic			
+[Leave]				
+				
+Dealer	A shady man under the birch tree offers you some bootleg wares.			
+[Pay]	Lose 77 Gold: Add JAX			
+[Decline]				
+				
+The Nest	What do you know, pixies have built a nest with a altar inside! Whoever offers enough blood drops to pixie's goddess will get a reward.			
+[Smash and Grab]	Gain 99 Gold			
+[Stay in Line]	Get 6 dmg, Add Ritual Dagger			

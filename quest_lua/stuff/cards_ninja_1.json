@@ -1,0 +1,71 @@
+[
+	{
+		"tag":"Elbow Strike",
+		"rarity":0,
+		"ctype":1,
+		"class":"ninja",
+		"range":"enemy",
+		"dmg":3,
+		"onUpgrade":{
+			"dmg":5,
+			"exhaust":true,
+		},
+		"energy":1,
+	},
+	{
+		"tag":"Stab",
+		"rarity":0,
+		"ctype":1,
+		"class":"ninja",
+		"range":"enemy",
+		"dmg":2,
+		"dmgRnd":3,
+		"onUpgrade":{
+			"tag":"Stab of Savagery",
+			"poison":2,
+		},
+		"energy":1,
+	},
+	{
+		"tag":"Bedlam",
+		"rarity":1,
+		"ctype":1,
+		"class":"ninja",
+		"range":"rnd",
+		"dmg":8,
+		
+		"onUpgrade":{
+			"tag":"Boosted Bedlam",
+			"dmg":12,
+		},
+		"onUpgrade2":{
+			"tag":"Enchanced Bedlam",
+			"draw":1,
+		},
+		"energy":1,
+		"onUse":{
+			"action":"discard", 
+			"target":"hand",
+			"filter":["ctype", "all", false],
+			"amount":1,
+		},
+	},
+	{
+		"tag":"Brazen Attack",
+		"rarity":1,
+		"ctype":1,
+		"class":"ninja",
+		"range":"enemy",
+		"dmg":4,
+		"dmgRnd":4,
+		"weak":2,
+		"onUpgrade":{
+			"weak":3,
+		},
+		"onUpgrade2":{
+			"dmg":6,
+			"dmgRnd":6,
+		},
+		"energy":2,
+	},
+]

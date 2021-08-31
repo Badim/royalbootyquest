@@ -1,0 +1,210 @@
+_times	TIMES veces
+accuracy_hint	Las Navajas infligen VAL de daño adicional
+act1_tag	Acto 1: El exodo
+act2_tag	Acto 2: La ciudad
+act3_tag	Acto 3: El mas alla
+act4_is_locked	Debes vencer los primeros 3 actos con 3 diferentes Heroes
+act4_tag	Acto 4: demasiado lejos
+act5_tag	Acto 5: inalcanzable
+actX	Acto VAL
+armorFromDraw	Gana Armadura igual al numero de cartas en tu pila de descarte
+armorMlt2	Duplica tu Armadura actual
+armor_hint	Reduce el daño recibido por la cantidad de Armadura
+armor_times	Gana VAL de Armadura TIMES veces
+artifact	Artefacto
+artifact_hint	Mitiga el siguiente Debuff
+autoupgradeattacks	Cuando agreges un Ataque, estara mejorado
+autoupgradepowers	Cuando agreges un Poder, estara Mejorado
+autoupgradeskills	Cuando agreges una Habilidad, estara Mejorada
+barricade_hint	La Armadura no expira
+battlefervor	FB
+battlefervorMlt2	Duplica tu FB actual
+beast_spear	Bestia lanza
+	
+bigsmith	Barbaroja
+bigsmith_hint	Marginado de todos lados, Barbaroja es duro, resolviendo sus problemas con su enorme arma
+blinded	Cegado
+blinded_hint	No puedes ver las Intenciones de los enemigos
+blur	Borroso
+blur_hint	No pierdes Armadura al inicio de tu siguiente turno
+candleblue_hint	Las Maldiciones pueden ser jugadas, Pierde 1 de hp y Agota la carta
+candlered_hint	Los Estados pueden ser jugados, agota la carta
+card_type_1	Ataque
+card_type_1_played	Las cartas de Ataque pueden ser jugadas en este turno
+card_type_2	Habilidad
+card_type_2_hand	Las Habilidades en tu mano
+card_type_3	Poder
+card_type_4	Estado
+card_type_5	Maldicion
+card_type_all_hand	Cartas en tu mano
+cardonbattle_hint	Los enemigos normales dejan caer una recompensa de cartas adicional
+cardontreasure_hint	Los cofres que no son de jefes contienen cartas
+change_all_tag_claw_true_all	Todas las cartas de Garras obtienen 2 de daño adicional este combate
+change_deck_ctype_1_true_1	Elije una carta de Ataque: al comienzo de cada combate esta carta estara en tu mano
+change_deck_ctype_2_true_1	Elije una carta de Habilidad: al comienzo de cada combate esta carta estara en tu mano
+change_deck_ctype_3_true_1	Elije una carta de Poder: al comienzo de cada combate esta carta estara en tu mano
+change_energy	Cuesta VAL por esta batalla
+change_energyTemp	Cuesta VAL por este turno
+change_hand_ctype_1_true	Cambia un Ataque en tu mano
+change_hand_ctype_1_true_all	Cambia todos los Ataques de tu mano
+change_hand_ctype_2_true_all	Cambia todas las Habilidades de tu mano
+change_hand_ctype_all_false_all	Cambia todas las cartas de tu mano
+change_hand_ctype_all_false_rnd	Cambia una carta aleatoria de tu mano
+charm	Encanto
+charmMlt2	Duplica tu Encanto
+charm_hint	Incrementa el daño recibido por cada punto, se reduce en 1 cada turno
+chooseOneRandom3	Elije 1 de 3 cartas aleatorias y ponla en tu pila de robo
+class_none	Sin color
+coffee	Café
+confirm	Confirmar
+confuse	Confundir
+confuse_hint	Cuando robes una carta, su costo sera aleatorio
+consume_pain_txt	Consume XXX puntos de Dolor para conseguir 1 ATTR
+continue	Continuar
+copy_hand_ctype_2_false	Crea una copia de una carta que no sea Habilidad en tu mano
+copy_hand_ctype_2_false_2	Crea dos copias de una carta que no sea habilidad en tu mano
+copy_hand_ctype_all_false_nextTurn_x3	Elije una carta, al siguiente turno, agrega 3 copias de esa carta a tu mano
+copy_this_to_draw	Pon una copia de esta carta en tu pila de descarte
+copy_this_to_hand	Pon una copia de esta carta en tu pila de robo
+corruption_hint	Las Habilidades cuestan 0, cuando juegas una Habilidad, Agotala
+create_class_hero_x1	Agrega una carta aleatoria a tu mano
+create_class_none_x1	Agrega una carta Sin color aleatoria a tu mano
+create_class_none_x2	Agrega 2 cartas Sin color aleatorias a tu mano
+create_ctype_1_x1	Agrega un Ataque aleatorio a tu mano
+create_ctype_2_x1	Agrega una Habilidad aleatoria a tu mano
+create_ctype_2_x2	Agrega 2 Habilidades aleatorias a tu mano
+create_ctype_3_x1	Agrega un Poder aleatorio a tu mano
+create_rarity_1_x1	Agrega una carta Comun aleatoria a tu mano
+ctype	Tipo de carta
+ctype_1	Ataque
+ctype_2	Habilidad
+ctype_3	Poder
+ctype_4	Estado
+ctype_5	Maldicion
+ctype_hint	Puede ser Ataque(1), Habilidad(2), Poder(3), status(4), Maldicion(5)
+curse_add_txt	Por cada Maldicion en tu mazo, obtienes 1 de ATTR
+curses_negated	Niega las siguientes VAL Maldiciones que obtengas
+deckToDmg1	Haz 1 de daño por cada carta en tu pila de robo
+deckToEnergy	Gana 1 de energia por cada VAL cartas en tu pila de robo
+deck_hint	Pila de robo
+destiny	Destino
+dex	Destreza
+dex_hint	Incremente la Armadura obtenida en 1 por cada Destreza
+discard	Descarte
+discard_all_ctype_all_false_all	Baraja todas tus cartas en tu pila de robo
+discard_hand_ctype_4_true	Descarta 1 Estado
+discard_hand_ctype_4_true_2	Descarta 2 Estado
+discard_hand_ctype_all_false	Descarta 1 carta
+discard_hand_ctype_all_false_2	Descarta 2 cartas
+discard_hand_ctype_all_false_3	Descarta 3 cartas
+discard_hand_ctype_all_false_rnd	Descarta una carta aleatoria
+discount_by_attacked	Cuesta 1 menos cada vez que recibes daño
+discount_by_discard	Cuesta 1 menos por cada carta que Descartes este turno
+discount_by_played_ctype3	Cuesta 1 menos de Energia por cada Poder usado este combate
+dmg_times	Haz VAL daño TIMES veces
+dmgmultiply2	El daño de los Ataques se duplica
+dmgmultiply3	El daño de los Ataques se triplica
+do_this_VAL_times	Hazlo VAL veces
+dollofacid	Muñeca de Acido
+dollofacid_hint	Aplica Veneno a un Enemigo aleatorio
+dollofdecay	Muñeca de putrefaccion
+dollofdecay_hint	Un Enemigo aleatorio piedre Fuerza por un turno
+dollofhope	Muñeca de Esperanza
+dollofhope_hint	Curate cada turno
+dollofpain	Muñeca de Dolor
+dollofpain_hint	Inflige daño a un Enemigo aleatorio
+donation_amber	Donacion Ambar
+donation_btn	Donar
+donation_gold	Donacion Dorada
+donation_silver	Donacion Plateada
+donations_extras	Donaciones & Extras
+doubleheavytap1	El primer Ataque que cueste 2 o mas es jugado dos veces
+doubleplay1	La primer carta que juegues, se juega dos veces
+doublepower1	Este turno, tu siguiente Poder se juega dos veces
+doublepower2	Este turno, tus siguientes 2 Poderes se juegan dos veces
+doubleskill1	Este turno, tu siguiente Habilidad se juega dos veces
+doubleskill2	Este turno, tus siguientes 2 Habilidades se juegan dos veces
+doubletap1	Este turno, tu siguiente Ataque es jugado dos veces
+doubletap2	Este turno, tus siguientes 2 Ataques se juegan dos veces
+dragon	Dragon
+draw1	Roba 1 carta
+drawPlayExhaust1	Juega la carta de arriba de tu pila de robo y Agotala
+drawToDmg1	Haz 1 de DMG por cada carta en tu pila de descarte
+drawUntilX	Roba cartas hasta que tengas VAL en la mano
+drawX	Roba VAL cartas
+draw_hint	Pila de Descarte
+drawless	Silencio
+drawless_hint	Roba 1 carta menos el/los siguiente/s VAL turno/s
+easyenemies	Los enemigos en tus primeros VAL combates tendran 1 de HP
+electrodynamics_hint	Relampagos ahora golpea a TODOS los enemigos
+elf_grey	Elfo Anciano
+emptychest	El siguiento Cofre que no sea de jefe que abras estara vacio
+energyAdd1	Gana 1 de Energia
+energyAddX	Gana VAL de Energia
+energyMlt2	Duplica tu Energia
+energymax	Gana +VAL de Energia al inicio de cada turno
+onlyKeepZero	
+owned	
+passive	
+peekX	
+petsmax	
+petsmax_zero_msg	
+poisonadd	
+potion1	
+potionX	
+potion_slot_hint	
+potionless_hint	
+powers	
+preventdmg1	
+preventdmg2	
+rabbit	
+rebound_hint	
+redeck_draw_ctype_all_false	
+redeck_hand_ctype_all_false	
+redeck_this_to_deck	
+rehand_deck_ctype_1_true	
+rehand_deck_ctype_2_true	
+rehand_deck_ctype_all_false	
+rehand_deck_ctype_all_false_2	
+rehand_draw_ctype_all_false	
+rehand_draw_energy_0_true_all	
+rehand_trash_ctype_all_false	
+relicstoheal	
+rest_rest_voodoo	
+rest_rest_voodoo_hint	
+restheal	
+resthealper5cards	
+retaincards_hint	
+revive_hint	
+royalcloud	
+rule_attack_hand_hint	
+rule_lastcard_hint	
+sadistic_hint	
+saves	
+set	
+shield_hint	
+shift_hint	
+shop_remove_card_hint	
+silenceskills_hint	
+stat_elites1	
+stat_elites2	
+stat_elites3	
+summoned_VAL	
+summons	
+summons_VAL	
+summons_hint	
+sync	
+to_minhp	
+transfer_kill_enemies	
+transfer_kill_rnd	
+treasureextrarelic	
+tutorial_rbq_undecidedloot_1	
+tutorial_rbq_undecidedloot_2	
+undecidedloot	
+unlimited	
+unlimited_hint	
+upgrade_all_ctype_1_true_all	
+upgrade_all_ctype_all_false_all	
+upgrade_hand_ctype_all_false	
+upgrade_hand_ctype_all_false_all	
+upgrade_hand_ctype_all_false_rnd	

@@ -1,0 +1,293 @@
+_times	TIMES TIMES
+accuracy_hint	Кинжалы сильней на VAL урона
+achievements	Достижения
+act4_is_locked	Надо пройти первых 3 акта любыми 3мя героями
+armorFromDraw	Получить Брони в размере количества карта в сбросе
+armor_times	Получить VAL Брони TIMES раз
+battlefervor	BF
+battlefervorMlt2	Удвоить BF
+beast_spear	Копье Зверя
+blinded	Слепь
+blinded_hint	Вы больше не видите намерений врага
+candleblue_hint	Проклятия можно разыграть за 1 HP
+candlered_hint	Статусы можно сжигать
+card_type_1_played	разыгранных атак в этом ходу
+card_type_2_hand	разыгранных навыков в этом ходу
+cardonbattle_hint	Дополнительная карта на выбор с обычных врагов
+cardontreasure_hint	В обычных сундуках можно теперь найти еще и Карту на выбор
+change_all_tag_claw_true_all	Все Claw карты
+change_energy	стоит VAL энергии на время этой битвы
+change_energyTemp	стоит VAL энергии на время этого тура
+change_hand_ctype_1_true	Изменить одну Атаку
+change_hand_ctype_1_true_all	Все карты в руке
+change_hand_ctype_2_true_all	Все Навыки в руке
+change_hand_ctype_all_false_all	Изменить все карты в Руке
+change_hand_ctype_all_false_rnd	Изменить случайную карту в Руке
+confuse	Замешательство
+confuse_hint	Случайная цена у вытянутых карт
+consume_pain_txt	Поглотить XXX боли для получения 1 ATTR
+ctype	Тип Карты
+curse_add_txt	Получить 1 силу за каждое проклятие в колоде
+curses_negated	Отвергает VAL найденых проклятий
+destiny	Судьба
+discard_hand_ctype_4_true	Сбросить 1 Статус
+discard_hand_ctype_4_true_2	Сбросить 2 Статуса
+dmgmultiply2	Урон от атак удвоен
+dmgmultiply3	Урон от атак утроен
+do_this_VAL_times	сделать VAL раз
+dollofacid_hint	Отравляет случайного врага
+dollofdecay_hint	Временно ослабляет случайного врага
+dollofhope_hint	Лечит каждый Ход
+dollofpain_hint	Наносит урон случайному врагу
+donation_amber	Amber Donation
+donation_btn	Чаевые
+donation_gold	Gold Donation
+donation_silver	Silver Donation
+donations_extras	Чаевые & Бонусы
+doubleheavytap1	Атака ценой в 2 или больше разыгрывается дважды в этом ходу
+doubleplay1	Следующая карта разыгрывается дважды
+dragon	Дракон
+drawless	Тишина
+drawless_hint	вытащить на одну меньше карт VAL ход(ов)
+easyenemies	Враги будут потрепаны в VAL следующих боях
+electrodynamics_hint	Лиса атакует всех врагов
+elf_grey	Древний Эльф
+energyAddX	получить VAL энергии
+energyMlt2	Удвоить Энергию
+energymax	Получить +VAL энергии в начале хода
+enjoing_gname	Нравится NAME?
+enjoing_review	Хотите оценить или оставить отзыв, чтобы я знал, как идут дела?
+event_Wound	Каждый раз когда вытягиваете Wound(Рану)
+event_add_pet	При призыве Зверька
+event_addedCtype4	Каждый раз когда вытягиваете Status(Статус)
+event_armor	При получении Брони
+event_card1_1_txt	Выбрать обычную карту
+event_card1_rnd_txt	Получить случайную обычную карту
+event_card2_1_txt	Выбрать необычную карту
+event_card2_rnd_txt	Получить случайную необычную карту
+event_card3_1_txt	Выбрать редкую карту
+event_card3_rnd_txt	Получить случайную редкую карту
+event_consume	При поглощении сундуда
+event_curse_3_txt	Получить 3 проклятия
+event_cursed	При получении проклятия
+event_dmg_txt	Получить VAL урона
+event_dublicate_1_txt	Склонировать карту из колоды
+event_empty_hand	Каждый раз когда нету карт в руке
+event_enemy_played_1	Когда враг разыгрывает Атаку
+event_enemy_played_2	Когда враг разыгрывает Навык
+event_enemy_played_3	Когда враг разыгрывает Талант
+event_enemy_played_any	Когда враг разыгрывает любую карту
+event_exhausted	Каждый раз когда сгорает карта
+event_harm	Каждый раз когда раните самого себя
+event_heal_txt	Вылечить на VAL HP
+event_kill	При убийстве
+event_loserelics0_1_txt	Потерять начальный Предмет
+event_money_txt	Получить VAL Золота
+event_moneylose_txt	Потерять VAL Золота
+event_played_any	При разыгрывании любой карты
+event_relic_txt	Получить VAL
+event_removecard_1_txt	
+event_removecard_2_txt	
+event_removecard_specific_txt	Удалить все копии NAME
+event_removecurses_all_txt	Удалить все проклятия
+event_samecardinhand	
+event_search_txt	
+event_shuffle	
+event_transform_1_txt	
+event_transform_2_txt	
+event_turn	Каждый ход
+event_turnEnd	В конце каждого Хода
+event_udmg	При получении урона
+event_unblocked_dmg	При нанесении урона
+event_upgrade_1_txt	Улучшить карту
+event_upgrade_2_txt	Улучшить пару карт
+event_upgrade_specific_txt	Улучшить все копии NAMES
+event_upgraderandom_1_txt	
+event_upgraderandom_2_txt	
+eventburned	
+evoke1	
+evokePassive1	
+evokePassiveX	
+evokeReSummon	
+evokeX	
+exhaust_hand_ctype_4_true_rnd	
+exhaust_hand_ctype_all_false	
+exhaust_hand_ctype_all_false_3	
+exhaust_hand_ctype_all_false_5	
+exhaust_hand_ctype_all_false_rnd	
+extrax_hint	
+for_each	
+for_each_card	
+for_each_enemy	
+fox	Лиса
+frozen	
+frozen_hint	
+getAddDmgByAttr_handctype1	
+grim_reaper	
+hand_discard_1_false	
+hand_exhaust_1_false	
+hand_exhaust_4_true	
+hand_exhaust_all_false	Сжечь все карты в руке
+hand_hint	Рука
+harm	Боль
+harm_times	
+hero_blood_mage	Кровавый Маг
+hero_blood_mage_hint	Использует темные обряды для доступа к мощной магии. Жертвует собственную кровь для усиления своих Атак.
+hero_demon	Демонесса
+hero_demon_hint	Может принимать форму красивой девушки, но при ближайшем рассмотрении могут быть обнаружены птичьи когти и змеиный хвост.
+hero_frontier	Жрица Войны
+hero_frontier_hint	Благословенная Солнцем - Её кожа сияет звездным огнем, а глаза горят силой небесного Аспекта внутри нее.
+hero_miss_fortune	Мисс Удача
+hero_miss_fortune_hint	Капитан Глубинных Вод прославилась не за свою внешностью, но за свою безжалостность.
+hero_shaman	Шаман
+hero_shaman_hint	
+hero_shiva	Шива
+hero_shiva_hint	
+hero_sila	Сила
+hero_sila_hint	
+hiddennoenemies_hint	
+hiddentreasure	
+ifTargetCONequalVAL	
+ifTargetHaveMoreCONThenVAL	
+ifTargetHpLess	
+ifTargetIntend_dmg	
+if_draw_card	
+innate	
+innate_hint	
+intangible	
+intangible_hint	
+later	Позже
+lifelink	Life Link
+lives	Воскрешение
+lives_hint	
+login_hpmax	
+login_money	
+lose_stuff	
+missing_hp_to_dmg	
+missing_string	
+money_bonus	
+money_heals	
+more	Больше Игр
+moregames_opens_browser_getit	Скачать
+next_turn	Следующий Тур
+no_card_to_upgrade	
+noresttrue	
+nosmithtrue	
+nulify	Обнулить
+onConditions_play_voodoo_true	
+onConditions_purge_voodoo_true	
+onPet	
+onPettrue	
+one_of_the_skulls_stuck	
+poisonadd	
+potion_slot_hint	
+potionless	Жажда
+potionless_hint	
+preventdmg1	
+preventdmg2	
+quest_curse3	Получить 3 Проклятия
+quest_relic3	Получить 3 Предмета
+quest_upgradeattacks2	Улучшить 2 случайных Атаки
+quest_upgradeskills2	Улучшить 2 случайных Навыка
+question_victory	Победа?
+ram	Баран
+ram_red	Огненный Баран
+redeck_draw_ctype_all_false	
+redeck_hand_ctype_all_false	
+redeck_this_to_deck	
+refund_card	Получить Энергии в соответствии с ценой
+rehand_deck_ctype_1_true	
+rehand_deck_ctype_2_true	
+rehand_deck_ctype_all_false	
+rehand_deck_ctype_all_false_2	
+rehand_draw_ctype_all_false	
+rehand_draw_energy_0_true_all	
+rehand_trash_ctype_all_false	
+relic_names	Названия
+relic_names_hint	Названия - по сути или по действию
+relicstoheal	
+remove_card_hint	Удалить NAME из колоды
+removeatrest	Вы можете удалять карты при отдыхе
+removing_by_name	Точно удалить "NAME"?
+removing_not_possible	Застряло
+rest_extra	При отдыхе вы теперь можете
+rest_remove_hint	Удалить карту
+rest_rest_lift	Подкачаться
+rest_rest_lift_hint	Больше Силы
+rest_rest_poisonadd	Собрать
+rest_rest_poisonadd_hint	Больше Яда
+rest_rest_voodoo	
+rest_rest_voodoo_hint	
+rest_skull	Череп
+rest_skull_hint	Найдите ключи в форме Черепа
+restheal	
+resthealper5cards	
+retaincards_hint	
+retainhand_hint	Остается в этом ходу в руке
+revive_hint	
+rule_attack_hand_hint	
+rule_lastcard_hint	
+rune_poison	Руна Яда
+sadistic_hint	
+set	
+sheep	Овца
+shield_hint	
+shift	Шифт
+shift_hint	
+shop_remove_card_hint	
+show	Показать
+skull_key	Какойто Череп
+start	Старт
+stat_bosses	Боссов поверженно
+stat_elites1	
+stat_elites2	
+stat_elites3	
+stat_floors	Пройдено комнат
+stat_kills	Убито Врагов
+stat_skulls	Черепов Найдено
+str_times	VAL*(TIMES) Силы
+too_much_potions	Слишком много бутылок
+vamp_hint	Выпивает HP незаблокированного урона
+voodoo_hint	Увеличивает длительность новых Кукол
+warning_loot	Отложенный Лут пропадет
+witch_red	Красная Ведьма
+wristblade_hint	Атаки ценой в 0 наносят VAL дополнительно урона
+
+change_hand_ctype_1_true_2	Изменить 2 Атаки
+changelog	Изменения
+con_times	Нанести VAL CON TIMES раз
+corpseexplosion	Труповзрыв
+corpseexplosion_hint	При смерти врага наносит урон остальным в размере количества жизней
+discord	Discord
+elitelootitems	В элитных комнатах +VAL предметов
+energysave_hint	Энергия не пропадает при пропуске хода
+event_enemy_debuff	Каждый раз когда враг получает дебафф
+event_relic_2_txt	Получить 2 случайных Предмета
+event_relic_3_txt	Получить 3 случайных Предмета
+event_rest	При отдыхе
+exhaust_failed	Сжигание не случилось
+feed_hint	Если цель убита, то повышает HP Max
+fit_all_cards	Уместить все карты
+fit_all_cards_hint	Если у вас больше карт в руке, чем ширина экрана - они друг на друга налезут
+harm_hint	Наносит урон себе
+
+build	Построить
+cards	Карты
+destroy	Уничтожить
+enemiesbonus	Усиление Врагов: VAL
+event_removecard_rnd_txt	Удалить случайную карту
+forge	Кузня
+forge_hint_rename	Прикоснитесь к карте для переименования
+hammers	Молоты
+ifTargetHpMore	Если жизней столько или больше VAL%
+merge	Соединить
+not_enought_val	Недостаточно: VAL
+nothing_to_pick_from	Не из чего выбрать
+onKillHint_false	Если убивает врага, то эта карта в этом бою: PRMS
+onKillHint_true	Если убивает врага, то эта карта навсегда: PRMS
+redeck_trash_ctype_all_false_rnd	Перемещает случайную карту из Сожженых в Добор
+rehand_trash_ctype_all_false_rnd	Перемещает случайную карту из Сожженых в Руку
+submitted	Отправлено
+tutorial_rbq_fitallcards_1	Ваше величество! Похоже у вас нету места в руках.
+tutorial_rbq_fitallcards_2	Вы можете свайпнуть влево или вправо для скролинга ваших карт.
+tutorial_rbq_fitallcards_3	Или можете в опциях поменять 'Fit All Cards'.

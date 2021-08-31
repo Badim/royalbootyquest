@@ -1,0 +1,6 @@
+{
+	"tag":"Sorcerer", "scin":"sorcerer", "class":"teal", "hp":80, "money":99, "hue":-32, "color":[1, 0.2, 0.5],
+	"deck":["Strike", "Strike", "Strike", "Strike", "Strike", "Defend","Defend", "Defend", "Flame strike", "Dark Ritual"],
+	"relics":["Soulcather Staff"], "tags":["souls"],
+	"state":"hidden",
+}

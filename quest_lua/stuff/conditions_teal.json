@@ -1,0 +1,167 @@
+{
+    "soulcatcher":{
+        "tag":"soulcatcher",
+        "teal":true,
+        "expire":1,
+        "hinted":true,
+        "event":"killed",
+        "play":{
+            "healTarget":2,
+            "range":"enemy"
+
+        }
+    },
+
+	"firewall":{
+		"event":"exhausted",
+		"play":
+		{
+			"range":"self",
+			"armor":1,
+		}
+	},
+	"phylactery":{
+		"event":"udmg",
+
+		"play":
+		{
+			"expire":999,
+			"heal":1,
+		}
+	},
+
+	"bloodlust":{
+		"event":"heal",
+		"play":
+		{
+			"str":1,
+			"range":"self"
+		}
+	},
+	"Soulconnection":{
+		"event":"turn",
+		"play":
+		{
+			"onConditions":
+			{
+				"attr":"tag",
+				"val":"damaged",
+				"range":"self",
+			}
+		}
+	},
+	"truephylactery":{
+		"event":"death",
+		"expire":999,
+		"play":
+		{
+			"heal":5,
+		}
+	},
+	"rising flame":{
+		"event":"exhausted",
+		"play":
+		{
+			"range":"enemies",
+			"dmg": 1,
+		}
+	},
+	"thrall":{
+		"event":"turnEnd",
+		"play":
+		{
+			"onConditions":{
+			"attr":"tag",
+			"val":"soulcatcher",
+			"range":"enemies",  
+            "OnCount":{
+                "dmg":1,
+				"range":"self"
+            },
+		},
+		}
+	},
+	"endless flame":{
+		"event":"turn",
+		"play":
+		{
+			"addCards":{
+				"hand":["Spark"],
+			},
+		}
+	},
+	"ash wall":{
+		"event":"exhausted",
+		"expire":999,
+		"play":
+		{
+			"range":"self",
+			
+		}
+	},
+
+	"ash blade":{
+		"event":"exhausted",
+		"expire":999,
+		"play":
+		{
+			"range":"self",
+			"str":1,
+		}
+	},
+
+	"sigiloffire":
+	{
+		"event":"exhausted",
+		"play":
+		{
+			"range":"self",
+			"dmg": 1,
+		}
+	},
+
+		"phoenix":
+	{
+		"event":"harm",
+		"play":
+		{
+			"range":"self",
+			"armor": 1,
+		}
+	},
+	
+	"witchseal":
+	{
+		"event":"exhausted",
+		"play":
+		{
+			
+		}
+	},
+
+	"rebirth":
+	{
+		"event":"exhausted",
+		"play":
+		{
+		"range":"self",
+			"create":
+			{
+				"attr":"class",
+				"count":1,
+				"val":"teal",
+				"target": "deck",
+			}
+		}
+	},
+
+	"distortion":
+	{
+		"event":"debuff",
+		"play":
+		{
+		"range":"self",
+		"dmg": 5,
+		},
+	},
+}

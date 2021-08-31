@@ -1,0 +1,11 @@
+{
+	"bleed":{
+		"event":"turn",
+		"play":{
+		  "range":"self",
+		  "dmg":1
+		},
+		"expire":999,
+		"hinted":true,
+	},
+}

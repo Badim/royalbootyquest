@@ -1,0 +1,6 @@
+{
+	"tag":"Shaman", "scin":"mummy", "class":"voodoo", "hp":70, "money":99, "hue":-70, "color":[0.8, 0.0, 0.9],
+	"deck":["Strike", "Strike", "Strike", "Strike", "Defend", "Defend", "Defend", "Defend", "Doll of Pain", "Last Rite"],
+	"relics":["Favorite Doll"], "tags":["voodoo","poison"],
+	"state":"testing",
+}

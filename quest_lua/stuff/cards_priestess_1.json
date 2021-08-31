@@ -1,0 +1,39 @@
+[
+	{
+		"tag":"Healing Light",
+		"rarity":1,
+		"ctype":2,
+		"class":"priestess",
+		"range":"ally",
+		"heal":8,
+		"onUpgrade":{
+			"heal":12,
+		},
+		"energy":1,
+		"exhaust":true,
+	},
+	{
+		"tag":"Mending Words",
+		"rarity":1,
+		"ctype":3,
+		"class":"priestess",
+		"range":"ally",
+		"regen":6,
+		"onUpgrade":{
+			"regen":8,
+		},
+		"energy":1,
+	},
+	{
+		"tag":"Holy Fire",
+		"rarity":1,
+		"ctype":1,
+		"class":"priestess",
+		"range":"enemy",
+		"dmg":5,
+		"onUpgrade":{
+			"dmg":8,
+		},
+		"energy":1,
+	},
+]

@@ -1,0 +1,34 @@
+<events>
+	<event tag="Finders Keepers">
+		<action tag="Find" gold="10" hp="0">
+			<do chanse="10">
+				<true>
+					<loot list="item"/>
+					<exit />
+				</true>
+				<fail>
+					repeat
+				</fail>
+			</do>
+			
+		</action>
+		<action tag="Close">
+			<exit />
+		</action>
+	</event>
+	
+	<event tag="Mushroom Room">
+		<action tag="Stomp">
+			battle - 3 enemies(hard)
+			reward - shroom
+		</action>
+		<action tag="Eat">
+			heal
+			curse
+		</action>
+	</event>
+	
+	<event tag="Curse or Money">
+		
+	</event>
+</events>

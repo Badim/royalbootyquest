@@ -1,0 +1,6 @@
+{
+	"tag":"Frontier", "scin":"scout", "class":"red", "hp":80, "money":99, "hue":-32, "color":[1, 0.2, 0.5],
+	"deck":["Strike", "Strike", "Strike", "Strike", "Strike", "Defend", "Defend", "Defend", "Defend", "Bash"],
+	"relics":["Burning Blood"], "tags":["exhaust", "harm", "armor", "str"],
+	"state":"done",
+}

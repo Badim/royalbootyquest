@@ -1,0 +1,27 @@
+	<game name="ControlCraft 2" tar="all"
+		img="http://theelitegames.net/moreigames/cc2_ico_100x100.png"
+		banner="http://theelitegames.net/moreigames/cc2_728x90.png"
+		url="http://itunes.apple.com/app/id531648566?mt=8&amp;uo=4&amp;at=11l5Y9"
+		androidurl="https://play.google.com/store/apps/details?id=com.elitegamesltd.cc2"
+		amazonurl="http://www.amazon.com/gp/product/B008A0NU2W"
+		nookurl="http://www.barnesandnoble.com/w/controlcraft-2-elite-games/1116423854"
+		samsung="http://apps.samsung.com/mars/topApps/topAppsDetail.as?productId=000000639828"
+		mac="https://itunes.apple.com/app/id1068315643"
+		win32="http://store.steampowered.com/app/439930/"
+	>
+			<otherUrls/>
+			<descShort>A fast thinking RTS game with tactic capabilities.</descShort>
+			<descShort_ko>전술 능력과 빠른 사고가 필요한 RTS 게임.</descShort_ko>
+			<descAdd>
+- High tech Art;
+- 24 levels to conquer;
+- Skills and super Weapons;
+- Scores and Achievements.
+			</descAdd>
+			<descAddX>
+				<itemX>- High tech Art;</itemX>
+				<itemX>- 24 levels to conquer;</itemX>
+				<itemX>- Skills and super Weapons;</itemX>
+				<itemX>- Scores and Achievements.</itemX>
+			</descAddX>
+		</game>

@@ -1,0 +1,6 @@
+{
+	"tag":"Monkey Queen", "scin":"monkeyqueen", "class":"purple", "hp":72, "money":99, "hue":-87, "color":[0.54, 0.33, 0.86],
+	"deck":["Strike", "Strike", "Strike", "Strike", "Defend", "Defend", "Defend", "Defend", "Eruption", "Vigilance"],
+	"relics":["Pure Water"], "tags":["exhaust", "str", "stances", "scry"],
+	"state":"done",
+}

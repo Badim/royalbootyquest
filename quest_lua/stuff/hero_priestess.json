@@ -1,0 +1,6 @@
+{
+	"tag":"Priestess", "scin":"knight", "class":"priestess", "hp":80, "money":99, "hue":-32, "color":[1, 0.2, 0.5],
+	"deck":["Strike", "Strike", "Strike", "Strike", "Strike", "Defend", "Defend", "Defend", "Defend"],
+	"relics":["Strawberry", "Coffee Dripper"], "tags":["exhaust", "charm", "armor", "str"],
+	"state":"hidden",
+}

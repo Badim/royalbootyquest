@@ -1,0 +1,48 @@
+[
+	{
+		"tag":"Enraged Blindness",
+		"dmg":9,
+		"rarity":0,
+		"ctype":1,
+		"class":"druid",
+		"range":"enemy",
+		"str":2,
+		"onUpgrade":{
+		  "dmg":11,
+		  "str":3,
+		},
+		"blinded":1,
+		"energy":0,
+	},
+	{
+		"tag":"Exposing Weakness",
+		"dmg":4,
+		"rarity":1,
+		"ctype":1,
+		"class":"druid",
+		"range":"enemy",
+		"onUpgrade":{
+		  "dmg":6,
+		},
+		"ifEnemy":{
+			"condition":"bleed",
+			"play":{
+				"vulnerable":2,
+				"range":"enemy",
+			}
+		},
+		"energy":0,
+	},
+	{
+		"tag":"Sanguine",
+		"dmg":8,
+		"rarity":2,
+		"ctype":1,
+		"class":"druid",
+		"range":"enemy",
+		"onUpgrade":{
+		  "dmg":10,
+		},
+		"energy":"x",
+	},
+]

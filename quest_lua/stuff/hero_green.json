@@ -1,0 +1,6 @@
+{
+	"tag":"Miss Fortune", "scin":"fortune", "class":"green", "hp":70, "money":99, "hue":118, "color":[0.6, 1, 0.6],
+	"deck":["Strike", "Strike", "Strike", "Strike", "Strike", "Defend", "Defend", "Defend", "Defend", "Defend", "Survivor", "Neutralize"],
+	"relics":["Prepared Shot"], "tags":["poison", "discard", "dex", "shiv"],
+	"state":"done",
+}

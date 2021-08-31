@@ -1,0 +1,6 @@
+{
+	"tag":"Fire Princess", "scin":"wizardess", "class":"fire", "hp":80, "money":99, "hue":0, "color":[1, 1, 1],
+	"deck":["Strike", "Strike", "Strike", "Strike", "Strike", "Defend", "Defend", "Defend", "Defend", "Dancing Flames"],
+	"relics":[], "tags":["exhaust", "revive", "burn", "super"],
+	"state":"hidden",
+}

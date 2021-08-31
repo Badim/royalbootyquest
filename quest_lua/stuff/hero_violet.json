@@ -1,0 +1,6 @@
+{
+	"tag":"Demon", "scin":"demon", "scin2":"dwarriorshadow", "class":"violet", "hp":70, "money":99, "hue":-70, "color":[0.8, 0.0, 0.9],
+	"deck":["Strike", "Strike", "Strike", "Strike", "Strike", "Defend", "Defend", "Defend", "Defend", "Lure"],
+	"relics":["Soul Shackles"], "tags":["charm","discard","pain","revive","str"],
+	"state":"done",
+}

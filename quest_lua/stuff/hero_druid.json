@@ -1,0 +1,6 @@
+{
+	"tag":"Druid", "scin":"knight", "class":"druid", "hp":80, "money":99, "hue":-32, "color":[1, 0.2, 0.5],
+	"deck":["Strike", "Strike", "Strike", "Strike", "Strike", "Defend", "Defend", "Defend", "Defend", "Blood Slash"],
+	"relics":[], "tags":["exhaust", "charm", "armor", "str"],
+	"state":"hidden",
+}

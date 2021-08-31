@@ -1,0 +1,577 @@
+act1_tag	Akt 1 Rozpoczęcie
+act2_tag	Akt 2 Miasto
+act3_tag	Akt 3 Rozdroża za miastem
+act4_tag	Akt 4 Granice rzeczywistości
+act5_tag	Akt 5 Nicość
+actX	Akt VAL
+adamantin_set	Zestaw z adamantium
+air_set	Zestaw znaku powietrza
+airbow	Łuk wiatru
+airbow_blue	Łuk wiatru
+airbow_blue_hint	Żywiołak powietrza w zbroi
+airbow_hint	Przęklęta dusza łucznika
+airgolem	Żywiołak powietrza
+airgolem_hint	Wiatr ożywiony przez magię, by kroczyć wśród żywych
+airsword	Ostrze wiatru
+airsword_hint	Zaczarowana zbroja z mieczem
+amazon	amazonka
+amazon_hint	Bezlitosna wojowniczka lasu tropikalnego
+amulet10	Amulet pustki wiecznego łowcy
+amulet11	Wytrzymały amulet znaku ognia
+amulet12	Wytrzymały amulet znaku wody
+amulet13	Wytrzymały amulet znaku ziemi
+amulet14	Wytrzymały amulet znaku powietrza
+amulet15	Wytrzymały amulet pustki
+amulet_1	Amulet przetrwania znaku ognia
+amulet_2	Amulet przetrwania znaku wody
+amulet_3	Amulet przetrwania znaku ziemi
+amulet_4	Amulet przetrwania znaku powietrza
+amulet_5	Amulet przetrwania pustki
+amulet_6	Amulet wiecznego łowcy znaku ognia
+amulet_7	Amulet wiecznego łowcy znaku wody
+amulet_8	Amulet wiecznego łowcy znaku ziemi
+amulet_9	Amulet wiecznego łowcy znaku powietrza
+angel	Anioł
+angel_hint	Nieustraszony boski wysłannik
+archer	Łucznik
+archer_hint	Elegackie osoby, zazwyczaj walczą za pomocą łuku
+armor	Pancerz
+armorMlt2	Podwój wartość pancerza
+armor_1	Brązowa zbroja
+armor_2	Żelazna zbroja
+armor_3	Stalowa zbroja
+armor_4	Zbroja z adamantium
+armor_5	Mithrilowa zbroja
+armor_hint	Zmniejsza otrzymywane dane o wartość pancerza
+artifact	Oczyszcenie
+artifact_hint	Blokuje następne osłabienie
+autoupgradeattacks	Za każdym razem gdy dodasz kartę ataku , jest ona ulepszona
+autoupgradepowers	Za każdym razem gdy dodasz kartę obrony , jest ona ulepszona
+autoupgradeskills	Za każdym razem gdy dodasz kartę mocy , jest ona ulepszona
+axe_1	Brązowy topór
+axe_2	Żelazny topór
+axe_3	Stalowy topór
+axe_4	Adamantium Topór
+axe_5	Mithrilowy topór
+azir	Horus
+azir_hint	Bóg życia kontroluje słońce i księżyc
+back	Wróć
+barbarian	Barbarzyńca
+barbarian_hint	Walczy wściekle bez żadnych skrupułów
+barricade_hint	Pancerz nigdy nie znika
+bastard	Barbarzyńca
+bastard_hint	Walczy wściekle bez żadnych skrupułów
+battle	Walka
+bigsmith	Czerwonobrody
+bigsmith_hint	Banita który rozwiązuje swoje problemy swoją ogromną bronią
+blunder_1	Brązowy garłacz
+blunder_2	Żelazny garłacz
+blunder_3	Stalowy garłacz
+blunder_4	Garłacz z adamantium
+blunder_5	Mithrilowy garłacz
+blur	Opancerzenie
+blur_hint	Pancerz nie usuwa się w nastepnej turze
+bomb_1	Stara bomba
+bomb_2	Zwyczajna bomba
+bomb_3	Szlachetna bomba
+bomb_4	Bohaterska bomba
+bomb_5	Krolewska bomba
+book10	Księga pustki
+book_1	Stara księga
+book_2	Zwyczajna księga
+book_3	Szlachetna księga
+book_4	Bohaterska księga
+book_5	Królewska księga
+book_6	Księga ognia
+book_7	Księga wody
+book_8	Księga ziemi
+book_9	Księga powietrza
+boots10	Królewskie buty
+boots_1	Brązowe buty
+boots_2	Żelazne buty
+boots_3	Stalowe buty
+boots_4	Buty z adamantium
+boots_5	Mithrilowe buty
+boots_6	Stare buty
+boots_7	Zwyczajne buty
+boots_8	Buty szlachcica
+boots_9	Buty bohatera
+bow_1	Sosnowy łuk
+bow_2	Łuk z teku
+bow_3	Łuk z hikory
+bow_4	Łuk z dębu
+bow_5	Łuk z sekwoi
+bronze_set	Zestaw z brązu
+cancel	Anuluj
+cape_1	Stary peleryna
+cape_2	Zwyczajna peleryn
+cape_3	Peleryna szlachcica
+cape_4	Peleryna bohatera
+cape_5	Królewska peleryna
+card_type_1	Karta ataku
+card_type_2	Karta obrony
+card_type_3	Karta mocy
+card_type_4	Karta statusu
+card_type_5	Karta klątwy
+card_type_all_hand	Kart w twojej ręce
+charm	Karta uroku
+charmMlt2	Podwój wartość uroku
+class_none	Karta neutralna
+close	Zamknij
+confirm	Podtwierdź
+confirming	Podtwierdzanie
+continue	Kontynuuj
+cost	Koszt
+cotton_set	Zestaw staroci
+create_class_hero_x1	Dodaj losową kartę do twojej ręki
+create_class_none_x1	Dodaj losową neutralną kartę do twojej ręki
+create_class_none_x2	Dodaj dwie losowe karty do twojej ręki
+create_ctype_1_x1	Dodaj losową kartę ataku do twojej ręki
+create_ctype_2_x1	Dodaj losową kartę obrony do twojej ręki
+create_ctype_2_x2	Dodaj dwie losowe karty obrony do twojej ręki
+create_ctype_3_x1	Dodaj losową kartę mocy do twojej ręki
+credits	Twórcy
+crossbow_1	Sosnowa kusza
+crossbow_2	Kusza z teku
+crossbow_3	Kusza z hikory
+crossbow_4	Dębowa kusza
+crossbow_5	Kusza z sekwoi
+ctype_1	Karta ataku
+ctype_2	Karta obrony
+ctype_3	Karta mocy
+ctype_4	Karta statusu
+ctype_5	Karta klątwy
+dark_archer	Mroczny łucznik
+deck_hint	Karty do dobrania
+dex	Zręczność
+dex_hint	Zwiększa ilość otrzymywanego pancerza o 1 za każdy punkt zręczności
+diadem_1	Stary diadem
+diadem_2	Zwyczajny diadem
+diadem_3	Diadem szlachcica
+diadem_4	Bohaterski diadem
+diadem_5	Królewski diadem
+discard	Odrzuć
+discard_hand_ctype_all_false	Odrzuć 1 kartę
+discard_hand_ctype_all_false_2	Odrzuć 2 karty
+discard_hand_ctype_all_false_3	Odrzuć 3 karty
+discard_hand_ctype_all_false_rnd	Odrzuć losową kartę
+dmg	Obrażeń
+dollofacid	Kukła zatrucia
+dollofdecay	Kukła rozkładu
+dollofhope	Kukła nadziei
+dollofpain	Kukła bólu
+doubleaxe_1	Brązowy topór obosieczny
+doubleaxe_2	Żelazny topór obosieczny
+doubleaxe_3	Stalowy topór obosieczny
+doubleaxe_4	Obosieczny topór z adamantium
+doubleaxe_5	Mithrilowy topór obosieczny
+doublepower1	W tej turze twoja następna karta mocy aktywuje się dwukrotnie
+doublepower2	W tej turze twoje dwie następne karty mocy aktywują się dwukrotnie
+doubleskill1	W tej turze twoja następna karta obrony aktywuje się dwukrotnie
+doubleskill2	W tej turze twoje dwie następne karty obrony aktywują się dwukrotnie
+doubletap1	W tej turze twoja następna karta ataku aktywuje się dwukrotnie
+doubletap2	W tej turze twoje dwie następne karty ataku aktywują się dwukrotnie
+dragonheads1	Hydra
+dragonheads2	Hydra
+dragonheads3	Hydra
+dragonheads3_hint	Ma trujący oddech, i krew toksyczną na tyle, że nawet jej opary są śmiertelne 
+draw1	Dobierz kartę
+draw_hint	Odrzucone karty
+dwarrior	Mroczny wojownik
+dwarrior_hint	Wojownik opętany przez siły zła. Obrażenia obszarowe
+dwarriorshadow	Cienisty wojownik
+dwarriorshadow_hint	Fanatyk walczący w imię zła. Obrażenia obszarowe
+earth_set	Zestaw znaku ziemi
+elf	Elf
+elf_evil	Mroczny łucznik
+elf_evil_hint	Ten łowca poluje tylko w nocy na swoje ofiary
+elf_hint	Elfy są szczupłe i zwinne, od najmłodszych lat trenują strzelectwo
+enemies_dealt_dmg	Obrażenia zadane przez przeciwnika
+energyAdd1	Energia +1
+ent	Drzewiec
+ent_hint	Ożywione drzewo. Niegroźne w spoczynku, przebudzone potrafi być zabójcze
+entangled	Splątany
+entangled_hint	nie możesz używać kart ataku w tej turze
+ethereal	Ulotny
+ethereal_hint	Ta karta wyczerpie się sama na koniec tej tury
+event_battle_start	Na początku walki
+event_battle_won	Na koniec walki
+event_death	Agonia
+event_debuff	Za każdym razem gdy osłabiasz przeciwnika
+event_discard	Za każydm razem gdy odrzucasz kartę
+event_dmg	Jeżeli zostaniesz zaatakowany
+event_played_1	Za każdą zagraną kartę ataku
+event_played_2	Za każdą zagraną kartę obrony
+event_played_3	Za każdą zagraną kartę mocy
+event_voodoo	Za każdym razem jak stworzysz kukłe
+exhaust	Wyczerp kartę
+exhaust_fail	Wyczerpanie nie powiodło się
+exhaust_hint	Przenosi kartę do sterty Wyczerpanych
+exit	Wyjść
+fire_set	Zestaw ognia
+flax_set	Zestaw bohatera
+frail	Łamliwy
+frail_hint	Zmniejsza ilość otrzymywanego pancerza o 25%
+garpy	Harpia
+garpy_hint	Latające stworzenie atakujące pobliskich mieszkańców
+genie	Dżin
+genie_hint	Stworzony z starożytnego ognia. Jest po twojej stronie
+giant_rat	Olbrzymy szczur
+giant_rat_hint	Są zbyt duże by żyć na wolności. Szaleją gdy są sprowokowane
+gnom	Kowal
+gnom_hint	Krasnoludy władające młotami, niestraszna im magia
+gnome_axe	Długobrody
+gnome_axe_hint	Krasnoludy najlepsze w boju, stąd ich długa broda
+gnome_mage	Szlachcic
+gnome_mage_hint	Władca krasnoludów, tytuł szlachcica to jego największa moc
+gnome_range	Awanturnik
+gnome_range_hint	Trzymają sie w grupie. ufają tylko sobie nawzajem
+gnome_rifle	Gromowładny
+gnome_rifle_hint	Typowy mag, ciska piorunami i szykuje kolejne
+gnome_sekira	Szarobrody
+gnome_sekira_hint	Za każdą walke na ziemi zmierzą się z tuzinem walk poza ziemią
+gnome_shooter	Awanturnik
+gnome_shooter_hint	Zgrana paczka, ufają tylko sobie
+gnome_trooper	Kowal
+gnome_trooper_hint	Krasnoludy kochające swoje młoty, chronieni przed magią
+goblin	Gobliński rolnik
+goblin_archer	Gobliński łucznik
+goblin_archer_hint	Podstępny i zabójczy
+goblin_axe	Gobliński wojownik
+goblin_axe_hint	Jedyną rzeczą którą lubią bardziej od swoich siekier, jest krzyk wydawany przez ofiary owych siekier
+goblin_elder	Szaman
+goblin_elder_hint	Starszy szaman. Potrafi rzucać potężne zaklęcia
+goblin_hint	Zwykły, kochający życie goblin
+goblin_shaman	Szaman
+goblin_shaman_hint	Wódz goblinów. Potrafi rzucać potężne zaklęcia
+goblin_shield	Szlachcic
+goblin_shield_hint	Urodzony by znieść masową kare
+goblin_sniper	Zielony gobliński łucznik
+goblin_sniper_hint	Skryty, zabójczy w grupie
+goblin_sword	Gobliński chłop
+goblin_sword_hint	Zwykły, kochający życie goblin
+goblin_swords	Władca chłopów
+goblin_swords_hint	Znalazł drugi miecz. Dlaczego nie walczyć oboma? 
+goblin_warrior	Szlachcic
+goblin_warrior_hint	Urodzony by walczyć do śmierci
+golem	Kamienny olbrzym
+golem_hint	Kamienny olbrzym, nie boi się nikogo
+gui_size	Rozmiar interfejsu
+gui_time	Czas interfejsu
+hammer_1	Brązowy młot
+hammer_2	Żelazny młot
+hammer_3	Stalowy młot
+hammer_4	Młot z adamantium
+hammer_5	Mithrilowy młot
+hand_discard_1_true	Odrzuć wszystkie ataki z twojej ręki
+hand_discard_all_false	Odrzuć wszystkie karty z twojej ręki
+heal	Ulecz
+healing	Leczenie
+healing_hint	Leczenie jest bardziej efektywne podczas walki
+helm10	Królewski hełm
+helm_1	Brązowy hełm
+helm_2	Żelazny hełm
+helm_3	Stalowy hełm
+helm_4	Hełm z adamantium
+helm_5	Mithrilowy hełm
+helm_6	Stary hełm
+helm_7	Hełm 
+helm_8	Hełm szlachcica
+helm_9	Hełm bohatera
+highelf	Starszy elf
+highelf_evil	Mroczny zwiadowca
+highelf_evil_hint	Ten łowca poluje tylko w nocy na swoje ofiary
+highelf_hint	Strażnicy lasu, Mistrzowie w posługiwaniu się włócznią
+intend_dmg	Atak
+iron_set	Zestaw z żelaza
+knightarcher	łucznik
+knightarcher_hint	Opancerzony łucznik, szukający feniksa
+knightsword	Ostrze feniksa
+knightsword_hint	Wyznawca kultu ognia, mistrz ostrza
+linen_set	Zestaw szlachcica
+lockon	Oznaczenie
+lockon_hint	Zwierzątka zadają 50% więcej obrażen temu celowi
+loot	Skarb
+mag_black	Nekromanci
+mag_black_hint	Plotki mówią, że już stali twarzą w twarz ze śmiercią
+mag_blue	Czarodziej
+mag_blue_hint	Potrafi uzdrowić żywych, jak i zesłać zmarłych tam gdzie ich miejsce
+mag_evil	Necros
+mag_evil_hint	Pół-żywy mag, bliski wynalezienia czaru wiecznego życia
+mag_red	Mag znaku ognia
+mag_red_hint	Lubi zabawy z ogniem
+mag_white	Mag znaku powietrza
+mag_white_hint	
+master_volume	Głośność
+medusa	Meduza
+medusa_hint	Skryta kobieta z wężami zamiast włosów
+mermaid	Syrena
+mermaid_hint	Piękność świetne władająca trójzębem
+mingmage	Władca pierścieni
+mingmage_hint	Jego spojrzenie złamie każdego, a dotyk zmrozi ducha
+minotaur	Minotaur
+minotaur_hint	Olbrzym z głową  byka i ciałem człowieka
+mithril_set	Zestaw z mithrilu
+money	Złoto
+more_games	Więcej gier
+music	Muzyka
+musket_1	Brązowy muszkiet
+musket_2	Żelazny muszkiet
+musket_3	Stalowy muszkiet
+musket_4	Muszkiet z adamantium
+musket_5	Mithrilowy muszkiet
+nasus	Nasus
+nasus_hint	Strażnik grobowców, bóg pustyni
+not_enought_energy	Brak energii
+ok	Ok
+onConditions_add_voodoo_true	Dodaj VAL mocy twoim kukłom
+onConditions_voodoo_true	Za każdą aktywną kukłe
+onDiscard	Jeżeli ta karta zostanie odrzucona
+onDraw	Za każdym razem jak dobierzesz tę kartę
+onExhaust	Przy wyczerpaniu
+options	Opcje
+orc	Orczy wojownik
+orc_beast	Orczy minotaur
+orc_beast_hint	Zielona bestia ożywiona starożytnym zaklęciem
+orc_heavy	Wódz orków
+orc_heavy_hint	Pamiętaj, co dziesiąty ork jest silniejszy
+orc_hint	Ci wojownicy walczą zawsze w grupie
+pain	Ból
+paladin	Paladyn
+paladin_hint	Boski rycerz, walczący w imie dobra i honoru
+pause	Pauza
+pets	Zwierzątka
+pick_one_hint	Wybierz jedno
+pirate	Pirat
+pirate_hint	Poszukiwacz skarbów. Strzał i abordaż!
+play	Graj
+played_1	Za każdym razem jak zagrasz kartę ataku
+played_2	Za każdym razem jak zagrasz kartę obrony
+played_3	Za każdym razem jak zagrasz kartę mocy
+poison	Trucizna
+poisonMlt2	Podwój wartość trucizny
+poisonMlt3	Potrój wartość trucizny
+poison_hint	Na początku tury, cel otrzymuje obrażenia i traci punkt trucizny
+potion_slot	Miejsce na miksture
+question_upgrade	Ulepszyć?
+quit_game	Na pewno chcesz wyjść?
+quiver_1	Strzały podpalające
+quiver_2	Magiczne strzały
+quiver_3	Trujące strzały
+quiver_4	Strzały 
+quiver_5	Strzały z pustki
+ranger	Leśniczy
+ranger_hint	Szuka ludzi którzy nie umieją używać łuku, by ich wyszkolić
+renekton	Renekton
+renekton_hint	Zielona skóra, i czujne oko czynią go niebezpiecznym
+resize	Zmień rozmiar
+rest	Odpocznij
+rest_brew	Warzenie
+rest_brew_hint	Przyrządź dwie losowe mikstury
+rest_remove	Usuń
+rest_sleep	Śpij
+rest_sleep_hint	Ulecz za 30% maksymalnego zdrowia(VAL)
+rest_smith	Ulepsz
+rest_smith_hint	Ulepsz  kartę w twojej talii
+restart	Restart
+restore	Odzyskaj
+revive	Przywróc do życia
+ring10	Pierścień zabójcy znaku pustki
+ring11	Pierścień truciciela znaku ognia
+ring12	Pierścień truciciela znaku wody
+ring13	Pierścień truciciela znaku ziemi
+ring14	Pierścień truciciela znaku powietrza
+ring15	Pierścień truciciela znaku pustki
+ring_1	Pierścień wiecznego łowcy znaku ognia
+ring_2	Pierścień wiecznego łowcy znaku wody
+ring_3	Pierścień wiecznego łowcy znaku ziemi
+ring_4	Pierścień wiecznego łowcy znaku powietrza
+ring_5	Pierścień wiecznego łowcy znaku pustki
+ring_6	Pierścień zabójcy znaku ognia
+ring_7	Pierścień zabójcy znaku wody
+ring_8	Pierścień zabójcy znaku ziemi
+ring_9	Pierścień zabójcy znaku powietrza
+robe_1	Stara szata
+robe_2	Zwykła szata
+robe_3	Szata szlachcica
+robe_4	Szata bohatera
+robe_5	Królewska szata
+robe_unique	Magiczna szata
+rope_set	Zestaw typowego wojownika
+royal_booty_quest	Królewska wyprawa po skarby
+rule_unplayable_hint	Niegrywalna
+rune_air	Runa znaku powietrza
+rune_earth	Runa znaku ziemi
+rune_fire	Runa znaku ognia
+rune_void	Runa znaku pustki
+rune_water	Runa znaku wody
+sandals_1	Stare sandały
+sandals_2	Zwykłe sandały
+sandals_3	Sandały szlachcica
+sandals_4	Sandały bohatera
+sandals_5	Królewskie sandały
+sandpriest	Pustynny kapłan
+sandpriest_hint	Duch pustyni, chroni swojego władce
+sandspear	Pustynny wojownik
+sandspear_hint	Duch pustyni, chroni swojego władce
+scores	Wyniki
+scrap_hint	Bezużyteczny śmieć
+scroll_air	Zwój znaku powietrza
+scroll_earth	Zwój znaku ziemi
+scroll_fire	Zwój znaku ognia
+scroll_getting_hint	Magowie zostawiają swoje zwoje, gdy odchodzą
+scroll_void	Zwój znaku pustki
+scroll_water	Zwój znaku wody
+scrolls	Zwoje
+scythe_1	Brązowa kosa
+scythe_2	Żelazna kosa
+scythe_3	Stalowa kosa
+scythe_4	Kosa z adamantium
+scythe_5	Mithrilowa kosa
+set01_amulet	Czerwony amulet
+set01_armor	Zbroja wojownika
+set01_axe	Topój wojownika
+set01_boots	Obuwie wojownika
+set01_helm	Hełm wojownika
+set01_ring	Sygnet wojownika
+set02_armor	Szata czarodzieja
+set02_boots	Obuwie czarodzieja
+set02_helm	Czapka czarodzieja
+set02_ring	Sygnet czarodzieja
+set02_staff	Laska czarodzieja
+set03_armor	Szata królewska
+set03_boots	Królewskie kapcie
+set03_helm	Korona królewska
+set03_mace	Berło króla
+set03_pwr	Sakiewka króla
+set03_ring	Sygnet szczęścia
+set04_amulet	Amulet żywiołu powietrza
+set04_armor	Pancerz pradawnych
+set04_boots	Sandały żywiołu powietrza
+set04_helm	Hełm żywioły powietrza
+set04_lamp	Lampa żywiołaka
+set04_whip	Amulet żywiołu
+set05_armor	Szaty boga Ra
+set05_boots	Obuwie boga Ra
+set05_bug	Złoty skarabeusz
+set05_helm	Hełm boga Ra
+set05_ring	Pierścień boga Ra
+set05_sword	Ostrze gniewu Ra
+set06_armor	Szata kultu
+set06_book	Księga zmarłych
+set06_boots	Obuwie kultysty
+set06_cap	Rytualny kaptur
+set06_helm	Dynia
+set06_rlc	Spis śmierci
+set06_scythe	Kosa
+set06_staff	Kościana laska
+shield	Opancerzenie
+shield10	Mithrilowa tarcza
+shield_1	Sosnowa tarcza
+shield_2	Tarcza z teku
+shield_3	Tarcza z hikory
+shield_4	Tarcza z dębu
+shield_5	Tarcza z sekwoi
+shield_6	Brązowa tarcza
+shield_7	Żelazna tarcza
+shield_8	Stalowa tarcza
+shield_9	Tarcza z adamantium
+shop	Sklep
+silk_set	Zestaw króla
+skelet	Szkielet
+skelet_hint	Bezduszny wojownik odporny na strzały
+skeletarcher	Kościany łucznik
+skeletarcher_hint	Bezduszny łucznik strzelający kośćmi
+skeletmage	Kościany mag
+skeletmage_hint	Świetny czarodziej, zabity przez barbazyńce
+skeletwarrior	Kościany wojownik
+skeletwarrior_hint	Kiedyś był poszukiwaczem przygód, ale dostał strzałę w kolano
+sound	Dźwięk
+spear_1	Brązowa włócznia
+spear_2	Żelazna włócznia
+spear_3	Stalowa włócznia
+spear_4	Włócznia z adamantium
+spear_5	Mithrilowa włócznia
+spider	Pająk
+spider_hint	Trujące pająki, polują na słabych ludzi
+spiderling	Pająk
+spiderling_hint	Mniejszy, ale równie trujący i zabójczy
+spike	Ciernie
+spike_hint	jak zostaniesz zaatakowany, agresor otrzyma VAL obrażeń
+staff_1	Laska znaku ognia
+staff_2	Laska znaku wody
+staff_3	Laska znaku ziemi
+staff_4	Laska znaku powietrza
+staff_5	Laska znaku pustki
+staff_air	Laska znaku powietrza
+staff_black	Laska mroku
+staff_blue	Niebieska laska
+staff_red	Czerowna laska
+steel_set	Zestaw ze stali
+str	Siła
+strAddOnce	Dodaj VAL siły na jedną ture
+strNext	Siły w następnej turze
+strRmvOnce	Zmniejsz siłę o VAL na jedną ture
+strX_hint	Siła zwiększa obrażenia X razy
+str_hint	Zwiększa obrażenia zadawane o 1 za każdy punkt
+succubus	Sukkubus
+succubus_hint	Nie zostawia po sobie śladu
+sword_1	Brązowy miecz
+sword_2	Żelazny miecz
+sword_3	Stalowy miecz
+sword_4	Miecz z adamantium
+sword_5	Mithrilowy miecz
+tavern	Tawerna
+tax_collector	Podatnik
+tax_collector_hint	Podpora królestwa. Zbiera podatki od mieszkańców
+taxes	Podatek
+to_enemies	Wszystkim przeciwnikom
+to_enemy	Przeciwnikowi
+to_rnd	Losowemu przeciwnikowi
+to_rndmiss	Losowym przeciwnikom
+total	W sumie
+trash_hint	Karty wyczerpane
+treasure	Skarb
+trol	Troll
+trol_hint	Zielona bestia. Żyje sama, chroniąc swojego mostu
+turn	Tura
+turn_enemy	Tura przeciwnika
+turn_player	Tura gracza
+turnfalse	Na początku każdej tury
+turntrue	Na końcu twojej tury
+tutorial	Samouczek
+tutorial_rbq_1	Pokonuj wrogów zagrywając karty!%e%eKarty mają swój koszt %y%Energii%y% do zagrania.%eJak skończy ci się energia skończ ture.%eNa początku następnej tury dobierzesz nowe karty, a twoja%y%Energia%y% się odnowi
+tutorial_rbq_2	Graj karty defensywne by zyskać %b%Pancerz%b% kiedy wrog zamierza zadać ci obrażenia.%e%e%b%Pancerz%b%zmniejsza otrzymywane obrażenia, ale znika na początku twojej następnej tury 
+tutorial_rbq_3	Podczas twojej tury, zobaczysz wrogie %y%Zamiary%y% wobec ciebie nad nimi.%e%eJeżeli wróg chce Cię zaatakować pamiętaj by przygotować sobie %b%Pancerz%b%
+tutorial_rbq_welcome_1	Witaj władco. Naciśnij to okienko by kontynuować
+tutorial_rbq_welcome_2	Kim chciałbyś dzisiaj dowodzić? możesz wybrać każdego
+unlock	Odblokuj
+vamp	Wampiryzm
+vampire	Wampir
+vampire_hint	Nieumarły zabijający ludzi, potrzebuje świeżej krwi by przeżyć
+vampire_red	Królewski wampir
+vampire_red_hint	Władca wampirów, szukający najświeższej krwi
+vampire_violet	Szlachetny wampir
+vampire_violet_hint	Członek społeczeństwa wampirów, kocha krew
+veigar	Veigar
+veigar_hint	Veigar był mały i słodki, ale starożytna klątwa zmieniłą go w najgorszy koszmar Japończyków
+void_set	Zestaw pustki
+voodoo	Voodoo
+vulnerable	Wrażliwość
+vulnerable_hint	Wrażliwe cel otrzymują 50% więcej obrażeń z ataków
+warrior	Wojownik
+warrior_defender	Rycerz
+warrior_defender_hint	Nosi zbroje wysadzaną złotem
+warrior_hero	Wojownik
+warrior_hero_hint	Walczy dobrze wręcz
+warrior_hint	Walczy dobrze wręcz
+warrior_mace	Ognisty młot
+warrior_mace_hint	Wyznawca kultu ognia
+water_set	Zestaw wody
+weak	Osłabienie
+weak_hint	Osłąbione cele zadają o 25% mniej obrażeń
+witch	Wiedźma
+witch_hint	Starsza kobiera z pryszczami, zmarszczkami i kapeluszem
+you_dealt_dmg	Obrażenia zadawane przez twoje wojska
+zombe	Zombie
+zombe_hint	Ciało ożywione przez czarnoksiężnika

@@ -1,0 +1,777 @@
+﻿- added gui resize at pause
+- new events
+- casting cards that triggers dolls does produce heavy CPU load
+- forge tutorial
+- video3: Sash Whip, Empty Fist, Empty Body, Protect, Third Eye, Battle Hymn, Tranquility, Smite
+discord en: https://discord.gg/j5e7fYd
+discord ru: https://discord.gg/Df32dj6
+reddit: https://www.reddit.com/r/royalversegames/
+
+0.987
++ fixed hint display bug for the relic list
++ added "Water Amulet" (Velvet Choker)(thx STOshka)
++ translation: Portuguise (thx Skylex)
+
+0.984
++ harm now procs preventdmg
++ fixed "Safety" (thx STOshka)
++ fixed "login" property on start(thx STOshka)
++ fixed "End your turn" property(thx STOshka)
++ fixed Normality curse(thx STOshka)
++ fixed Super Armor(thx STOshka)
++ fixed "empty_hand" event(thx STOshka)
++ fixed items combo (Orichalcum + Cloak Clasp)(thx STOshka)
+
+0.983
++ fixed bug with intends
++ adjusted "empty_hand" event(thx CryinOrion)
++ added confirmation for exit from Shop and Forge
++ fixed "Dual Wield"(red card)(thx Kiên Phạm Công)
++ fixed "Spilling Blood"(blood card)(thx Kiên Phạm Công)
++ maintenance (start screen)
+
+0.982
++ resize wnd: you can now customize cards color for each type
++ fixed crush when have no cards to loot (modding)
++ fixed shiva 0 max pets bug
++ maintenance (scores)
++ maintenance (scores)
++ maintenance (scores)
++ maintenance (cards)
+
+0.981
++ Forge: added likes, merged level
++ "Super Armor" - now can be part of daily challenges or custom run
++ adjusted "Super Armor" - can NOT offer cards from heroes that are still under construction
++ changed % of rare cards drop (50%/34%/26% -> 60%/27%/13%)
++ maintenance (forge)
+
+0.980
++ fixed Nasus and Revive - when killed by X times attack
++ fixed crash when auto-upgrade procs on the empty deck
++ fixed missing card template for modded heroes
++ added hints to 'start' screen
++ fixed burn(thx Sweetharmany)
++ overhaul (cards in hand)
+
+0.979
++ monkey cards 79/79
++ added new mechanic that I'm proud of: Whenever you manipulate this card, add it into your hand instead
++ added hightlight for cards that have 'rule' or 'ifSelf'
++ removed numbers from some conditions(1 Calm -> Calm, etc)
++ fixed created cards by choice
++ fixed "Crush Joints"(for new runs)
++ maintenance (HQ/UHQ screens)
++ maintenance (tiles)
+
+0.978
++ fixed cards that adds cards
++ fixed "Judgment" card
+
+0.977
++ monkey cards 71/79
++ updated art for adventure map
++ maintenance (stances)
+At this state - monkey queen is playable.
+I'll clean up card descriptions and some stuff in next updates.
+I'm also updating art - dont freak out. But let me know if you like it or not.
+
+0.976
++ redone loading phase
++ fixed Foreign Influence+
++ maintenance (settings)
+
+0.975
++ maintenance (monkey cards)
++ maintenance (card wish)
++ maintenance (armor)
+
+0.974
++ added new relics
++ added more art for monkey cards 82/83
++ monkey cards 65/73
++ monkey stances 3/3
++ marked true damage as such(not sure if it a good idea)
++ maintenance (mech cards)
++ maintenance (card types)
+
+0.973
++ fixed monkey customization
++ fixed energy max tooltips
++ added new relics
++ added monkey potions
++ monkey cards 58/83
++ monkey queen now in testing
+
+0.972
++ fixed map scrolling when cards are up
++ nerfed: "Heaven or Hell"
++ updated "Normality" curse: end player turn after playing 3 cards
++ added new hero: "monkey queen" aka "purple" aka "the watcher"
++ next hero with 70+ cards will be monkey
++ monkey cards 26/73
++ fire cards 24/73
++ blue cards 40/73
+
+0.971 (mods and custom decks)
++ maintenance (hidden heroes)
++ maintenance (cards editor)
++ maintenance (hero editor)
++ maintenance (scores)
++ maintenance (battle)
+
+0.970
++ nerfed: "Heaven or Hell"
++ forge nerfed: harm and exhaust cant be removed
++ map: added scroll on mouse wheel
++ maintenance (super armor)
++ maintenance (battle)
++ maintenance (forge)
+
+0.969
++ new items: Noble Tunic (Prism Stone)
+
+0.968
++ fixed hitbox area for Ok/Cancel buttons on confirmation (thx Dealmi)
++ maintenance (druid)
+
+0.966
++ tomorrow all cards from forge will be purged
++ increased hammer prices in the forge
++ hero customization - now saves properly what was changed
++ maintenance (hero customization)
++ maintenance (russian)
++ maintenance (editor)
++ maintenance (forge)
+
+0.965
++ fixed rare crash at Ent event
++ maintenance (forge)
+
+0.964
++ fixed negative mana
++ maintenance (battle)
++ maintenance (forge)
++ maintenance (menu)
+
+0.963
++ new power card for Voodoo Deck: Quick Draw
++ shop: fixed removing forged card right after forging it
++ maintenance (pets)
++ maintenance (rest)
++ maintenance (battle end)
++ dead bodies are not targetable after battle ends
+
+0.962
++ fixed a lot of rare bugs
++ maintenance (pets)
++ maintenance (forge)
++ maintenance (editor)
++ maintenance (coop/lobby)
+
+0.960
++ fixed upgrading cards on rest when having only one card to upgrade
++ fixed Vampires & lifelink condition
++ fixed forge crash - if leaving the forge without waiting for forging list to load
++ nerfed Vampires(added sleep after ress)
++ maintenance (card handling in hand when in battle)
++ maintenance (top scores wnd)
++ maintenance (cards layout)
++ maintenance (debufs)
++ maintenance (forge)
+
+0.959
++ maintenance (enemy info)
++ maintenance (map)
++ maintenance (pets)
++ maintenance (editor)
+
+0.958
++ fixed crush on a playing card that does damage and gives potions, but potions are already at max
++ maintenance (card editor)(a lot!)
+
+0.957
++ maintenance (forge)
+
+0.956
++ maintenance (game tutorial)
+
+0.955
++ forge: added scrolling to prms
++ added art for cards energy 6,7,8,9(this will fix Forge for cards with energy above 5)
++ Berserk card buffed. Self Vulnerable 3 -> 2.
++ Heel Hook+ card buffed. 7 -> 8 damage.
++ Bullseye card buffed. Lock-On 1 -> 2.
++ Bullseye+ card buffed. Damage 10 -> 11.
++ maintenance (skulls)
++ maintenance (forge)
+
+0.954
++ added art for 'that's enough'
++ macos fix: forge, sync, etc web related
++ fix for end game lag: removed all messages from the start, if there are too many of them
++ maintenance (battle start)
++ maintenance (card colors)
++ maintenance (drag&drop)
+
+0.953
++ ios fix: forge, sync, etc web related
++ new option: card targeting via tap+tap or drag&drop
++ new option: mana bar at top
++ forge fix: properties from switched cards (thx Logo)
++ stacked cards at begging of battle
+
+0.952 hotfix
++ fixed crush: missing skull on normal when act4 is unlocked
+
+0.951
++ cleaned up unit info
++ fixed pets being too far or too close(thx Dealmi)
++ maximum stacks for rest-items: 5 (feel free to write me what you think about this limitation)
+
+0.950
++ added (mobiles) - unit screen with more details and stuff
++ fixed rare crashes - some condition on enemies before battle started
++ maintenance (coop)
++ maintenance (customization)
+
+0.949
++ fixed random black screen (old saves in new version)(thx debug tool)
++ fixed crash at status cards
++ added exhaust for "Rotten Strike" (voodoo)
++ maintenance (400%+ gui size)
++ maintenance (customization)
++ maintenance (coop)
+
+0.948
++ foxes(pets) - doesn't penetrate armor anymore
++ coop - auto-exit from the game on exit from the lobby
++ coop - created game removed on exit from the lobby
++ maintenance (coop)
+
+0.947
++ fixed summing random pets
++ multiplying armor/poison/str now triggers coresponding events correctly(thx Slav)
++ maintenance (event txt)
++ maintenance (summons & suicide)
++ maintenance (pets)
+
+0.946
++ leveling any hero to level 3 grants diamond
++ unlocking new heroes via diamonds
++ unlocking new skins via diamonds
++ current saves: all heroes will be locked, but saves will be preserved.
++ current saves: all heroes will grant diamonds retrospectively
++ added new item for Blood Mage(thx fun channel)
++ fixed 'reboot'(Shiva card)
++ fixed crash if undecided loot left unattended for too long
++ maintenance (customization)
++ maintenance (enemies hitboxes)
+
+0.945
++ added story texts to events(thx Dungeon Master: Dealmi)
++ maintenance (undecided loot)
+
+0.944 hotfix
++ fixed: crash at offline(casused by loading daily runs)
++ maintenance (enemy names)
++ maintenance (events gui)
+
+0.943
++ daily mods 14/??
++ new conditions: slow & vulnerability (extra % dmg)
++ forge - you can get extra hammers
++ ascend - not finding skulls in first act is not fatal
++ sandbox - removed gaining exp
++ sandbox - removed achievements
++ daily runs - removed achievements
++ maintenance (customization)
++ maintenance (daily runs)
+
+0.941 hotfix
++ fixed forge crash
++ fixed: crash on killing unit with Juggernaut, Metallic and Red Ring(thx Douglas Stoll)
++ sandbox: added scrolling  to adding items
++ maintenance (customization)
++ maintenance (coop)
+
+0.940
++ forge: added boiler
++ items are now visible when new game start
++ fixed crash: forge + X cards(thx AJ Rolfe)
++ fixed potionless for events(thx MACTEP_APEHbl)
++ removed hammers for sandbox
++ genie now end player turn on timewarp
++ maintenance (destiny)
++ maintenance (forge)
++ maintenance (coop)
+
+0.936
++ maintenance (coop)
+
+0.935
++ fixed "Well-Laid Plans"
++ fixed items that gives energy on event(Red Ring, etc)
++ maintenance (forge)
++ maintenance (bd)
+
+0.934
++ added new mode: sandbox
++ added new mode: ascend
++ added heroes levels and exp
++ fixed events: Dead Adventure, Blood Court(thx Buz5)
++ leveling: winning a boss doubles exp points for this act
++ new boss enemy: The Eolevan
++ maintenance (text visibility)
++ maintenance (mac store)
++ maintenance (gui scale)
++ maintenance (customization)
++ maintenance (coop)
+
+0.933
++ new debug menu
++ fixed destiny for old saves(thx cibai)
++ dropping loot moved to 1 room, instead of boss room.
+	(so things like card rewards as boss loot will not be dropped)(thx Júlia Milena)
++ fixed Dropkick(thx Giovanny Souza)
++ new option - extra spacing on bottom(for handling ios overlay)
++ maintenance (shiva, hints, chop hammer)
++ maintenance (web)
+
+0.932 hotfix
++ fixed card "Relapse+"(thx Júlia Milena)
++ debuging saves now easy
++ fixed green skull. anyone who is without green skull will be granted on at act3+
+
+0.931
++ fixed bug missing blue skull when all relics collected
++ nerfed Redbeard summon ability(thx eolevan)
++ new destiny options(thx eolevan)
++ fixed blue skull being hidden
++ blaimed 3 voodoo cards(shuffle)
++ blaimed 2 blood cards(Night Victim and Crawling Fear)
++ changed "confuse"	(now it change base cost, intead of temp - so cards like 'bullet time' can rewrite 'confuse')
++ maintenance (Corpse Explosion)(thx bar Denon)
++ maintenance (double tap bug)(thx Забыл Ник, сорри =))
++ maintenance (lags)
++ maintenance (hints)
++ maintenance (green skull)
++ maintenance (hero scores)
++ maintenance (forge)
+(blaimed = will rework/change them later)
+
+
+0.930
++ added Forge(card crafting & sharing)
++ maintenance (destiny)
++ added Polish(by Styllshadow)
+
+0.928
++ fixed "Bleed Well"(thx Zboy)
++ maintenance (hpmax/kill)
++ maintenance (scores board)
+
+0.927
++ fixed "Scythe Dance"
++ maintenance (loot)
++ maintenance (Every time you play X cards)
++ Spanish is finished!(thx Juantxu Vivancos and Skylex)
++ fixed few cards that should give energy on condition
+
+0.926
++ maintenance (toolbox/create)
++ maintenance (potions)
++ maintenance (hpmax)
++ maintenance (shop)
+
+0.924
++ Transmutation(Shaman) renamed to Necromutation
++ Ritual Dagger(colorless) updated hint(thx cibai)
++ Bloodletting(red) fixed(thx Assh)
++ Sadistic(colorless) fixed
++ Unfair Play - hint fixed
++ elites back to their rooms(thx skylex)
++ intangible now affects 'harm'
++ maintenance(scrolling & confirming)
++ maintenance(back btn)
++ maintenance(tutorials)
+
+0.923
++ new items 113/???
++ added options to handle too many cards in hand
++ maintenance (death)
+
+0.922
++ updated elites to act5+
++ card library - if card is taped/clicked - it'll show a upgraded copy
++ fixed Tactician+(thx Assh)
++ Born in Flames+ now cost 0
++ Backstab now is 0 energy
++ frail - now it dosent affects armor from conditions(or any card that dosent scale with Dextery)(thx David C)
++ maintenance (Card descripitions * Redwood Crossbow)
++ maintenance (global scores)
+
+0.921
++ buffed 'Swift Draft'
++ fixed end turn exploit
++ fixed X cards casting at 0 energy
+
+0.920
++ maintenance (looting items)
++ fixed enemies killed by return damage
++ fixed extra chests at boss stages(when all relics found)
++ improved performance for spikes and similar stuff
++ balance changes to Frontier cards(thx to shadowfax45)
++ added auto-scores resubmitting
+
+0.919
++ maintenance (global scores)
+
+0.912
++ fixed constant 'corpse explosion' (enemies will stop hitting each other)
++ removed Burn & Decay strength scaling
++ maintenance (global scores)
+
+0.910
++ version changes viewer
++ added option to hide items
++ reworked 'feed' items
++ few nerfs to voodoo shaman
++ shaman cards 54/73
+
+0.909 strength & dexterity
++ added tooltips: feed, harm 
++ changed 'Corpse Explosion'
++ fixed sticky extra hints 
++ fixed 'Spot Weakness'(thx nicholas.proton)
++ fixed card desc(strength & dexterity)
++ taping/clicking/over the enemy will change card descriptions to reflect vulnerable, weak, frail, charm statuses
++ fixed shop crash(when trying to sell cards that were renamed or hidden)
+
+0.908
++ maintenance (drag&tap)
++ buffed Preparations(violet)
++ nerfed Magic Wall(violet)(thx skylex)
++ changed Void
++ fixed cards that should be exhausted, but jumped to discard pile(thx to Assh)
++ fixed discarding (now doesn't affect exhausted cards)(thx to Assh)
++ maintenance (cards)(thx to Assh)
++ hp cant go lower then 0
+
+0.907
++ updates to Russian(thx to Iqzimp)
++ maintenance (shaders)
+
+0.903
++ renamed 'Combo Slash' to 'Combo Blow'
++ updated 'Scythe Dance'(thx Assh & skylex)
++ unlocking card now works for 'seen'(instead of 'pick')
++ maintenance (hints&descriptions)
++ updates to Russian, Portuguese
+
+0.902
++ fullscreen added(desktop)
++ fixed back@mobile
++ items that auto-upgrade now affects transform too(tnx skylex)
++ maintenance (consume hint)
++ maintenance (pets)
++ maintenance (charm)
++ Shiva cards added 73/73
++ now heroes can have innate conditions
++ 'pets max' moved to innate conditions
++ fixed Alchemize(green)(thx Assh)
+
+0.901 hotfix
++ fixed minions and summons(thx Deer)
++ updated targeting on smaller screens
++ fixed sever-soul card(tnx bar Denon)
+
+0.900
++ fixed Noble Diadem(tnx to Angra)
++ fixed bug - new game after dying for lack of skulls(thx cibai)
++ fixed bug - double blue skull pick up(thx cibai)
++ negative cards cannot be upgraded by choice or random
++ remove items that give gold from selling
++ skulls maintenance (more hints)
++ tutorial maintenance
++ resizeable battle screen
++ added cancel option to remove@shop
++ added royal cloud
++ adjusted battle GUI - so conditions and intends should be always visible
++ Merry Xmas and Happy New Year!
+
+0.852
++ fixed creating colorless cards(tnx MrStealth & mattamania)
++ fixes to Blood cards
++ fixed ignore:dmg stat
++ battle fewer now procs on win as well
++ updates to Russian, Portuguese
+
+0.851
++ added Portuguese(tnx The Falling)
++ enemy cards order now more stable(fixed air golem +50 str bug at first turn)
++ new bosses combo after act4
++ changed acid doll: now triggers at beginning of turn
+
+0.850
++ more fixes to skulls(overtaping)
++ added renaming items and heroes
++ added cards and items listings to start screen
++ added unlocks for cards and items
+
+0.840
++ changed auto-loot for boss stages
++ added events 32/???
++ added items 110/???
++ added coffee tip
++ fixed rare battle bug(rapid throwing cards)
++ fixed bug: freezing at skull screen
++ maintenance for skulls
++ looking for translations - plz reach me via discord or efgames.net@gmail.com
+
+0.830
++ Shiva cards added 70/73
++ Shiva Ram - added charge indicator
++ added auto collecting chests
++ achievements added 16/??
++ fixed removing items
++ maintenance (pets)
+
+0.820
++ maintenance
++ fixed consume_hint
++ fixed added poison by items
++ fixed "Super Armor"
++ new relics(more options for Tavern)
+
+0.811
++ fixed Red Ram
++ changed 'Water Scroll' - now it prevents 'obtaining potions from loot', rather then 'using a potions'
++ descriptions maintenance
+
+0.810
++ new act4: (shop, elite, boss)
++ new boss Airgolem(act4)
++ couple new elites(act4)
++ new elite(act3)
++ added "super attack" and "casting" animations to some enemies
++ fixed intends
++ fixed idle animation for flying units
++ reworked map generation
++ fixed goblin elder(thx Defender Fidei)
++ fixed destiny choices
++ added option switch for relic names
++ skulls: after act4 player will lose red or blue skull each time he is warping
+
+0.802
++ relics can be consumed(same as cards)
++ new items added 103/???
+
+0.800 - this is a HUGE update
++ skulls: beat the game with 3 different heroes to unlock them
++ skulls: you need to find all of them to be able to warp to next act(after act 3)
++ added master volume(desktop)
++ fixed to Flame Witch & Fire Ram
++ fixed Nightmare(green)
++ fixed relics that auto-upgrading new cards
++ fixed relics that affected not-battle
++ fixed double-selecting events
++ fixed Time Eater(Genie)
++ conditions now more organized
++ handicaps: after act4 one of handicap should be picked in order to continue
+
+0.727
++ editor sandbox - https://cdn.discordapp.com/attachments/344499343845359617/517870301317562385/gui_editor2.gif
+
+0.726
++ Shive(Defect) cards added 63/73
++ fixed fusion hammer
+
+0.725
++ changed Enlightenment(colorless)
++ fixed X cards(descriptions and mechanics)
++ fixed entangled
++ fixed GUI: now "+" and "-" should not be above the screen(when greed kicks in)
++ more descriptions
+
+0.724
++ fixed missing items - caused by rebalancing(me=)
+
+0.722
++ tutorial added for 'start' screen
++ small changes to 'start' screen GUI
++ descriptions added for Voodoo Dolls
++ descriptions maintenance
++ updated Shadow Call(voodoo)(tnx waxpants)
++ fixes to Hexaghost/Veigar
+
+0.721
++ juggernaut reworked (current runs will have this card as empty)
++ fixed metallicize and juggernaut(tnx N00by Gamer)
++ lose money now shows current gold amount instead of maximum(tnx skylex157)
++ fixed dwarfs
++ fixed auto-scrolling
+
+0.720
++ preparations for act4(skulls)
++ loot extended: now cards can be picked after any battle
+
+0.717
++ Purge(Voodoo) fixed
++ added indicators for some items
++ added starting bonuses(neow)
++ new items added 96/???
++ Shive(Defect) cards added 62/73
+
+0.715
++ fixed Unlimited Desires(violet)
++ fix for events - can't lose more money than had
++ steamworks for macos: H5QMD-WZQH6-9TTNJ BD3FQ-GV0VC-K5ILJ 5Z9L6-24LBW-ELLXK
++ Shive(Defect) cards added 60/73
+
+0.714
++ German added(tnx to Psy0ch)
++ Achievements added 9/100
++ steamworks
++ Vampires(Darkling) fixed(tnx to skylex157)
++ Sand Priest(Awakened One) fixed(tnx to skylex157)
++ web/html5: fixed enemies that summons(tnx to kythral)
+
+0.712
++ card loot fixed(tnx Malouf)
++ gold boss loot fixed(tnx Malouf)
++ enemies scale stronger - more HP(x2 to old scaling) after act 3, and extra Str after act 10
++ Consume(blood) renamed to Consume Rage(blood)
+
+0.710
++ autofocus when opening map on player position(tnx Malouf)
++ relics descriptions for mobiles now shows on bot as well(tnx Malouf)
++ That Enought(blood) fixed(tnx eolevan)
++ Flex(red) fixed(tnx Lucas Galioni)
++ Shive(Defect) cards added 51/73
++ Shive pets attack animations added
++ descriptions maintenance
++ tnx guys - discord and google play beta!
+
+0.709
++ card descriptions maintenance
++ save slots separated for each hero
+
+0.708
++ relics are not clickable anymore if there is any wnd on top
++ ios swipe indicator off
+
+0.705
++ library added
+
+0.704
++ basic tutorial added
++ improved targeting
++ fixed to scores&stats
++ maintenance
+
+0.703
++ scores screen moved to map
++ fixes to scores
++ fixed Doll of Decay
+
+0.700
++ relic names are now StS
++ resize
++ back btn
++ fixed same card rewards
++ GPGS added - highscores and stats
+
+0.692
++ shiva images added
++ fixed enforcing cards to pick
++ fixed softlock on Well laid plan(green)
++ renamed all relics
++ new relic - extra card reward after battle
++ fixed If you close boss relic chest, it gets new relics
++ fixed enemy - Darklings(Vampires)
++ Demon pain is now always on
++ new relics: Wrist Blade(shiv,boss), The Abacus(shop), Clockwork Souvenir(shop), Twisted Funnel(poison, shop)
+
+0.690
++ fixed Burning Pact(red), Mind Blast, Enlightenment, Meteor Strike
++ changed Hide and Wait, Masochism, Made in Abyss
++ added some music(from Royal Heroes by Ryan Davies)
++ added few sounds effects
++ added few ambients
++ menu - added options: snd, music, gui size(it does matter=)
++ rest - fixed if there are no card to upgrade
++ add battlefervorMlt description
++ fixed Donu&Deca (boss)
++ difficulty after act3: +0.5 str/act, +10*act(or +10%*act) HP.
+
+0.680
++ fixed few more lang strings
++ fixed Smith cancelation
++ added dmgmultiply description
++ fixed quests - ones that demanding something in return
++ russian and english is updated
++ fixed lantern
++ Shive(Defect) cards added 44/73
++ tnx Knights@Discord!
+
+0.670
++ fixes to texts
++ fixed upgrades - hiding stuff that are not upgradeable
++ fixes to Searing Blow(red), The Dark Half(blood)
++ revives separated and fixed on Relics and Cards
++ after act 3 - enemies will have 10% or 10 more hp(temporary solution)
++ fixed confirmation wnd for upgrading
++ chests can be re-opened
+
+0.660
++ lots of fixes to English
++ fixed - when too much relics - some of them was off screen
++ Infinity Blades(green) - fixed
++ shop remove card confirmation - changed
++ Shive(Defect) cards added 42/73
++ tnx illuminande, shadowfax45, stubbieoz
+
+0.650
++ green card images added
++ fixes to events and relics
++ added confirmation box for upgrading card
++ added confirmation box for shop
++ fixes to green cards
++ fixed description for Storm(green)
+
+0.640
++ fixed buying Bottle Items at the shop
++ fixed Combustion and Juggernaut(Red)
++ Discarding more then one now works better
++ Discarding same cards now is not an option
++ Shive(Defect) cards added 41/75
+
+0.630
++ Shop scale fixed
++ fixes to code and to lang
++ Shive(Defect) cards added 23/75
++ New potions added
++ added Potions to Shop
++ "Shroud of Darkness" fixed.
++ tnx AJ Rolfe
+
+0.625
++ added exit for menu
++ kaboom fixed
++ Elf and Snake - fixed
++ bootles fixed
++ fixes to: immaculate, energy vein
++ tested: Thousend Cuts, Big Fish
++ tnx AJ Rolfe, Стася Лёв, 박인우, Francisco
+
+0.600
++ act2, act3 enemy level fixed
++ changes to Demon
++ lots of fixes: saves, lang, etc
++ added link to discord
++ fixes to violet
++ fixes to shop
++ fixed weak for conditions
++ added voodoo stuff
++ added mech stuff

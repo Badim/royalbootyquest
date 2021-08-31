@@ -1,0 +1,895 @@
+str	Força	Strength
+change_energy	Custa VAL este combate	costs VAL for this battle
+knightarcher	Arqueiro	Bowman
+event_card2_1_txt	Escolha uma carta incomum	Choose a uncommon Card
+event_upgrade_2_txt	Melhore duas cartas do baralho	Upgrade two cards in your deck
+destiny	Destino	Destiny
+potionless_hint	Não pode mais obter poções	You can no longer obtain potions
+gnome_rifle_hint	Metódicos, continuarão a atacar disciplinadamente	Methodical, they will simply keep on loading and firing in a disciplined manner.
+dex	Destreza	Dexterity
+stat_elites1	Elites fracos mortos	Weak Elites Killed
+amulet_1	Amuleto de Sobrevivência do Fogo	Fire Amulet of Survival
+extrax_hint	Quando jogar uma carta de custo X, os seus efeitos são aumentados por VAL	Whenever you play a cost X card, its effects are increased by VAL
+intend_dmg	Atacando	attacking
+airgolem_hint	Ar puro selado por magia para andar entre os vivos	Pure air sealed by magic to walk amongst the living
+change_hand_ctype_1_true	Mude um ataque	Change one Attack
+elf	Elfo	Elf
+event_relic3_1_txt	Receba uma Relíquia rara aleatória	Receive a random rare Relic
+missing_hp_to_dmg	Faça dano igual ao HP em falta	Deal damage equal to missing HP
+renekton	Renecton	Renecton
+dmgmultiply3	O dano de ataque é triplicado	Attack damage is Tripled
+goblin_elder_hint	Um velho xamã, pode evocar feitiços poderosos	An elder shaman. He can cast powerful spells.
+helm_7	Capacete  	Just Helm
+event_empty_hand	Quando não tiver cartas	Whenever you have no cards
+vampire	Vampiro	Vampire
+resize	redimensionar	Resize
+set02_armor	Super Armadura	Super Armor
+poisonMlt2	Duplique o Veneno de um inimigo	Double an enemy's Poison
+event_relic4_1_txt	Receba uma Relíquia de Chefe aleatória	Receive a random Boss Relic
+question_victory	Vitória?	Victory?
+ring13	Anel da Terra de Veneno	Earth Ring of Poison
+shield_5	Escudo de madeira vermelha	Redwood Shield
+intangible_hint	Reduz todo o dano ao HP que receber para 1	Reduces all damage and HP loss you take to 1
+hand_discard_all_false	Descarte todas as cartas	Discard all Cards
+beast_spear	Lança da Besta	Beast Spear
+event_relic_txt	Receba VAL	Receive VAL
+event_heal_txt	Cure VAL HP	Heal for VAL HP
+hero_shiva	Shiva	Shiva
+spear_5	Lança de Prata dos Anões	Mithril Spear
+too_much_potions	Demasiadas Poções	Too Much Potions
+trol_hint	Besta gigante verde. Uma criatura solitária que vive debaixo de pontes	Giant green beast. A very lonely creature that lives under bridges.
+nulify	Anular	Nullify
+crossbow_2	Besta de Teca	Teak Crossbow
+cotton_set	velho conjunto	Old set
+strAddOnce	Ganhe VAL de força por um turno	Add VAL Strength for one turn
+heal	Cura	Heal
+dollofdecay	Boneca da Putrefação	Doll of Decay
+vulnerable	Vulnerável	Vulnerable
+rest_rest_lift	Levantamento	Lift
+voodoo_hint	Aumenta a duração da nova boneca	Increases new doll duration
+gnome_shooter	Conflituoso	Quarreller
+skeletwarrior	Guerreiro de Osso	Bone Warrior
+quest_curse3	Obtenha 3 maldições	Obtain 3 Curses
+upgrade_hand_ctype_all_false_all	Melhore todas as cartas na sua mão pelo resto do combate	Upgrade ALL cards in your hand for this combat
+poison	Veneno	Poison
+axe_2	Machado de Ferro	Iron Axe
+giant_rat_hint	Muito grandes para ignorar. Ratos enlouquecem quando provocados	They are too big to be let go. Rats go crazy when provoked.
+event_potion_1_txt	Ganhe 1 poção aleatória	Pick 1 random potion
+exhaust_hand_ctype_all_false	Exaure uma carta da sua mão	Exhaust a card in your hand
+set06_boots	Botas Pretas	Black Boots
+shield_6	Escudo de Bronze	Bronze Shield
+rest_sleep_hint	Cure 30% do seu HP máximo(VAL)	Heal for 30% of your Max HP(VAL)
+book_6	Livro do Fogo	Fire Book
+axe_4	Machado de Adamantina	Adamantine Axe
+event_cursed	Quando receber uma Maldição	Whenever you got Cursed
+draw_hint	Pilha de descarte	Discard Pile
+witch_hint	Velha maluca com pele enrugada, borbulhas e chapéu pontiagudo	Wicked old women who have wrinkled skin, pimples, and pointy hats.
+rest_skull	Crânio	Skull
+onPet	Por cada animal	For each Pet
+revive_hint	Em caso de morte, cure VAL (funciona uma vez)	When you would die, heal to VAL (works once)
+event_cardNone2_1_txt	Escolha uma carta sem cor incomum	Choose a uncommon colorless Card
+scythe_3	Foice de Aço	Steel Scythe
+set03_helm	Super Capacete	Super Helm
+ring14	Anel de Ar de Veneno	Air Ring of Poison
+shield10	Escudo de Prata dos Anões	Mithril Shield
+staff_4	Bastão do Ar	Air Staff
+gnome_mage_hint	O líder político e espiritual dos anões, o Thane é o seu poder final	The spiritual and political leader of dwarves, the Thane is its ultimate power.
+ctype_5	Maldição	Curse
+unlock	Desbloqueio	Unlock
+loot	Saque	Loot
+retainhand_hint	Mantenha a sua mão este turno	Retain your hand this turn
+getAddDmgByAttr_handctype1	Ganha +VAL de dano adicional por cada Ataque na sua mão	Deals an additional +VAL damage for every Attack in hand
+dollofdecay_hint	Um Inimigo aleatório perde Força por um turno	Random Enemy loses Strength for one turn
+card_type_all_hand	Cartas na sua mão	cards in your hand
+event_removecurses_all_txt	Remova todas as Maldições	Remove all Curses
+cardontreasure_hint	Baús não pertencentes a Chefes agora contêm cartas	Non-Boss chests now also contain cards
+blunder_3	Bacamarte de Aço	Steel Blunderbuss
+card_type_1	Ataque	Attack
+armor_hint	Reduz o dano pelo valor de Armadura	Reduces incoming damage by the amount of Armor
+relic_names_hint	Nomes de itens- definidos por ação ou olhar	Items Names - Defined by action OR look
+enlightenment_hint	Reduz o custo das cartas na sua mão por VAL turnos	Reduce the cost of cards in your hand to 1 for VAL turns
+ifTargetIntend_dmg	Se um inimigo pretender atacar	If an enemy intends to attack
+doubleskill1	Este turno a sua próxima Habilidade é jogada duas vezes	This turn, your next Skill is played twice
+event_played_ctype1_x3	Sempre que jogar 3 Ataques num turno	Every time you play 3 Attacks in a single turn
+tutorial_rbq_2	Jogue cartas defensivas para ganhar %b%Armadura%b% quando inimigos atacam %e%e%b%Armadura%b% reduz o dano mas %r%desaparece%r% no início do próximo turno	Play defensive cards to gain %b%Armor%b% when enemies are about to attack you.%e%e%b%Armor%b% reduces incoming attack damage but %r%wears off%r% at the start of next turn.
+rest_brew_hint	Faça duas poções aleatórias	Brew two random potions
+bigsmith_hint	Renegado em todo o lado- BarbaVermelha é resistente, esmagando os seus problemas com a sua grande arma	Outcast everywhere - Redbeard is tough, smashing problems with his enormous weapon.
+robe_4	Manto do Herói	Hero Robe
+rehand_draw_ctype_all_false	Retorne uma carta da sua pilha de descarte para a sua mão	Return a Card from your discard pile to your hand
+event_played_not_1	Sempre que não jogar cartas de Ataque	Every time you play not Attack card
+goblin_sniper_hint	Sorrateiro, mas mortífero em grupo	Sneaky, but very deadly in groups.
+hand_exhaust_all_false	Exaure a sua mão	Exhaust whole Hand
+rehand_deck_ctype_1_true	Escolha um ataque da sua pilha de compra e adicione-a a sua mão	Choose an Attack from your draw pile and place it into your hand
+book_5	Livro Real	Royal Book
+bow_4	Arco de carvalho	Oak Bow
+show	Mostrar	Show
+gnom_hint	Anões com martelos devastadores e que não temem magia	Dwarves wield devastating hammers and do not fear magic.
+renekton_hint	Plumagem verde, com cara alerta e proeminente	Green of plumage, with alert face and raised fore.
+event_played_ctype2_x3	Sempre que jogar 3 Habilidades num turno	Every time you play 3 Skills in a single turn
+bronze_set	Conjunto de Bronze	Bronze set
+shield_4	Escudo de carvalho	Oak Shield
+blur	Névoa	Blur
+ctype_3	Poder	Power
+lifelink	Elo Vital	Life Link
+diadem_4		Hero Diadem
+spear_3	Lança de Aço	Steel Spear
+armor	Armadura	Armor
+onDraw	Quando sacar esta carta	Whenever you draw this card
+rule_attack_hand_hint	Apenas pode ser jogada se todas as cartas na sua mão forem um Ataque	Can only be played if every card in your hand is an Attack
+discard_hand_ctype_all_false_rnd	Descarte uma carta aleatória	Discard a random card
+warrior	Guerreiro	Warrior
+more	Mais Jogos	More Games
+mag_blue	Mago	Wizard
+amulet15	Amuleto Resistente do Vazio	Tough Void Amulet
+dragonheads1	Hydra	Hydra
+tutorial_rbq_welcome_1	Vem vindo Majestade! Clique na caixa azul para continuar.	Welcome your Majesty! Touch this bubble box to continue.
+drawToDmg1	Faça 1 de dano por cada carta na sua pilha de descarte	Deal 1 DMG for each card in your discard pile
+event_card3_rnd_txt	Obtenha uma carta rara aleatória	Obtain a random rare Card
+evokePassiveX	Ative a Habilidade passiva do primeiro animal VAL vezes	Trigger the passive ability of first Pet VAL times
+shield_9	Escudo de Adamantina	Adamantine Shield
+hand_exhaust_1_false	Exaure todas as cartas que não sejam um Ataque da sua mão	Exhaust all non-Attack cards in your hand
+hammer_5	Martelo de Prata dos Anões	Mithril Hammer
+gui_size	Tamanho da Interface Gráfica	GUI Size
+tutorial	Tutorial	Tutorial
+dmgmultiply2	Dano de Ataque é duplicado	Attack damage is Doubled
+rest_smith	Forjar	Smith
+hammer_2	Martelo de Ferro	Iron Hammer
+staff_5	Cajado do Vazio	Void Staff
+change_deck_ctype_1_true_1	Escolha uma carta de Ataque: no início dos combates, esta carta estará na sua mão	Choose an Attack card: at the start of each combat, this card will be in your hand
+mag_black		Necros
+potion_slot	Espaço para Poções	Potion Slot
+event_upgraderandom_2_txt	Melhore duas cartas aleatórias	Upgrade two random cards
+deckToEnergy	Ganhe 1 de energia por cada VAL cartas na sua pilha de compra	Gain 1 Energy for every VAL cards in your draw pile
+event_samecardinhand	Se tiver duplicados na sua mão	If you have duplicates in your hand
+orc_hint	Estes soldados são comida para as hordas de orcs	These soldiers are the fodder for the orc hordes.
+rest_brew	Infusão	Brew
+rehand_trash_ctype_all_false	Adicione uma carta da pilha de cartas Exauridas para a sua mão	Place a card from your Exhausted pile to your hand
+set01_amulet	Amuleto Vermelho	Red Amulet
+question_upgrade	Melhorar?	Upgrade?
+do_this_VAL_times	Faça-o VAL vezes	do it VAL times
+doubleheavytap1	O primeiro Ataque de custo 2 ou acima é jogado duas vezes	The first Attack that costs 2 or more is played twice
+sandspear	Defensor de areia	Sand Defender
+set06_staff	Cajado de crânios	Staff of Skulls
+charm	Charme	Charm
+set05_armor	Armadura de Rá	R`ha Armor
+boots10	Botas Reais	Royal Boots
+moregames_opens_browser_getit		Get It
+amulet_9	Amuleto de Ar do Caçador Mágico	Air Amulet of the Magic Hunter
+amulet_6	Amuleto de Fogo do Caçador Mágico	Fire Amulet of the Magic Hunter
+set03_mace	Super Clava	Super Mace
+ok	OK	Ok
+exhaust_hand_ctype_4_true_rnd	Exaure uma Condição na sua mão	Exhaust a random Status in your hand
+ring_4	Anel de Ar do Caçador Mágico	Air Ring of Magic Hunter
+scythe_1	Foice de Bronze	Bronze Scythe
+lives_hint	Na morte, cure 50% do seu HP máximo ao invés de morrer (funciona 1 vez)	When you would die, heal to 50% of your Max HP instead (works once)
+event_transform_1_txt	Transforme uma carta no seu deck	Transform a card in your deck
+amazon_hint	Guerreiros feroses e implacáveis da floresta tropical	Fierce merciless warriors of the rainforest.
+money_heals	Sempre que ganhar ouro, cure VAL HP	Whenever you gain Gold, heal VAL HP
+staff_air	Bastão do Ar	Air Staff
+bastard_hint	Usa força bruta e fúria no combate	Uses brute strength and raw fury to excel in combat
+exhaust_fail	Exauro Falhado	Exhaust Failed
+doubleaxe_3	Duplo Machado de Aço	Steel Double Axe
+sandpriest	Sacerdote da areia	Sand Priest
+set04_whip	Super Chicote	Super Whip
+hiddennoenemies_hint	Inimigos normais não são mais encontrados em salas ?	Regular enemies are no longer encountered in ? rooms
+achievements	Conquistas	Achievements
+dark_archer	Arqueiro negro	Dark Archer
+vampire_red_hint	Líder de uma sociedade Real que procura o sangue mais fresco	Leader of a royal society that seeks the freshest blood.
+helm_1	Capacete de Bronze	Bronze Helm
+to_enemy	Para o inimigo	to enemy
+trol	Troll	Troll
+earth_set	Conjunto da Terra	Earth set
+blinded_hint	Não pode mais ver as intenções do inimigo	You can no longer see enemy Intents
+copy_hand_ctype_2_false_2	Crie duas cópias de uma carta que não seja Habilidade na sua mão	Create two copies of a non-Skill card in your hand
+doublepower1	Este turno, o seu próximo Poder é jogado 2 vezes	This turn, your next Power is played twice
+vamp_hint	Cure pontos de vida equivalentes ao dano não bloqueado	Heal HP equal to unblocked damage
+highelf_evil_hint	Este Elfo apenas sai de noite para caçar as suas presas	This elf comes out only at night to stalk prey.
+highelf_evil	Explorador negro	Dark Scout
+elf_evil_hint	Este Elfo apenas sai de noite para caçar as suas presas	This elf comes out only at night to stalk prey.
+scrolls	Pergaminhos	Scrolls
+pause	Pausa	Pause
+event_removecard_specific_txt	Remova todas as cópias de NAME	Remove all copies of NAME
+set02_ring	Anel Mágico	Magic Ring
+event_played_3	Por cada carta de Poder jogada	For every Power Card played
+drawless_hint	Saque menos 1 carta no(s) proximo(s) VAL turno(s)	draw 1 less card next VAL turn(s)
+cost	Custo	Cost
+mag_evil_hint	Mago meio morto que quase descobriu o feitiço de vida eterna	Half-dead mage who almost discovered the spell of eternal life.
+event_dublicate_1_txt	Duplique uma carta do seu baralho	Duplicate a card in your deck
+quiver_2	Pontas mágicas	Magic Tips
+draw1	Saque uma carta	Draw 1 Card
+vampire_red	Vampiro Real	Royal Vampire
+vampire_violet_hint	Membro de uma sociedade Real que procura o sangue mais fresco	Member of a royal society that seeks the freshest blood.
+vampire_violet	Vampiro Nobre	Noble Vampire
+airbow	Arco do Ar	Air Bow
+airbow_hint	Armadura encantada com arco	Enchanted armor with a bow.
+vampire_hint	Velho morto-vivo que procura sangue para sobreviver 	Very old undead that seeks fresh blood to keep him alive
+scroll_earth	Pergaminho da Terra	Earth Scroll
+transfer_kill_rnd	Quando um inimigo morrer, transfira qualquer CONDITION para um inimigo aleatório	Whenever an enemy dies, transfer any CONDITION it has to a random enemy
+blur_hint	Armadura não é removida no início do próximo turno	Armor is not removed at the start of your next turn
+airsword_hint	Armadura encantada com espada	Enchanted armor with a sword.
+unlimited_hint	Pode ser melhorada qualquer número de vezes	Can be upgraded any number of times
+ifTargetCONequalVAL	Se o alvo tiver CON igual a VAL	If target got CON equals to VAL
+airgolem	Golem do Ar	Air Golem
+healing	Cura	Healing
+orc_beast_hint	Besta verde criada por magia Élfica corrompida	Green Beast created by corrupted elven magic.
+change_hand_ctype_all_false_all	Mude todas as cartas da sua mão	Change all cards in your hand
+event_loserelics0_1_txt	Perca a sua Relíquia inicial	Lose starting Relic
+stat_bosses	Chefes derrotados	Bosses Slain
+blunder_4	Bacamarte de Adamantina	Adamantine Blunderbuss
+diadem_5		Royal Diadem
+orc_beast	Besta orc	Orc Beast
+orc_heavy_hint	Todo o décimo orc é mais forte que os outros- cuidado!	Every 10th Orc is stronger then the others - beware!
+scroll_void	Pergaminho do Vazio	Void Scroll
+event_cardNone2_rnd_txt	Obtenha uma carta sem cor incomum aleatória	Obtain a random uncommon colorless Card
+amulet14	Amuleto resistente do Ar	Tough Air Amulet
+poisonadd	Quando aplicar Veneno, aplique VAL de veneno adicional	Whenever you apply Poison, apply an additional VAL Poison
+spiderling_hint	Pequeno- mas muito venenoso	Small - but still deadly venomous.
+set03_armor	Super Armadura	Super Armor
+event_relic1_1_txt	Receba uma Relíquia comum aleatória	Receive a random common Relic
+veigar_hint	Costumava ser pequeno e fofo, mas uma velha maldição transformou-o no pior pesadelo do Japão	Used to be small and cute, but an old curse turned him into Japan's worst nightmare.
+amulet_2	Amuleto de sobrevivência da água	Water Amulet of Survival
+_times	TIMES vezes	TIMES times
+bomb_5	Bomba Real	Royal Bomb
+discard_hand_ctype_all_false	Descarte uma carta	Discard 1 card
+tutorial_rbq_welcome_2	Com quem quer jogar hoje? Pode escolher qualquer Herói para se aventurar	With whom you wanna play today? You can choose any hero to adventure forth.
+resthealper5cards	Quando entrar num Local de Descanso- por cada 5 cartas no baralho cure	Whenever you enter a Rest Site - for every 5 cards in your deck heal
+veigar	Veigar	Veigar
+turntrue	No fim do seu turno	At the end of your turn
+boots_1	Botas de Bronze	Bronze Boots
+sandpriest_hint	Espírito de um sacerdote do deserto, defendendo o seu mestre	Spirit of a desert priest, defending his master.
+sandspear_hint	Espírito de um guerreiro do deserto, defendendo o deu mestre	Spirit of a desert warrior, defending his master.
+event_card2_rnd_txt	Obtenha uma carta incomum aleatória	Obtain a random uncommon Card
+quit_game	Tem certeza que quer sair?	Are you sure want to quit?
+remove_card_hint	Remova NAME do seu baralho	Remove NAME from the deck
+evokeX	Evoque seu próximo animal VAL vezes	Evoke your next Pet VAL times
+golem_hint	Gigante de pedra. muito lento para distinguir inimigo de aliado	Big stone giant. To slow to understand foe from ally.
+golem	Gigante de pedra. muito lento para distinguir inimigo de aliado	Stone Giant
+event_relic2_1_txt	Receba uma relíquia incomum aleatória	Receive a random uncommon Relic
+fire_set	Conjunto de Fogo	Fire set
+tax_collector_hint	O pilar de um Império. Coleta impostos de casas próximas	Pillar of an empire. Collects taxes from nearby houses.
+card_type_2_hand	Cartas de Habilidade na sua mão	skill cards in your hand
+goblin_axe	Machado verde	Green Axe
+shield_2	Escudo de teca	Teak Shield
+if_draw_card	Se a carta for TYPE	If the card is a TYPE
+stat_elites2	Elites fortes mortos	Strong Elites Killed
+frail_hint	Reduz a armadura em 25%	Reduces the Armor by 25%
+mermaid_hint	Beleza aquática que manobra o seu tridente como um pro	Aquatic beauty that swings her trident like a pro.
+cancel	Cancelar	Cancel
+linen_set	Conjunto Nobre	Noble set
+close	Fechar	Close
+mermaid	Sereia	Mermaid
+event_quest	Quando entrar numa sala ?	Whenever you enter a ? room
+skeletmage_hint	Outrora um grande mago, antes de ser derrotado por um bárbaro	A once-great mage, before being slain by a barbarian
+candlered_hint	Cartas de Condição podem agora ser jogadas. Exaura a carta	Status cards can now be played. Exhausts the card
+skeletmage	Mago de osso	Bone Mage
+battle	Batalha	Battle
+spider_hint	Aranhas venenosas que atacam humanos fracos	Poisonous spiders that prey on weak humans.
+royal_booty_quest	Royal Booty Quest- Demanda pelo Tesouro Real	Royal Booty Quest
+spider	Aranha 	Spider
+garpy_hint	Criaturas voadoras esganiçadas que caçam aldeões locais por desporto	Shrill flying creatures that hunt local villagers for sport.
+play	Jogar	Play
+garpy	Harpia	Harpy
+energyAddX	Ganhe VAL energia	gain VAL Energy
+medusa_hint	Uma mulher horrenda com cobras venenosas ao invés de cabelo	A hideous woman with venomous snakes in place of hair.
+to_rndmiss	Para inimigos aleatórios	to random enemies
+boots_4	Botas de Adamantina	Adamantine Boots
+warrior_hero_hint	Luta bem corpo a corpo	Fights well in melee.
+medusa	Medusa	Medusa
+book_1	Velho livro	Old Book
+goblin_sniper	Goblin verde Arqueiro	Green Goblin Archer
+confirm	Confirmar	Confirm
+healing_hint	Cura é mais efetiva em combate	Healing is more effective during Combat
+dragonheads3_hint	Tem bafo venenoso e sangue tão virulento que só o cheiro é mortífero	Has poisonous breath and blood so virulent that even its scent was deadly
+event_potion_3_txt	Pegue 3 poções aleatórias	Pick 3 random potion
+dragonheads2	Hidra	Hydra
+robe_unique	Manto Mágico	Magic Robe
+dollofacid	Boneca de Ácido	Doll of Acid
+entangled_hint	Incapaz de utilizar cartas de Ataque por um turno	Unable to use any Attack cards for 1 turn
+set02_boots	Super Botas	Super Boots
+cape_5	Manto Real	Royal Cape
+event_randomrelic_boots_txt	Boas Botas ou Más Botas	Good Boots or Bad Boots
+event_potion_2_txt	Pegue 2 poções aleatórias	Pick 2 random potion
+rest_extra	Em Locais de Descanço pode agora ganhar	At rest sites you can now gain
+rest_skull_hint	Procurar pela Chave Caveira	Look for Skull Key
+exhaust_hand_ctype_all_false_3	Exaure 3 cartas da sua mão	Exhaust 3 cards in your hand
+skelet_hint	Guerreiros sem alma que resistem a ataques de flechas	Soulless warriors that resist arrow attacks.
+set06_armor	Manto negro	Black Robe
+battlefervor	Fervor de Batalha	BF
+sandals_2	Apenas Sandálias	Just Sandals
+giant_rat	Rato gigante	Giant Rat
+airbow_blue_hint	Elemental de vento selado numa armadura	Elemental air sealed in armor.
+energyMlt2	Duplique a sua Energia	Double your Energy
+drawless	Silêncio	Silence
+hand_discard_1_true	Descarte todos os Ataques	Discard all Attacks
+shield_7	Escudo de Ferro	Iron Shield
+event_voodoo	Quando criar uma boneca	Whenever you create a Doll
+rest_rest_lift_hint	Ganhe Força extra	Get extra Strength
+dex_hint	Aumenta a Armadura ganha em 1 por cada ponto de Destreza	Increases the Armor gained by 1 for each stack of Dexterity
+set05_ring	Anel de Rá	R`ha Ring
+mag_white	Dobrador de ar	Airbender
+vamp	Vampirismo	Vampirism
+sandals_4	Sandálias do Herói	Hero Sandals
+event_enemy_played_3	Quando um inimigo tiver jogado um Poder	Whenever an enemy played a Power
+mag_blue_hint	Magos Sagrados, conseguem curar os vivos e derrotar mortos-vivos	Holy mages, that can heal the living and strike down the undead.
+elf_evil	Arqueiro negro	Dark Archer
+ranger_hint	Indivíduos pouco sinceros que usam maioritáriamente arcos	Sleek looking individuals who primarily use bows.
+mag_black_hint	Rumores ditam que eles olharam no olhos da própria morte	Rumors tell that they have looked upon the very face of death.
+event_played_any	Quando jogar uma carta	Whenever you play a card
+mag_red_hint	Magos vermelhos que amam brincar com fogo	Red mages who love to play with fire.
+frozen	Silenciar	Mute
+elf_hint	Os Elfos têm corpos esguios e ágeis, e estudam a arte do arco desde pequenos	The Elves have slim and nimble bodies, and study the way of the bow from a young age.
+discard	Descarte	Discard
+amazon	Amazon	Amazon
+sword_4	Espada de Adamantina	Adamantine Sword
+goblin_axe_hint	A única coisa que gostam mais que balançar machados é os gritos que se seguem	The only thing they enjoy more than swinging axes is the screaming that follows.
+enemies_dealt_dmg	Dano infligido pelo inimigo	Enemy-inflicted damage
+change_all_tag_claw_true_all	Todas as Garras infligem mais 2 de dano este combate	All Claw cards deal 2 additional damage this combat
+event_cardNone1_1_txt	Escolha uma carta sem cor comum	Choose a common colorless Card
+tutorial_rbq_1		Defeat enemies by playing cards from your hand!%e%eCards require %y%Energy%y% to play.%eOnce you are out, end your turn.%e%eAt the start of your turn, new cards are drawn and your %y%Energy%y% is replenished.
+hero_sila_hint	Criatura Sobrenatural. Usualmente apresenta-se em forma humana, em corpo de mulher. É dito que seduz homens.	Supernatural creature. A talented shapeshifters often appearing in human form and female. Accordingly they are said to seduce men.
+ring15	Anel do Vazio de Veneno	Void Ring of Poison
+you_dealt_dmg	Dano infligido pelo seu exército	Damage dealt by your army
+helm_6	Capacete velho	Old Helm
+nosmithtrue	Não pode mais Forjar em Locais de Descanso	You can no longer Smith at Rest Sites
+mingmage_hint	O seu olhar o irá enfraquecer, já o seu toque, irá congelar o seu coração	His look will enfeeble, while his touch can freeze your heart.
+mingmage		Ring Mage
+event_search_txt	VAL% do monstro regressar. Ganhe uma recompensa restante aleatória	VAL% the monster returns. Gain a random remaining reward.
+rune_poison	Runa do Veneno	Poison Rune
+goblin_shaman_hint	Líder de goblins. Pode conjurar feitiços poderosos	A leader of goblins. He can cast powerful spells.
+rune_earth	Runa da Terra	Earth Rune
+hammer_4	Martelo de Adamantite	Adamantine Hammer
+vulnerable_hint	Alvos vulneráveis recebem 50% extra de dano de Ataques	Vulnerable target take 50% more damage from Attacks
+login_hpmax	Aumente o seu valor máximo de pontos de vida por VAL	Raise your Max HP by VAL
+candleblue_hint	Cartas de Maldição podem ser jogadas. Perca 1 Ponto de Vida e Exaure a carta	Curse cards can now be played. Lose 1 hp and Exhausts the card
+airsword	Espada do Ar	Air Sword
+goblin_archer	Flecha verde	Green Arrow
+robe_3	Manto Nobre	Noble Robe
+dmg_times	Aplique VAL de dano TIMES vezes	Deal VAL damage TIMES times
+goblin_shield_hint	Nascido e criado para se livrar de fortes punições	Born and raised to shrug off massive punishment.
+drawPlayExhaust1	Jogue a carta no topo da sua pilha de compra e Exaure-a	Play the top card of your draw pile and Exhaust it
+goblin_shield		Highborn
+goblin_warrior_hint	Nascido e criado para lutar até à morte	Born and raised to fight till death.
+goblin_warrior		Highborn
+taxes	Impostos	Taxes
+set01_axe	Machado de corte rápido	Chop-Chop Axe
+autoupgradeskills	Quando adicionar uma Habilidade- esta é melhorada	Whenever you add a Skill - it is Upgraded
+nasus_hint	Protetor de lápides e cemitérios	Protector of graves and cemeteries.
+helm_5	Capacete de Prata dos Anões	Mithril Helm
+lives	Reviver	Revive
+nasus		Jackali
+confuse_hint	Quando sacar uma carta, randomize o seu custo	Whenever you draw a card, randomize it's cost
+angel_hint	Um guerreiro com asas sem medo	A fearless winged warrior
+ring_9	Anel mortífero do Ar	Deadly Air Ring
+for_each_card	Por cada carta	for each card
+potionless	Sede	Thirst
+for_each	Por cada 	for each
+charm_hint	Aumenta o dano recebido por ponto. cada turno reduzido em 1	Increases damage taken per point. Each turn reduced by 1
+event_consume	Quando consumir um Baú	Whenever you consume a Chest
+minotaur_hint	Gigante com a cabeça de um touro no corpo de um homem	Giant with the head of a bull on the body of a man.
+accuracy_hint	Adagas tiram VAL de dano adicional	Shivs deal VAL additional damage
+energymax	ganhe +VAL de energia no início de cada turno	Gain +VAL Energy at the start of each turn
+elf_grey	Elfo ancião	Ancient Elf
+fox	Raposa	Fox
+rehand_deck_ctype_all_false	Escolha uma carta da sua pilha de compra e coloque-a na sua mão	Choose a Card from your draw pile and place it into your hand
+dollofhope	Boneca da Esperança	Doll of Hope
+ram_red	Aríete de Fogo	Fire Ram
+ram	Aríete 	Ram
+set04_lamp	Lâmparina mágica	Magic Lamp
+boots_7	Apenas Botas	Just Boots
+witch	Bruxa	Witch
+ifTargetHaveMoreCONThenVAL	Se o alvo tiver mais CON do que VAL	If target have CON more than VAL
+dragon	Dragão	Dragon
+witch_red	Bruxa vermelha	Red Witch
+zombe	Zombie	Zombie
+exit	Saída	Exit
+goblin_swords_hint	Este encontrou uma segunda espada. porque não utilizar as duas ao mesmo tempo?	This one found a second sword. Why not swing both at once?
+goblin_swords	Mestre campônio	Master Peasant
+robe_5	Manto Real	Royal Robe
+armor_4	Armadura de Adamantina	Adamantine Armor
+goblin_sword	Goblin verde campônio	Green Goblin Peasant
+goblin_hint	Goblin simples que ama a vida	Simple, life-loving goblin.
+event_money_txt	Ganhe VAL ouro	Gain VAL Gold
+gui_time		GUI Time
+card_type_4	Condição	Status
+hand_discard_1_false	Descarte todas as cartas que não sejam um Ataque da sua mão	Discard all non-Attack cards in your hand
+goblin	Goblin campôneo	Goblin Peasant
+doublepower2	Este turno os seus próximos 2 poderes são jogados duas vezes	This turn, your next 2 Powers are played twice
+set01_ring	Anel vermelho	Red Ring
+rest_smith_hint	Melhore uma carta no seu baralho	Upgrade a card in your Deck
+tutorial_rbq_3		During your turn, you can observe an enemy's %y%Intent%y% above them.%e%eIf an enemy is intent on attacking you, be sure to gain some %b%Armor%b%!
+tavern	Taberna	Tavern
+set06_book	Livro da morte	Death Note
+musket_4	Mosquete de Adamantina	Adamantine Musket
+redeck_hand_ctype_all_false	Coloque uma carta da sua mão no topo da sua pilha de compra	Place a card from your Hand pile on top of your Draw pile
+exhaust_hint	Remove a carta do baralho até ao fim do combate	Removes the card from the active deck until the end of combat
+gnome_rifle	Trovejador	Thunderer
+gnome_mage	Barão	Thane
+harm_times	Inflija VAL dor TIMES vezes	Inflict VAL Harm TIMES times
+discount_by_attacked	Custa 1 a menos por cada vez que toma dano	Cost 1 less for each time you take damage
+gnome_axe_hint	São os guerreiros anão mais experientes, pode-se verificar pela sua longa barba	Are the most experienced of the Dwarf warriors, a fact evidenced by their long beards.
+helm_9	Capacete do Herói	Hero Helm
+gnome_axe	BarbaLonga	Longbeard
+steel_set	Conjunto de Aço	Steel set
+barricade_hint	Armadura não expira	Armor no longer expires
+gnome_shooter_hint	Um grupo teimoso, preferem acreditar nos próprios olhos	A stubborn bunch, preferring to trust their own eyes.
+hand_exhaust_4_true	Exaura todas as cartas de condição da sua mão	Exhaust all Status cards in your hand
+amulet_4	Amuleto do ar da sobrevivência	Air Amulet of Survival
+energyAdd1	Ganhe 1 de energia	gain 1 Energy
+change_hand_ctype_2_true_all	Todas as cartas de Habilidade na mão	All Skill cards in hand
+scroll_air	Pergaminho do Ar	Air Scroll
+strX_hint	Força afeta este Ataque X vezes	Strength affects this Attack X times
+next_turn	Próximo turno	Next Turn
+staff_black	Cajado negro	Black Staff
+turn_player	Turno do jogador	Player Turn
+air_set	Conjunto do Ar	Air set
+bomb_3	Bomba Nobre	Noble Bomb
+warrior_defender_hint	Ele utiliza armadura mergulhada em ouro	He wears armor infused with gold.
+knightarcher_hint	Arqueiro armadurado e com um arco composto, procura a Fénix	Armored archer equipped with a composite bow, seeking the Phoenix.
+donation_btn	Doar	Donate
+ranger	Guarda-florestal	Ranger
+cardsreward	Ganha mais 1 carta por onde escolher	You get 1 extra card choice to pick from
+azir_hint	O Deus do céu controla o sol e a lua	The sky god controls the sun and the moon.
+potion_slot_hint	Use poções durante o combate para ganhar bónus ou afetar inimigos	Use potions during combat to gain bonuses or hinder enemies
+event_dmg_txt	ganhe VAL de dano	Get VAL dmg
+tax_collector	Coletor de impostos	Taxman
+mag_red	Bruxo	Warlock
+event_dmg	Se atacado	If attacked
+archer	Arqueiro  	Archer
+played_1	Quando jogar um Ataque	Whenever you play an Attack
+doubleaxe_4	Duplo Machado de Adamantina	Adamantine Double Axe
+rehand_draw_energy_0_true_all	Adicione todas as cartas de custo 0 da sua pilha de descarte para a sua mão	Put all Cost 0 cards from your discard pile into your hand
+highelf	Elfo Nobre	High Elf
+amulet_5	Amuleto do Vazio da Sobrevivência	Void Amulet of Survival
+dwarriorshadow	Cavaleiro das Sombras	Shadow Knight
+dwarrior	Zealot	Zealot
+dwarrior_hint	Guerreiro negro que segue um caminho de puro mal. Dano em área	Dark warrior that follows a path of pure Evil. AoE damage.
+hero_shiva_hint	Uma Jinn que foi selada nas montanhas geladas de Lanzelt. Tem uma face muito bela, mas um coração gelado como uma noite de inverno	A Jinn that was sealed away in the snowy drifts of Lanzelt, with features fair and a heart as cold as a winter's night.
+pain	Dor	Pain
+create_ctype_2_x1	Adicione uma carta de Habilidade para a sua mão	Add a random Skill card to your hand
+scores	Pontuações	Scores
+rule_lastcard_hint	Apenas pode ser jogada se não tiver mais cartas na sua mão	Can only be played if there are no other cards in your hand
+later	Depois	Later
+shield	Armadura Reforçada	Plated Armor
+paladin_hint	Um Cavaleiro Sagrado numa demanda em nome do bem e da ordem	A holy knight, crusading in the name of good and order.
+paladin	Paladino	Paladin
+gnom	Martelador	Hammerer
+water_set	Conjunto de Água	Water set
+shop	Loja	Shop
+armor_1	Armadura de Bronze	Bronze Armor
+gnome_range_hint	Um bando de teimosos, preferem acreditar nos próprios olhos	A stubborn bunch, preferring to trust their own eyes.
+shift	Mudança	Shift
+succubus_hint	Vampiro de energia- não deixará uma gota	Energy vampire - will leave no drop
+succubus	Sucubo	Succubus
+noresttrue	Não pode mais Dormir em Locais de Descanso	You can no longer Rest at Rest Sites
+upgrade_hand_ctype_all_false	Melhore uma carta da sua mão para o resto do combate	Upgrade a card in your hand for this combat
+knightsword_hint	Seguidor de um culto do fogo, mestre de espadas	Follower of a fire cult, master of swords
+str_hint	Aumenta o dano infligido por ponto	Increases damage dealt per point
+amulet_8	Amuleto da Terra do Caçador Mágico	Earth Amulet of the Magic Hunter
+sandals_1	Sandálias velhas	Old Sandals
+treasureextrarelic	Os próximos VAL baús de relíquias que abrir contêm 2 relíquias	The next VAL relic chests you open contain 2 Relics
+no_card_to_upgrade	Sem carta para Melhorar	No card to Upgrade
+stat_kills	Inimigos Derrotados	Enemies Slain
+warrior_mace_hint	Seguidor de um culto do fogo 	Follower of a fire cult
+warrior_mace	Martelo da Fénix	Phoenix Hammer
+pirate_hint	Sempre procurando por tesouros. Um tiro e carga!	Always looking for Treasure. One shot and charge!
+event_discard	Quando descartar uma carta	Whenever you Discard a card
+boots_6	Botas velhas	Old Boots
+onPettrue	Por cada animal único	For each unique Pet
+skull_key	O propósito desta Caveira é desconhecido	The purpose of this Skull is unknown
+boots_3	Botas de Aço	Steel Boots
+angel	Anjo	Angel
+event_played_1	Por cada carta de Ataque jogada	For every Attack Card played
+rune_fire	Runa de Fogo	Fire Rune
+barbarian_hint	Usa força bruta e fúria crua no combate	Uses brute strength and raw fury to excel in combat
+event_Wound	Quando sacar uma Ferida	Whenever you draw a Wound
+amulet10	Amuleto do Vazio do Caçador Mágico	Void Amulet of the Magic Hunter
+poison_hint	No início do turno, o Alvo perde HP e perde um ponto de veneno	At the start of turn, Target loses HP and loses a point of Poison
+exhaust_hand_ctype_all_false_rnd	Exaure uma carta aleatória da sua mão	Exhaust a random card in your hand
+staff_red	Bastão vermelho	Red Staff
+staff_blue	Bastão azul	Blue Staff
+set06_cap	Capuz negro	Black Hood
+cape_3	Manto Nobre	Noble Cape
+spear_1	Lança de Bronze	Bronze Spear
+set06_helm	Abóbora	Pumpkin
+set06_rlc	Relíquia da Morte	Death Relic
+ethereal	Etério	Ethereal
+hero_miss_fortune	Menina Fortuna	Miss Fortune
+played_2	Quando jogar uma Habilidade	Whenever you play a Skill
+discard_hand_ctype_4_true_2	Descarte 2 Condições	Discard 2 Statuses
+ethereal_hint	Esta carta Auto-Exaura no fim do seu turno	This card will Exhaust itself in your hand at the end of turn
+act4_is_locked	Tem que passar os primeiros 3 atos com 3 Heróis diferentes	You have to beat the first 3 acts with 3 different Heroes
+event_turn	Cada Turno	Every Turn
+set05_bug	Inseto dourado	Golden Bug
+mag_white_hint	Mestre sorrateiro do relâmpago	Sneaky master of lighting.
+quiver_3	Pontas venenosas	Poison Tips
+event_death	Na morte	At Death
+event_debuff	Quando aplicar um Enfraquecimento	Whenever you apply a Debuff
+set05_sword	Espada de Rá	R`ha Sword
+set05_boots	Botas de Rá	R`ha Boots
+spike_hint	Quando atacado, aplique VAL dano ao atacante	Whenever you are attacked, deal VAL damage to the attacker
+set04_amulet	Amuleto do Ar  	Air Amulet
+mag_evil		Necros
+airbow_blue	Arco do Ar	Air Bow
+archer_hint	Indivíduos pouco sinceros que usam maioritariamente arcos	Sleek looking individuals who primarily use bows.
+set02_staff	Super Cajado	Super Staff
+blunder_5	Bacamarte de Prata dos Anões	Mithril Blunderbuss
+gnome_sekira_hint	Por cada batalha lutada na superfície, eles lutaram dúzias no subterrâneo	For every battle they fight on the surface they have faced dozens below the ground.
+azir	Órus	Horus
+helm10	Capacete Real	Royal Helm
+book_2	Apenas Livro	Just Book
+card_type_3	Poder	Power
+dollofacid_hint	Aplique Veneno a um Inimigo aleatório	Apply Poison to Random Enemy
+rehand_deck_ctype_all_false_2	Escolha duas cartas da sua pilha de compra e coloque-as na sua mão	Choose 2 Cards from your draw pile and place them into your hand
+exhaust	Exaura  	Exhaust
+to_self	Para o próprio	
+curse_add_txt	Por cada Maldição no seu baralho ganhe 1 ponto de ATTR adicional	For each Curse in your deck get 1 additional ATTR
+retaincards_hint	No fim do seu turno, mantenha até VAL carta(s)	At the end of your turn, Retain up to VAL card
+discard_hand_ctype_all_false_2	Descarte 2 cartas	Discard 2 cards
+set03_boots	Super Botas	Super Boots
+create_ctype_2_x2	Adicione 2 cartas de Habilidade aleatórias à sua mão	Add 2 random Skill cards to your hand
+diadem_1		Old Diadem
+deck_hint	Pilha de compra	Draw Pile
+copy_hand_ctype_all_false_nextTurn_x3	Escolha uma carta. no próximo turno, adicione 3 cópias da mesma à sua mão	Choose a card. Next turn, add 3 copies of that card into your hand.
+event_removecard_1_txt	Remova uma carta do baralho	Remove a card in your deck
+rest_remove	Remover	Remove
+event_moneylose_txt	Perca VAL ouro	Lose VAL Gold
+event_battle_start	No início do combate	At the start of Battle
+eventburned		Firecard
+blunder_2	Bacamarte de Ferro	Iron Blunderbuss
+curses_negated	Negue as próximas VAL maldições que obtiver	Negate the next VAL Curses you obtain
+scroll_getting_hint		Every Mage will leave a scroll if fired
+shield_3	Escudo de nogueira	Hickory Shield
+set04_helm	Super Capacete	Super Helm
+event_cardNone3_1_txt	Escolha uma carta sem cor rara	Choose a rare colorless Card
+helm_8	Capacete Nobre	Noble Helm
+diadem_2		Just Diadem
+event_kill	Ao matar	At Kill
+set02_helm	Super Capacete	Super Helm
+set01_helm	Super Capacete	Super Helm
+orc		Orc Grunt
+amulet13	Amuleto resistente da Terra	Tough Earth Amulet
+preventdmg1	Previne a próxima primeira vez que perderia HP	Prevent the next 1 time you would lose HP
+cape_1	Velha Capa	Old Cape
+deckToDmg1	Inflija 1 de dano por cada carta na sua pilha de compra	Deal 1 DMG for each card in your draw pile
+quiver_4	Pontas de Ar	Air Tips
+weak_hint	Todo o dano de ataque feito por uma entidade enfraquecida é reduzido em 25%	All attack damage dealt by a weakened entity is reduced by 25%
+ring_5	Anel do Vazio do Caçador Mágico	Void Ring of Magic Hunter
+amulet12	Anel resistente da Água	Tough Water Amulet
+amulet11	Amuleto resistente do Fogo	Tough Fire Amulet
+barbarian	Bárbaro	Barbarian
+artifact	Artefacto	Artifact
+charmMlt2	Duplique o Charme	Double the Charm
+ring12	Anel da água do Veneno	Water Ring of Poison
+ring_3	Anel da Terra do Caçador Mágico	Earth Ring of Magic Hunter
+event_played_2	Por cada carta de habilidade jogada	For every Skill Card played
+hero_frontier	Guerreiro	Frontier
+confuse	Confusão	Confuse
+iron_set	Conjunto de Ferro	Iron set
+change_deck_ctype_2_true_1	Escolha uma carta de Habilidade: no início do combate, esta carta estará na sua mão	Choose a Skill card: at the start of each combat, this card will be in your hand
+upgrade_all_ctype_1_true_all	Melhore todas as cartas de Ataque este combate	Upgrade all Attack cards for this combat
+ring_7	Anel mortífero da Água	Deadly Water Ring
+ring_6	Anel mortífero do Fogo	Deadly Fire Ring
+armorFromDraw	Ganhe Armadura igual ao número de cartas na sua pilha de descarte	Gain Armor equal to the number of cards in your discard pile
+ring_2	Anel da água do Caçador Mágico	Water Ring of Magic Hunter
+ring_1	Anel do fogo do Caçador Mágico	Fire Ring of Magic Hunter
+amulet_7	Amuleto da água do Caçador Mágico	Water Amulet of the Magic Hunter
+ring11	Anel de veneno do Fogo	Fire Ring of Poison
+dwarriorshadow_hint	Cavaleiros Negros com fé no puro mal. dano em área	Dark knights who have faith in pure Evil. AoE damage.
+warrior_hero	Guerreiro	Warrior
+amulet_3	Amuleto da terra da Sobrevivência	Earth Amulet of Survival
+innate	Inata	Innate
+quiver_5	Pontas do vazio	Void Tips
+robe_2	Apenas manto	Just Robe
+set03_ring	Anel verde	Green Ring
+pets	Animais	Pets
+quiver_1	Pontas de fogo	Fire Tips
+donations_extras	Doações e Extras	Donations & Extras
+str_times	VAL*(TIMES) Força	VAL*(TIMES) Strength
+rope_set	Conjunto comum	Common set
+berserk_hint	Se os Pontos de Vida estiverem a ou a menos, ganhe ENERGY no início do seu turno	If your HP is at or below, gain ENERGY at the start if your turn
+orc_heavy	Chefe de guerra orc	Orc Warchief
+undecidedloot	Saque não decidido	Undecided Loot
+scroll_water	Pergaminho de água	Water Scroll
+create_rarity_1_x1	Adicione uma carta comum aleatória à sua mão	Add a random Common card into your hand
+options	Opções	Options
+scroll_fire	Pergaminho de fogo	Fire Scroll
+shield_1	Escudo de pinho	Pine Shield
+goblin_elder	Xamã	Shaman
+set03_pwr	Poder verde	Green Power
+axe_5	Machado de prata dos anões	Mithril Axe
+goblin_shaman	Xamã	Shaman
+weak	Fraqueza	Weak
+shift_hint	Após receber VAL dano, muda para um modo especial	After taking VAL damage, shifts to a special mode
+bastard	Bárbaro	Barbarian
+hero_miss_fortune_hint	Uma Capitã dos Grandes Mares, conhecida pela sua bela aparência mas temida pela sua crueldade	A Bilgewater captain famed for her looks but feared for her ruthlessness.
+scythe_2	Foice de Ferro	Iron Scythe
+book10	Livro do Vazio	Void Book
+set05_helm	Capacete de Rá	R`ha Helm
+book_8	Livro da Terra	Earth Book
+book_7	Livro da Água	Water Book
+change_deck_ctype_3_true_1	Escolha uma carta de Poder: no início do combate, esta carta estará na sua mão	Choose a Power card: at the start of each combat, this card will be in your hand
+event_relic_1_txt	Receba uma Relíquia aleatória	Receive a random Relic
+robe_1	Manto velho	Old Robe
+sword_2	Espada de Ferro	Iron Sword
+book_3	Livro Nobre	Noble Book
+zombe_hint	Um corpo reanimado a partir de magia negra	An animated corpse raised by witchcraft.
+bow_3	Arco de nogueira	Hickory Bow
+boots_9	Botas do Herói	Hero Boots
+boots_8	Botas Nobres	Noble Boots
+pirate	Pirata	Pirate
+boots_5	Botas de Prata dos Anões	Mithril Boots
+boots_2	Botas de Ferro	Iron Boots
+ent		Ent
+musket_5	Mosquete de Prata dos Anões	Mithril Musket
+one_of_the_skulls_stuck	Um dos Crânios preso na porta	One of the Skulls stuck in Door
+removing_not_possible	Está presa	Its stuck
+gnome_sekira	BarbaCinza	Greybeard
+musket_3	Mosquete de Aço	Steel Musket
+event_card1_1_txt	Escolha uma carta comum	Choose a common Card
+musket_2	Espingarda de Ferro	Iron Musket
+musket_1	Espingarda de Bronze	Bronze Musket
+to_enemies	A todos os inimigos	to all enemies
+rest_rest_voodoo	Voodoo	Voodoo
+blunder_1	Bacamarte de Bronze	Bronze Blunderbuss
+rest_sleep	Dormir	Sleep
+bomb_4	Bomba do Herói	Hero Bomb
+gnome_trooper	Martelador	Hammerer
+discount_by_discard	Custa menos 1 por cada carta descartada este turno	Cost 1 less for each discarded card this turn
+doubleskill2	Este turno, as próximas 2 habilidades são jogadas duas vezes	This turn, your next 2 Skills are played twice
+bomb_1	Bomba velha	Old Bomb
+crossbow_5	Besta de madeira vermelha	Redwood Crossbow
+sadistic_hint	Quando aplicar um Enfraquecimento a um inimigo, ele recebe dano	Whenever you apply a Debuff to an enemy, they take DMG damage
+electrodynamics_hint	Relâmpago agora atinge todos os inimigos	Lightning now hits ALL enemies
+bow_2	Arco de teca	Teak Bow
+preventdmg2	Previna as próximas 2 vezes que perderia Pontos de Vida	Prevent the next 2 times you would lose HP
+crossbow_4	Besta de nogueira	Oak Crossbow
+actX	Ato VAL	Act VAL
+crossbow_3	Besta de nogueira	Hickory Crossbow
+axe_3	Machado de Aço	Steel Axe
+doubleaxe_5	Duplo Machado de Prata dos Anões	Mithril Double Axe
+lockon	Mirar	Lock-On
+highelf_hint	Guardiões da floresta, mestres da lança	Guardians of the forest, masters of the spear.
+event_exhausted	Quando Exaurir uma carta	Whenever you Exhaust a card
+refund_card	Ganhe Energia igual ao custo	Gain Energy equal to its cost
+set01_boots	Super Botas	Super Boots
+lose_stuff	Perca Força	Lose ATTR
+doubleaxe_1	Duplo Machado de Bronze	Bronze Double Axe
+doubletap1	Este turno o próximo Ataque é jogado duas vezes	This turn, your next Attack is played twice
+create_ctype_3_x1	Adicione 1 carta de Poder aleatória à sua mão	Add 1 random Power card to your hand
+shield_8	Escudo de Aço	Steel Shield
+rune_void	Runa do Vazio	Void Rune
+hero_shaman	Xamã	Shaman
+card_type_1_played	Cartas de Ataque jogadas este turno	attack cards played this turn
+event_upgrade_1_txt	Melhore uma carta do seu baralho	Upgrade a card in your deck
+strNext	Força no próximo turno	Strength Next Turn
+intangible	Intangível	Intangible
+pick_one_hint	Pode escolher um(a)	You can pick one
+skeletarcher_hint	Arqueiros sem alma que usam os próprios ossos como munição	Soulless archers that use their own bones as ammo.
+event_card_txt	Adicione VAL	Add VAL
+rest_rest_poisonadd	Recolha	Gather
+event_transform_2_txt	Tranforme 2 cartas do seu baralho	Transform two cards in your deck
+change_energyTemp	Custa VAL este turno	costs VAL for this turn
+warrior_hint	Luta bem corpo a corpo	Fights well in melee.
+armor_5	Armadura de Prata dos Anões	Mithril Armor
+copy_this_to_draw	Coloque uma cópia desta carta na sua pilha de descarte	Place a copy of this card into your discard pile
+goblin_sword_hint	Goblin simples que ama a vida com uma espada	Simple, life-loving goblin with a sword.
+ctype	Tipo de carta	Card Type
+harm	Dor 	Harm
+armor_3	Armadura de Aço	Steel Armor
+quest_relic3	Obtenha 3 Relíquias	Obtain 3 Relics
+armor_2	Armadura de Ferro	Iron Armor
+warrior_defender	Cavaleiro 	Knight
+continue	Continuar	Continue
+onConditions_purge_voodoo_true	Executar todas as Bonecas	Execute All Dolls
+donation_gold	Doação de Ouro	Gold Donation
+doubleaxe_2	Duplo Machado de Ferro	Iron Double Axe
+spike	Espinho	Spike
+stat_floors	Andares Subidos	Floors Climbed
+goblin_archer_hint	Sorrateiro e mortífero	Sneaky and deadly.
+sandals_3	Sandálias Nobres	Noble Sandals
+skelet	Esqueleto	Skeleton
+knightsword	Espada da Fénix	Phoenix Sword
+armorMlt2	Duplique a sua Armadura atual	Double your current Armor
+chooseOneRandom3	Escolha 1 de 3 cartas aleatórias para adicionar à sua pilha de compra	Choose 1 of 3 random cards to shuffle into your draw pile
+dragonheads3	Hidra	Hydra
+event_hpmax_txt	VAL Pontos de HP máximo	VAL Max HP
+book_4	Livro do Herói	Hero Book
+rule_unplayable_hint	Não jogável	Unplayable
+void_set	Conjunto do Vazio	Void set
+sandals_5	Sandálias Reais	Royal Sandals
+upgrade_all_ctype_all_false_all	Melhore todas as cartas este combate	Upgrade ALL cards for this combat
+mithril_set	Conjunto de Prata dos Anões	Mithril set
+event_unblocked_dmg	Quando um Ataque inflige dano	Whenever an attack deals damage
+grim_reaper	Morte	Grim Reaper
+confirming	Confirmando	Confirming
+set	Conjunto  	Set
+helm_4	Capacete de Adamantina	Adamantine Helm
+master_volume	Volume Máximo	Master Volume
+helm_3	Capacete de Aço	Steel Helm
+event_battle_won	No fim da batalha	At the end of Battle
+autoupgradepowers	Quando adicionar um Poder- este é melhorado	Whenever you add a Power - it is Upgraded
+shop_remove_card_hint	O serviço de remoção de cartas do comerciante agora custa sempre 50 de ouro	The merchant's card removal service now always costs 50 Gold
+adamantin_set	Conjunto de Adamantina	Adamantine set
+event_harm	Quando auto-infligir Dor	Each time you Harm yourself
+staff_3	Cajado da Terra	Earth Staff
+login_money	Ganhe VAL ouro	Gain VAL Gold
+staff_2	Cajado da Água	Water Staff
+rest_remove_hint	Remova uma carta do baralho	Remove Card from your Deck
+sound	Som	Sound
+armor_times	Ganhe VAL armadura TIMES vezes	Gain VAL Armor TIMES times
+corruption_hint	Cartas de Habilidade custam 0. Quando jogar uma Habilidade, Exaure-a	Skill cards costs 0. Whenever you play a Skill, Exhausts it.
+total	Total	Total
+ctype_1	Ataque	Attack
+ctype_hint	Pode ser Ataque(1), Habilidade(2), Poder(3), Condição(4), Maldição(5)	Can be Attack(1), Skill(2), Power(3), Status(4), Curse(5)
+money	Ouro	Gold
+quest_upgradeskills2	Melhore 2 Habilidades aleatórias	Upgrade 2 random Skills
+summons_VAL	Convoca VAL	Summons VAL
+restheal	Cure VAL HP adicional ao dormir	Heal an additional VAL HP when you rest
+played_3	Quando joga um Poder	Whenever you play a Power
+_current_date		24/10/2018
+spear_4	Lança de Adamantina	Adamantine Spear
+bomb_2	Apenas Bomba	Just Bomb
+spear_2	Lança de Ferro	Iron Spear
+genie_hint	Feito de um fogo escaldante e sem fumo. Este está do seu lado	Made of a smokeless and scorching fire. This one is on your side.
+ctype_4	Condição	Status
+not_enought_energy	Energia insuficiente	Not enough Energy
+scythe_4	Foice de Adamantina	Adamantine Scythe
+removeatrest	Agora pode remover cartas em Locais de Descanso	You can now remove cards at Rest Site
+drawUntilX	Saque até ter VAL na mão	Draw cards until you have VAL in hand
+sheep	Ovelha	Sheep
+change_hand_ctype_1_true_all	Todas cartas de Ataque na mão	All Attack cards in hand
+enjoing_review	Gostaria de avaliar ou deixar uma opinião, para me dizer como o jogo está?	Would you like to rate or leave a review, to let me know how it's going?
+hammer_3	Martelo de Aço	Steel Hammer
+turn	Turno	Turn
+staff_1	Cajado do Fogo	Fire Staff
+cape_2	Apenas Capa	Just Cape
+sword_3	Espada de Aço	Steel Sword
+event_enemy_played_1	Quando um inimigo tiver jogado um Ataque	Whenever an enemy played an Attack
+set01_armor	Super Armadura	Super Armor
+event_cardNone3_rnd_txt	Obtenha uma carta rara sem cor aleatória	Obtain a random rare colorless Card
+removing_by_name	Tem certeza de remover "NAME"?	Are you sure to remove "NAME"?
+rune_air	Runa do Ar	Air Rune
+relic_names	Nomes de Itens	Items Names
+crossbow_1	Besta de pinho	Pine Crossbow
+event_card1_rnd_txt	Obtenha uma carta comum aleatória	Obtain a random common Card
+evokeReSummon	Convoque o Animal acabado de Invocar	Summon the Pet that was just Evoked
+hero_demon	Demónio	Demon
+book_9	Livro do Ar	Air Book
+bow_1	Arco de pinho	Pine Bow
+spiderling	Pequena aranha	Spiderling
+cardonbattle_hint	Inimigos comuns soltam uma recompensa de carta adicional	Normal enemies drop an additional card reward
+event_curse_3_txt	Obtenha 3 Maldições	Obtain 3 Curses
+event_potion_used	Quando usar uma poção	Whenever you use a Potion
+credits	Créditos	Credits
+cape_4	Capa do Herói	Hero Cape
+ent_hint	Grande árvore viva. inofensiva no sono, mortífera se acordada	Big living tree. Harmless while sleeping, deadly if awakened.
+skeletwarrior_hint	Ele costumava ser um grande Cavaleiro, antes de levar com uma flecha no joelho	He used to be a great knight before he took an arrow to the knee.
+event_card3_1_txt	Escolha uma carta rara	Choose a rare Card
+donation_silver	Doação de Prata	Silver Donation
+act2_tag	Ato2: Cidade	Act 2: City
+donation_amber	Doação de âmbar	Amber Donation
+emptychest	O próximo baú de Relíquia não pertencente ao boss estará vazio	The next non-boss relic Chest you open is empty
+copy_hand_ctype_2_false	Crie uma cópia de uma carta que não seja Habilidade da sua mão	Create a copy of a non-Skill card in your hand
+create_class_none_x1	Adicione uma carta sem cor aleatória à sua mão	Add a random colorless card to your hand
+turn_enemy	Turno do inimigo	Enemy Turn
+hero_sila	Sila	Sila
+redeck_this_to_deck	Adicione uma cópia desta carta à sua pilha de compra	Place a copy of this Card to Draw Pile
+event_shuffle	Sempre que embaralhar o seu baralho	Every time you shuffle your deck
+dollofpain_hint	Inflija dano a um inimigo aleatório	Inflict Damage to Random Enemy
+silk_set	Conjunto Real	Royal set
+event_add_pet	Quando canalizar um Animal	Whenever you Channel a Pet
+wristblade_hint	Ataques que custam 0 fazem VAL de dano adicional	Attacks that cost 0 deal VAL additional damage
+transfer_kill_enemies	Quando um inimigo morre, transfira qualquer CONDITION que tenha para os inimigos	Whenever an enemy dies, transfer any CONDITION it has to all enemies
+event_removecard_2_txt	Remova duas cartas do seu baralho	Remove two cards in your deck
+evoke1	Invoque o seu próximo Animal uma vez	Evoke your next Pet once
+redeck_draw_ctype_all_false	Adicione uma carta da sua pilha de descarte no topo da sua pilha de compra	Place a card from your Discard pile on top of your Draw pile
+dollofpain	Boneca da Dor	Doll of Pain
+quest_upgradeattacks2	Melhore 2 ataques aleatórios	Upgrade 2 random Attacks
+restart	Reiniciar	Restart
+voodoo	Voodoo	Voodoo
+minotaur	Minotauro	Minotaur
+copy_this_to_hand	Adicione uma cópia desta carta à sua mão	Place a copy of this card into your hand
+hero_blood_mage_hint	Faz uso de rituais obscuros para aceder a magias poderosas. Deve estar aberta a sacrificar da própria força vital para carregar tais poderes.	Employ dark rites in order to access more powerful magic. She must be willing to sacrifice their own life force in order to wield this power.
+onConditions_play_voodoo_true	Ative o efeito de cada boneca	Trigger effect of each Doll
+enjoing_gname	Gostando de NAME?	Enjoying NAME?
+diadem_3		Noble Diadem
+onConditions_voodoo_true	Por cada tipo de Boneca	For each type of Doll
+music	Música	Music
+rest	descanso	Rest
+onDiscard	Se esta carta for descartada	If this card is discarded
+doubleplay1	A primeira carta que jogar será jogada duas vezes	The first card you play is played twice
+turnfalse	No início de cada turno	At the start of each turn
+retain_hint	Se jogada retorne para a mão	If played will return to hand
+revive	Reviver	Revive
+doubletap2	Este turno, os seus próximos 2 Ataques são jogados duas vezes	This turn, your next 2 Attacks are played twice
+hammer_1	Martelo de Bronze	Bronze Hammer
+discard_hand_ctype_4_true	Descarte 1 Condição	Discard 1 Status
+back	Voltar	Back
+hero_shaman_hint	Outrora realizava a possessão de espíritos em serviço dos Santuários. Com o passar do tempo, deixou os Santuários e começou a trabalhar de forma independente.	Once performed spirit possession in their service to shrines. As time passed, she left the shrines and began working independently.
+onConditions_add_voodoo_true	Adicione VAL de poder por cada boneca	Add VAL power to each Doll
+event_addedCtype4	Quando sacar uma Condição	Whenever you draw a Status
+missing_string	STRING em falta	Missing STRING
+hand_hint	Mão	Hand
+class_none	Sem cor	Colorless
+act1_tag	Ato1: Exórdio	Act 1: Exordium
+hero_demon_hint	Ela deixou o Jardim de Éden e recusa-se a voltar. Assume a forma de uma linda mulher, mas inspeção cuidada revela garras afiadas e caudas em serpentina.	She left Adam and refused to return to the Garden of Eden. She may take a form of a beautiful girl but closer inspection may reveal bird-like claws and serpentine tails.
+gnome_trooper_hint	Anões segurando grandes martelos e que não temem magia	Dwarves wield devastating hammers and do not fear magic.
+money_bonus	Inimigos deixam mais VAL% de ouro	Enemies drop VAL% more Gold
+strRmvOnce	Perca VAL de força por um turno	Lose VAL Strength for one turn
+hero_frontier_hint	Guerreira Templar- Imbuída com o fogo do sol. A sua pele brilha como estrelas e os seu olhos queimam com o seu poder celestial dentro dela.	Warrior Templar - Imbued with the fire of the sun. Her skin shimmers with starfire while her eyes burn with the power of the celestial Aspect within her.
+entangled	Emaranhado	Entangled
+ring10	Anel mortífero do Vazio	Deadly Void Ring
+event_armor	Quando ganhar Armadura	Whenever you gain Armor
+flax_set	Conjunto do Herói	Hero set
+upgrade_hand_ctype_all_false_rnd	Melhore uma carta aleatória da sua mão	Upgrade a random card in your hand
+exhaust_hand_ctype_all_false_5	Exaure 5 cartas da sua mão	Exhaust 5 cards in your hand
+warning_loot	Saque não decidido será perdido	Undecided Loot will be lost
+axe_1	Machado de Bronze	Bronze Axe
+autoupgradeattacks	Quando adicionar um Ataque- este é melhorado	Whenever you add an Attack - it is Upgraded
+event_played_cards_5	Sempre que jogar 5 cartas num turno	Every time you play 5 cards in a single turn
+evokePassive1	Ative a Habilidade passiva do seu primeiro Animal uma vez	Trigger the passive ability of first Pet once
+card_type_5	Maldição	Curse
+dmg	Dano	Damage
+bow_5	Arco de madeira vermelha	Redwood Bow
+event_enemy_played_any	Quando um inimigo tiver jogado uma carta	Whenever an enemy played a card
+to_rnd	Para um inimigo aleatório	to random enemy
+helm_2	Capacete de Ferro	Iron Helm
+discard_hand_ctype_all_false_3	Descarte 3 cartas	Discard 3 cards
+scythe_5	Foice de Prata dos Anões	Mithril Scythe
+frail	Frágil	Frail
+act5_tag	Ato5: Inalcançável	Act 5: Unreachable
+stat_elites3	Elites inferno mortos	Hell Elites Killed
+hero_blood_mage	Mago de Sangue	Blood Mage
+set06_scythe	Foice vermelha	Red Scythe
+consume_pain_txt	Consuma XXX pontos de dor para ganhar 1 ATTR	Consume XXX points of pain to get 1 ATTR
+stat_skulls	Caveiras encontradas	Skulls Found
+blinded	Cegueira	Blinded
+hiddentreasure	É VAL% mais provável encontrar tesouro em salas ?	You are VAL% more likely to find treasure in ? rooms
+dollofhope_hint	Cura todos os turnos	Heals every turn
+create_ctype_1_x1	Adicione uma carta de Ataque aleatória à sua mão	Add a random Attack card to your hand
+create_class_hero_x1	Adicione uma carta aleatória à sua mão	Add a random card to your hand
+event_enemy_played_2	Quando um inimigo tiver jogado uma habilidade	Whenever an enemy played a Skill
+skeletarcher	Arqueiro de Osso	Bone Archer
+ring_8	Anel mortífero da Terra	Deadly Earth Ring
+sword_1	Espada de Bronze	Bronze Sword
+change_hand_ctype_all_false_rnd	Mude uma carta aleatória da sua mão	Change a random card in your hand
+genie	Génio	Genie
+event_turnEnd	No fim de cada turno	At the end of each Turn
+set04_boots	Super Botas	Super Boots
+create_class_none_x2	Adicione 2 cartas sem cor aleatórias à sua mão	Add 2 random colorless cards to your hand
+gnome_range	Conflituoso	Quarreller
+battlefervorMlt2	Duplique o seu BF atual	Double your current BF
+event_upgraderandom_1_txt	Melhore uma carta aleatória	Upgrade one random card
+innate_hint	Começe todos os combates com esta carta na mão	Always begin combat with this card in your hand
+rest_rest_voodoo_hint	Ganhe poder voodoo extra	Get extra Voodoo Power
+event_udmg	Se atingido	If damaged
+for_each_enemy	Por cada inimigo	for each enemy
+card_type_2	habilidade	Skill
+easyenemies	Inimigos nos primeiros VAL combates têm 1 HP	Enemies in your first VAL combats will have 1 HP
+discount_by_played_ctype3	Custa 1 de energia a menos por cada carta de Poder jogada este combate	Costs 1 less Energy for each Power card played this combat
+unlimited	Ilimitado	Unlimited
+poisonMlt3	Triplique o Veneno de um inimigo	Triple an enemy's Poison
+scrap_hint	Sucata inútil	Useless scrap
+rehand_deck_ctype_2_true	Escolha uma Habilidade da sua pilha de compra e coloque-a na sua mão	Choose a Skill from your draw pile and place it into your hand
+rune_water	Runa da água	Water Rune
+treasure	Tesouro	Treasure
+bigsmith	Barbavermelha	Redbeard
+artifact_hint	Nega o próximo Enfraquecimento	Mitigates the next Debuff
+frozen_hint	Não pode sacar cartas este turno	You cannot draw any cards this turn
+set04_armor	Super Armadura	Super Armor
+lockon_hint	Animais aplicam 50% de dano extra a este inimigo	Pets deal 50% more damage to this target
+shield_hint	Ganhe VAL de Armadura(quando receber dano não bloqueado, perca um ponto)	Gain VAL Armor (Whenever you take unblocked damage, lose one stack)
+event_upgrade_specific_txt	Melhore todas as cópias de NAMES	Upgrade all copies of NAMES
+onExhaust	Ao Exaurir	on exhaust
+relicstoheal	Tenha a opção de dormir ao invés de pegar uma Relíquia	Get the option to rest instead of picking a relic
+drawX	Saque VAL cartas	Draw VAL Cards
+ifTargetHpLess	Se o HP estiver a ou abaixo de VAL%	If HP is at or below VAL%
+more_games	Mais Jogos	More Games
+rest_rest_poisonadd_hint	Ganhe Veneno extra	Get an Extra Poison
+sword_5	Espada de Prata dos Anões	Mithril Sword
+trash_hint	Pilha de Cartas Exauridas	Exhausted Pile
+act4_tag	Ato4: Demasiado Longe	Act 4: Too Far
+start	Começar	Start
+event_cardNone1_rnd_txt	Obtenha uma carta sem cor comum aleatória	Obtain a random common colorless Card
+ctype_2	habilidade	Skill
+act3_tag	Ato3: Além	Act 3: Beyond

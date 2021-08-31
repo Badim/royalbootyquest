@@ -1,0 +1,1212 @@
+[
+	{
+		"tag":"Dark Ritual",
+		"dmg":4,
+		"soulcatcher":5,
+		"rarity":1,
+		"ctype":1,
+		"range":"enemy",
+		"class":"teal",	
+		"energy":1,
+		"onUpgrade":{
+			"soulcatcher":8,
+		},
+	},
+	{
+		"tag":"Firewall",
+		"rarity":1,
+		"ctype":3,
+		"class":"teal",
+		"range":"self",
+		"energy":2,
+		"firewall":1,
+		"onUpgrade":{
+			"firewall":2,
+		},
+	},
+
+	{
+		"tag":"Flame strike",
+		"rarity":1,
+		"ctype":1,
+		"class":"teal",
+		"range":"enemy",
+		"energy":1,
+		"dmg":8,
+		"exhaust":true,
+		"onUpgrade":{
+			"dmg":12,
+		},
+	},
+	{
+		"tag":"Collecting firewood",
+		"rarity":1,
+		"ctype":2,
+		"class":"teal",
+		"range":"self",
+		"energy":1,
+		"addCards":{
+			"deck":["Firewood","Firewood","Firewood"],
+		},
+		"onUpgrade":{
+			"addCards":{
+					"deck":["Firewood","Firewood","Firewood","Firewood"],
+			}
+		},
+	},
+
+	{
+		"tag":"Firewood",
+		"rarity":0,
+		"ctype":2,
+		"class":"teal",
+		"range":"self",
+		"energy":0,
+		"exhaust":true,
+		"draw":1, 
+	},
+
+	{
+		"tag":"Seething rage",
+		"rarity":2,
+		"ctype":1,
+		"class":"teal",
+		"range":"enemy",
+		"energy":2,
+		"dmg":5,
+		"exhaust":true,	
+		"onKill":{
+		  "dmg":1,
+		  "permanent":true
+		},
+		"onUpgrade":{
+			"onKill":{
+				"dmg":2,
+				"permanent":true
+			},
+		},
+	},
+	{
+		"tag":"Hand of Flame",
+		"rarity":2,
+		"ctype":2,
+		"class":"teal",
+		"range":"enemy",
+		"energy":3,
+		"exhaust":true,
+		"onUse":{
+			"action":"exhaust",
+			"play":1,
+			"target":"hand",
+			"range":"self",
+			"amount":"all",
+			"filter":["ctype","all",false]
+		},
+		"onUpgrade":{
+			"draw":1,
+		}
+	},
+	
+	{
+		"tag":"Phylactery",
+		"rarity":1,
+		"ctype":3,
+		"class":"teal",
+		"energy":1,
+		"range":"self",
+		"phylactery":10,
+	},
+	{
+		"tag":"Bloodlust",
+		"rarity":2,
+		"ctype":3,
+		"class":"teal",
+		"range":"self",
+		"energy":2,
+		"bloodlust":1
+	},	
+	{
+		"tag":"Soul drain",
+		"rarity":1,
+		"ctype":1,
+		"class":"teal",
+		"range":"enemy",
+		"energy":1,
+		"dmg":5,
+		"vamp":true,
+		"onUpgrade":{
+			"dmg":8,
+			"onConditions":{
+				"attr":"tag",
+				"val":"soulcatcher",
+				"range":"enemy",  
+				"action":"purge",
+				"onStack":{
+					"range":"self",
+					"vamp":true,
+					"dmg":1
+				}
+            },
+		}
+	},
+	
+	{
+        "tag":"Soul burn",
+        "rarity":1,
+        "ctype":1,
+        "class":"teal",
+        "range":"enemy",
+        "energy":2,
+        "soulcatcher":3,
+        "onConditions":{
+            "attr":"tag",
+            "val":"soulcatcher",
+            "range":"enemy",  
+            "action":"purge",
+            "onStack":{
+                "range":"self",
+                "dmg":3
+            },
+		},
+		"onUpgrade":{
+			"onConditions":{
+				"attr":"tag",
+	            "val":"soulcatcher",
+		        "range":"enemy",  
+			    "action":"purge",
+	            "onStack":{
+		            "range":"self",
+			        "dmg":4
+				},
+			}
+        },
+    },
+
+
+	{
+        "tag":"Soul brake",
+        "rarity":1,
+        "ctype":2,
+        "class":"teal",
+        "range":"enemy",
+        "energy":1,
+		"dmg":4,
+        "onConditions":{
+            "attr":"tag",
+            "val":"soulcatcher",
+            "range":"enemy",  
+            "action":"purge",
+            "onStack":{
+                "range":"self",
+                "vulnerable":1
+            },
+        },
+    },
+
+	{
+        "tag":"Hypnosis",
+        "rarity":1,
+        "ctype":2,
+        "class":"teal",
+        "range":"enemy",
+        "energy":1,
+		"dmg":4,
+        "onConditions":{
+            "attr":"tag",
+            "val":"soulcatcher",
+            "range":"enemy",  
+            "action":"purge",
+            "onStack":{
+                "range":"self",
+                "charm":1
+            },
+        },
+    },
+
+		{
+        "tag":"Scourge of souls",
+        "rarity":2,
+        "ctype":1,
+        "class":"teal",
+        "range":"enemy",
+        "energy":1,
+        "soulcatcher":3,
+		"dmg":4,
+        "onConditions":{
+            "attr":"tag",
+            "val":"soulcatcher",
+            "range":"enemy",  
+            "onStack":{
+                "range":"self",
+                "dmg":1
+            },
+		},
+		"onUpgrade":{
+			"onConditions":{
+				"attr":"tag",
+	            "val":"soulcatcher",
+		        "range":"enemy",  
+	            "onStack":{
+		            "range":"self",
+			        "dmg":2
+				},
+			}
+        },
+    },
+	// No effect
+	{
+		"tag":"Soul connection",
+		"rarity":1,
+		"ctype":2,
+		"class":"teal",
+		"range":"enemy",
+		"energy":1,
+		"Soulconnection": 1
+		
+		
+	},
+	{
+		"tag":"Combustion",
+		"rarity":1,
+		"ctype":1,
+		"class":"teal",
+		"range":"enemy",
+		"energy":1,
+		"exhaust":true,
+		"dmg": 10,
+		"addCards":{
+			"deck":["Burn"]
+		},
+		"onUpgrade":{
+				"dmg":15,
+		}
+	},
+
+	{
+		"tag":"Recovery",
+		"rarity":2,
+		"ctype":2,
+		"class":"teal",
+		"range":"self",
+		"energy":1,
+		"exhaust":true,
+		"create":{
+			"attr":"exhaust",
+			"count":2,
+			"val":true
+      }
+	},
+
+	{
+	"tag":"From the ashes",
+	"rarity":1,
+	"ctype":2,
+	"class":"teal",
+	"range":"self",
+	"energy":1,
+	"exhaust":true,
+    "onUse":
+	{
+		"target":"trash",
+		"action":"rehand",
+		"filter":["ctype","all",false],
+		"attr":"exhaust",		
+	},
+	"onUpgrade":
+		{
+			"onUse":
+			{
+				"target":"trash",
+				"action":"rehand",
+				"filter":["ctype","all",false],
+				"attr":"exhaust",
+				"amount":3
+			}
+		}
+	},
+
+	{
+	"tag":"Fire Spray",
+	"rarity":1,
+	"ctype":2,
+	"class":"teal",
+	"range":"enemies",
+	"energy":1,
+	"exhaust":true,
+	"dmg":10,
+	"onUpgrade":
+		{
+		"dmg":14,
+		}
+	},
+
+	{
+        "tag":"Black flame",
+        "rarity":2,
+        "ctype":2,
+        "class":"teal",
+        "energy":1,
+		"dmg": 10,
+		"soulcatcher":4,
+		"range":"enemy",
+		"onConditions":{
+            "attr":"exhausted_battle",
+            "range":"enemy",  
+            "onStack":{
+                "range":"enemy",
+                "soulcatcher": 1,
+            },
+        },
+	},
+
+	{
+	"tag":"Feel the pain",
+	"rarity":2,
+	"ctype":2,
+	"class":"teal",
+	"range":"enemy",
+	"energy":1,
+	"dmg":8,
+		"ifEnemy":{
+		"condition":"soulcatcher",
+		"play":{
+			"dmg":4,
+			}
+		},
+	"onUpgrade":{
+		"dmg":10,
+		"ifEnemy":{
+			"condition":"soulcatcher",
+			"play":{
+				"dmg":8,
+				}
+			},
+		}
+	},
+
+	{
+	"tag":"Meteor shower",
+	"rarity":3,
+	"ctype":2,
+	"class":"teal",
+	"range":"enemies",
+	"energy":1,
+	"exhaust":true,
+	"dmg":10,
+	"onUpgrade":{
+		"dmg":25,
+		}
+	},
+
+
+
+	{
+	"tag":"Chain lightning",
+	"rarity":2,
+	"ctype":2,
+	"class":"teal",
+	"range":"rnd",
+	"energy":1,
+	"dmg":5,
+	"times":4,
+	},
+
+	{
+	"tag":"Incineration",
+	"rarity":3,
+	"ctype":2,
+	"class":"teal",
+	"range":"rnd",
+	"dmg":5,
+	"energy":1,
+		"onUse":{
+		"action":"exhaust",
+		"target":"hand",
+		"range":"self",
+		"amount":"all",
+		"filter":["ctype","all",false],
+		"onCount":{
+                "range":"rnd",
+                "dmg":5
+            },
+		},
+		"onUpgrade":{
+			"onUse":{
+				"action":"exhaust",
+				"target":"hand",
+				"range":"self",
+				"amount":"all",
+				"filter":["ctype","all",false],
+				"onCount":{
+					"range":"rnd",
+					"dmg":10
+				},
+			},
+		}
+	},
+	
+	{
+	"tag":"Scorched ground",
+	"rarity":3,
+	"ctype":2,
+	"class":"teal",
+	"range":"enemies",
+	"energy":1,
+	"dmg":20,
+	"harm":20,
+	"onUpgrade":{
+		"harm":15,
+		}
+	},
+
+		{
+	"tag":"True phylactery",
+	"rarity":2,
+	"ctype":3,
+	"class":"teal",
+	"range":"self",
+	"energy":1,
+	"harm":5,
+	"truephylactery":1,
+	"onUpgrade":{
+		"harm":0,
+		"truephylactery":2,
+		}
+	},
+	
+	{
+		"tag":"Blood bath",
+		"rarity":1,
+		"ctype":2,
+		"class":"teal",
+		"range":"self",
+		"energy":1,
+		"str":1,
+		"onConditions":
+		{
+			"attr":"tag",
+            "val":"kill",
+            "range":"self",  
+            "onStack":
+			{
+                "range":"self",
+				"heal":10
+            },
+		},
+	},
+
+	
+	{
+		"tag":"Mass soul drain",
+		"rarity":3,
+		"ctype":1,
+		"class":"teal",
+		"range":"enemies",
+		"energy":2,
+		"vamp":true,
+		"onConditions":{
+			"attr":"tag",
+			"val":"soulcatcher",
+			"range":"enemies",  
+			"onStack":{
+				"range":"self",
+				"vamp":true,
+				"dmg":1
+			}
+		},
+	},
+	{
+		"tag":"Mass soul brake",
+		"rarity":3,
+		"ctype":2,
+		"class":"teal",
+		"range":"enemies",
+		"energy":2,
+		"onConditions":{
+			"attr":"tag",
+			"val":"soulcatcher",
+			"range":"enemies",  
+			"action":"purge",
+            "onStack":{
+                "range":"self",				
+				"dmg":1,
+                "charm":1
+            },
+		},
+		"onUpgrade":{
+			"soulcatcher":8,
+		}
+
+	},
+	{
+        "tag":"Feed",
+        "rarity":2,
+        "ctype":2,
+        "class":"teal",
+        "range":"self",
+        "energy":1,
+		"onConditions":{
+			"attr":"tag",
+			"val":"soulcatcher",
+			"range":"enemies",  
+            "onCount":{
+                "range":"self",		
+				"dmg":1,
+				"energyAdd":1,
+            },
+		},
+    },
+	
+		{
+        "tag":"Blinding flash",
+        "rarity":1,
+        "ctype":2,
+        "class":"teal",
+        "range":"enemies",
+        "energy":1,
+		"charm":2,
+		"weak":2,
+		"onUse":
+		{
+			"target":"hand",
+			"filter":["ctype","all",false],
+			"action":"exhaust",
+			"amount":1
+		},
+		"onUpgrade":{
+			"charm":5,
+			"weak":5,
+			"onUse":
+			{
+				"target":"hand",
+				"filter":["ctype","all",false],
+				"action":"exhaust",
+				"amount":2
+			},
+		}
+    },
+
+	{
+        "tag":"Roaring flame",
+        "rarity":3,
+        "ctype":1,
+        "class":"teal",
+        "range":"self",
+        "energy":1,
+		"exhaust":true,
+		"onUse":{
+			"action":"change",
+			"filter":["ctype","all",false],
+			"target":"deck",
+			"attr":"exhaust",
+			"amount":"all",
+			"changePick":{
+				"energy":0
+				}
+			}
+       
+    },
+
+	{
+        "tag":"Shower of sparks",
+        "rarity":2,
+        "ctype":2,
+        "class":"teal",
+        "range":"self",
+        "energy":1,
+        "addCards":{
+			"hand":["Spark", "Spark", "Spark", "Spark", "Spark", "Spark", "Spark", "Spark", "Spark", "Spark"],
+		},
+    },
+
+	{
+        "tag":"Spark",
+        "rarity":0,
+        "ctype":1,
+        "class":"teal",
+        "range":"enemy",
+        "energy":1,
+        "dmg":4,
+		"ethereal":true,
+		"exhaust":true,
+    },
+
+	{
+        "tag":"Rising flame",
+        "rarity":2,
+        "ctype":3,
+        "class":"teal",
+        "range":"self",
+        "energy":2,
+        "rising flame": 1,
+    },	
+
+	//No effect
+	{
+        "tag":"Thrall",
+        "rarity":3,
+        "ctype":3,
+        "class":"teal",
+        "range":"self",
+        "energy":1,
+        "thrall": 1,
+    },
+	
+	{
+        "tag":"Smoke screen",
+        "rarity":1,
+        "ctype":2,
+        "class":"teal",
+        "range":"self",
+        "energy":1,
+        "armor":8,
+		"exhaust":true,
+		"onUpgrade":{
+			 "armor":10,
+		}
+    },
+
+	{
+		"tag":"Barier",
+        "rarity":2,
+        "ctype":2,
+        "class":"teal",
+        "range":"self",
+        "energy":2,
+        "armor":8,
+		"exhaust":true,
+		"nextTurn":{
+			"range":"self",
+			"armor":8
+		},
+		"onUpgrade":{
+			"armor":2,
+			"nextTurn":
+			{
+				"range":"self",
+				"armor":2
+			}	
+		}
+	},
+	{
+        "tag":"Endless flame",
+        "rarity":1,
+        "ctype":3,
+        "class":"teal",
+        "range":"self",
+        "energy":1,
+        "endless flame":1
+    },
+	{
+        "tag":"Heat up",
+        "rarity":2,
+        "ctype":1,
+        "class":"teal",
+        "range":"self",
+        "energy":12,
+		"dmg":20,
+		"onUpgrade":{
+			"dmg":30,
+		}
+    },
+
+	{
+        "tag":"Ash Blade",
+        "rarity":2,
+        "ctype":2,
+        "class":"teal",
+        "range":"self",
+        "energy":1,
+        "ash blade":1,
+    },
+	{
+        "tag":"Memory invasion",
+        "rarity":1,
+        "ctype":1,
+        "class":"teal",
+        "range":"enemy",
+        "energy":1,
+        "dmg":8,
+		"onConditions":{
+            "attr":"tag",
+            "val":"soulcatcher",
+            "range":"enemy",  
+				"onCount":{
+					"draw":1
+				},
+			},
+		"onUpgrade":{
+			"dmg":10,
+			"onConditions":{
+				"attr":"tag",
+				"val":"soulcatcher",
+				"range":"enemy",  
+				"onCount":{
+					"draw":1
+				},
+			},
+		},
+    },
+	{
+        "tag":"Ash fist",
+        "rarity":2,
+        "ctype":2,
+        "class":"teal",
+        "range":"self",
+        "energy":1,
+        "str":3,
+		"onUse":
+		{
+			"target":"hand",
+			"filter":["ctype","all",false],
+			"action":"exhaust",
+			"amount":1
+		},
+		"onUpgrade":
+		{
+			"str":5,
+		},
+    },
+
+	{
+        "tag":"Burning blade",
+        "rarity":2,
+        "ctype":2,
+        "class":"teal",
+        "range":"self",
+        "energy":0,
+        "str":1,
+		"exhaust":"true",
+		"onUpgrade":
+		{
+			"str":3,
+		},
+    },
+	{
+        "tag":"Capnomantia",
+        "rarity":2,
+        "ctype":2,
+        "class":"teal",
+        "range":"enemy",
+        "energy":1,
+		"armor":12,
+		"exhaust":"true",
+		"onUse":
+		{
+			"target":"hand",
+			"filter":["ctype","all",false],
+			"action":"exhaust",
+			"amount":1
+		},
+		"onUpgrade":
+		{
+		    "energy":0,
+			"dmg":12,
+			"onUse":
+			{
+				"target":"hand",
+				"filter":["ctype","all",false],
+				"action":"exhaust",
+				"amount":2
+			}
+		},
+    },
+	
+	{
+        "tag":"Distortion",
+        "rarity":3,
+        "ctype":2,
+        "class":"teal",
+        "range":"enemy",
+        "energy":3,
+		"distortion":5,
+    },
+
+	{
+        "tag":"Black Curse",
+        "rarity":2,
+        "ctype":1,
+        "class":"teal",
+        "range":"enemy",
+        "energy":1,
+		"dmg":5,
+		"poison":3,
+		"onUpgrade":
+		{
+			"dmg":8,
+			"poison":5,
+		}
+    },
+
+	{
+        "tag":"Change of plans",
+        "rarity":2,
+        "ctype":2,
+        "class":"teal",
+        "range":"self",
+        "energy":1,
+		"onUse":{
+		"action":"discard",
+		"target":"hand",
+		"range":"self",
+		"amount":"all",
+		"filter":["ctype","all",false],
+		"onCount":{
+                "draw":1
+            },
+		},
+    },
+
+	{
+        "tag":"Death word",
+        "rarity":2,
+        "ctype":2,
+        "class":"teal",
+        "range":"enemy",
+        "energy":1,
+		"dmg":5,
+		"energyAdd":1,
+		"onConditions":{
+				"attr":"tag",
+				"val":"soulcatcher",
+				"range":"enemy",  
+				"onCount":{
+					"energyAdd":1,
+					"draw":1,
+				},
+		},
+    },
+
+		{
+        "tag":"Horror",
+        "rarity":2,
+        "ctype":2,
+        "class":"teal",
+        "range":"self",
+        "energy":0,
+		"exhaust":"true",
+		"onUse":{
+			"target":"hand",
+			"filter":["ctype","all",false],
+			"action":"copy",
+			"amount":1,
+			"copy":2,
+			"changePick":{
+				"ethereal":"true"
+				}
+		},
+    },
+
+	{
+        "tag":"Bones divination",
+        "rarity":2,
+        "ctype":1,
+        "class":"teal",
+        "range":"enemy",
+        "energy":1,
+		"dmg":5,
+		"onKill":
+		{
+			"armor":5,
+			"draw":1
+		}
+    },
+
+		{
+        "tag":"Dark deal",
+        "rarity":2,
+        "ctype":2,
+		"range":"self",
+        "class":"teal",
+        "energy":1,
+		"heal": 20,
+		"addCards":{
+			"hand":["Payback","Payback"],
+		},
+		"onUpgrade":
+		{
+			"addCards":{
+				"hand":["Payback"],
+			},
+		}
+	},
+
+	{
+        "tag":"Payback",
+        "rarity":0,
+        "ctype":4,
+        "class":"teal",
+		"playable":"unplayable",
+        "energy":0,
+		"onDraw":{
+			"burn": 5,
+			"target":"this",
+			"action":"copy",
+			"to":"hand"
+		},
+	},
+
+	{
+        "tag":"Self-immolation",
+        "rarity":2,
+        "ctype":1,
+        "class":"teal",
+        "energy":0,
+		"harm": 5,
+		"range":"enemies",
+		"dmg":15,
+		"onUpgrade":
+		{
+			"dmg":20,
+		}
+	},
+
+	{
+        "tag":"Blood ritual",
+        "rarity":2,
+        "ctype":1,
+        "class":"teal",
+        "energy":1,
+		"harm": 5,
+		"range":"enemy",
+		"dmg":30,
+		"onUpgrade":
+		{
+			"dmg":40,
+		}
+	},
+
+	{
+        "tag":"Hardening",
+        "rarity":2,
+        "ctype":2,
+        "class":"teal",
+        "energy":1,
+		"range":"self",
+		"onConditions":{
+            "attr":"exhausted_turn",
+            "range":"Self",  
+            "onStack":{
+                "range":"self",
+                "str":1
+            },
+        },
+		"onUpgrade":
+		{
+			"onConditions":{
+            "attr":"exhausted_battle",
+            "range":"Self",  
+				"onStack":{
+					"range":"self",
+					"str":1
+				},
+			}
+		}
+	},
+
+		{
+        "tag":"Radiance",
+        "rarity":2,
+        "ctype":3,
+        "class":"teal",
+        "energy":1,
+		"range":"self",
+		"protect": 8,
+		"onUpgrade":
+		{
+			"protect": 10
+		}
+	},
+
+	{
+        "tag":"Smoldering",
+        "rarity":2,
+        "ctype":1,
+        "class":"teal",
+        "range":"enemy",
+        "energy":1,
+		"exhaust":true,
+		"dmg":6,
+		"onUse":{
+			"action":"change",
+			"filter":["ctype","all",false],
+			"target":"hand",
+			"attr":"exhaust",
+			"val": "true",
+			"amount":"all",
+			"changePick":{
+				"energy":0
+				}
+			},
+		"onUpgrade":
+		{
+			"dmg":9,
+		}
+    },
+	
+	{
+        "tag":"Witchcraft Ties",
+        "rarity":3,
+        "ctype":2,
+        "class":"teal",
+        "range":"enemy",
+        "energy":1,
+		//"soulcatcherX":2,
+		"onConditions":{
+            "attr":"tag",
+            "val":"soulcatcher",
+            "range":"enemy",  
+            "onStack":{
+                "range":"self",
+                "soulcatcher":1
+            },
+        },
+		"onUpgrade":
+		{
+			"range":"enemies",
+		}
+
+    },
+
+	{
+        "tag":"Sigil of Fire",
+        "rarity":3,
+        "ctype":1,
+        "class":"teal",
+        "range":"enemy",
+        "energy":1,
+		"sigiloffire": 5,
+		"dmg": 5,
+		"onUpgrade":
+		{
+			"sigiloffire": 8,
+		}
+
+    },	
+	
+	{
+        "tag":"Phoenix",
+        "rarity":2,
+        "ctype":3,
+        "class":"teal",
+        "range":"self",
+        "energy":2,
+		"phoenix": 10,
+		"onUpgrade":
+		{
+			 "energy":1,
+		}
+
+    },
+	{
+        "tag":"Witch's seal",
+        "rarity":3,
+        "ctype":3,
+        "class":"teal",
+        "range":"self",
+        "energy":1,
+    },
+	{
+        "tag":"Soul collector",
+        "rarity":2,
+        "ctype":3,
+        "class":"teal",
+        "range":"self",
+        "energy":2,
+    },
+	{
+        "tag":"Rebirth",
+        "rarity":3,
+        "ctype":3,
+        "class":"teal",
+        "range":"self",
+        "energy":2,
+		"rebirth":1,
+    },
+
+		{
+        "tag":"The power of the flame",
+        "rarity":3,
+        "ctype":1,
+        "class":"teal",
+        "range":"enemy",
+        "energy":2,
+		"onConditions":
+			{
+            "attr":"exhausted_battle",
+            "range":"Self",  
+            "onStack":
+				{
+                "range":"self",
+                "dmg":1
+				},
+			},
+		"onUpgrade":
+			{
+			 "energy":1,
+			}
+        },
+	//{
+    //    "tag":"Blood in flame"
+	//}
+	
+	{
+        "tag":"Bloody mark",
+        "rarity":3,
+        "ctype":1,
+        "class":"teal",
+        "range":"enemy",
+        "energy":0,
+		"harm":5,
+		"soulcatcher": 5,
+		"dmg": 15,
+		"onUpgrade":
+			{
+			"dmg": 18,
+			}
+    },
+
+	{
+        "tag":"Release",
+        "rarity":2,
+        "ctype":2,
+        "class":"teal",
+        "range":"self",
+        "energy":0,
+		"exhaust":true,
+		"onUse":
+		{
+			"target":"hand",
+			"filter":["ctype","all",false],
+			"action":"exhaust",
+			"amount":3
+		},
+		"draw": 3,
+		"onUpgrade":
+			{
+			"onUse":
+				{
+				"target":"hand",
+				"filter":["ctype","all",false],
+				"action":"exhaust",
+				"amount":4
+				},
+			"draw": 4,
+			}
+    },
+	{
+        "tag":"Pentagram",
+        "rarity":2,
+        "ctype":1,
+        "class":"teal",
+        "range":"enemies",
+        "energy":1,
+		"exhaust":true,
+		"dmg": 5,
+		"soulcatcher": 3,
+		"onUpgrade":
+		{
+			"soulcatcher": 5,
+		}
+    },
+]

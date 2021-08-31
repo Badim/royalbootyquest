@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "816041786292",
+    "firebase_url": "https://royal-booty-quest-58014585.firebaseio.com",
+    "project_id": "royal-booty-quest-58014585",
+    "storage_bucket": "royal-booty-quest-58014585.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:816041786292:android:999e2dd1f3b50193",
+        "android_client_info": {
+          "package_name": "com.elitegamesltd.royalquest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "816041786292-87i5hj35gc324co8lgma48fukc0o2doh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnua7OtJBxO7_C1BMZdgcwB86UILJeNdg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

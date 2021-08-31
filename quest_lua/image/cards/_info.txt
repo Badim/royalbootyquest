@@ -1,0 +1,2 @@
+Card image can be placed in this folder.
+If you want a different image for same card for certain class - place it with same name in CLASS/ folder then.

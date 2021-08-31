@@ -1,0 +1,51 @@
+{
+	"wrath":{
+		"hinted":true, "number":false, "stance":"purple", "target":"source", "refreshallintends":true,
+	},
+	"calm":{
+		"hinted":true, "number":false, "stance":"purple", "target":"source", "onExpire":{
+			"energyAdd":2, "range":"self",
+		},
+	},
+	"divine":{
+		"hinted":true, "number":false, "expire":999999, "stance":"purple", "onAdd":{
+			"energyAdd":3, "range":"self",
+		},
+	},
+	"mantra":{
+		"hinted":true, "target":"source",
+		"event":"mantra_mod_10", "play":{
+			"divine":1,
+		},
+	},
+	
+	"foresight":{
+		"event":"turn", "play":{"scry":1},
+	},
+	"battlehymn":{
+		"event":"turn", "play":{"addCards":{"hand":["Smite"]}},
+	},
+	"rushdown":{
+		"event":"wrath", "play":{"draw":1},
+	},
+	"insightstudy":{
+		"event":"turnEnd", "play":{"addCards":{"deck":["Smite"]}},
+	},
+	"devotion":{
+		"event":"turn", "play":{"mantra":1},
+	},
+	"scryAdd":{
+		
+	},
+	"scryToBlock":{
+		"event":"scry", "play":{"armor":1},
+	},
+	"stanceNewToBlock":{
+		"event":"stanceNew", "play":{"armor":1},
+	},
+	"dmgOnce":{
+		"hinted":true, "event":"played_any", "tag":"dmgOnce", "play":{
+			"onConditions":{"range":"self", "action":"purge", "attr":"tag", "val":"dmgOnce"},
+		},
+	},
+}

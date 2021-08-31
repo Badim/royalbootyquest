@@ -1,0 +1,1637 @@
+﻿<lang	
+	act1_tag="제 1장: 첫 걸음" 
+act2_tag="제 2장: 도시" 
+act3_tag="제 3장: 그 너머" 
+armorMlt2="현재 방어막×2" 
+armor_hint="방어막 수치만큼 대미지를 막아냅니다" 
+artifact="유물" 
+artifact_hint="다음 디버프를 무시합니다" 
+barricade_hint="방어막이 없어지지 않습니다" 
+battlefervor="BF" 
+berserk_hint="HP 수치가 그 이하일 때, 당신의 차례가 되면, 에너지를 얻게 됩니다" 
+
+candleblue_hint="저주 카드를 사용할 수 있게 되었습니다. 저주 카드를 사용하면, HP를 1 잃고 카드는 소모됩니다." 
+candlered_hint="상태 카드를 사용할 수 있게 되었습니다. 상태 카드를 사용하면, 카드는 소모됩니다." 
+card_type_1="공격" 
+card_type_1_played="이번 차례에 사용한 공격 카드" 
+card_type_2="스킬" 
+card_type_2_hand="수중에 있는 스킬 카드" 
+card_type_3="힘" 
+card_type_4="상태" 
+card_type_5="저주" 
+card_type_all_hand="수중에 있는 카드" 
+
+change_hand_ctype_all_false_all="수중에 있는 모든 카드 변경" 
+change_hand_ctype_all_false_rnd="수중에 있는 카드 중 임의의 카드 1장 변경" 
+charm="Charm" 
+charm_hint="스택이 중첩될 때마다 받는 대미지가 1씩 증가합니다. 차례가 끝날 때마다 스택이 1씩 감소합니다." 
+chooseOneRandom3="임의의 카드 3장 중 1장을 카드 더미에 섞어 넣습니다. 카드를 선택해주세요" 
+class_none="무색" 
+
+copy_hand_ctype_2_false="수중에 있는 비스킬 카드 1장을 복사합니다" 
+copy_hand_ctype_2_false_2="수중에 있는 비스킬 카드 2장을 복사합니다" 
+copy_hand_ctype_all_false_3="수중에 있는 비스킬 카드 3장을 복사합니다" 
+copy_this_to_draw="이 카드의 복사 카드를 카드 무덤 더미에 놓으세요" 
+copy_this_to_hand="이 카드의 복사 카드를 수중 카드 더미에 놓으세요" 
+
+
+
+
+deck_hint="카드 뽑기" 
+dex="민첩" 
+dex_hint="민첩 스택이 중첩될 때마다 증가하는 방어막이 1 증가합니다" 
+discard="카드 버리기" 
+
+discard_hand_ctype_all_false="카드 1장 버리기" 
+discard_hand_ctype_all_false_2="카드 2장 버리기" 
+discard_hand_ctype_all_false_3="카드 3장 버리기" 
+discard_hand_ctype_all_false_rnd="임의의 카드 1장 버리기" 
+dollofacid="산성 인형" 
+dollofdecay="부패 인형" 
+dollofhope="희망 인형" 
+dollofpain="고통 인형" 
+draw1="카드 1장 뽑기" 
+draw2="카드 2장 뽑기" 
+draw3="카드 3장 뽑기" 
+drawPlayExhaust1="카드 더미의 맨 위에 있는 카드가 사용된 후 소멸됩니다" 
+draw_hint="카드 무덤" 
+drawless="침묵" 
+drawless_hint="VAL 차례 동안 카드를 1장 적게 뽑습니다" 
+
+ethereal_hint="이 카드는 차례가 종료될 때까지 수중에 있을 경우 소멸됩니다." 
+event_Wound="어떤 상처 카드를 뽑든" 
+event_addedCtype4="어떤 상태 카드를 뽑든" 
+event_battle_start="전투가 시작될 때" 
+event_battle_won="전투가 종료될 때" 
+event_card_txt="VAL 추가" 
+event_cursed="어떤 저주에 걸리든" 
+event_debuff="디버프를 걸 때마다" 
+event_discard="카드를 버릴 때마다" 
+event_dmg="공격을 받을 때마다" 
+
+event_enemy_played_any="적이 카드를 사용할 때마다" 
+event_exhausted="카드가 소멸될 때마다" 
+event_harm="스스로 피해를 입힐 때마다" 
+event_heal_txt="VAL HP 회복" 
+event_hpmax_txt="VAL 최대 HP" 
+
+event_money_txt="VAL 골드 획득" 
+event_moneylose_txt="VAL 골드 상실" 
+
+
+event_played_any="카드를 사용할 때마다" 
+event_played_ctype1_x3="한 차례에 공격 카드를 3번 사용할 때마다" 
+event_played_ctype2_x3="한 차례에 스킬 카드를 3번 사용할 때마다" 
+event_potion_1_txt="임의의 포션을 1개 선택하세요" 
+event_potion_2_txt="임의의 포션을 2개 선택하세요" 
+event_potion_3_txt="임의의 포션을 3개 선택하세요" 
+event_relic_1_txt="임의의 유물을 획득합니다" 
+event_relic_txt="VAL 획득" 
+event_removecard_1_txt="카드 1장을 덱에서 제거하세요" 
+event_removecard_2_txt="카드 2장을 덱에서 제거하세요" 
+event_transform_1_txt="덱에서 카드를 바꾸세요" 
+event_turn="매 차례마다" 
+event_turnEnd="매 차례가 끝날 때마다" 
+event_udmg="대미지를 입으면" 
+event_unblocked_dmg="공격으로 대미지를 입힐 때마다" 
+event_upgrade_1_txt="덱에서 카드 1장을 업그레이드 하세요" 
+event_upgrade_2_txt="덱에서 카드 2장을 업그레이드 하세요" 
+event_upgraderandom_2_txt="덱에서 임의의 카드 2장을 업그레이드 하세요" 
+
+exhaust="소멸" 
+exhaust_fail="소멸 실패" 
+exhaust_hand_ctype_4_true_rnd="수중에 있는 임의의 상태 카드 1장을 소멸시킵니다" 
+exhaust_hand_ctype_all_false="수중에 있는 카드 1장을 소멸시킵니다" 
+exhaust_hand_ctype_all_false_3="수중에 있는 카드 3장을 소멸시킵니다" 
+exhaust_hand_ctype_all_false_5="수중에 있는 카드 5장을 소멸시킵니다" 
+exhaust_hand_ctype_all_false_rnd="수중에 있는 임의의 카드 1장을 소멸시킵니다" 
+exhaust_hint="전투가 종료될 때까지 소멸된 카드를 덱에서 제거합니다." 
+
+frail="연화" 
+frail_hint="방어막을 25% 감소시킵니다"
+frozen="무언" 
+frozen_hint="이번 차례에 아무 카드도 뽑을 수 없게 됩니다" 
+hand_discard_1_false="수중에 있는 모든 비공격 카드를 버립니다" 
+hand_discard_1_true="모든 공격 카드를 버립니다" 
+hand_discard_all_false="모든 카드를 버립니다" 
+hand_exhaust_1_false="수중에 있는 모든 비공격 카드를 소멸시킵니다" 
+hand_exhaust_4_true="수중에 있는 모든 상태 카드를 소멸시킵니다" 
+hand_exhaust_all_false="수중에 있는 모든 카드를 소멸시킵니다" 
+hero_blood_mage="혈마도사" 
+hero_blood_mage_hint="더욱 강력한 마법을 사용하기 위해 어둠의 의식을 치른 마도사입니다. 그녀는 이 힘을 위해 자신의 생명력을 희생해야만 합니다." 
+hero_demon="악마" 
+hero_demon_hint="그녀는 아담을 떠났으며, 에덴 동산에 돌아오기를 거부했습니다. 서큐버스는 아름다운 소녀의 형상처럼 보이지만, 가까이서 보면 새의 발톱과 뱀 꼬리가 달려 있습니다." 
+hero_frontier="개척자" 
+hero_frontier_hint="태양의 불길이 스며든 전성기사 (전사+성기사)입니다. 그녀의 피부는 별빛처럼 반짝이며, 눈은 그녀의 내면 속에 있는 천상의 힘으로 불타고 있습니다." 
+hero_miss_fortune="미스 포춘" 
+hero_miss_fortune_hint="빌지워터 선장은 아름다운 외모로 유명하지만, 무자비한 성격을 가지고 있습니다." 
+hero_shaman="무녀" 
+hero_shaman_hint="이들은 신사에서 신과 소통하여 신탁을 받는 여성들입니다. 시간이 흐르며, 그녀들은 신사를 떠나 독립하였습니다." 
+hero_shiva="시바" 
+hero_shiva_hint="랑제르트 설산에 봉인되어 있는 정령입니다. 아름다우며 겨울밤과 같이 차가운 마음을 가지고 있습니다." 
+hero_sila="실라" 
+hero_sila_hint="초자연적인 생명체입니다. 모습을 바꿀 수 있는 능력으로 여성으로 변신하여 남성들을 유혹한다고 알려져 있습니다." 
+ifTargetHpLess="HP가 VAL% 이하가 되면" 
+innate="천부적 카드" 
+innate_hint="항상 이 카드가 수중에 있는 상태로 전투가 시작됩니다." 
+money_bonus="적이 더 많은 골드를 떨어뜨립니다" 
+next_turn="다음 차례" 
+nulify="무효화" 
+
+
+
+ctype_1="공격" 
+ctype_2="스킬" 
+ctype_3="힘" 
+ctype_4="상태" 
+ctype_5="저주" 
+
+event_played_1="공격 카드를 사용할 때마다" 
+event_played_2="스킬 카드를 사용할 때마다" 
+
+played_1="공격 카드를 사용할 때마다" 
+played_2="스킬 카드를 사용할 때마다" 
+
+
+trash_hint="소멸 카드 더미" 
+turn_enemy="적의 차례" 
+turn_player="플레이어의 차례" 
+turnfalse="매 차례가 시작될 때" 
+turntrue="플레이어의 차례가 끝날 때" 
+vulnerable="연약" 
+vulnerable_hint="받는 대미지가 50% 증가합니다" 
+weak="약화" 
+weak_hint="약화된 유닛에게서 받는 모든 공격 대미지가 25% 감소합니다." 
+
+	ok="Ok"
+	cancel="취소"
+	cost="비용"
+	master_volume="마스터 볼륨"
+	gui_size="GUI 크기"
+	gui_time="GUI 시간"
+	cursor="마우스 커서"
+	moregames_opens_browser_getit="스토어로"
+	
+	auto_equip_on="자동 장비 켜기"
+	auto_equip_off="자동 장비 끄기"
+	auto_equip_hint="영웅이 스스로 장비합니다"
+	stats="스탯"
+	
+	auto_upgrade_troops_on="자동 부대 켜기"
+	auto_upgrade_troops_off="자동 부대 끄기"
+	auto_upgrade_troops_hint="10k 이상의 골드가 있다면, 부대 업그레이드에 골드를 사용합니다."
+	
+	saves_uploaded="저장 파일이 업로드되었습니다"
+	saves_downloaded="저장 파일이 다운로드되었습니다"
+	open_save_folder="저장 파일 폴더 열기"
+	cloud_input_hint="로그인 - 알파벳과 숫자로 구성. 6자 이상. 핀번호 - 숫자 4개. 불러오기 - 클라우드에서 저장 파일을 가져 옵니다. 동기화 - 클라우드에 저장 파일을 업로드합니다. 이 기능을 사용하면 장치간 저장 파일을 전송할 수 있습니다. 공용 로그인이 제거될 수 있습니다."
+	cloud_replace_tip="클라우드가 장치의 저장 파일을 대체합니다. 계속 진행하시겠습니까?"
+	
+	chain="연쇄 효과"
+	chain_hint="주변의 적(x#TARGETS)마리에게 90% 데미지를 입힙니다"
+	procced="진행하기"
+	set="세트"
+	fullscreen="전체 화면"
+	
+	version="버전"
+	items="아이템"
+	
+	activation_joysticks="A 버튼이나 SPACE를 눌러서 조이스틱으로 전환할 수 있습니다"
+	activation_fullscreen="노란색 Y 버튼을 눌러서 전체화면으로 전환할 수 있습니다. 한 번 더 누르면, 원래대로 돌아옵니다."
+	
+	warping_power_increase="폐하! 이상한 느낌이 들었습니다. 폐하의 초월력이 증가하였음이 느껴집니다."
+	broken_sword_blacksmith_tip="폐하, 워프가 우리의 모든 아이템을 파괴했습니다. 그러나 파편을 청소하면서, 저희가 이상한 조각들을 발견했습니다. 정당한 지시만 내려주신다면, 제가 그것을 유용한 것으로 만들 수 있을 듯합니다."
+	blacksmith_beast_spear="폐하, 저는 더 나은 창을 만들기 위해 노력을 마다하지 않았습니다. 칠미호도 잡을 수 있는 그런 창 말입니다. 그런데 아직 뭔가가 부족합니다. 더 나은 결과물을 얻으려면 열을 최대한으로 높여야 합니다."
+	blacksmith_neoserdy_staff_hint_more_blood="폐하, 공허의 지팜이는 강력한 아이템입니다. 오래된 전설에 의하면, 그 지팡이는 영웅의 피로 각성시킬 수 있다고 합니다."
+	blacksmith_neoserdy_staff_hint_more_void="폐하, 전설의 지팡이에 피의 힘을 봉인해야할 것 같습니다. 아마 룬으로 봉인할 수 있을 듯합니다."
+	blacksmith_heal_potions="폐하, 포션을 가지고 계시군요. 포션 몇 개를 조합하여 새로운 포션을 만들 수 있습니다. 한 3개 정도면 괜찮을 듯합니다만."
+	blacksmith_thor_hint_1="폐하, by blacksmith abc: %r%H%r% - stands for Hammer. 망치를 제작하려면, 제작도와 봉인된 불 그리고 저희가 만들 수 있는 최고의 망치를 정확한 패턴에 맞춰 조합해야 합니다."
+	blacksmith_thor_hint_2="폐하, by blacksmith abc: %r%T%r% - stands for True Hammer. 진정한 망치를 제작하려면, 공기 주문서와 봉인된 불 그리고 저희가 만들 수 있는 최고의 망치를 정확한 패턴에 맞춰 조합해야 합니다."
+	
+	royal_heroes_barrack_troops_desctop_hint_1="Shift를 누르고 있으면 확인 절차 없이 업그레이드할 수 있습니다"
+	royal_heroes_barrack_troops_desctop_hint_2="마우스 휠을 사용하여 영웅을 스크롤할 수 있습니다"
+	
+	blacksmith_autofill_tap="폐하, 아이템을 제작하는 법을 알려드리겠습니다. 발견한 제작도를 탭하면 힌트가 나옵니다. 한 번 더 탭하면 마법 상자가 자동으로 채워지게 됩니다."
+	blacksmith_autofill_click="폐하, 아이템을 제작하는 법을 알려드리겠습니다. 발견한 제작도를 클릭하면 힌트가 나옵니다. 한 번 더 클릭하면 마법 상자가 자동으로 채워지게 됩니다."
+	
+	frost="결빙"
+	frost_desc="적군 #TARGETS마리를 #DURATION초 동안 얼리고 #POWER 데미지를 입힌다"
+	roots="뿌리 묶기"
+	roots_desc="적군 #TARGETS마리를 #DURATION초 동안 뿌리로 묶고 중독 상태로 만든다. #POWER 데미지를 입힌다"
+	managift="마나 선물"
+	managift_desc="넓은 범위에서 #TARGETS명의 영웅들의 마나를 #POWER 회복시키고, #DURATION초 동안 마나 자동 회복량을 증가시킨다"
+	
+	
+	turned_to_dust="먼지로 변해버린다"
+	
+
+	
+	
+	
+	spellbook1="불의 마법 상자"
+	spellbook2="물의 마법 상자"
+	spellbook3="대지의 마법 상자"
+	spellbook4="대기의 마법 상자"
+	spellbook5="공허의 마법 상자"
+	spellbook_hint="마법 상자를 한 가지 재료로만 가득 채우면, 주문서와 룬을 얻을 수 있습니다."
+	
+	heroespack1="엘프 꾸러미"
+	heroespack2="성스러운 꾸러미"
+	heroespack3="사악한 꾸러미"
+	heroespack4="드워프 꾸러미"
+	heroespack_hint="더 큰 도움을 주는 영웅들을 묶음으로 살 수 있습니다."
+	
+	
+	elven_aim="엘프의 겨냥"
+	
+	broken_sword="부러진 검"
+	big_sword="BF검"
+	
+	died="사망"
+	alive="생존"
+	injured="부상"
+	troops_alive="부대 생존"
+	
+	
+	gift="선물"
+	found="발견"
+	hired="고용"
+	raids="레이드"
+	wins="승리"
+	defeats="패배"
+	casted="주문 사용"
+	recipes_all="모든 조합법"
+	
+	quiver="화살통"
+	secondhand="보조 무기"
+	penetration="관통"
+	penetration_hint="물리 데미지를 입히는 발사체가 여러 목표물을 통과한다"
+	troops_dmg="부대 데미지"
+	story="스토리"
+	rewards="매일 보상"
+	
+	magic_box='마법 상자'
+	mats='자원'
+	equipment="장비"
+	
+	brute_force="강타"
+	lucky_charm="행운의 참"
+	
+	healing_pills="치유약"
+	healing_potions="회복 포션"
+	extra_pills="추가 약"
+	
+	head_shot="헤드샷"
+	insta_kill="즉사"
+	block="막기"
+	block_hint="물리 데미지 차단."
+	
+	silver="은"
+	money="골드"
+	gold="금"
+	gold_sc="G"
+	
+	class="클래스"
+	class_0="미정"
+	class_1="파이터"
+	class_2="레인저"
+	class_3="법사"
+	class_4="야수"
+	class_5="치유사"
+	
+	statistics="통계"
+	quality_high="그래픽 품질 높음"
+	quality_low="그래픽 품질 낮음"
+	
+	warp1_hint="다음 차원으로 넘어간다면, 대부분의 아이템과 영웅들을 잃게 됩니다."
+	warp2_hint="모든 레벨은 초기화되며, 적군은 강해집니다."
+	warp3_hint="슈퍼 아티팩트 2개를 얻게 되며, 영웅 및 아티팩트 일부는 유지됩니다."
+	warp4_hint="부대는 초월할 수 없고, 구리와 철제 아이템은 가져갈 수 없습니다."
+	
+	bard_hint="주변에 버프를 걸어주는 노래를 부릅니다."
+	
+	mat_type_1='목재'
+	mat_type_2='금속'
+	mat_type_4='마법'
+	mat_type_8='실'
+	info="정보"
+	power="파워"
+	
+	spells_lvl="주문 레벨"
+	spell_power="주문력"
+	dwarf_pills="드워프의 약"
+	
+	no_items_to_use_here="적합한 아이템이 없습니다"
+	
+	blueprint='제작도'
+	blueprint_hint='새로운 제작도'
+	opened_chests="보물 상자를 열기"
+	
+	slot1='무기'
+	slot2='투구'
+	slot3='갑옷'
+	slot4='부츠'
+	slot5='유물'
+	slot6='유물'
+	
+	new_game='새 게임'
+	
+	potion_exp='경험치 포션'
+	potion_exp_missing='경험치 포션이 부족합니다'
+	
+	active_spells='활성화된 주문'
+	open_spells='사용 가능한 주문'
+	
+	summon1='쥐떼'
+	summon2='거미떼'
+	summon3='언데드'
+	summon4='뱀파이어'
+	summon5='대지의 골렘'
+	
+	summon1_desc="#TARGETS마리의 쥐를 소환한다 (#POWER 레벨)"
+	summon2_desc="#TARGETS마리의 거미를 소환한다 (#POWER 레벨)"
+	summon3_desc="#TARGETS마리의 언데드를 소환한다 (#POWER 레벨)"
+	summon4_desc="강력한 뱀파이어를 소환한다(#POWER 레벨)"
+	summon5_desc="대지의 거대 골렘을 소환한다(#POWER 레벨)"
+
+	
+	sword='검'
+	hammer="망치"
+	cape="망토"
+	cap="모자"
+	rune="룬"
+	spear="창"
+	scythe="대낫"
+	axe='도끼'
+	helm='투구'
+	boots='부츠'
+	robe="로브"
+	sandals="샌들"
+	shoes="신발"
+	diadem='왕관'
+	amulet='아뮬렛'
+	bow='활'
+	daxe="양날 도끼"
+	crossbow="석궁"
+	musket="머스켓"
+	blunder="나팔총"
+	staff='지팡이'
+	ring='반지'
+	rally_slot="슬롯"
+	dps="데미지/초"
+	dps_sc="초당 데미지"
+	
+	slot_0_0="첫번째 중간 슬롯"
+	slot_1_0="두번째 중간 슬롯"
+	slot_2_0="세번째 중간 슬롯"
+	slot_3_0="네번째 중간 슬롯"
+	slot_4_0="다섯번째 중간 슬롯"
+	
+	slot_0_1="첫번째 우측 슬롯"
+	slot_1_1="두번째 우측 슬롯"
+	slot_2_1="세번째 우측 슬롯"
+	slot_3_1="네번째 우측 슬롯"
+	slot_4_1="다섯번째 우측 슬롯"
+	
+	slot_0__1="첫번째 좌측 슬롯"
+	slot_1__1="두번째 좌측 슬롯"
+	slot_2__1="세번째 좌측 슬롯"
+	slot_3__1="네번째 좌측 슬롯"
+	slot_4__1="다섯번째 좌측 슬롯"
+	
+	slot_0_2="첫번째 우측 날개 슬롯"
+	slot_1_2="두번째 우측 날개 슬롯"
+	slot_2_2="세번째 우측 날개 슬롯"
+	slot_3_2="네번째 우측 날개 슬롯"
+	slot_4_2="다섯번째 우측 날개 슬롯"
+	
+	slot_0__2="첫번째 좌측 날개 슬롯"
+	slot_1__2="두번째 좌측 날개 슬롯"
+	slot_2__2="세번째 좌측 날개 슬롯"
+	slot_3__2="네번째 좌측 날개 슬롯"
+	slot_4__2="다섯번째 좌측 날개 슬롯"
+	
+	extend="확장"
+	upgrade="업그레이드"
+	upgrade_troops="병력 업그레이드"
+	hire_more_troops="더 많은 병력 고용"
+	
+	upgrade_to="업그레이드 : "
+	upgrade_first='먼저 업그레이드하십시오'
+	already_max='이미 최대치입니다.'
+	hiring_troops='병력 고용'
+	
+	login_lvlup_hint="레벨 업 보상:"
+	rally_extra_hint="집결지 업그레이드"
+	barrak_extra_hint='병영 업그레이드'
+	delete_hero="영웅 해고"
+	
+	extra_spell_slot="추가 주문 슬롯"
+	
+	training='훈련'
+	training_hint="데미지와 HP 증가"
+	
+	dmg_crit_c="치명타율"
+	dmg_crit_v="치명타 데미지"
+	
+	stage='스테이지'
+	attack='공격'
+	attack_hint='왕국을 위하여 싸우세요'
+	
+	raid="레이드"
+	raid_hint="빠르게 전리품을 얻습니다"
+	
+	stun="기절율"
+	stun_c="기절율"
+	
+	credits="만든이들"
+	book="백과사전"
+	wanted='지명 수배'
+	exit='나가기'
+
+	extra_perk="추가 스킬"
+	select_perk="스킬 선택"
+	select_difficulty="난이도 선택"
+	select_hero='영웅 선택'
+	
+	ability="능력"
+	achievments="도전과제"
+	back="뒤로"
+	barrack="병영"
+	tavern="선술집"
+	baaah="메에에에~"
+	best_scores="최고점"
+	bolt="석궁 화살"
+	bomb="폭탄"
+	buy="사기"
+	buy_weapon="슈퍼 무기 사기"
+	close="닫기"
+	slot="슬롯"
+	rewarded="보상"
+	
+	level_up="레벨 업"
+	exp="경험치"
+	xp="경험치"
+	xp_sc="xp"
+	lvl="레벨"
+	quit_game="종료하시겠습니까?"
+	
+	retirment='퇴역'
+	ready="준비"
+	
+	question_build='건설하시겠습니까?'
+	question_upgrade="업그레이드하시겠습니까?"
+	question_buy='구입하시겠습니까?'
+	question_fire='NAME를 해고하시겠습니까?'
+	confirming='확인 중'
+	question_refresh='모든 영웅을 초기화하시겠습니까?%e고레벨 영웅도 삭제됩니다.'
+	restart="다시 시작"
+	question_restart="저장 파일을 삭제하시겠습니까?"
+	
+	success="성공"
+	
+	crusades="원정"
+	crusade_hint="죽은 영웅을 다음 전투에 데려갈 수 없습니다."
+	crusade_restart_desc="막힌다면, 언제든지 다시 시작할 수 있습니다."
+	
+	
+	you_hired_by="고용 : "
+	daily_bonus="매일 보너스"
+	rally="집결지"
+	recipts='조합법'
+	daily_rewards="매일 이벤트"
+	daily_reward="매일 이벤트"
+	hero_level_up="영웅 레벨 업시키기"
+	city_builder="도시 건축가"
+	market_used="시장 사용 완료"
+	win="승리하기"
+	perk_learned="새로운 스킬 배우기"
+	item_crafted="아이템 제작하기"
+	item_recycled="아이템 재활용하기"
+	
+	recycled="재활용"
+	crafted="제작"
+	
+	army="병력"
+	troops="부대"
+	perks="스킬"
+	heroes="영웅"
+	enemies="적군"
+	bosses="보스"
+	best_friend="가장 친한 친구"
+	hero="영웅"
+	deployed="배치"
+	heroes_guild="영웅 길드"
+	heroes_overcrowded="공간이 충분하지 않습니다. 레벨 업을 하여 병영의 공간을 넓히거나, 약한 영웅을 해고하십시오."
+	
+	
+	locked='잠겨있음'
+	unlock="잠금 해제"
+	unlocked="잠금이 해제되었습니다"
+	
+	donat="골드"
+	bought="구매 완료"
+	
+	aoe_hint="전방의 적군에게 데미지"
+	dr="스플레쉬 데미지"
+	dr_hint="목표 근처 적에도 데미지"
+	
+	twitter="@EliteGamesNet"
+	
+	cup_bronze='청동'
+	cup_silver='은'
+	cup_gold='금'
+	
+	diff_1_name="보통"
+	diff_2_name="악몽"
+	diff_3_name="지옥"
+	
+	dmt_type_1="물리 데미지"
+	dmt_type_2="마법 데미지"
+	dmt_type_3="고정 데미지"
+	
+	holy="성"
+	holy_dmg_hint="언데드에게 데미지 2배"
+	
+	pull="당기기"
+	pull_desc="멀리있는 적 끌어 당김"
+	morph="변신"
+	
+	
+	moneypack1_hint="보통 꾸러미"
+	moneypack2_hint="무료 1000 골드"
+	moneypack3_hint="무료 2000 골드"
+	moneypack4_hint="무료 3000 골드"
+	moneypack5_hint="무료 5000 골드"
+	moneypack10_hint="무료 15000 골드"
+	moneypack50_hint="무료 50000 골드"
+	
+	starterpack_hint="부대를 위한 자금을 한 번 지원"
+	
+	upgrade_spell_book="주문서 업그레이드"
+	upgrade_spell_book_hint="주문력 증가"
+	
+	rune_fire="불의 룬"
+	rune_water="물의 룬"
+	rune_earth="대지의 룬"
+	rune_air="대기의 룬"
+	rune_void="공허의 룬"
+	
+	scroll_fire="불 주문서"
+	scroll_water="물 주문서"
+	scroll_earth="대지 주문서"
+	scroll_air="대기 주문서"
+	scroll_void="공허 주문서"
+	scroll_getting_hint="모든 법사는 해고될 때, 주문서를 남깁니다"
+	
+	quiver_1="불의 화살촉"
+	quiver_2="마법의 화살촉"
+	quiver_3="독 화살촉"
+	quiver_4="대기의 화살촉"
+	quiver_5="공허의 화살촉"
+	
+	reward="보상"
+	battle="전투 개시!"
+	next="다음"
+	grid="도시 계획"
+	
+	miss="miss"
+	
+	normal_speed="보통 속도"
+	fast_speed="빠른 속도"
+	
+	need_more_money="골드가 부족합니다"
+	need_more='필요한 것'
+	
+	sound_on="효과음 켜기"
+	sound_off="효과음 끄기"
+	music_on="음악 켜기"
+	music_off="음악 끄기"
+	tutorial_on="튜토리얼 켜기"
+	tutorial_off="튜토리얼 끄기"
+	
+	party="파티"
+	loot='전리품'
+	grid_hint="큰 항목 - 건물. 작은 항목 - 유닛과 아이템, 주문."
+	
+	crafting_power="제작력"
+	recycling_power="재활용력"
+	help="도움말"
+	
+	favorite_weapon="선호하는 무기"
+	favorite_spell="선호하는 주문"
+	staff_blue="파랑색 지팡이"
+	staff_red="빨강색 지팡이"
+	staff_black="검정색 지팡이"
+	staff_air="대기 지팡이"
+
+	barbarian="야만인"
+	barbarian_hint="야생의 분노를 사용하며 힘이 굉장하다"
+	bastard="바바리안"
+	bastard_hint="야생의 분노를 사용하며 힘이 굉장하다"
+	
+	angel="천사"
+	angel_hint="달개가 달린 용감무쌍한 전사"
+	amazon="아마존"
+	amazon_hint="열대 우림에서 온 사납고 무자비한 전사."
+	
+	pirate="해적"
+	pirate_hint="항상 보물을 찾는다. 인생은 한방!"
+	
+	warrior_mace="불사조 망치"
+	warrior_mace_hint="불을 숭배하는 자"
+	knightsword="불사조 검"
+	knightsword_hint="불을 숭배하는 자, 검술의 달인이기도 하다"
+	succubus="서큐버스"
+	succubus_hint="정력을 탐하는 존재"
+	
+	warrior_hero="전사"
+	warrior_hero_hint="근접전에 강한 병사."
+	warrior="전사"
+	warrior_defender="기사"
+	warrior_defender_hint="금이 도금된 갑옷을 입고 있다."
+	paladin="팔라딘"
+	paladin_hint="선과 질서의 이름 아래 전투에 참가한 성기사."
+	dwarrior="광전사"
+	dwarrior_hint="순수한 악의 길을 따르는 흑기사. 광역 데미지."
+	dwarriorshadow="영기사"
+	dwarriorshadow_hint="순수한 악에 신념을 지닌 흑기사. 광역 데미지."
+	elf="엘프"
+	highelf="하이 엘프"
+	highelf_hint="숲의 수호자이자 창술의 대가."
+	archer="궁수"
+	ranger="레인저"
+	mag_blue="대마법사"
+	mag_red="전투 마도사"
+	mag_black="강령술사"
+	tax_collector="세금 징수원"
+	taxes="세금"
+	knightarcher="활잡이"
+	knightarcher_hint="불사조를 찾기 위해 합성궁을 장비하고 장갑을 두른 궁수."
+	
+	gnom="망치장이"
+	gnom_hint="파괴력이 엄청난 망치를 휘두르며 마법을 두려워하지 않는 드워프."
+	gnome_trooper="망치장이"
+	gnome_trooper_hint="파괴력이 엄청난 망치를 휘두르며 마법을 두려워하지 않는 드워프."
+	gnome_range="쿼렐러"
+	gnome_range_hint="자신들의 눈만을 믿는 완고한 무리."
+	gnome_shooter="쿼렐러"
+	gnome_shooter_hint="자신들의 눈만을 믿는 완고한 무리."
+	
+	gnome_axe="긴수염"
+	gnome_axe_hint="드워프 전사 중에 가장 경험이 많다. 그 사실을 긴 수염이 증명한다."
+	gnome_mage="테인"
+	gnome_mage_hint="드워프의 정신적, 정치적 지도자. 테인의 뜻은 이들이 가진 극한의 힘을 일컫는다."
+	gnome_rifle="썬더러"
+	gnome_rifle_hint="규칙적인 방식으로 끊임없이 장전과 발사를 반복하는, 꼼꼼한 총잡이."
+	gnome_sekira="은빛수염"
+	gnome_sekira_hint="그들이 매 전투에서 싸우는 것을 얼핏 보면, 땅에 붙어서 싸우는 것 같다."
+	bigsmith="붉은수염"
+	bigsmith_hint="붉은수염은 성격이 거칠고, 거대한 무기로 문제를 자주 일으켰기 때문에, 모든 곳에서 추방당했습니다."
+	
+	
+	
+	
+	goblin="고블린 일꾼"
+	goblin_hint="가장 기본적이고, 자신의 삶을 사랑하는 고블린."
+	goblin_sword="초록 고블린 일꾼"
+	goblin_sword_hint="가장 기본적이고, 자신의 삶을 사랑하는 검을 든 고블린."
+	goblin_swords="일꾼 주인"
+	goblin_swords_hint="검을 하나 더 찾은 고블린. 두 검을 한 번에 휘두르지 않는 이유는 아무도 모른다."
+	goblin_sniper="초록 고블린 궁수"
+	goblin_sniper_hint="비열하지만, 모이면 치명적인 고블린 궁수."
+	witch="마녀"
+	witch_hint="여드름이 많은 자글자글한 피부에 뾰족한 모자를 쓰고 있는 사악한 노파."
+	
+	nasus="자칼리"
+	nasus_hint="무덤과 묘지의 수호자."
+	renekton="레넥톤"
+	renekton_hint="매서운 얼굴과 무시무시한 아우라를 풍기는 녹색 생물."
+	azir='호루스'
+	azir_hint="태양과 달을 조종하는 하늘의 신."
+	
+	goblin_warrior="초록 대장"
+	goblin_warrior_hint="싸우다 죽기 위해 태어났다."
+	goblin_shield="귀족 고블린"
+	goblin_shield_hint="자신의 적에게 막대한 피해를 주기 위해 태어났다."
+	goblin_archer="초록 화살"
+	goblin_archer_hint="교활하고 치명적인."
+	goblin_shaman="주술사"
+	goblin_shaman_hint='고블린의 지도자. 강력한 주문을 사용한다.'
+	goblin_elder="주술사"
+	goblin_elder_hint='늙은 주술사. 강력한 주문을 사용한다.'
+	great_shaman="대주술사"
+	
+	mingmage="반지 법사"
+	mingmage_hint="겉모습은 약해보이지만, 그가 손을 대면 심장이 얼어버린다."
+	you_dealt_dmg="아군이 준 데미지"
+	enemies_dealt_dmg="적군에게 받은 데미지"
+	
+	tax_collector_hint="왕국의 기둥. 근처의 집에서 세금을 걷는다."
+	warrior_hint="근접전에 강한 병사."
+	mag_blue_hint="아군을 치유하고 언데드를 물리치는 신성한 법사."
+	mag_red_hint="불 다루기를 좋아하는 붉은 법사."
+	mag_black_hint="그들이 죽음을 보았다는 소문이 있다."
+	ranger_hint="주로 활을 사용하는 날렵한 모습의 병사."
+	archer_hint="주로 활을 사용하는 날렵한 모습의 병사."
+	elf_hint="엘프들은 날씬하고 민첩한 몸매를 가지고 있으며, 어릴 때부터 활 쏘는 법을 배운다."
+	mag_white="에어벤더"
+	mag_white_hint="번개 장인."
+	
+	genie='지니'
+	genie_hint='무연의 불에서 만들어진 존재. 아군이다.'
+	airbow_blue='대기의 궁수'
+	airbow_blue_hint='갑옷에 봉인된 대기의 정령.'
+
+	giant_rat="거대 쥐"
+	giant_rat_hint="너무나도 거대해서 풀어두면 안 되는 쥐. 자극을 받으면 미쳐버린다."
+	skelet="스켈레톤"
+	skelet_hint="화살 공격이 통하지 않는 영혼 없는 전사."
+	skeletarcher="스켈레톤 궁수"
+	skeletarcher_hint="자신의 뼈를 활로 사용하는 영혼 없는 궁수."
+	skeletwarrior="스켈레톤 전사"
+	skeletwarrior_hint="생전에 훌륭했던 전사. 그 영광은 무릎에 박힌 화살에 모두 물거품이 되어 버렸다."
+	
+	dragonheads3="히드라"
+	dragonheads2="히드라"
+	dragonheads1="히드라"
+	dragonheads3_hint="치명적인 독을 품은 숨결과 피를 가진 괴물. 냄새 또한 끔찍하다."
+	
+	zombe="좀비"
+	zombe_hint="마력으로 일으킨 움직이는 시체."
+	medusa="메두사"
+	medusa_hint="머카락이 독사인 끔찍한 여자."
+	garpy="하피"
+	garpy_hint="자신의 즐거움을 위해 마을 사람들을 사냥하며 끔찍한 소리를 내는 비행 생물."
+	spider="거미"
+	spider_hint="약한 인간을 먹이로 삼는 독거미."
+	
+	skeletmage="스켈레톤 법사"
+	skeletmage_hint="한때 위대한 법사였으나, 야만인에게 살해당하였다."
+	
+	mermaid="인어"
+	mermaid_hint="삼지창을 휘두르는 물 속의 미녀."
+	
+	goblin_axe="초록 도끼"
+	goblin_axe_hint="그들이 도끼를 휘두르는 것보다 더 좋아하는 것은 단 하나. 곧이어 들려오는 비명뿐이다."
+	golem="골렘"
+	golem_hint="거대한 돌로 이루어진 거인. 아군과 적을 구분하는 것이 느리다."
+	sandspear="모래 수호자"
+	sandspear_hint="자신의 주인을 수호하는, 사막 전사의 영혼."
+	sandpriest="모래 사제"
+	sandpriest_hint="자신의 주인을 수호하는, 사막 사제의 영혼."
+	ent="엔트"
+	ent_hint="살아있는 거대한 나무. 그들이 자고 있는 동안에는 안전하지만, 깨어나면 무시무시하다."
+	veigar="베이가"	
+	veigar_hint="한때는 작고 귀여웠지만, 오래된 저주가 그를 일본 최고의 악몽으로 만들었다."
+	
+	spiderling="새끼 거미"
+	spiderling_hint="작지만 치명적인 독을 품고 있다."
+	
+	orc="오크 졸병"
+	orc_hint="오크 부대의 고기 방패."
+	orc_heavy="오크 대장"
+	orc_heavy_hint="10번째 오크는 다른 오크들보다 강하다. 조심하라!"
+	orc_beast="오크 괴수"
+	orc_beast_hint="타락한 엘프의 마법으로 만들어진 녹색 괴수."
+	
+	airgolem="대기의 골렘"
+	airgolem_hint="마법으로 봉인된 순수한 대기."
+	airsword="대기의 검사"
+	airsword_hint="검을 든 마법 걸린 갑옷."
+	airbow="대기의 궁수"
+	airbow_hint="활을 든 마법 걸린 갑옷."
+	
+	vampire="뱀파이어"
+	vampire_hint="자신의 생명을 유지하기 위해 신선한 피를 찾아 헤매는 아주 오래된 언데드"
+	vampire_violet="뱀파이어 귀족"
+	vampire_violet_hint="가장 신선한 피를 찾아 헤매는 왕실의 구성원."
+	vampire_red="뱀파이어 왕족"
+	vampire_red_hint="가장 신선한 피를 찾아 헤매는 왕실의 지도자."
+	
+	mag_evil="강령술사"
+	mag_evil_hint="불사의 주문을 찾은 빈사의 법사."
+	elf_evil="흑궁수"
+	elf_evil_hint='밤에만 사냥하러 나오는 엘프.'
+	highelf_evil="어둠의 정찰병"
+	highelf_evil_hint='밤에만 사냥하러 나오는 엘프.'
+	minotaur="미노타우르스"
+	minotaur_hint="인간의 몸에 황소의 머리를 가진 거대 생물."
+	trol="트롤"
+	trol_hint="거대한 녹색 야수. 다리 아래에서 사는 외로운 생물이다."
+	
+	dark_archer="흑궁수"
+	
+	
+	giant_slayer_hint="거인에 추가 데미지"
+	giant_hint="이것이 거인입니다. 거인은 한 입에 모든 양을 먹을 수 있습니다."
+	
+	demolisher="건물 파괴자"
+	demolisher_hint="건물에 추가 데미지"
+	
+	
+	hammer_1="청동망치"
+	hammer_2="쇠망치"
+	hammer_3="강철망치"
+	hammer_4="아다만티움 망치"
+	hammer_5="미스릴 망치"
+	
+	axe_1="청동도끼"
+	axe_2="쇠도끼"
+	axe_3="강철도끼"
+	axe_4="아다만티움 도끼"
+	axe_5="미스릴 도끼"
+	sword_1="청동검"
+	sword_2="철검"
+	sword_3="강철검"
+	sword_4="아다만티움 검"
+	sword_5="미스릴 검"
+	scythe_1="청동대낫"
+	scythe_2="쇠대낫"
+	scythe_3="강철대낫"
+	scythe_4="아다만티움 대낫"
+	scythe_5="미스릴 대낫"
+	spear_1="청동창"
+	spear_2="쇠창"
+	spear_3="강철창"
+	spear_4="아다만티움 창"
+	spear_5="미스릴 창"
+	
+	staff_1="불 지팡이"
+	staff_2="물 지팡이"
+	staff_3="대지 지팡이"
+	staff_4="대기 지팡이"
+	staff_5="공허 지팡이"
+	
+	helm_1="청동투구"
+	helm_2="철제 투구"
+	helm_3="강철투구"
+	helm_4="아다만티움 투구"
+	helm_5="미스릴 투구"
+	
+	bronze_set="청동 세트"
+	iron_set="철제 세트"
+	steel_set="강철 세트"
+	adamantin_set="아다만티움 세트"
+	mithril_set="미스릴 세트"
+	cotton_set="구시대 세트"
+	rope_set="평민 세트"
+	linen_set="귀족 세트"
+	flax_set="영웅 세트"
+	silk_set="왕족 세트"
+	fire_set="불 세트"
+	water_set="물 세트"
+	earth_set="대지 세트"
+	air_set="대기 세트"
+	void_set="공허 세트"
+	scrolls="주문서"
+	
+	helm_6="낡은 투구"
+	helm_7="평범한 투구"
+	helm_8="귀족의 투구"
+	helm_9="영웅의 투구"
+	helm10="왕족의 투구"
+	
+	robe_1="낡은 로브"
+	robe_2="평범한 로브"
+	robe_3="귀족의 로브"
+	robe_4="영웅의 로브"
+	robe_5="왕족의 로브"
+	robe_unique="마법의 로브"
+	
+	sandals_1="낡은 샌들"
+	sandals_2="평범한 샌들"
+	sandals_3="귀족의 샌들"
+	sandals_4="영웅의 샌들"
+	sandals_5="왕족의 샌들"
+	
+	diadem_1="낡은 왕관"
+	diadem_2="평법한 왕관"
+	diadem_3="귀족의 왕관"
+	diadem_4="영웅의 왕관"
+	diadem_5="왕족의 왕관"
+	
+	armor_1="청동갑옷"
+	armor_2="철제 갑옷"
+	armor_3="강철갑옷"
+	armor_4="아다만티움 갑옷"
+	armor_5="미스릴 갑옷"
+	
+	cape_1="낡은 망토"
+	cape_2="평범한 망토"
+	cape_3="귀족의 망토"
+	cape_4="영웅의 망토"
+	cape_5="왕족의 망토"
+	
+	bow_1="소나무 활"
+	bow_2="티크나무 활"
+	bow_3="히코리나무 활"
+	bow_4="오크나무 활"
+	bow_5="삼나무 활"
+	
+	shield_1="소나무 방패"
+	shield_2="티크나무 방패"
+	shield_3="히코리나무 방패"
+	shield_4="오크나무 방패"
+	shield_5="삼나무 방패"
+	shield_6="청동방패"
+	shield_7="철제 방패"
+	shield_8="강철방패"
+	shield_9="아다만티움 방패"
+	shield10="미스릴 방패"
+	
+	doubleaxe_1="청동 양날 도끼"
+	doubleaxe_2="철제 양날 도끼"
+	doubleaxe_3="강철 양날 도끼"
+	doubleaxe_4="아다만티움 양날 도끼"
+	doubleaxe_5="미스릴 양날 도끼"
+	
+	crossbow_1="소나무 석궁"
+	crossbow_2="티크나무 석궁"
+	crossbow_3="히코리나무 석궁"
+	crossbow_4="오크나무 석궁"
+	crossbow_5="삼나무 석궁"
+	
+	bomb_1="낡은 폭탄"
+	bomb_2="평범한 폭탄"
+	bomb_3="귀족의 폭탄"
+	bomb_4="영웅의 폭탄"
+	bomb_5="왕족의 폭탄"
+	
+	blunder_1="청동 나팔총"
+	blunder_2="철제 나팔총"
+	blunder_3="강철 나팔총"
+	blunder_4="아다만티움 나팔총"
+	blunder_5="미스릴 나팔총"
+
+	musket_1="청동 머스켓"
+	musket_2="철제 머스켓"
+	musket_3="강철 머스켓"
+	musket_4="아다만티움 머스켓"
+	musket_5="미스릴 머스켓"
+	
+	
+	
+	boots_1="청동 부츠"
+	boots_2="철제 부츠"
+	boots_3="강철 부츠"
+	boots_4="아다만티움 부츠"
+	boots_5="미스릴 부츠"
+	boots_6="낡은 부츠"
+	boots_7="평범한 부츠"
+	boots_8="귀족의 부츠"
+	boots_9="영웅의 부츠"
+	boots10="왕족의 부츠"
+	
+	book_1="낡은 책"
+	book_2="평범한 책"
+	book_3="귀족의 책"
+	book_4="영웅의 책"
+	book_5="왕족의 책"
+	book_6="불의 책"
+	book_7="물의 책"
+	book_8="대지의 책"
+	book_9="대기의 책"
+	book10="공허의 책"
+	
+	amulet_1="생존을 책임지는 불의 아뮬렛"
+	amulet_2="생존을 책임지는 물의 아뮬렛"
+	amulet_3="생존을 책임지는 대지의 아뮬렛"
+	amulet_4="생존을 책임지는 대기의 아뮬렛"
+	amulet_5="생존을 책임지는 공허의 아뮬렛"
+	
+	ring11="독을 품은 불의 반지"
+	ring12="독을 품은 물의 반지"
+	ring13="독을 품은 대지의 반지"
+	ring14="독을 품은 대기의 반지"
+	ring15="독을 품은 공허의 반지"
+	
+	ring_1="마법 사냥꾼을 위한 불의 반지"
+	ring_2="마법 사냥꾼을 위한 물의 반지"
+	ring_3="마법 사냥꾼을 위한 대지의 반지"
+	ring_4="마법 사냥꾼을 위한 대기의 반지"
+	ring_5="마법 사냥꾼을 위한 공허의 반지"
+	
+	ring_6="생명을 탐하는 불의 반지"
+	ring_7="생명을 탐하는 물의 반지"
+	ring_8="생명을 탐하는 대지의 반지"
+	ring_9="생명을 탐하는 대기의 반지"
+	ring10="생명을 탐하는 공허의 반지"
+	
+	amulet_6="마법 사냥꾼을 위한 불의 아뮬렛"
+	amulet_7="마법 사냥꾼을 위한 물의 아뮬렛"
+	amulet_8="마법 사냥꾼을 위한 대지의 아뮬렛"
+	amulet_9="마법 사냥꾼을 위한 대기의 아뮬렛"
+	amulet10="마법 사냥꾼을 위한 공허의 아뮬렛"
+	
+	amulet11="불굴의 정신을 담은 불의 아뮬렛"
+	amulet12="불굴의 정신을 담은 물의 아뮬렛"
+	amulet13="불굴의 정신을 담은 대지의 아뮬렛"
+	amulet14="불굴의 정신을 담은 대기의 아뮬렛"
+	amulet15="불굴의 정신을 담은 공허의 아뮬렛"
+	
+
+	
+	set01_helm='슈퍼 투구'
+	set02_helm='슈퍼 투구'
+	set03_helm='슈퍼 투구'
+	set04_helm='슈퍼 투구'
+	set01_armor='슈퍼 갑옷'
+	set02_armor='슈퍼 갑옷'
+	set03_armor='슈퍼 갑옷'
+	set04_armor='슈퍼 갑옷'
+	set01_boots='슈퍼 부츠'
+	set02_boots='슈퍼 부츠'
+	set03_boots='슈퍼 부츠'
+	set04_boots='슈퍼 부츠'
+	
+	set01_axe='쩍쩍 도끼'
+	set01_amulet='붉은 아뮬렛'
+	set01_ring='붉은 반지'
+	set02_staff='슈퍼 지팡이'
+	set02_ring='마법의 반지'
+	set03_mace='슈퍼 메이스'
+	set03_pwr='Green Power'
+	set03_ring='초록색 반지'
+	set04_whip='슈퍼 채찍'
+	set04_lamp='마법의 램프'
+	set04_amulet='대기의 아뮬렛'
+	
+	set05_helm="라의 투구"
+	set05_armor="라의 갑옷"
+	set05_boots="라의 부츠"
+	set05_sword="라의 검"
+	set05_ring="라의 반지"
+	set05_bug="황금 벌레"
+	
+	size='크기'
+	crafting='제작'
+	crafting_hint='고유한 순서로 자원을 추가하여 새로운 아이템을 제작합니다.'
+	recycling='재활용'
+	recycling_hint='순서에 상관없이 임의의 아이템을 추가하여 무작위로 더 나은 아이템을 제작합니다.'
+	
+	dmg="데미지"
+	dmg_per='데미지'
+	magic_dmg='마법 데미지'
+	true_dmg="고정 데미지"
+	hp="HP"
+	hp_per="HP"
+	mana="마나"
+	range="범위"
+	targets="목표 대상"
+	duration="지속 시간"
+	limit="한계"
+	armor="방어력"
+	armorreducion="적 타격시, 적의 방어력 감소"
+	regenreducion="적 타격시, 적의 자동 회복량 감소"
+	resist="저항력"
+	dodge="회피율"
+	vamp="흡혈"
+	poison="독"
+	poison_hint="초당 20 데미지"
+	poison_power="독"
+	arrow_speed="화살"
+	speed="속도"
+	s="속도"
+	healing="치유"
+	healing_hint="치유 주문력과 자동 회복량 증가 : "
+	
+	more_mana="마나 풀"
+	
+	adds_spell="주문 추가"
+	destroyer="파괴자"
+	destroyer_hint="건물에 추가 데미지"
+	finisher="최후의 일격"
+	finisher_hint="부상당한 유닛에 추가 데미지"
+	aura="아우라"
+	
+	whole_book_discovered="모든 책을 발견했습니다"
+	
+	spell="주문"
+	heal="치유"
+	bless="축복"
+	curse="저주"
+	scurse="저주"
+	storm="폭풍"
+	revive="부활"
+	lightning="번개"
+	clightning="번개"
+	clighting="전압 급증"
+	wind="회오리 바람"
+	wind_desc="근처의 모든 발사체를 빨아들이는 모래 회오리 바람을 만든다"
+	
+	burn="화상"
+	burn_desc="적군에게 데미지를 입히고, 자동 회복량과 방어력을 감소시킨다"
+	
+	quake="진동"
+	quake_desc="시전자 주변에 데미지를 입힌다"
+	
+	sheal="치유"
+	srevive="부활"
+	meteor="폭발"
+	meteor_desc="#TARGETS마리의 적에게 #POWER 마법 데미지를 입히는 폭발을 일으킨다"
+	freeze_desc="#DURATION초 동안 적군 #TARGETS마리를 얼린다"
+	meteors="유성"
+	fireslow="아킬레스 샷"
+	fireslow_desc="적군 #TARGETS마리에게 #POWER 데미지를 입히고, 자동 회복량과 방어력을 감소시킨다"
+	meteors_desc="목표 위치에 #POWER 데미지를 주는 유성 (x#TARGETS)개를 부른다"
+	firetrap="불 덫"
+	traps="덧"
+	firetrap_desc="땅에 #POWER 마법 데미지와 감속 효과를 주는 덫을 #TARGETS개 떨어뜨린다"
+	shield="보호막"
+	plague="역병"
+	plague_desc="적군 몇 마리를 중독 상태로 만든다"
+	
+	earthquake="지진"
+	earthquake_desc="적군 #TARGETS마리에게 마법 데미지를 입히고 #DURATION초 동안 #CONDITION 상태로 만든다"
+	
+	shield_desc="#TARGETS명의 아군을 가시 보호막으로 둘러싸고, 해당 유닛들을 공격한 적군에게 #POWER 마법 데미지를 입힌다"
+	haste="가속"
+	haste_desc="#DURATION초 동안 이동 속도 및 공격 속도를 #POWER%(x#TARGETS allies)만큼 증가시키는 버프를 아군에게 건다"
+	
+	morph_desc="약한 적군(x#TARGETS)마리를 공격하지 못하는 동물로 변신시킨다"
+	
+	push="밀치기"
+	push_desc="#TARGETS마리의 적군을 밀치고 #POWER 마법 데미지를 입힌다"
+	
+	mass_resist="저항력"
+	mass_resist_desc="아군의 저항력을 증가시킨다"
+	
+	protect="보호"
+	protect_desc="#DURATION초 동안 아군 (x#TARGETS)명에게 방어력, 저항력, 자동 회복 버프를 건다"
+	
+	heal_desc="아군 #TARGETS명의 HP를 #POWER만큼 회복하고, 같은 양만큼의 데미지를 적 엔데드에게 가한다"
+	bless_desc="아군 #TARGETS명에 데미지, 방어력, 저항력, 회피율 #POWER만큼 버프를 건다"
+	curse_desc="#TARGETS마리의 적에게 #POWER 데미지를 입히고, 적의 공격력과 속도를 감소시키는 광역 디버프를 건다"
+	
+	revive_desc="#TARGETS명의 병사를 부활시킨다"
+	lightning_desc="적군 #TARGETS마리에게 #POWER 마법 데미지를 입힌다"
+	storm_desc="#DURATION초 동안 치명적인 폭풍으로 모든 적군에게 #POWER 데미지를 입힌다"
+	
+	castle="성"
+	castle_hint="성을 업그레이드하면 은의 기본양이 증가합니다"
+	blacksmith="대장간"
+	blacksmith_hint="영웅을 강화하기 위한 무기와 갑옷 제작."
+	market="시장"
+	market_hint="은 수입량 증가."
+	library="도서관"
+	warrior_guild="전사 길드"
+	ranger_guild="레인저 길드"
+	wizard_guild="대마법사 길드"
+	wizard_guild_hint="주문을 배워서 전투시에 사용할 수 있습니다."
+	
+	onetime_desc="다음 전투에 도움"
+	
+	weapon_meele="근접 무기"
+	armor_meele="중갑옷"
+	weapon_bow="활"
+	armor_ranger="경갑옷"
+	armor_mage="천 옷"
+	armor_no="갑옷 없음"
+	weapon_meele_desc="진정한 전사의 무기"
+	armor_meele_desc="데미지 크게 감소."
+	weapon_bow_desc="하늘에서 죽음이."
+	armor_ranger_desc="화살이 다 떨어졌을 때."
+	monster_stuff="몬스터 공격"
+	monster_def="몬스터 방어"
+	
+	raiding="레이드"
+	raiding_hint="'별이 3개인 스테이지'에서 레이드를 하여 자원과 경험치를 추가로 얻을 수 있습니다."
+	
+	warp="초월"
+	need_more_cleared_maps_to_warp="초월을 하려면 맵을 더 클리어해야 합니다"
+	
+	star='별'
+	stars='별'
+	
+	linen="리넨"
+	rope="밧줄"
+	cotton="면"
+	flax="아마"
+	silk="비단"
+	fire="불"
+	teak="티크나무"
+	pine="소나무"
+	oak="오크나무"
+	hickory="히코리나무"
+	air="대기"
+	water="물"
+	earth="대지"
+	energy="공허"
+	copper="구리"
+	iron="철"
+	steel="강철"
+	adamantin="아다만티움"
+	mithril="미스릴"
+	redwood="삼나무"
+	
+	reduction="감소"
+	ticket="레이드 티켓"
+	tickets="레이트 티켓"
+	potions="회복 포션"
+	potions_desc="영웅이 죽기 직전에 포션을 사용한다"
+	marketday="현상금 사냥꾼"
+	protectionring="보호의 반자"
+	protectionring_desc="추가 방어력과 마법 저항력"
+	boost_magic="마법 편애"
+	boost_magic_desc="모든 법사들의 마법 데미지가 33% 증가한다"
+	silver_pack="은 꾸러미"
+	silver_pack_desc="꾸러미 한 개당 은 500개를 추가로 얻습니다"
+	xp_boost="XP 부스트"
+	xp_boost_desc="영웅의 학습 능력이 증가한다"
+	
+	refresh5="드워프 트로피"
+	refresh4="금 트로피"
+	refresh3="은 트로피"
+	refresh2="청동 트로피"
+	refresh1="구리 트로피"
+	
+	congratulations="축하합니다"
+	controls="컨트롤"
+	defeat="패배"
+	english="영어"
+	freeze="냉각"
+	
+	blind="실명"
+	blind_desc="#DURATION초 동안 타격률을 크게 감소시킨다"
+	german="독일어"
+	instruction="도움말"
+	kills="처치한 적"
+	deads="죽음"
+	mishs="임무"
+	language="언어"
+	learning="배우는 중"
+	learn="배우기"
+	level="레벨"
+	loading="로딩 중"
+	lost="잃은 아군"
+	menu="메뉴"
+	map="맵"
+	gold_shop="골드 상점"
+	more_games="더 많은 게임들"
+	music="Music"
+	no_points="포인트가 없습니다"
+	off="끄기"
+	on="켜기"
+	options="설정"
+	pause="일시정지"
+	play="플레이"
+	refresh_pay="Refresh pay"
+	regen="자동 회복"
+	repair="수리"
+	restore="복원"
+	reload="공격 속도"
+	reloading="재장전"
+	reset="초기화"
+	score="점수"
+	shop="프리미엄 상점"
+	skills="스킬"
+	scores="점수"
+	sound="효과음"
+	tap="계속하려면 탭하십시오"
+	tap_to_close="닫으려면 탭하십시오"
+	tap_to_select="선택하려면 탭하십시오"
+	press_any_to_continue="계속하려면 아무 버튼이나 누르십시오"
+	time="시간"
+	total_kills="처치한 적군의 수"
+	total_lost="잃은 아군의 수"
+	total_score="총점"
+	total_time="총 시간"
+
+	victory="승리"
+	kill_ratio="살상률"
+	seconds="초"
+	
+	royal_saga_about_tavern="여기는 폐하의 팀원이 될 영웅을 구할 수 있는 선술집입니다. 별은 영웅의 힘과 스킬을 나타냅니다."
+	royal_saga_about_cups="이들은 강력한 영웅들이기 때문에 그냥 누군가를 따르진 않습니다. 트로피를 사용해서 영웅들의 관심을 끌어보십시오."
+	royal_saga_get_more_heroes="캠페인을 시작하려면 적어도 5명의 영웅이 필요합니다."
+	
+	
+	
+	royal_saga_tutorial_tavern='영웅들이 가장 좋아하는 장소. 이곳에서 훌륭한 사람들을 고용할 수 있습니다. 골드를 사용하여 영웅의 명단을 완전히 바꿀 수 있습니다.'
+	
+	royal_saga_tutorial_magic_use="대마법사 길드에서 멋진 일을 하셨더군요. 다음 전투에서 새로운 주문을 시험해보는 게 좋을 듯합니다."
+	
+	royal_saga_tutorial_magic_upg="Congratulations on your success among the wizards. They are powerful allies. Come back anytime to improve your magic books."
+	
+	royal_saga_tutorial_welcome='왕국에 오신 것을 환영합니다. 당신께서는 방금 이 왕국의 왕이자 군사령관이 되셨습니다. 폐하의 부대를 만드시려면 선술집에서 병사를 고용해야 합니다.'
+	royal_saga_tutorial_rally='여기는 집결지입니다. 이곳에서 전투에 들어가기 전에 부대의 대형을 조직할 수 있습니다.'
+	
+	royal_saga_rally_1='더 많은 영웅을 고용해서 업그레이드하십시오.'
+	royal_saga_after_rally='병사들과 함께 싸워서 고블린들을 동굴로 돌려보내십시오.'
+	royal_saga_game_hp_bars='%b%파랑색%b% 막대는 아군의 HP를 나타내고,%e %r%빨강색%r% 막대는 적군의 HP를 나타냅니다.'
+	royal_saga_game_timer='적군을 가능한 빨리 처치하면 별 3개를 얻을 수 있습니다.'
+	royal_saga_after_win='폐하, 잘하셨습니다! 계속 진행하다보면, 전투는 점점 어려워질 것입니다. 저희에겐 더욱 더 용감한 전사들이 필요합니다.'
+	royal_saga_tutorial_new_hero='새로운 영웅이 저희와 함께하고 싶어하는 듯합니다. 캠프에서 그를 만나보십시오.'
+	royal_saga_tutorial_donat='적의 정예군이 도시 밖에 모여들어있습니다. 하지만 저희는 그들보다 늘 한 수 위였습니다. 저희가 어둠의 세력을 물리칠 수 있다는 희망을 버리지 않으려면, 훈련에 박차를 가해야 할 것입니다.'
+	royal_saga_tutorial_advance='이제 고블린에게 본 때를 보여주십시오.'
+	royal_saga_tutorial_blacksmith='폐하, 안녕하십니까. 꽤 가치있는 재료들을 전리품으로 획득하셨군요. 대장간에서 그 재료들로 아군을 위한 장비를 제작할 수 있습니다.'
+	royal_saga_tutorial_arts='폐하, 제가 새로운 아이템을 성공적으로 제작하였습니다. 영웅들 중 하나에게 장비해 보시지요.'
+	royal_saga_tutorial_final1='축하드립니다! 왕국을 노리던 모든 위협이 사라졌습니다. 평화가 돌아왔습니다... 앞으로 어찌될진 모르겠지만 말입니다.'
+	royal_saga_tutorial_final2='왕국을 이전보다 더 잘 보호할 수 있는 힘을 키우십시오.'
+	
+	advanced_endurance="향상된 인내심"
+	ancient="고대"
+	aura_of_wrath="분노의 아우라"
+	avoidance="무효"
+	bladewall="검벽"
+	bulls_eye="명중"
+	city_destroyer="도시 파괴자"
+	city_fighter="도시의 싸움꾼"
+	corrosive="부식"
+	dead_shot="명중탄"
+	cursed_castle="저주받은 성"
+	darkcastle="어둠의 성"
+	darkest_mage="흑마법사"
+	death_resilience="죽음의 저항"
+	death_resilience_aura="죽음의 저항 아우라"
+	devour="섭취"
+	dexterity="재주"
+	elemental_wrath="원소의 분노"
+	elementary_resilience="원소 저항"
+	elementary_resilience_aura="원소 저항 아우라"
+	elven_armor="엘프의 갑옷"
+	endurance="인내심"
+	evasive="회피"
+	finishers="최후의 일격"
+	fire_arrow="불화살"
+	first_aid="응급 처치"
+	forced_march="강행군"
+	furious_charge="분노 폭발"
+	goblins_capital="고블린의 수도"
+	goblins_cave="고블린 소굴"
+	goblins_forest="고블린의 숲"
+	great_forest="위대한 숲"
+	endless_forest="무한의 숲"
+	whirpool_of_destiny="운명의 소용돌이"
+	cursed_mountain="저주받은 산"
+	harpy_queen="하피 여왕"
+	haunted_bridge="유령의 다리"
+	healing_aura="치유 아우라"
+	healing_power="치유력"
+	invisibility="투명"
+	life_attack="생명의 공격"
+	marksman="명사수"
+	medusas="메두사"
+	minotaurs="미노타우르스"
+	perceptive="통찰력"
+	poisonous_bite="독니"
+	rats="쥐"
+	ruins="폐허"
+	recon_specialist="정찰"
+	school_of_necromancy="강령술 배움터"
+	scout_training="정찰 훈련"
+	secret_knowledge="비밀 정보"
+	sharp_tooth="날카로운 이빨"
+	shadow_blade="영검"
+	skeletons="스켈레톤"
+	sniper="저격수"
+	smart="총명"
+	tough="강인"
+	spiders="거미"
+	swordmaster="검술가"
+	turtle="거북"
+	vampires="뱀파이어"
+	warriors_spirit="전사의 정신"
+	wide_formation="산개 진형"
+	wind_aura="바람의 아우라"
+	wind_shield="바람의 방패"
+	winter_gate="겨울의 문"
+	wizards_power="대마법사의 힘"
+	zombies="좀비"
+	
+	healing_potion="회복 포션"
+	wisdom_test="지혜의 시련"
+	antiphysic_hint="물리 데미지나 고정 데미지를 지닌 영웅들로 상대하십시오"
+	strength_test="힘의 시련"
+	antimagic_hint="물리 데미지나 고정 데미지를 지닌 영웅들로 상대하십시오"
+	hordetest_hint="적군의 발사 범위와 수가 증가합니다"
+	northpole_hint="적들이 북쪽에 모여있습니다. 그들을 부수기 위해 마법 데미지로 공격하십시오. "
+	agility_test="민첩의 시련"
+	horde_test="무리의 시련"
+	antimelee_hint="원거리 영웅들로 상대하십시오. 근접 부대는 언데드로 변할 것입니다"
+	royal_heroes_defense_hint="궁수와 법사를 사용하십시오. 그들은 더 멀리 발사 수 있습니다"
+	
+	agility="민첩"
+	perk_free='스킬북'
+	
+	goblins_caves='고블린 동굴'
+	green_forest='푸른 숲'
+	trolls_valley="트롤의 골짜기"
+	transylvania="트란실바니아"
+	thessalonike="텟살로니케"
+	atlanticbeach="대서양 해변"
+	greatcloud="거대한 구름"
+	crusade_for_egypt="코프리아 원정"
+	crusade_for_atlanta="아틀란티스 원정"
+	
+	heroes_achiv_1="불 장인"
+	heroes_achiv_1_txt="모든 불 주문을 발견한다"
+	heroes_achiv_2="물 장인"
+	heroes_achiv_2_txt="모든 물 주문을 발견한다"
+	heroes_achiv_3="대지 장인"
+	heroes_achiv_3_txt="모든 대지 주문을 발견한다"
+	heroes_achiv_4="대기 장인"
+	heroes_achiv_4_txt="모든 대기 주문을 발견한다"
+	heroes_achiv_5="공허 장인"
+	heroes_achiv_5_txt="모든 공허 주문을 발견한다"
+	
+	heroes_achiv_6="퍼스트 블러드"
+	heroes_achiv_6_txt="배트맨이 되지 말 것. 해보십시오!"
+	heroes_achiv_7="첫 위대한 영웅"
+	heroes_achiv_7_txt="4성 영웅을 고용한다"
+	heroes_achiv_8="첫 패배"
+	heroes_achiv_8_txt="항상 이길 수는 없는 법"
+	heroes_achiv_9="첫 대승리"
+	heroes_achiv_9_txt="사상자가 없는 완벽한 승리"
+	heroes_achiv_10="첫 제작"
+	heroes_achiv_10_txt="유용한 것을 만들 것. 해보십시오!"
+	
+	heroes_achiv_11="초월 장인"
+	heroes_achiv_11_txt="초월을  차례한다"
+	heroes_achiv_12="대검의 주인"
+	heroes_achiv_12_txt="유명한 무기를 찾아 복원한다"
+	heroes_achiv_13="양치기"
+	heroes_achiv_13_txt="양 10마리 이상을 찾아서 쓰다듬는다"
+	heroes_achiv_14="원정대"
+	heroes_achiv_14_txt="왔노라, 보았노라, 이겼노라!"
+	heroes_achiv_15="차원 보스"
+	heroes_achiv_15_txt="모든 차원을 클리어한다. 초월력이 증가한다."
+	
+	heroes_achiv_16="희생"
+	heroes_achiv_16_txt="군대를 강화하기 위해 약한 것을 희생시킨다"
+	heroes_achiv_17="수집품 '예술가'"
+	heroes_achiv_17_txt="세트를 전부 모은다"
+	heroes_achiv_18="수집품 '기술자'"
+	heroes_achiv_18_txt="세트를 전부 모은다"
+	heroes_achiv_19="수집품 '후원자'"
+	heroes_achiv_19_txt="세트를 전부 모은다"
+	heroes_achiv_20="수집품 '사자'"
+	heroes_achiv_20_txt="세트를 전부 모은다"
+	heroes_achiv_21="수집품 '라'"
+	heroes_achiv_21_txt="세트를 전부 모은다"
+	
+	heroes_achiv_22="값진 것"
+	heroes_achiv_22_txt="가치있는 사람만이 사용할 수 있는 무기를 제작한다"
+	heroes_achiv_23="어둠의 군단"
+	heroes_achiv_23_txt="악의 편으로 오라. 우리에겐 쿠키와 추가 주문 슬롯이 있으니."
+	heroes_achiv_24="뱀파이어 학살자"
+	heroes_achiv_24_txt="유명한 모든 뱀파이어를 찾아서 처이한다"
+	heroes_achiv_25="수집품 '사신'"
+	heroes_achiv_25_txt="세트를 전부 모은다"
+
+	hydra_nest="히드라의 은신처"
+
+	
+	_rh_map_outro_bonus_mat_per_level="%e보너스: 레벨 업할 때마다 무작위 %y%MATUTYPE%y% 1개 획득."
+	_rh_map_outro_bonus_loot_item="%e전리품: %r%SETNAME%r%의 아이템."
+	
+	_rh_map_intro_txt_hydra_nest="이곳은 한때 지하 드워프 왕국의 입구였지만, 지금은 파괴되어 언데드들의 서식지가 되었습니다. 매서운 히드라 근처에 가고 싶어하는 사람은 아무도 없습니다."
+	_rh_map_outro_txt_hydra_nest="최후의 악이 강가에서 처치되었습니다. 마침내 왕국이 어둠으로부터 자유로워진 것 같습니다... 적어도 이 차원에서는 말입니다."
+	hydra_nest_won="드워프 동굴"
+	
+	_rh_map_intro_txt_horde_test="이전에 이곳은 옛 왕국의 국경지대였지만, 지금은 초록색 피부를 가진 이들의 훌륭한 사냥터입니다. 그들이 사냥을 하는 동안, 저희는 매복 공격을 해야 합니다. 이곳은 우리의 왕국이고, 그들은 환영받을 수 없는 존재이기 때문입니다."
+	_rh_map_outro_txt_horde_test="왕국의 서쪽 국경지대를 회복하였습니다. 이제 이곳은 사슴이나 곰 뿐만 아니라, 길 잃은 오크를 사냥하기에 좋은 곳이 되었습니다."
+	horde_test_won="남쪽 숲"
+	
+	_rh_map_intro_txt_goblins_caves="이곳은 한 때 우리 왕국의 광산 전초기지였으나, 지금은 고블린 소굴이 되어버렸지. 좋은 소식은 고블린들이 광석을 채취하기엔 너무 어리석다는 것이지만... 나쁜 소식은 고블린들이 너무 게을러서 일을 밖에서 보지 않고 안에서 본다는 것이지.%e악취가 상당할 거라네."
+	_rh_map_outro_txt_goblins_caves="광산에서 채굴이 다시 시작되었기 때문에 금속이 공급됩니다."
+	goblins_caves_won="왕국의 광산"
+	
+	_rh_map_intro_txt_green_forest="한 때 왕국 귀족들의 사냥터였으나, 지금은 고블린과 그들의 친척이 가득합니다. 왕은 예전에 이곳에서 멧돼지를 사냥했었지만, 이제 폐하의 부대가 고블린들을 사냥할 차례입니다!"
+	_rh_map_outro_txt_green_forest="이제 이곳의 모든 고블린이 제거되었습니다. 이 숲에서 목재를 공급받을 수 있습니다."
+	green_forest_won="왕족의 숲"
+	
+	_rh_map_intro_txt_trolls_valley="트롤은 이 비옥한 골짜기를 자신들의 집으로 삼았습니다. 트롤이 좋아하는 먹이 중 첫번째는 엘프입니다만, 그들은 활을 쏴대니, 그 다음으로 좋아하는 양을 찾아 이 골짜기로 온 듯합니다."
+	_rh_map_outro_txt_trolls_valley="땅이 트롤의 배설물로 어느때보다 비옥해졌습니다! 그리고 양을 먹는 트롤들이 사라져서, 양으로부터 털을 얻을 수 있게 되었습니다!"
+	trolls_valley_won="대협곡"
+
+	_rh_map_intro_txt_transylvania="이곳은 왕국의 옛 수도였지만, 현재는 언데드가 지배하고 있습니다. 밤의 마을에서는 온갖 유흥이 벌어지지만, 낮에는 생기가 느껴지지 않습니다."
+	_rh_map_outro_txt_transylvania="이제 저희에겐 통치할 수 있는 진짜 도시와 성을 갖게 되었습니다! 특히 법사들은 원래의 길드 집합소로 돌아가게 되어 기뻐하면서 강령술사가 남기고 간 쓰레기를 치우고 있습니다."
+	transylvania_won="트란실바니아"
+	
+	_rh_map_intro_txt_thessalonike='과거에 항구 도시였던 이곳은, 현재 모든 사악한 생물들이 모이는 중심지입니다. 거리에서 다크 엘프와 강령술사, 고블린들이 활개치며 돌아다니고 있습니다. "폭풍이 치면 아무 항구나 들어가야 한다"라는 유명한 말이 있습니다. 하지만 지금의 이 항구는 그 말에 해당되지 않는 것 같습니다.'
+	_rh_map_outro_txt_thessalonike="항구가 아직 이전의 영광을 되찾진 못했지만, 이곳은 다시 왕국의 자유 도시가 되었습니다. 무역이 다시 활발히 이루어 질 것이며, 왕실 재무부가 이를 적극 지원할 것입니다."
+	thessalonike_won="엘리트 항구"
+	
+	_rh_map_intro_txt_greatcloud="아찔한 마천루가 자리잡고 있는, 구름 너머 하늘에 떠있는 섬이 바로 이곳입니다! 저희를 침략하라고 지시한 이가 마천루 뒤에 있을지도 모를 일입니다."
+	_rh_map_outro_txt_greatcloud="강력한 마천루는 더 이상 저희의 위협이 아닙니다. 그는 패하자, 자신에게 저희 왕국과의 전쟁을 강제로 하게 만든 악의 주문에 대해 이야기하였습니다. 이제, 그 저주는 깨졌고, 그는 모든 배후에 누가 있는지 알아내는 데 저희를 돕겠다고 합니다. 그러면서 그는 저희를 위해 %r%SETNAME%r% 세트에 대기의 힘을 불어넣어 주었습니다."
+	greatcloud_won="바람의 섬"
+	
+	_rh_map_intro_txt_cursed_mountain="과거, 이곳은 치유를 연구하던 수도원이었습니다. 하지만 지금은, 어둠의 세력에 의해 부패한 산이 되어버렸습니다."
+	_rh_map_outro_txt_cursed_mountain="수도원이 정화가 시작되었지만, 이 작업은 몇 년동안 진행될 것입니다. 이곳이 그렇게나 부패했음에도 불구하고, 너무나도 강력하여 악에 물들지 않은 제단이 하나 있습니다. 마지막 적이 쓰러졌을 때, 신들의 선물로, 축복받은 보물인 %r%SETNAME%r%가 나타났습니다."
+	cursed_mountain_won="새벽산"
+	
+	_rh_map_intro_txt_whirpool_of_destiny="사막과 바다가 만나는 곳에 소용돌이가 있습니다. 전설에 따르면 이곳에는 사악한 계획의 근원으로 저희를 이끌어줄 수 있는 예언자가 있다고 합니다. 하지만 문제는 이 불모지에 강력한 적군들이 있다는 것입니다."
+	_rh_map_outro_txt_whirpool_of_destiny='어둠의 군대를 무찌르자, 허공에서 목소리가 들렸습니다. "악이 나오는 입은 세개이나, 그 근원은 하나이다. 동쪽의 가장 깊은 곳에서 답을 구하라." 목소리는 곧 사라졌고, 하늘에서 빛나는 두루마리가 내려왔습니다.'
+	whirpool_of_destiny_won="예언자의 소용돌이"
+	
+	_rh_map_intro_txt_endless_forest="엘프들의 고향이 숲의 정령들을 타락시킬 방법을 깨달은 어둠의 사촌들에 의해 황폐해 졌습니다. 심지어 용맹한 엔트들까지도 어둠의 지배하에 놓이게 되었습니다."
+	_rh_map_outro_txt_endless_forest="엘프들이 자신의 고향에 자유를 찾아준 것에 대해 큰 감사를 폐하께 표하고 있습니다. 그들은 저희에게 감사의 표시로 어느 위대한 전설의 왕의 보물을 주었습니다."
+	endless_forest_won="금빛 숲"
+
+	_rh_map_intro_txt_great_graveyeard="저희가 찾은 여러 암시와 단서, 그리고 소문들은 저희를 역사상 가장 큰 전투가 벌어진 장소 중 한 곳으로 데려 왔습니다. 이곳에는 거대한 악의 존재하지만, 이 악이 현재 문제의 원인인지, 아니면 훨씬 더 이전부터 영향을 미치던 것인지는 알 수 없습니다."
+	_rh_map_outro_txt_great_graveyeard="강령술사와 뱀파이어 로드를 물리쳤지만, 이곳에서 오래 머무를 순 없습니다. 저희가 승리한 후, 아무런 일도 없는 듯했습니다. 그러자 갑자기, 대사제의 영혼이 나타났습니다. '인내하라. 최후의 적에게로 갈 수 있는 길이 곧 나타날 지니.' 곧 영혼은 사라졌고, 그 자리엔 %r%SETNAME%r%의 강력한 아이템만이 남아 있었습니다."
+	great_graveyeard_won="고요한 골짜기"
+	
+	_rh_map_intro_txt_atlanticbeach="대지 마법의 힘을 지닌 뱀파이어들이 이 전략적 제도를 차지하고 있는 바닷 사람들과 동맹을 맺었습니다. 그들은 원주민들의 어촌 사회를 노예로 삼아, 어둠의 군단에 식량을 공급할 것을 강요하고 있습니다."
+	_rh_map_outro_txt_atlanticbeach="어촌의 주민들은 다시 자유를 찾게 되었고, 그들이 침략자들로부터 숨겨 둔 마을의 보물을 저희에게 주고 싶다고 합니다! 게다가, 해변은 우리 병사들이 휴가 때 가장 좋아하는 곳이기도 합니다."
+	atlanticbeach_won="대서양 제도"
+	
+	_rh_map_intro_txt_strength_test="포탈에서 자칼의 머리를 한 전사들이 쏟아져 나오고 있습니다. 폐하께서 왕국을 정말 안전하게 지키고 싶으시다면, 무슨 일이 있더라도 포탈을 닫아야 합니다!"
+	_rh_map_outro_txt_strength_test="포탈이 닫혔습니다. 사막에는 이전처럼 평화와 아름다움이 돌아오기 시작했습니다."
+	strength_test_won="서남 사막"
+	
+	_rh_map_intro_txt_wisdom_test="강철보다 단단한 비늘로 무장된 무시무시한 전사들이 이 근처에서 저희 세계로 들어오고 있습니다. 그들에겐 검이 무용지물이니, 법사들을 잘 준비시켜야 할 겁니다!"
+	_rh_map_outro_txt_wisdom_test="포탈이 닫혔습니다. 기분 나쁜 침묵만이 끝없는 모래에 남아 있습니다."
+	wisdom_test_won="남부 사막"
+	
+	_rh_map_intro_txt_agility_test="죽음을 숭배하는 암흑 전사들이 병사들을 언데드로 만들고 있습니다. 포탈을 닫든가 아니면 거대한 빙멱이 필요합니다."
+	_rh_map_outro_txt_agility_test="포탈이 닫혔습니다. 하늘이 저희를 도왔군요... 사실 이곳에서 먼 남쪽까지 빙벽을 세우는 건 매우 힘든 일이었을테니 말입니다."
+	agility_test_won="동남 사막"
+	
+	_rh_map_intro_txt_crusade_for_egypt="먼 동쪽에서 오는 적군의 지원을 차단하기 위해 원정을 떠나야 합니다. 저희의 해군은 한계가 있어서, 지원병을 보낼 수 없습니다. 병사 하나 하나가 중요한 때입니다!"
+	_rh_map_outro_txt_crusade_for_egypt="동부 지방은 현재 꽤 오랫동안 재건 중입니다. 적어도 그곳으로부터는 안전할 겁니다."
+	crusade_for_egypt_won="대승"
+	
+	_rh_map_intro_txt_crusade_for_atlanta="현재 악의 군단은 다른 대륙과의 교역에 보급품의 공급을 의존하고 있습니다. 해상 원정단을 꾸려 적들의 보급로를 차단해야 합니다. 최대한 빠르게 가야하므로, 부대 증원은 필요없습니다!"
+	_rh_map_outro_txt_crusade_for_atlanta="적군의 보급로를 차단하여 막대한 타격을 입혔습니다."
+	crusade_for_atlanta_won="부유 잔해"
+	
+	_rh_map_intro_txt_beach_defense="대규모의 용병 부대가 적군을 지원하기위해 착륙했습니다! 그들이 요새를 만들고 그곳에 파고든 후보단 지금 그들을 멈추는 게 훨씬 쉬운 일이긴 하지만, 여전히 피 튀기는 싸움을 피할 순 없습니다."
+	_rh_map_outro_txt_beach_defense="저들이 마지막 남은 놈들입니다만, 그래도 화살을 보충해야 할 것 같습니다!"
+	beach_defense_won="피로 물든 해변"
+	
+	_rh_map_intro_txt_abandoned_farm="언데드들이 잊혀진 농장에서 깨어났습니다. 그들이 깨운 건 특별한이 되었기 때문일 겁니다. 신속하게 대응하여 농장을 점령하십시오. 이곳에서 유용한 것을 발견하게 될지도 모르겠습니다."
+	_rh_map_outro_txt_abandoned_farm="의식을 거친 후, 이 땅을 호박 농장으로 사용할 수 있습니다. 마지막으로 남은 언데드에게서 %r%SETNAME%r% 세트의 아이템을 얻었습니다."
+	abandoned_farm_won="호박 농장"
+	_rh_map_intro_txt_ghost_outpost="문제는 절대 혼자 오지 않습니다. 이 전초기지는 악의 군단에 포위되었습니다. 마녀와 뱀파이어들이 저희 왕국의 일부분을 탐하고 있습니다."
+	_rh_map_outro_txt_ghost_outpost="사태가 진정된 후, %r%SETNAME%r% 아이템을 발견했습니다. 풀 세트로 모아보십시오!"
+	ghost_outpost_won="마녀의 전초기지"
+	set06_armor="검은 로브"
+	set06_boots="검은 부츠"
+	set06_scythe="붉은 대낫"
+	set06_book="데스 노트"
+	set06_rlc="죽음의 유물"
+	set06_helm="호박"
+	set06_cap="검은 두건"
+	set06_staff="해골 지팡이"
+	
+	green_hood="초록 후드"
+	green_general="초록 장군"
+	kebechet="케베케트"
+	anput="안푸트"
+	rebel_shaman="반란 주술사"
+	grendel_the_troll="트롤 그렌델"
+	unas="우나스"
+	sobek="소베크"
+	edward="에드워드"
+	drakula="드라큘라"
+	montu="몬투"
+	ra="라"
+	gorgona="고르고나"
+	ariel="아리엘"
+	ursula_jr="우르술라 2세"
+	thrall="스랄"
+	skyscraper="마천루"
+	maleficent="말레피센트"
+	master_of_sand="모래의 주인"
+	vivi="비비"
+	rurbag="러백"
+	forest_guard="숲의 파수꾼"
+	vineash="비니쉬"
+	master_of_spear="창술의 대가"
+	anubis="아누비스"
+	electra="엘렉트라"
+	not_triton="가짜 트리톤"
+	malgan="맬` 건"
+	kairimon="카이`리몬"
+	sauron="사우론"
+	baba_yaga="바바 야가"
+	melisandre="멜리산드레"
+	dovolis_nilil="도볼리스 닐리"
+	lernaean_hydra="레르나의 히드라"
+	banlin_elerimo="밴린 엘레리모"
+	rirrane_elaani="리레인 엘라니"
+	prince_leoric="레오릭 왕자"
+	vlad_iii="블라드 3세"
+	frankenstein="프랑켄슈타인"
+	paganiy="파가니"
+	grinch_favorite="그린치가 좋아하는 것"
+	grinch="그린치"
+	
+	DONOTTRANSLATE_DO_NOT_TRANSLATE_AFTER_THIS="Dead translator, do not translate next sentences."
+	UPPERCASE_TEXT_DONT="Dear translator, DO NOT translate words that #UPPERCASED: spell='Damage +#POWER' translate damage, but leave POWER as is."
+	scurse_desc="curse_desc"
+	clighting_desc="lightning_desc"
+	sheal_desc="heal_desc"
+	srevive_desc="srevive_desc"
+	sroots="roots"
+	sroots_desc="roots_desc"
+	
+	amazon2="amazon"
+	amazon2_hint="amazon_hint"
+	amazon3="amazon"
+	amazon3_hint="amazon_hint"
+	
+/>
