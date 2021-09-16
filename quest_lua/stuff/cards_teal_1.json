@@ -1134,7 +1134,7 @@
 		"onConditions":
 			{
             "attr":"exhausted_battle",
-            "range":"Self",  
+            "range":"self",  
             "onStack":
 				{
                 "range":"self",
