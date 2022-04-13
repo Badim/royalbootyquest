@@ -192,4 +192,14 @@ settings =
 			default = "Royal Booty Quest",
 		},
 	},
+	splashScreen =
+    {
+        ios = {
+            enable = false
+        },
+        android = {
+            enable = false
+        },
+		enable = false
+    },
 }

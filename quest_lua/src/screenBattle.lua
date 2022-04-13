@@ -5272,11 +5272,13 @@ function new(battle_prms)
 					dmg = dmg+source.wristblade;
 				end
 			end
+			print('battle1:', card_obj.tag, card_obj.empowerDmgByTargetAttr);
 			if(card_obj.empowerDmgByTargetAttr)then
-				if(tar[card_obj.empowerDmgByTargetAttr])then
-					if(tar[card_obj.empowerDmgByTargetAttr]>0)then
+				print('battle1:', card_obj.tag, card_obj.empowerDmgByTargetAttr, tar[card_obj.empowerDmgByTargetAttr]);
+				if(tar[card_obj.empowerDmgByTargetAttr] and tar[card_obj.empowerDmgByTargetAttr]>0)then
+					-- if(tar[card_obj.empowerDmgByTargetAttr]>0)then
 						dmg = math.round(dmg*1.5);
-					end
+					-- end
 				end
 			end
 			if((source and source.wrath>0) or tar.wrath>0)then
