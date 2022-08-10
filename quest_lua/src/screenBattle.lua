@@ -439,8 +439,14 @@ function new(battle_prms)
 				addCardObj(card_obj);
 				facemc.book.dtxt:setText(#login_obj.deck);
 				
-				facemc:insert(mc);
-				transition.to(mc, {time=500, x=facemc.book.x, y=facemc.book.y, xScale=1/2, yScale=1/2, transition=easing.outQuad, onComplete=transitionRemoveSelfHandler});
+				if(facemc and facemc.insert)then
+					facemc:insert(mc);
+				end
+				if(facemc.book)then
+					transition.to(mc, {time=500, x=facemc.book.x, y=facemc.book.y, xScale=1/2, yScale=1/2, transition=easing.outQuad, onComplete=transitionRemoveSelfHandler});
+				else
+					transitionRemoveSelfHandler(mc);
+				end
 			end);
 			if(login_obj.consume)then
 				wnd:addOption(get_txt('consume'), function()

@@ -9,7 +9,7 @@ _G.scaleGraphics = 2;
 -- _G.gameScale = 2;
 _G.leadersScale = 2;
 
-optionsBuild = "android";-- "ios"/"android"/"amazon"/"samsung"/"ouya"/"gamestick"/"xiaomi"/"win32"/"mac"/"razerforge"/"winphone"/"html5"/"linux"
+optionsBuild = "win32";-- "ios"/"android"/"amazon"/"samsung"/"ouya"/"gamestick"/"xiaomi"/"win32"/"mac"/"razerforge"/"winphone"/"html5"/"linux"
 optionsPublisher = "elitegames";--"elitegames"/"iplayjoy"/"ubinuri"/"realgames"(win32)
 optionsVersion = "0.987";
 
@@ -30,7 +30,7 @@ if(options_console)then options_save_border_w,options_save_border_h = 30,20; els
 
 options_debug = false;
 options_editor = false;
-options_cheats = true and system.getInfo("environment")=="simulator";
+options_cheats = false and system.getInfo("environment")=="simulator";
 options_adult = true;
 options_sfx = false;
 
@@ -4097,7 +4097,14 @@ function createCardMC(tar, card_obj, hero, class, thisScale)
 		-- fitTextFildByW(ntxt, 36*scaleGraphics, 14*scaleGraphics);
 		-- if(card_obj.discount)then
 		
+		if(tonumber(card_obj.energy) and tonumber(card_obj.energy)>9)then
+			card_obj.energy = 9;
+		end
+		
 		local energy = card_obj.energyTemp or card_obj.energyTillUse or card_obj.energy;
+		if(tonumber(energy) and tonumber(energy)>9)then
+			energy = 9;
+		end
 		-- end
 		-- if(hero)then
 			-- if(hero.enlightenment>0)then

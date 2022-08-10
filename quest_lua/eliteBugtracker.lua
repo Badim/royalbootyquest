@@ -1,5 +1,6 @@
--- elite bug tracker v.1.081 - home: Royal Heroes 
+-- elite bug tracker v.1.11 - home: Royal Heroes 
 -- added class=login_obj.class for Royal BOoty Quest
+-- added findDupes
 do
 	if(moregamesName==nil)then
 		show_msg("game name is not set!");
@@ -113,6 +114,38 @@ do
 			local str = json.encode({ver = optionsVersion});
 			saveFile(fname, str);
 		end
+		
+		local function callbackFindDupes(e)
+			-- print("_e.response:", e.response);
+			local list = json.decode(e.response);
+			local stacks = {};
+			local texts = {};
+			local i,t = 0,0;
+			if(list)then
+				for bugId,obj in pairs(list) do
+					if(obj.stack or obj.text)then
+						if((obj.stack and stacks[obj.stack]) or (obj.text and texts[obj.text]))then
+							-- print('dup:', db_name..""..bugId);
+							bug_bg:delete(db_name..bugId, nil, function(e) end);
+						else
+							stacks[obj.stack] = true;
+							texts[obj.text] = true;
+							i = i+1;
+						end
+					end
+					t = t+1;
+				end
+				print('bugs:'..i.."/"..t);
+			end
+		end
+		
+		
+		Runtime:addEventListener("key", function(e)
+			-- print("print!", e.phase, e.keyName, e.phase=="down" and e.keyName=="p");
+			if(e.phase=="down" and e.keyName=="o")then
+				bug_bg:get(db_name, nil, callbackFindDupes);
+			end
+		end);
 	end
 	
 	if(system.getInfo("environment") == "simulator")then
