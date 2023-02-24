@@ -1,0 +1,6 @@
+# Use PHP5 as default
+#AddHandler application/x-httpd-php5 .php
+# AddHandler application/x-httpd-eig-php52 .php .htm .html
+#Action phpcgi-script /cgi-bin/php 
+#AddHandler phpcgi-script .php
+Options -Indexes

@@ -1122,9 +1122,13 @@ function new(options)
 		-- end
 		save_mc.act = function()
 			if(check_input())then
+				print('input is not correct');
 				return true
 			end
+			print('trying to save to the cloud');
 			saveCloud();
+			elite.setDisabled(save_mc, true);
+			save_mc.alpha = 0.5;
 			return true
 		end
 		-- end);

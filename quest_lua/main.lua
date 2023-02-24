@@ -11,7 +11,7 @@ _G.leadersScale = 2;
 
 optionsBuild = "win32";-- "ios"/"android"/"amazon"/"samsung"/"ouya"/"gamestick"/"xiaomi"/"win32"/"mac"/"razerforge"/"winphone"/"html5"/"linux"
 optionsPublisher = "elitegames";--"elitegames"/"iplayjoy"/"ubinuri"/"realgames"(win32)
-optionsVersion = "0.987";
+optionsVersion = "1.000";
 
 options_steam = true and (optionsBuild=="win32" or optionsBuild=="mac") and optionsPublisher == "elitegames";
 
@@ -4541,13 +4541,19 @@ function saveCloud()
 	local loading = 0;
 	-- for i=1,3 do
 	local i = 0;
+	print('Cloud saving to', settings.playerName, settings.playerPIN);
 	local function loadCloudHandler(e)
 		print(i, e.phase, e.response, e.isError);
+		
 		if(e.isError)then
 			show_msg('uploading('..i..'): '..tostring(e.phase)..", "..tostring(e.isError)..", "..tostring(e.response));
 		else
 			if(e.phase=='ended')then
-				show_msg(get_txt('cloud_synced'));
+				if(e.response == "error: no user id")then
+					show_msg("Cloud Save failed(3): no user id");
+				else
+					show_msg(get_txt('cloud_synced'));
+				end
 			else
 				print('uploading('..i..'): '..tostring(e.phase));
 			end
@@ -4566,7 +4572,8 @@ function saveCloud()
 		local contents = file:read( "*a" );
 		if(contents and #contents>0)then
 			local prms = {};
-			local user_id = settings.playerName; user_id=user_id:lower();
+			local user_id = settings.playerName; 
+			user_id=user_id:lower();
 			-- local encodedString = b64lib.b64("Hello {('%!&jQ')} World");
 			-- local decodedString = b64lib.unb64(encodedString);
 			
@@ -4582,7 +4589,7 @@ function saveCloud()
 
 			contents = b64lib.b64(contents);
 			prms.body = "user_id="..user_id.."&pin="..settings.playerPIN.."&sid="..i.."&save="..contents; -- user_id=uid_itxt.text, pin=pid_itxt.text, sid=1
-			network.request("http://theelitegames.net/rbqsaves/save.php", "POST", loadCloudHandler, prms);
+			network.request("https://theelitegames.net/rbqsaves/save.php", "POST", loadCloudHandler, prms);
 			loading = loading+1;
 		end
 	end
@@ -4674,7 +4681,7 @@ function loadCloud(facemc)
 		filename = options_save_fname..".cloud",
 		baseDirectory = system.DocumentsDirectory
 	}
-	network.request("http://theelitegames.net/rbqsaves/load.php?time"..getSeconds(), "POST", loadCloudHandler, prms);
+	network.request("https://theelitegames.net/rbqsaves/load.php?time"..getSeconds(), "POST", loadCloudHandler, prms);
 	loading = loading+1;
 	-- end
 	
