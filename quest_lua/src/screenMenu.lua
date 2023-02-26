@@ -115,7 +115,7 @@ function new(options)
 		-- end
 	end, "image/gui/btn_play.png");
 	
-	-- if(true or ((options_cheats or optionsBuild == "win32") and system.getInfo("environment")=="simulator"))then
+	if(options_multiplayer)then
 		
 		local pve_btn = addRoaylBtn(_W/2 - 100*scaleGraphics, _H - 120*scaleGraphics, "pve", function()
 			local player_name = save_obj.customName or _G.playerName or save_obj.playerName;
@@ -145,7 +145,7 @@ function new(options)
 			-- show_lobby();
 		-- end, "image/gui/btn_credits.png");
 		
-	-- end
+	end
 	
 	if(options_moregames)then
 		-- local more_mc = add_button("more_games", _W-ts, _H-ts, "image/gui/btn_dice.png", function()

@@ -9,7 +9,7 @@ _G.scaleGraphics = 2;
 -- _G.gameScale = 2;
 _G.leadersScale = 2;
 
-optionsBuild = "win32";-- "ios"/"android"/"amazon"/"samsung"/"ouya"/"gamestick"/"xiaomi"/"win32"/"mac"/"razerforge"/"winphone"/"html5"/"linux"
+optionsBuild = "android";-- "ios"/"android"/"amazon"/"samsung"/"ouya"/"gamestick"/"xiaomi"/"win32"/"mac"/"razerforge"/"winphone"/"html5"/"linux"
 optionsPublisher = "elitegames";--"elitegames"/"iplayjoy"/"ubinuri"/"realgames"(win32)
 optionsVersion = "1.000";
 
@@ -33,6 +33,7 @@ options_editor = false;
 options_cheats = false and system.getInfo("environment")=="simulator";
 options_adult = true;
 options_sfx = false;
+options_multiplayer = false;
 
 options_gamecenter = ((optionsBuild == "ios") or (optionsBuild == "android")) and optionsPublisher=="elitegames";
 options_moregames = (optionsPublisher == "elitegames");
@@ -4284,6 +4285,10 @@ function show_fade_gfx(callback, extra)
 				cleanGroup(scene_info);
 				local scene_name = scene_mc.name or 'undefined';
 				eliteSoundsIns:ambient_play("amb_"..scene_name);
+				
+				if((not options_debug) or (not options_cheats))then
+					return
+				end
 				
 				local sx = 0;
 				-- if(optionsBuild == "ios")then

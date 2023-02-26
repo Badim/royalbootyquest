@@ -14,7 +14,7 @@ function new()
 		if(optionsBuild == "amazon")then
 			store = require("plugin.amazon.iap");
 		elseif(optionsBuild == "android")then
-			store = require("plugin.google.iap.v3");
+			store = require("plugin.google.iap.billing.v2");
 		elseif(optionsBuild ~= "ouya")then
 			store = require("store");
 		end
@@ -267,12 +267,7 @@ function new()
 			-- show_msg("unknown store state:"..tostring(transaction.state))
         end
 		
-		if(currentStore == _store.CONST_SHOP_APPLE)then
-			if(store.finishTransaction)then 
-				store.finishTransaction(transaction); 
-			end;
-		end
-		
+		if(store.finishTransaction)then store.finishTransaction( transaction ); end;
 		_store:backToGame(buy_id);
 	end
 	if(store)then

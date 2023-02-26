@@ -7,6 +7,10 @@ discord en: https://discord.gg/j5e7fYd
 discord ru: https://discord.gg/Df32dj6
 reddit: https://www.reddit.com/r/royalversegames/
 
+1.000
++ updated royal cloud
++ maintenance (main menu)
+
 0.987
 + fixed hint display bug for the relic list
 + added "Water Amulet" (Velvet Choker)(thx STOshka)
